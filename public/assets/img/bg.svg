@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1440" height="550" preserveAspectRatio="none" viewBox="0 0 1440 550">
+    <g mask="url(&quot;#SvgjsMask1056&quot;)" fill="none">
+        <rect width="1440" height="550" x="0" y="0" fill="#235598"></rect>
+        <path d="M46 550L596 0L731 0L181 550z" fill="url(&quot;#SvgjsLinearGradient1057&quot;)"></path>
+        <path d="M365.8 550L915.8 0L1070.3 0L520.3 550z" fill="url(&quot;#SvgjsLinearGradient1057&quot;)"></path>
+        <path d="M639.6 550L1189.6 0L1330.6 0L780.6 550z" fill="url(&quot;#SvgjsLinearGradient1057&quot;)"></path>
+        <path d="M1431 550L881 0L701 0L1251 550z" fill="url(&quot;#SvgjsLinearGradient1058&quot;)"></path>
+        <path d="M1109.2 550L559.2 0L338.70000000000005 0L888.7 550z" fill="url(&quot;#SvgjsLinearGradient1058&quot;)"></path>
+        <path d="M786.4 550L236.39999999999998 0L44.39999999999998 0L594.4 550z" fill="url(&quot;#SvgjsLinearGradient1058&quot;)"></path>
+        <path d="M1097.7555643524702 550L1440 207.75556435247023L1440 550z" fill="url(&quot;#SvgjsLinearGradient1057&quot;)"></path>
+        <path d="M0 550L342.24443564752977 550L 0 207.75556435247023z" fill="url(&quot;#SvgjsLinearGradient1058&quot;)"></path>
+    </g>
+    <defs>
+        <mask id="SvgjsMask1056">
+            <rect width="1440" height="550" fill="#ffffff"></rect>
+        </mask>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="SvgjsLinearGradient1057">
+            <stop stop-color="rgba(8, 29, 74, 0.2)" offset="0"></stop>
+            <stop stop-opacity="0" stop-color="rgba(5, 26, 72, 0.2)" offset="0.66"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="SvgjsLinearGradient1058">
+            <stop stop-color="rgba(8, 29, 74, 0.2)" offset="0"></stop>
+            <stop stop-opacity="0" stop-color="rgba(5, 26, 72, 0.2)" offset="0.66"></stop>
+        </linearGradient>
+    </defs>
+</svg>

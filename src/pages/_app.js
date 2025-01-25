@@ -1,5 +1,47 @@
-import "@/styles/globals.css";
+import { useEffect, useState } from "react";
+import "@/styles/main.scss";
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import LoadingScreen from "@/components/LoadingScreen";
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { useRouter } from "next/router";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  const [isLoading, setIsLoading] = useState(false)
+  const router = useRouter()
+
+  useEffect(() => {
+    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+  }, [])
+
+  
+  useEffect(() => {
+    const handleRouteChangeStart = () => {
+      setIsLoading(true) 
+      document.body.classList.add("no-scroll")
+    }
+    const handleRouteChangeComplete = () => {
+      setTimeout(() => {
+        setIsLoading(false)
+        document.body.classList.remove("no-scroll")
+      }, 500)
+    }
+
+    router.events.on("routeChangeStart", handleRouteChangeStart);
+    router.events.on("routeChangeComplete", handleRouteChangeComplete);
+
+    return () => {
+      router.events.off("routeChangeStart", handleRouteChangeStart);
+      router.events.off("routeChangeComplete", handleRouteChangeComplete);
+    };
+  }, [router.events])
+  return (
+    <>
+      {isLoading && <LoadingScreen className={isLoading ? "logoLoading" : ""} />}
+      <Header />
+      <Component {...pageProps} />
+      <Footer />
+    </>
+  )
 }

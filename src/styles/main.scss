@@ -1,0 +1,14 @@
+@import './globals.scss';
+
+// components
+@import './components/header';
+@import './components/footer';
+@import './components/loading-screen';
+@import './components/hero';
+@import './components/breadcrumb';
+
+// pages
+@import './pages/home';
+@import './pages/about/ijopt';
+@import './pages/about/research-areas';
+@import './pages/author-tools/guidelines';

@@ -1,0 +1,29 @@
+.about-section {
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    p {
+        letter-spacing: 1px;
+        margin-top: 30px;
+        text-align: justify;
+        text-wrap: pretty;
+
+        &.main-content {
+            letter-spacing: 1px;
+            margin-top: 30px;
+            text-align: justify;
+            text-wrap: pretty;
+        }
+    }
+
+    ul {
+        li {
+            p {
+                margin: 5px 0;
+            }
+        }
+    }
+}

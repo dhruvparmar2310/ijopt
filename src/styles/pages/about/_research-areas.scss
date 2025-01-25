@@ -1,0 +1,22 @@
+.research-areas-section {
+    .sub-title {
+        letter-spacing: 1px;
+    }
+
+    h5 {
+        font-weight: 600;
+        color: var(--primary-dark);
+    }
+
+    div {
+
+        ul,
+        ol {
+            li {
+                p {
+                    margin: 5px 0;
+                }
+            }
+        }
+    }
+}
