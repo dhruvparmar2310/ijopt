@@ -27,3 +27,13 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .about-section {
+        ul {
+            p {
+                text-align: left;
+            }
+        }
+    }
+}

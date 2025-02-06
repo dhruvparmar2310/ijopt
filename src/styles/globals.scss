@@ -95,3 +95,14 @@ section {
     }
   }
 }
+
+@media (max-width: 576px) {
+  section {
+    padding: 30px 10px;
+
+    .section-title {
+      line-height: 1.2;
+      font-size: 30px;
+    }
+  }
+}

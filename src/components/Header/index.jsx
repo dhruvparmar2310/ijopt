@@ -10,6 +10,10 @@ import { useScroll } from 'framer-motion'
 import { IoMdHome } from "react-icons/io"
 import { Col, Row } from 'react-bootstrap'
 import useMediaQuery from '@/hooks/useMediaQuery'
+import { saveAs } from 'file-saver'
+import underTakeForm from '../../../public/assets/documents/UNDERTAKING BY AUTHORS.pdf'
+import copyrightForm from '../../../public/assets/documents/COPYRIGHT FORM.pdf'
+import samplePaperFormat from '../../../public/assets/documents/ijopt-paper-format.docx'
 
 const antonSC = Anton({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const inter = Inter({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
@@ -17,7 +21,9 @@ const inter = Inter({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 function Header () {
   const router = useRouter()
   const [isNavExpanded, setIsNavExpanded] = useState(false)
-  const [dropdownOpen, setDropDownOpen] = useState(false)
+  const [aboutDownOpen, setAboutDownOpen] = useState(false)
+  const [authorDownOpen, setAuthorDownOpen] = useState(false)
+  const [policyDownOpen, setPolicyDownOpen] = useState(false)
   const { scrollY } = useScroll();
   const [shouldShowShadow, setShouldShowShadow] = useState(false);
   const width = useMediaQuery('(max-width: 576px)')
@@ -44,9 +50,25 @@ function Header () {
 
   const allAboutRoutes = router?.route?.includes('/about/ijopt') || router?.route?.includes('/about/research-areas') || router?.route?.includes('/about/journal-information')
 
-  const allAuthorToolsRoutes = router?.route?.includes('/author-tools/guidelines') || router?.route?.includes('/author-tools/submit-paper-online') || router?.route?.includes('/author-tools/article-processing-charge') || router?.route?.includes('/author-tools/hard-copy-certificate')
+  const allAuthorToolsRoutes = router?.route?.includes('/author-tools/guidelines') || router?.route?.includes('/author-tools/submit-paper-online') || router?.route?.includes('/author-tools/article-processing-charge') || router?.route?.includes('/author-tools/hard-copy-certificate') || router?.route?.includes('/author-tools/article-formatting-service')
 
-  const allPolicyRoutes = router?.route?.includes('/policy/payment-terms-and-condition') || router?.route?.includes('/policy/peer-review-policy') || router?.route?.includes('/policy/open-access-policy')
+  const allPolicyRoutes = router?.route?.includes('/policy/payment-terms-and-condition') || router?.route?.includes('/policy/peer-review-policy') || router?.route?.includes('/policy/open-access-policy') || router?.route?.includes('/policy/privacy-policy') || router?.route?.includes('/policy/terms-and-conditions') || router?.route?.includes('/policy/disclaimer') || router?.route?.includes('/policy/refund-policy') || router?.route?.includes('/policy/copyright-policy') || router?.route?.includes('/policy/plagiarism-policy')
+
+  const toggleDropdown = (dropdown) => {
+    if (dropdown === "about") {
+      setAboutDownOpen(!aboutDownOpen);
+      setAuthorDownOpen(false);
+      setPolicyDownOpen(false);
+    } else if (dropdown === "author") {
+      setAboutDownOpen(false);
+      setAuthorDownOpen(!authorDownOpen);
+      setPolicyDownOpen(false);
+    } else if (dropdown === "policy") {
+      setAboutDownOpen(false);
+      setAuthorDownOpen(false);
+      setPolicyDownOpen(!policyDownOpen);
+    }
+  }
   return (
     <>
       <header id='header' className={`fixed-top bg-white header ${shouldShowShadow ? 'headerScrolled' : ''}`}
@@ -85,9 +107,9 @@ function Header () {
               </li>
               <li className='aboutUs'>
                 <span title='About | IJPOT' className={`${allAboutRoutes && 'active'} ${inter.className}`}
-                  onClick={() => width ? setDropDownOpen(!dropdownOpen) : ''}
+                  onClick={() => width ? toggleDropdown("about") : ''}
                 >About <FaChevronDown /></span>
-                <div className={'aboutUsContent'} style={width ? (dropdownOpen ? { display: 'block' } : { display: 'none' }) : undefined}>
+                <div className={'aboutUsContent'} style={width ? (aboutDownOpen ? { display: 'block' } : { display: 'none' }) : undefined}>
                   <Row>
                     <Col lg={3} md={4} sm={12}>
                       <p>Our Services</p>
@@ -101,6 +123,9 @@ function Header () {
                         <li>
                           <Link href='/about/journal-information' title='Journal Information | IJOPT' className={`${router?.route?.includes('/about/journal-information') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/about/journal-information')}>Journal Information</Link>
                         </li>
+                        <li>
+                          <Link href='/about/join-as-reviewer' title='Join As Reviewer | IJOPT' className={`${router?.route?.includes('/about/join-as-reviewer') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/about/join-as-reviewer')}>Join As Reviewer</Link>
+                        </li>
                       </ul>
                     </Col>
                     <Col lg={3} md={4} sm={12}>
@@ -111,9 +136,9 @@ function Header () {
 
               <li className='aboutUs'>
                 <span title='Services | PhysioZine' className={`${allAuthorToolsRoutes && 'active'} ${inter.className}`}
-                  onClick={() => width ? setDropDownOpen(!dropdownOpen) : ''}
+                  onClick={() => width ? toggleDropdown("author") : ''}
                 >For Author <FaChevronDown /></span>
-                <div className={'aboutUsContent'} style={width ? (dropdownOpen ? { display: 'block' } : { display: 'none' }) : undefined}>
+                <div className={'aboutUsContent'} style={width ? (authorDownOpen ? { display: 'block' } : { display: 'none' }) : undefined}>
                   <Row>
                     <Col lg={3} md={4} sm={12}>
                       <p>Authors Tool</p>
@@ -121,8 +146,11 @@ function Header () {
                         <li>
                           <Link href='/author-tools/guidelines' title='Guidelines | IJOPT' className={`${router?.route?.includes('/author-tools/guidelines') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/author-tools/guidelines')}>Guidelines</Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link href='/author-tools/submit-paper-online' title='Guidelines | IJOPT' className={`${router?.route?.includes('/author-tools/submit-paper-online') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/author-tools/submit-paper-online')}>Submit Paper Online</Link>
+                        </li> */}
+                        <li>
+                          <Link href='https://app.oxfordabstracts.com/stages/78097/submitter' target='_blank' title='Submit Paper Online | IJOPT' className={`${router?.route?.includes('/author-tools/submit-paper-online') && 'active'} ${inter.className}`}>Submit Paper Online</Link>
                         </li>
                         <li>
                           <Link href='/author-tools/article-processing-charge' title='Article Processing Charge | IJOPT' className={`${router?.route?.includes('/author-tools/article-processing-charge') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/author-tools/article-processing-charge')}>Article Processing Charge</Link>
@@ -130,28 +158,48 @@ function Header () {
                         <li>
                           <Link href='/author-tools/hard-copy-certificate' title='Article Processing Charge | IJOPT' className={`${router?.route?.includes('/author-tools/hard-copy-certificate') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/author-tools/hard-copy-certificate')}>Hard Copy Certificate</Link>
                         </li>
+                        <li>
+                          <Link href='/author-tools/article-formatting-service' title='Article Formatting Service | IJOPT' className={`${router?.route?.includes('/author-tools/article-formatting-service') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/author-tools/article-formatting-service')}>Article Formatting Service</Link>
+                        </li>
+                      </ul>
+                    </Col>
+                    <Col lg={3} md={4} sm={12}>
+                      <p>Downloads</p>
+                      <ul className={'dropdownMenu'}>
+                        <li>
+                          <Link href='#' title='Sample Paper Format | IJOPT' className={inter.className} onClick={(e) => saveAs(samplePaperFormat, 'Sample Paper - IJOPT')}>Sample Paper Format</Link>
+                        </li>
+                        <li>
+                          <Link href='#' title='Undertaking Form | IJOPT' className={`${router?.route?.includes('/ijopt') && 'active'} ${inter.className}`} onClick={(e) => saveAs(underTakeForm, 'Undertaking Form - IJOPT')}>Undertaking Form</Link>
+                        </li>
+                        <li>
+                          <Link href='#' title='Copyright Form | IJOPT' className={`${router?.route?.includes('/ijopt') && 'active'} ${inter.className}`} onClick={(e) => saveAs(copyrightForm, 'Copyright Form - IJOPT')}>Copy Right Form</Link>
+                        </li>
                       </ul>
                     </Col>
                   </Row>
                 </div>
               </li>
               <li>
-                <Link href={'/editorialMember'} title='Editorial Members | PhysioZine' className={`${router?.route?.includes('/editorialMember') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/editorialMember')}>Editorial Board</Link>
+                <Link href={'/editorial-board'} title='Editorial Board | PhysioZine' className={`${router?.route?.includes('/editorial-board') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/editorial-board')}>Editorial Board</Link>
               </li>
               <li>
                 <Link href={'/editorialMember'} title='Editorial Members | PhysioZine' className={`${router?.route?.includes('/editorialMember') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/editorialMember')}>Archives</Link>
               </li>
               <li className='aboutUs'>
                 <span title='Services | PhysioZine' className={`${allPolicyRoutes && 'active'} ${inter.className}`}
-                  onClick={() => width ? setDropDownOpen(!dropdownOpen) : ''}
+                  onClick={() => width ? toggleDropdown("policy") : ''}
                 >Policies <FaChevronDown /></span>
-                <div className={'aboutUsContent'} style={width ? (dropdownOpen ? { display: 'block' } : { display: 'none' }) : undefined}>
+                <div className={'aboutUsContent'} style={width ? (policyDownOpen ? { display: 'block' } : { display: 'none' }) : undefined}>
                   <Row>
                     <Col lg={3} md={4} sm={12}>
                       <p>Terms and Conditions</p>
                       <ul className='dropdownMenu'>
                         <li>
                           <Link href='/policy/payment-terms-and-condition' title='Payment Terms and Condition | IJOPT' className={`${router?.route?.includes('/policy/payment-terms-and-condition') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/policy/payment-terms-and-condition')}>Payment (T&C)</Link>
+                        </li>
+                        <li>
+                          <Link href='/policy/terms-and-conditions' title='Terms and Condition | IJOPT' className={`${router?.route?.includes('/policy/terms-and-conditions') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/policy/terms-and-conditions')}>Terms and Conditions</Link>
                         </li>
                       </ul>
                     </Col>
@@ -164,6 +212,30 @@ function Header () {
                         <li>
                           <Link href='/policy/open-access-policy' title='Open Access Policy | IJOPT' className={`${router?.route?.includes('/policy/open-access-policy') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/policy/open-access-policy')}>Open Access</Link>
                         </li>
+                        <li>
+                          <Link href='/policy/privacy-policy' title='Privacy Policy | IJOPT' className={`${router?.route?.includes('/policy/privacy-policy') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/policy/privacy-policy')}>Privacy Policy</Link>
+                        </li>
+                        <li>
+                          <Link href='/policy/disclaimer' title='Disclaimer | IJOPT' className={`${router?.route?.includes('/policy/disclaimer') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/policy/disclaimer')}>Disclaimer</Link>
+                        </li>
+                        <li>
+                          <Link href='/policy/refund-policy' title='Refund Policy | IJOPT' className={`${router?.route?.includes('/policy/refund-policy') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/policy/refund-policy')}>Refund</Link>
+                        </li>
+
+                      </ul>
+                    </Col>
+                    <Col lg={3} md={4} sm={12}>
+                      <p>&nbsp;</p>
+                      <ul className='dropdownMenu'>
+                        <li>
+                          <Link href='/policy/copyright-policy' title='Copyright Policy | IJOPT' className={`${router?.route?.includes('/policy/copyright-policy') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/policy/copyright-policy')}>Copyright</Link>
+                        </li>
+                        <li>
+                          <Link href='/policy/plagiarism-policy' title='Plagiarism Policy | IJOPT' className={`${router?.route?.includes('/policy/plagiarism-policy') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/policy/plagiarism-policy')}>Plagiarism</Link>
+                        </li>
+                        <li>
+                          <Link href='/policy/editor-policy' title='Editor Policy | IJOPT' className={`${router?.route?.includes('/policy/editor-policy') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/policy/editor-policy')}>Editor Policy</Link>
+                        </li>
                       </ul>
                     </Col>
                   </Row>
@@ -171,7 +243,7 @@ function Header () {
               </li>
 
               <li>
-                <Link href={'/contact'} className={`${router?.route?.includes('/contact') && 'active'} ${inter.className}`} title='Contact | PhysioZine' onClick={(e) => handleClick(e, '/contact')}>
+                <Link href={'/contact'} className={`${router?.route?.includes('/contact') && 'active'} ${inter.className}`} title='Contact | IJPOT' onClick={(e) => handleClick(e, '/contact')}>
                   Contact
                 </Link>
               </li>

@@ -13,7 +13,7 @@
         background: #1e1e1e;
 
         h4 {
-            font-size: 1rem;
+            font-size: 15px;
             font-weight: 500;
             letter-spacing: 0.8px;
             color: #fff;
@@ -49,8 +49,9 @@
                 a {
                     img {
                         width: 100%;
-                        max-width: 250px;
+                        max-width: 200px;
                         height: auto;
+                        filter: saturate(0) brightness(100%) grayscale(0) invert(1);
                         // object-fit: contain;
                     }
                 }
@@ -66,6 +67,14 @@
                 p {
                     letter-spacing: 1px;
                     word-spacing: 3px;
+
+                    span {
+                        cursor: pointer;
+
+                        &:hover {
+                            color: var(--primary-color);
+                        }
+                    }
                 }
 
                 .googleReviewBtn {
@@ -163,6 +172,14 @@
                         align-items: start;
                         justify-content: start;
 
+                        .powered-by-image {
+                            img {
+                                width: 100%;
+                                max-width: 160px;
+                                opacity: 0.75;
+                            }
+                        }
+
                         ul {
                             list-style: none;
                             padding: 0;
@@ -176,13 +193,14 @@
                             }
 
                             a {
+                                font-size: 13px;
                                 color: rgba(255, 255, 255, 0.6);
                                 transition: 0.3s;
                                 display: inline-block;
-                                line-height: 1;
+                                line-height: 1.5;
                                 text-decoration: none;
                                 font-weight: 500;
-                                letter-spacing: 1.5px;
+                                letter-spacing: 1px;
 
                                 &:hover {
                                     text-decoration: none;

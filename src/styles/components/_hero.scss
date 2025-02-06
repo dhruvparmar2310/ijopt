@@ -28,6 +28,7 @@
 
     p {
         font-weight: 600;
+        color: #cbcbcb;
 
         &.last-date {
             font-weight: 800;
@@ -42,7 +43,24 @@
 
     .author-btn {
         background: transparent;
+        border: 2px solid var(--primary-dark);
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-weight: 600;
+        transition: all 0.5s linear;
+
+        &:hover {
+            border-color: var(--primary-dark);
+            background: var(--primary-dark);
+            color: var(--white-color);
+            transform: translateY(-5px);
+        }
+    }
+
+    .submit-btn {
+        background: transparent;
         border: 2px solid var(--white-color);
+        color: var(--white-color);
         padding: 10px 20px;
         border-radius: 30px;
         font-weight: 600;
@@ -55,21 +73,29 @@
             transform: translateY(-5px);
         }
     }
+}
 
-    .submit-btn {
-        background: transparent;
-        border: 2px solid var(--primary-dark);
-        color: var(--primary-dark);
-        padding: 10px 20px;
-        border-radius: 30px;
-        font-weight: 600;
-        transition: all 0.5s linear;
+@media (max-width: 576px) {
+    .hero-section {
+        height: 90vh;
+        padding: 30px 20px;
+        padding-top: 100px;
+        justify-content: space-evenly;
 
-        &:hover {
-            border-color: var(--primary-dark);
-            background: var(--primary-dark);
-            color: var(--white-color);
-            transform: translateY(-5px);
+        h1 {
+            padding: 0;
+        }
+
+        h1,
+        h5,
+        p {
+            text-align: left;
+        }
+
+        p {
+            line-height: 1.8;
+            margin: 10px 0;
+            font-size: 18px;
         }
     }
 }

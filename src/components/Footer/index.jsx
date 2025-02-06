@@ -2,12 +2,22 @@ import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { FaLinkedinIn, FaWhatsapp, FaInstagram, FaBookReader } from "react-icons/fa"
 import { Form } from 'react-bootstrap'
-// import logo from '../../../public/assets/img/footer-logo.png'
+import logo from '../../../public/assets/img/logo.png'
 import Image from 'next/image'
-import { Ubuntu } from 'next/font/google'
+import { Anton, Anton_SC, Inter } from 'next/font/google'
+import { saveAs } from 'file-saver'
+import underTakeForm from '../../../public/assets/documents/UNDERTAKING BY AUTHORS.pdf'
+import copyrightForm from '../../../public/assets/documents/COPYRIGHT FORM.pdf'
+import samplePaperFormat from '../../../public/assets/documents/ijopt-paper-format.docx'
+import { useRouter } from 'next/router'
+import PhysioZineLogo from '../../../public/assets/img/6.png'
 
-const ubuntu = Ubuntu({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
+const anton = Anton({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
+const antonSC = Anton_SC({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
+const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '600', '800'], style: ['normal'] })
+
 const Footer = () => {
+    const router = useRouter()
     const [userEmail, setUserEmail] = useState('');
     const [isSmallDevice, setIsSmallDevice] = useState(false);
     const [copyRightYear, setCopyRightYear] = useState(new Date()?.getFullYear())
@@ -58,66 +68,61 @@ const Footer = () => {
     return (
         <>
             <footer id="footer" className={`footer`}>
-
                 <div className={`footer_top`}>
                     <div className={`footerContent`}>
                         <div className={`footer_contact`} style={{ width: '20rem' }}>
-                            <h3 title='PhysioZine'>
+                            <h3 title='IJOPT'>
                                 <Link href="/">
-                                    IJOPT
-                                    {/* <Image
+                                    <Image
                                         src={logo}
                                         quality={100}
                                         priority
-                                    /> */}
+                                    />
                                 </Link>
                             </h3>
 
                             <div className={`line`}></div>
 
-                            <p className={ubuntu?.className}>
-                                Advancing Physiotherapy through Knowledge & Innovation
+                            <p className={inter?.className}>
+                                Email ID: <span>editor.ijopt@gmail.com</span>
                             </p>
                         </div>
 
                         <div className={`linkContent`}>
                             <div className={`footerLinksContent mt-lg-4`}>
                                 <div className={`footer_links`}>
-                                    <h4 className={ubuntu?.className}>Useful Links</h4>
+                                    <h4 className={inter?.className}>Useful Links</h4>
                                     <ul>
-                                        <li><i className="ri-arrow-right-s-line"></i> <Link href="/" title='Home | PhysioZine' className={ubuntu?.className}>Home</Link></li>
-                                        <li><i className="ri-arrow-right-s-line"></i> <Link href="/#about" title='About Us | PhysioZine' className={ubuntu?.className}>About us</Link></li>
-                                        <li><i className="ri-arrow-right-s-line"></i> <Link href="/articles" title='Our Latest Articles | PhysioZine' className={ubuntu?.className}>Latest Magazine</Link></li>
-                                        <li><i className="ri-arrow-right-s-line"></i> <Link href="/contact" title='Contact Us | PhysioZine' className={ubuntu?.className}>Contact</Link></li>
+                                        <li><i className="ri-arrow-right-s-line"></i> <Link href="/" title='Home | IJOPT' className={inter?.className}>Home</Link></li>
+                                        <li><i className="ri-arrow-right-s-line"></i> <Link href="/about/ijopt" title='About Us | IJOPT' className={inter?.className}>About us</Link></li>
+                                        <li><i className="ri-arrow-right-s-line"></i> <Link href="/author-tools/submit-paper-online" title='Submit Paper | IJOPT' className={inter?.className}>Submit Paper</Link></li>
+                                        <li><i className="ri-arrow-right-s-line"></i> <Link href="/author-tools/guidelines" title='Author Guidelines | IJOPT' className={inter?.className}>Guidelines</Link></li>
                                     </ul>
                                 </div>
 
                                 <div className={`footer_links`}>
-                                    <h4 className={ubuntu?.className}>Quick Links</h4>
+                                    <h4 className={inter?.className}>Quick Links</h4>
                                     <ul>
                                         <li>
-                                            <i className="ri-arrow-right-s-line"></i> <Link href="/articles" title='All Articles | PhysioZine' className={ubuntu?.className}>All Articles</Link>
+                                            <i className="ri-arrow-right-s-line"></i> <Link href='#' title='Sample Paper Format | IJOPT' className={inter.className} onClick={(e) => saveAs(samplePaperFormat, 'Sample Paper - IJOPT')}>Sample Paper Format</Link>
                                         </li>
                                         <li>
-                                            <i className="ri-arrow-right-s-line"></i> <Link href="/supportUs" title='Support Us | PhysioZine' className={ubuntu?.className}>Support Us</Link>
+                                            <i className="ri-arrow-right-s-line"></i> <Link href='#' title='Undertaking Form | IJOPT' className={`${router?.route?.includes('/ijopt') && 'active'} ${inter.className}`} onClick={(e) => saveAs(underTakeForm, 'Undertaking Form - IJOPT')}>Undertaking Form</Link>
                                         </li>
                                         <li>
-                                            <i className="ri-arrow-right-s-line"></i> <Link href="/joinAsEditor" title='Join as Editor | PhysioZine' className={ubuntu?.className}>Join as Editor</Link>
+                                            <i className="ri-arrow-right-s-line"></i> <Link href='#' title='Copyright Form | IJOPT' className={`${router?.route?.includes('/ijopt') && 'active'} ${inter.className}`} onClick={(e) => saveAs(copyrightForm, 'Copyright Form - IJOPT')}>Copy Right Form</Link>
                                         </li>
                                         <li>
-                                            <i className="ri-arrow-right-s-line"></i> <Link href="/eventPartner" title='Event Partner | PhysioZine' className={ubuntu?.className}>Event Partner</Link>
+                                            <i className="ri-arrow-right-s-line"></i>  <Link href='/about/join-as-reviewer' title='Join As Reviewer | IJOPT' className={inter.className} onClick={(e) => handleClick(e, '/about/join-as-reviewer')}>Join As Reviewer</Link>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div className={`footer_links`}>
-                                    <h4 className={ubuntu?.className}>Additional Links</h4>
-                                    <ul>
-                                        <li><i className="ri-arrow-right-s-line"></i> <Link href="/submissionForm" title='Submit Article | PhysioZine' className={ubuntu?.className}>Submit Article</Link></li>
-                                        <li><i className="ri-arrow-right-s-line"></i> <Link href="/terms-and-conditions" title='Our Terms & Conditions | PhysioZine' className={ubuntu?.className}>Terms & Conditions</Link></li>
-                                        <li><i className="ri-arrow-right-s-line"></i> <Link href="/policy/privacyPolicy" title='Privacy Policy | PhysioZine' className={ubuntu?.className}>Privacy Policy</Link></li>
-                                        <li><i className="ri-arrow-right-s-line"></i> <Link href="/policy/editorialPolicy" title='Editorial Policy | PhysioZine' className={ubuntu?.className}>Editorial Policy</Link></li>
-                                    </ul>
+                                    <h4 className={`${inter?.className}`}>Powered By</h4>
+                                    <div className='powered-by-image'>
+                                        <Image src={PhysioZineLogo} quality={100} className='img-fluid' />
+                                    </div>
                                 </div>
                             </div>
                             {/* <div className={`${styles.line}`}></div> */}
@@ -135,10 +140,10 @@ const Footer = () => {
                 <div className={`row footerCopyRight`} style={{ display: 'flex !important', alignItems: 'center', justifyContent: 'center', alignContent: 'center', padding: '20px', margin: '0 auto' }}>
 
                     <div className="col-lg-8 p-0">
-                        <div className={`copyright ${ubuntu?.className}`}>
-                            Copyright &copy; <span style={{ fontSize: '13px' }}>{copyRightYear || '2024'}</span>, <strong style={{ color: 'var(--primary-color)' }}>PHYSIO<span style={{ color: '#ddd' }}>ZINE</span></strong>. All Rights Reserved, Subject to Judiciary of Ahmedabad.
+                        <div className={`copyright ${inter?.className}`}>
+                            Copyright &copy; <span style={{ fontSize: '13px' }}>{copyRightYear || '2024'}</span>, <strong style={{ color: 'var(--primary-color)' }}>IJOPT</strong>. All Rights Reserved, Subject to Judiciary of Ahmedabad.
                         </div>
-                        <div className={`credits ${ubuntu?.className}`}>
+                        <div className={`credits ${inter?.className}`}>
                             Developed by <Link href="https://dhanparmar.netlify.app" target="_blank" title='Dhruv Parmar'>Dhruv Parmar</Link>
                         </div>
                     </div>

@@ -39,3 +39,25 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .author-tools-section {
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        img {
+            margin: 10px 0;
+            max-width: calc(100% - 50px);
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+    }
+}

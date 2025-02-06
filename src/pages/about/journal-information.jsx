@@ -136,7 +136,7 @@ const JournalInformation = () => {
                     </div>
 
                     <Row className='mt-3'>
-                        <Col>
+                        <Col lg={6} md={6} sm={12}>
                             <h5>Aims:</h5>
                             <hr className='mt-0' />
                             <div className={inter?.className}>
@@ -167,7 +167,7 @@ const JournalInformation = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col>
+                        <Col lg={6} md={6} sm={12}>
                             <h5>Vision:</h5>
                             <hr className='mt-0' />
                             <p className={inter?.className}>

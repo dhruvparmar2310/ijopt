@@ -2,7 +2,6 @@ import BreadCrumb from '@/components/BreadCrumb'
 import { Anton, Anton_SC, Inter } from 'next/font/google'
 import Image from 'next/image'
 import React from 'react'
-import PhysioZineLogo from '../../../public/assets/img/5.png'
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -10,16 +9,16 @@ const anton = Anton({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const antonSC = Anton_SC({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '600', '800'], style: ['normal'] })
 
-const IJOPT = () => {
+const JoinAsReviewer = () => {
     return (
         <>
             <Head>
-                <title>About Indian Journal of Physical Therapy</title>
+                <title>Join as Reviewer | Indian Journal of Physical Therapy</title>
                 <meta charset="utf-8"></meta>
                 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
 
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta name='keywords' content='IJOPT, Indian Journal of Physical Therapy, Indian Journal of Physiotherapy, Open Access Journal, Physiotherapy Journal, Physical Therapy Journal, International Journal for Physiotherapy, PhysioZine, About IJOPT, about indian journal of physical therapy, What is IJOPT' />
+                <meta name='keywords' content='IJOPT, Join as Reviewer in IJOPT, join ijopt, volunteer in ijopt, how to apply as reviewer in ijopt' />
                 <meta name="description" content="Learn about the Indian Journal of Physical Therapy (IJOPT). We are an open-access, peer-reviewed journal publishing original research and articles in physiotherapy." />
 
                 <meta property="og:title" content="About Indian Journal of Physical Therapy" />
@@ -67,98 +66,120 @@ const IJOPT = () => {
             </Head>
             <section className='about-us-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='About - IJOPT' link='Home' title='About Us | Indian Journal of Physical Therapy' />
+                    <BreadCrumb current='Join As Reviewer - IJOPT' link='Home' title='Join As Reviewer | Indian Journal of Physical Therapy' />
 
-                    <h1 className='section-title'>About - Indian Journal of Physical Therapy (IJOPT)</h1>
+                    <h1 className='section-title'>Join as a Volunteer Reviewer in Indian Journal of Physical Therapy (IJOPT)</h1>
                     <hr className='mt-0' />
+                    <p className={inter?.className}>
+                        The Indian Journal of Physical Therapy (IJOPT) invites dedicated and qualified professionals to join our esteemed panel of volunteer reviewers. As a peer-reviewed journal, we are committed to maintaining the highest standards of academic excellence and scientific integrity. By becoming a reviewer, you contribute significantly to the advancement of physical therapy research and help uphold the quality of published articles.
+                    </p>
 
-                    <div className='text-center'>
-                        <Image src={PhysioZineLogo} alt='PhysioZine Logo' quality={100} className='img-fluid' />
-                    </div>
-                    <p className={`${antonSC?.className} sub-title`}>PhysioZine's Management of the Indian Journal of Physical Therapy</p>
-                    <p className={`${inter?.className}`}>PhysioZine, a leading digital platform dedicated to physiotherapy and rehabilitation sciences, proudly manages the Indian Journal of Physical Therapy (IJOPT). With a commitment to advancing physiotherapy knowledge and fostering innovation in the field, PhysioZine brings its extensive experience and expertise to ensure the journal meets the highest standards of academic excellence.</p>
-
-                    <h5>Our Role in IJOPT:</h5>
+                    <h5>Why Join as a Reviewer?</h5>
                     <hr className='mt-0' />
                     <div className={inter?.className}>
-                        <p>
-                            As the official management body, PhysioZine oversees the entire publication process of the Indian Journal of Physical Therapy, including:
-                        </p>
                         <ul>
                             <li>
                                 <p>
-                                    <strong>Editorial Oversight</strong>: Ensuring the publication of high-quality, peer-reviewed research articles.
+                                    Gain recognition as an expert in your field.
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <strong>Publication Management</strong>: Handling the journal's operational aspects, from submission to final publication.
+                                    Contribute to the development of high-quality research in physical therapy.
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <strong>Digital Presence</strong>: Leveraging PhysioZine's well-established online platform to enhance the journal's visibility and accessibility.
+                                    Enhance your academic and professional credentials.
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <strong>Collaboration</strong>: Working closely with authors, reviewers, and readers to promote knowledge sharing and professional growth.
+                                    Stay updated with the latest research and advancements in physical therapy.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Receive an official certificate of recognition for your valuable contributions.
                                 </p>
                             </li>
                         </ul>
                     </div>
 
-                    <h5>Why PhysioZine?</h5>
+                    <h5>Eligibility Criteria:</h5>
                     <hr className='mt-0' />
                     <div className={inter?.className}>
                         <p>
-                            PhysioZine's reputation as a trusted resource in the physiotherapy community makes it an ideal partner for IJPT. Our platform features:
+                            We welcome applications from professionals with:
                         </p>
                         <ul>
                             <li>
                                 <p>
-                                    A strong online presence through <Link href='https://physiozine.vercel.app' target='_blank'>PhysioZine's website</Link>.
+                                    A Ph.D., MPT, or equivalent qualification in physical therapy or related fields.
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    A network of esteemed professionals and experts in the field.
+                                    Significant research and academic experience.
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    A dedication to promoting cutting-edge research and evidence-based practices.
+                                    Prior experience in peer-reviewing (preferred but not mandatory).
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    A strong publication record in reputed journals.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Commitment to maintaining ethical review standards and confidentiality.
                                 </p>
                             </li>
                         </ul>
                     </div>
 
-                    <h5>Our Commitment to Excellence</h5>
+                    <h5>Reviewer Responsibilities:</h5>
                     <hr className='mt-0' />
                     <div className={inter?.className}>
                         <p>
-                            PhysioZine is dedicated to upholding the integrity and quality of the Indian Journal of Physical Therapy by:
+                            As a volunteer reviewer, you will be expected to:
                         </p>
                         <ul>
                             <li>
                                 <p>
-                                    Encouraging groundbreaking research and innovation.
+                                    Conduct a thorough, unbiased, and constructive review of submitted manuscripts.
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Providing timely and efficient publication processes.
+                                    Provide timely feedback and recommendations on research quality and relevance.
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Offering a global platform for researchers to showcase their work.
+                                    Uphold ethical standards and ensure originality in research articles.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Maintain confidentiality regarding the review process.
                                 </p>
                             </li>
                         </ul>
+                    </div>
 
+                    <h5>How to Apply?</h5>
+                    <hr className='mt-0' />
+                    <div className={inter?.className}>
                         <p>
-                            For more information about PhysioZine and its management of the Indian Journal of Physical Therapy, visit our website at <Link href='https://physiozine.vercel.app/' target='_blank'>https://physiozine.vercel.app/</Link> or contact us at <a href='mailto:physiozinemagazine@gmail.com' target='_blank'>physiozinemagazine@gmail.com</a>.
+                            Interested candidates can apply by sending their updated CV and a brief cover letter highlighting their expertise and reviewing experience to <strong>editor.ijopt@gmail.com</strong>. Our editorial board will evaluate your application and notify you upon selection.
+                        </p>
+                        <p>
+                            Join us in our mission to promote evidence-based research and excellence in physical therapy. We look forward to your valuable contribution to IJOPT! <br /><br />
+                            For any queries, feel free to contact us at <strong>editor.ijopt@gmail.com</strong>.
                         </p>
                     </div>
                 </div>
@@ -167,4 +188,4 @@ const IJOPT = () => {
     )
 }
 
-export default IJOPT
+export default JoinAsReviewer

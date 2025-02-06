@@ -3,12 +3,14 @@ import { Anton, Anton_SC, Inter } from 'next/font/google'
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const anton = Anton({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const antonSC = Anton_SC({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '600', '800'], style: ['normal'] })
 
 const PeerReviewPolicy = () => {
+    const router = useRouter()
     return (
         <section className='author-tools-section'>
             <div className='container inner-content'>
@@ -17,177 +19,158 @@ const PeerReviewPolicy = () => {
                 <h1 className='section-title'>Peer Review Policy</h1>
                 <hr className='mt-0' />
 
-                <h5>1. Overview of Peer Review Process:</h5>
+                <h5>Initial Manuscript Evaluation:</h5>
                 <hr className='mt-0' />
                 <div className={inter?.className}>
-                    <ul>
-                        <li>
-                            <p>
-                                All submitted manuscripts undergo a rigorous peer review process to ensure high academic and scientific standards.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The peer review process is double-blind, ensuring anonymity of both authors and reviewers.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Manuscripts are reviewed based on originality, significance, methodological rigor, and clarity.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-
-                <h5>2. Initial Screening:</h5>
-                <hr className='mt-0' />
-                <div className={inter?.className}>
-                    <ul>
-                        <li>
-                            <p>
-                                Upon submission, manuscripts are screened by the editorial team for compliance with journal guidelines.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Submissions that do not meet formatting or ethical standards may be returned to authors for revision or rejected outright.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Plagiarism checks are conducted using plagiarism detection software.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-
-                <h5>3. Reviewer Selection:</h5>
-                <hr className='mt-0' />
-                <div className={inter?.className}>
-                    <ul>
-                        <li>
-                            <p>
-                                Manuscripts are assigned to experts in the relevant field who possess appropriate academic and research credentials.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Reviewers are selected based on their expertise, publication record, and past review performance.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-
-                <h5>4. Review Criteria:</h5>
-                <hr className='mt-0' />
-                <div className={inter?.className}>
-                    <p>Manuscripts are evaluated based on:</p>
-                    <ul>
-                        <li>
-                            <p>
-                                Relevance to the field of physiotherapy.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Scientific soundness and methodological validity.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Originality and contribution to existing literature.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Clarity and coherence in writing.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-
-                <h5>5. Peer Review Timeline:</h5>
-                <hr className='mt-0' />
-                <div className={inter?.className}>
-                    <ul>
-                        <li>
-                            <p>
-                                The typical review timeline is 4-6 weeks, but may vary depending on reviewer availability and manuscript complexity.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Authors will be informed of any delays or additional review rounds if required.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-
-                <h5>6. Decision Outcomes:</h5>
-                <hr className='mt-0' />
-                <div className={inter?.className}>
-                    <p>Based on reviewer feedback, the editorial board will make one of the following decisions:</p>
-                    <ul>
-                        <li>
-                            <p>
-                                Acceptance without revision.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Acceptance with minor or major revisions.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Rejection with feedback.
-                            </p>
-                        </li>
-                    </ul>
                     <p>
-                        Authors are expected to address reviewer comments within the stipulated revision period.
+                        All submitted manuscripts undergo an initial evaluation by the Editor. Manuscripts may be rejected at this stage if they are deemed insufficiently original, contain serious scientific flaws, have poor grammar or English language, or fall outside the aims and scope of the journal. Only in exceptional cases may a manuscript be accepted at this stage. Manuscripts meeting the minimum criteria are forwarded to at least two expert reviewers for further evaluation.
                     </p>
                 </div>
 
-                <h5>7. Confidentiality and Ethics:</h5>
+                <h5>Type of Peer Review:</h5>
                 <hr className='mt-0' />
                 <div className={inter?.className}>
+                    <p>
+                        IJOPT employs a double-blind peer review process, ensuring that both the reviewer and the author remain anonymous throughout the review process.
+                    </p>
+                </div>
+
+                <h5>Selection of Reviewers:</h5>
+                <hr className='mt-0' />
+                <div className={inter?.className}>
+                    <p>
+                        Reviewers are selected based on their expertise and relevance to the submitted manuscript. IJOPT maintains a continuously updated database of reviewers to ensure high-quality and specialized evaluations.
+                    </p>
+                </div>
+
+                <h5>Reviewer Responsibilities:</h5>
+                <hr className='mt-0' />
+                <div className={inter?.className}>
+                    <p>Reviewers are expected to evaluate the manuscript based on the following criteria:</p>
                     <ul>
                         <li>
                             <p>
-                                All submitted manuscripts and review reports are treated as confidential documents.
+                                Originality and scientific contribution
                             </p>
                         </li>
                         <li>
                             <p>
-                                Reviewers must disclose any conflicts of interest before accepting a review assignment.
+                                Methodological soundness
                             </p>
                         </li>
                         <li>
                             <p>
-                                Ethical breaches, including data fabrication or plagiarism, will result in immediate rejection.
+                                Adherence to ethical guidelines
                             </p>
+                        </li>
+                        <li>
+                            <p>
+                                Clarity of results and their alignment with conclusions
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Appropriate citation of previous relevant work
+                            </p>
+                        </li>
+                    </ul>
+
+                    <p>
+                        Reviewers are not responsible for language correction but may suggest improvements if they wish.
+                    </p>
+                </div>
+
+                <h5>Review Process Timeline:</h5>
+                <hr className='mt-0' />
+                <div className={inter?.className}>
+                    <p>
+                        The duration of the review process depends on the responsiveness of reviewers. If conflicting reviews are received or if there is a delay, an additional expert opinion may be sought. In rare instances where it is challenging to secure a second review, or if a single review is exceptionally detailed and convincing, the Editor may decide based on one reviewer’s report. The final decision, along with reviewer recommendations and comments, will be communicated to the author. Revised manuscripts may be returned to the initial reviewers, who may request further revisions if necessary.
+                    </p>
+                </div>
+
+                <h5>Final Decision:</h5>
+                <hr className='mt-0' />
+                <div className={inter?.className}>
+                    <p>
+                        A final decision—acceptance, rejection, or revision request—will be communicated to the author, including verbatim comments from reviewers when applicable. The Editor’s decision is final and made in consultation with reviewer feedback.
+                    </p>
+                </div>
+
+                <h5>Becoming a Reviewer for IJOPT:</h5>
+                <hr className='mt-0' />
+                <div className={inter?.className}>
+                    <p>
+                        Researchers interested in becoming reviewers for IJOPT may contact the editorial office. Benefits of reviewing include early access to new research, contribution to the integrity of scientific publication, and the opportunity to cite reviewing activity for professional development.
+                    </p>
+                </div>
+
+                <h5>Common Reasons for Rejection:</h5>
+                <hr className='mt-0' />
+                <div className={inter?.className}>
+                    <p>
+                        Manuscripts may be rejected due to technical or editorial reasons.
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                Technical Reasons:
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>Insufficient data (e.g. missing controls)</p>
+                                </li>
+                                <li>
+                                    <p>Inadequate statistical analysis</p>
+                                </li>
+                                <li>
+                                    <p>Use of outdated or inappropriate methodologies</p>
+                                </li>
+                                <li>
+                                    <p>Weak research hypothesis or unsupported conclusions</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>
+                                Editorial Reasons:
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>Out of scope for the journal</p>
+                                </li>
+                                <li>
+                                    <p>Insufficient novelty or impact</p>
+                                </li>
+                                <li>
+                                    <p>Ethical concerns (e.g., missing patient consent or ethics committee approval)</p>
+                                </li>
+                                <li>
+                                    <p>Non-compliance with journal formatting requirements</p>
+                                </li>
+                                <li>
+                                    <p>Lack of clarity, making replication difficult</p>
+                                </li>
+                                <li>
+                                    <p>Poor language quality or logic</p>
+                                </li>
+                                <li>
+                                    <p>Excessive self-citation or outdated references</p>
+                                </li>
+                                <li>
+                                    <p>Violations of publication ethics</p>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
 
-                <h5>8. Post-Publication Review:</h5>
+                <h5>Adherence to COPE Guidelines:</h5>
                 <hr className='mt-0' />
                 <div className={inter?.className}>
-                    <ul>
-                        <li>
-                            <p>
-                                IJOPT encourages post-publication discussions and corrections if substantial issues are identified.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Authors may submit post-publication clarifications or corrections, subject to editorial approval.
-                            </p>
-                        </li>
-                    </ul>
                     <p>
-                        By submitting a manuscript to IJOPT, authors agree to comply with the journal's peer review policies.
+                        IJOPT strictly follows the Committee on Publication Ethics (COPE) guidelines to maintain integrity in scientific publishing. Authors, reviewers, and editors are expected to adhere to ethical principles as outlined in the COPE framework.<br /><br />
+
+                        For detailed guidelines on peer review standards, please refer to the official document: <span style={{ cursor: 'pointer', color: 'var(--primary-color)' }} onClick={() => router?.push('https://fs.unm.edu/NSS/PeerReviewGuidelines.pdf')}>Peer Review Guidelines</span>.
                     </p>
                 </div>
             </div>
