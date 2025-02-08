@@ -21,6 +21,40 @@
     }
 }
 
+@media (min-width: 1400px) and (max-width: 2000px) {
+    .research-areas-section {
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        img {
+            margin: 10px 0;
+            max-width: calc(100% - 50px);
+        }
+
+        p {
+            font-size: 22px;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+
+        table {
+
+            td,
+            th {
+                font-size: 22px;
+            }
+        }
+
+        .row {
+            margin-top: 30px !important;
+        }
+    }
+}
+
 @media (max-width: 576px) {
     .research-areas-section {
         h1 {

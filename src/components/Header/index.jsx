@@ -135,7 +135,7 @@ function Header () {
               </li>
 
               <li className='aboutUs'>
-                <span title='Services | PhysioZine' className={`${allAuthorToolsRoutes && 'active'} ${inter.className}`}
+                <span title='Author Services | IJOPT' className={`${allAuthorToolsRoutes && 'active'} ${inter.className}`}
                   onClick={() => width ? toggleDropdown("author") : ''}
                 >For Author <FaChevronDown /></span>
                 <div className={'aboutUsContent'} style={width ? (authorDownOpen ? { display: 'block' } : { display: 'none' }) : undefined}>
@@ -181,13 +181,13 @@ function Header () {
                 </div>
               </li>
               <li>
-                <Link href={'/editorial-board'} title='Editorial Board | PhysioZine' className={`${router?.route?.includes('/editorial-board') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/editorial-board')}>Editorial Board</Link>
+                <Link href={'/editorial-board'} title='Editorial Board | IJOPT' className={`${router?.route?.includes('/editorial-board') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/editorial-board')}>Editorial Board</Link>
               </li>
               <li>
-                <Link href={'/editorialMember'} title='Editorial Members | PhysioZine' className={`${router?.route?.includes('/editorialMember') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/editorialMember')}>Archives</Link>
+                <Link href={'/archives'} title='Archives | IJOPT' className={`${router?.route?.includes('/archives') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/archives')}>Archives</Link>
               </li>
               <li className='aboutUs'>
-                <span title='Services | PhysioZine' className={`${allPolicyRoutes && 'active'} ${inter.className}`}
+                <span title='Policies | IJOPT' className={`${allPolicyRoutes && 'active'} ${inter.className}`}
                   onClick={() => width ? toggleDropdown("policy") : ''}
                 >Policies <FaChevronDown /></span>
                 <div className={'aboutUsContent'} style={width ? (policyDownOpen ? { display: 'block' } : { display: 'none' }) : undefined}>

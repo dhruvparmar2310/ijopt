@@ -23,16 +23,16 @@ const EditorialBoard = () => {
                 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
 
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta name='keywords' content='IJOPT, Indian Journal of Physical Therapy, Indian Journal of Physiotherapy, Open Access Journal, Physiotherapy Journal, Physical Therapy Journal, International Journal for Physiotherapy, PhysioZine, About IJOPT, about indian journal of physical therapy' />
+                <meta name='keywords' content='IJOPT, Indian Journal of Physical Therapy, Indian Journal of Physiotherapy, Open Access Journal, Physiotherapy Journal, Physical Therapy Journal, International Journal for Physiotherapy, PhysioZine, Editorial Members of IJOPT, members of ijopt' />
                 <meta name="description" content="Learn about the Indian Journal of Physical Therapy (IJOPT). We are an open-access, peer-reviewed journal publishing original research and articles in physiotherapy." />
 
-                <meta property="og:title" content="About Indian Journal of Physical Therapy" />
+                <meta property="og:title" content="Editorial Board of Indian Journal of Physical Therapy" />
                 <meta property="og:description" content="Learn about IJOPT, an open-access, peer-reviewed journal publishing original research in physiotherapy." />
-                <meta property="og:url" content="https://ijopt.vercel.app/about/ijopt/" />
-                <meta property="og:image" content="assets/img/logo.png" />
+                <meta property="og:url" content="https://ijopt.vercel.app/editorial-board" />
+                <meta property="og:image" content="/favicon.ico" />
                 <meta property="og:type" content="website" />
 
-                <link rel="icon" href="assets/img/logo.png" />
+                <link rel="icon" href="/favicon.ico" />
                 <link rel="manifest" href="/manifest.json" />
 
                 {/* <!-- Author and Publisher Meta Tags --> */}
@@ -45,15 +45,15 @@ const EditorialBoard = () => {
                         "@context": "https://schema.org",
                         "@type": "Organization",
                         "name": "Indian Journal of Physical Therapy",
-                        "url": "https://ijopt.vercel.app/about/ijopt/",
-                        "logo": "https://ijopt.vercel.app/assets/img/logo.png",
+                        "url": "https://ijopt.vercel.app/editorial-board",
+                        "logo": "https://ijopt.vercel.app/favicon.ico",
                         "description": "Indian Journal of Physical Therapy (IJOPT) is an open-access, peer-reviewed journal publishing original research in physiotherapy.",
                         "contactPoint": {
                             "@type": "ContactPoint",
                             "email": "editor.ijopt@gmail.com",
                             "contactType": "Contact Us"
                         },
-                        "keywords": ["Physiotherapy Journal", "Open Access", "Research Articles", "Physical Therapy"],
+                        "keywords": ["Physiotherapy Journal", "Open Access", "Research Articles", "Physical Therapy", "Editorial Board of IJOPT"],
                         "potentialAction": [
                             {
                                 "@type": "ReadAction",

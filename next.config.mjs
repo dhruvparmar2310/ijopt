@@ -18,6 +18,10 @@ const nextConfig = {
 
     return config;
   },
+  env: {
+    LOCALHOST: 'http://localhost:3000',
+    DEPLOY: 'https://ijopt.vercel.app/',
+  },
 };
 
 export default nextConfig;

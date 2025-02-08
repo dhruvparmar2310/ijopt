@@ -18,10 +18,10 @@ const Hero = () => {
             <div>
                 <p className={`${inter?.className} mt-5 mb-0`}>ISSN Approved Journal No: 2321-5690 | ESTD Year: 2013, Follow UGC CARE Journal Norms and Guidelines</p>
                 <p className={`${inter?.className}`}>Scholarly open access journal and Peer-reviewed</p>
-                <p className={`${inter?.className} mt-3 last-date`}>Last date for Article Submission: 15th March, 2025</p>
+                <p className={`${inter?.className} mt-3 last-date`}>Last date for Article Submission: 10th March, 2025 for Volume 6, Issue 1</p>
             </div>
 
-            <div className='mt-5'>
+            <div className='mt-5 d-flex'>
                 <Button type='button' className={`me-3 submit-btn ${inter?.className}`} onClick={() => router?.push('https://app.oxfordabstracts.com/stages/78097/submitter', '_blank')}>Submit Paper</Button>
                 <Button className={`author-btn ${inter?.className}`} type='button'>Author Guidelines</Button>
             </div>

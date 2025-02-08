@@ -96,6 +96,17 @@ section {
   }
 }
 
+@media (min-width: 1400px) and (max-width: 2000px) {
+  section {
+    padding: 60px;
+
+    .section-title {
+      line-height: 1.2;
+      font-size: 40px;
+    }
+  }
+}
+
 @media (max-width: 576px) {
   section {
     padding: 30px 10px;

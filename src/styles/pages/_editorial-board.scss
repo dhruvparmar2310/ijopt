@@ -39,7 +39,43 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 1400px) and (max-width: 2000px) {
+    .editorial-board-section {
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        h5 {
+            font-size: 25px;
+        }
+
+        hr {
+            margin-bottom: 30px;
+        }
+
+        .member-card {
+            .left-content {
+                width: 180px;
+                height: 180px;
+            }
+
+            .right-content {
+                .member-name {
+                    font-size: 26px;
+                    letter-spacing: 0.8px;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: 22px;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 376px) and (max-width: 576px) {
     .editorial-board-section {
         h1 {
             margin-bottom: 10px;
@@ -54,6 +90,31 @@
             .right-content {
                 .member-name {
                     font-size: 23px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .editorial-board-section {
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .member-card {
+            .left-content {
+                width: 250px;
+                height: 150px;
+            }
+
+            .right-content {
+                .member-name {
+                    font-size: 22px;
+                }
+
+                p {
+                    font-size: 15px;
                 }
             }
         }

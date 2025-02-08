@@ -2,10 +2,55 @@ import Head from "next/head";
 import Image from "next/image";
 import { Anton, Anton_SC, Geist, Geist_Mono, Inter } from "next/font/google";
 import Hero from "@/components/Hero";
+import Slider from "react-slick";
 
 const anton = Anton({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const antonSC = Anton_SC({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '600', '800'], style: ['normal'] })
+
+const settings = {
+  dots: false,
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  speed: 5000,
+  autoplaySpeed: 1000,
+  cssEase: "linear",
+  pauseOnHover: false,
+  responsive: [
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      }
+    },
+  ]
+};
+
+const indexingImg = [
+  { sImage: 'assets/img/index/google-scholar.jpg', sAlt: 'Google Scholar' },
+  { sImage: 'assets/img/index/issn_logo.png', sAlt: 'ISSN' },
+  { sImage: 'assets/img/index/ResearchGate_logo.png', sAlt: 'Research Gate' },
+  { sImage: 'assets/img/index/Open_Access_logo.png', sAlt: 'Open Access' },
+  { sImage: 'assets/img/index/zenodo.png', sAlt: 'Zenodo' },
+  { sImage: 'assets/img/index/DOI_logo.png', sAlt: 'DOI' },
+  { sImage: 'assets/img/index/am.jpeg', sAlt: 'Acedemia' },
+  { sImage: 'assets/img/index/OpenAire_Logo.jpg', sAlt: 'Open Aire' },
+  { sImage: 'assets/img/index/orcid.logo.png', sAlt: 'ORCID' },
+  { sImage: 'assets/img/index/Linkedin-Logo.png', sAlt: 'LinkedIn' },
+  { sImage: 'assets/img/index/google-scholar.jpg', sAlt: 'Google Scholar' },
+  { sImage: 'assets/img/index/issn_logo.png', sAlt: 'ISSN' },
+  { sImage: 'assets/img/index/ResearchGate_logo.png', sAlt: 'Research Gate' },
+  { sImage: 'assets/img/index/Open_Access_logo.png', sAlt: 'Open Access' },
+  { sImage: 'assets/img/index/zenodo.png', sAlt: 'Zenodo' },
+  { sImage: 'assets/img/index/DOI_logo.png', sAlt: 'DOI' },
+  { sImage: 'assets/img/index/am.jpeg', sAlt: 'Acedemia' },
+  { sImage: 'assets/img/index/OpenAire_Logo.jpg', sAlt: 'Open Aire' },
+  { sImage: 'assets/img/index/orcid.logo.png', sAlt: 'ORCID' },
+  { sImage: 'assets/img/index/Linkedin-Logo.png', sAlt: 'LinkedIn' },
+]
 
 export default function Home() {
   return (
@@ -21,9 +66,9 @@ export default function Home() {
         <meta property="og:title" content="Indian Journal of Physical Therapy - Open Access & Peer-Reviewed Journal" />
         <meta property="og:description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access International Journal. Explore now!" />
         <meta property="og:url" content="https://ijopt.vercel.app/" />
-        <meta property="og:image" content="assets/img/logo.png" />
+        <meta property="og:image" content="favicon.ico" />
         <meta property="og:type" content="website" />
-        <link rel="icon" href="assets/img/logo.png" />
+        <link rel="icon" href="favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
 
         {/* Structured Data SEO */}
@@ -32,14 +77,14 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": "Indian Journal of Physical Therapy (IJOPT)",
-            "url": "https://ijopt.vercel.app/",
+            "url": "www.ijopt.co.in",
             "description": "Indian Journal of Physical Therapy (IJOPT) is a trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access International Journal.",
             "publisher": {
               "@type": "Organization",
               "name": "Indian Journal of Physical Therapy (IJOPT)",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ijopt.vercel.app/assets/img/logo.png",
+                "url": "https://ijopt.vercel.app/faicon.ico",
                 "width": 512,
                 "height": 512
               }
@@ -115,6 +160,29 @@ export default function Home() {
                   <p>Emerging Technologies in Physical Therapy</p>
                 </li>
               </ul>
+            </div>
+          </section>
+
+          <section className="index-section">
+            <div className="container">
+              <div className="slider">
+                <Slider {...settings}>
+                  {indexingImg?.map(( { sImage, sAlt }, i ) => {
+                    return (
+                      <div className="slider-item" key={i}>
+                        <Image
+                          src={sImage}
+                          alt={sAlt}
+                          quality={100}
+                          width={100}
+                          height={100}
+                          className="img-fluid"
+                        />
+                      </div>
+                    );
+                  })}
+                  </Slider>
+              </div>
             </div>
           </section>
         </main>

@@ -6,6 +6,9 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import { useRouter } from "next/router";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function App({ Component, pageProps }) {
   const [isLoading, setIsLoading] = useState(false)

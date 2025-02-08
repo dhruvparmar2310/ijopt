@@ -49,6 +49,33 @@
     }
 }
 
+@media (min-width: 1400px) and (max-width: 2000px) {
+    .contact-section {
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        img {
+            margin: 10px 0;
+        }
+
+        .contact-card {
+            padding: 30px 20px;
+
+            h6,
+            a,
+            p {
+                font-size: 22px;
+            }
+
+            p,
+            a {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
 @media (max-width: 576px) {
     .contact-section {
         .contact-card {

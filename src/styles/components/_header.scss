@@ -459,6 +459,73 @@
     color: var(--primary-color);
 }
 
+@media (min-width: 1400px) and (max-width: 2000px) {
+    header {
+        .home {
+            padding: 0 !important;
+            flex-direction: column;
+
+            .top_headerWeb {
+                .logo {
+                    margin: 10px 10px;
+
+                    a {
+                        img {
+                            width: 100%;
+                            max-width: 200px;
+                            height: auto;
+                        }
+                    }
+                }
+
+                .text-logo {
+                    margin: 10px;
+                }
+
+                .sub-title {
+                    margin: 0 10px;
+                }
+            }
+
+            .nav_menu {
+                ul {
+                    li {
+                        padding: 10px;
+
+                        a {
+                            font-size: 22px;
+                        }
+
+                        &.aboutUs {
+                            span {
+                                font-size: 22px;
+                            }
+
+                            .aboutUsContent {
+                                top: 195px;
+                                padding: 20px;
+
+                                p {
+                                    font-size: 18px;
+                                    padding: 0 25px;
+                                }
+
+                                ul {
+                                    line-height: 1.2;
+
+                                    a {
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 576px) {
     .drop_down ul {
         width: calc(100% - 30px) !important;
@@ -704,31 +771,5 @@
 
     .nav_menu .drop_down .drop_down>a {
         padding-right: 35px;
-    }
-}
-
-// very large display
-@media (min-width: 1400px) and (max-width: 1950px) {
-    .header {
-        .logo {
-            img {
-                width: 350px;
-                height: 200px;
-            }
-        }
-
-        .home {
-            padding: 20px 30px;
-            display: flex !important;
-            justify-content: space-between;
-        }
-
-        .nav_menu {
-
-            a,
-            .dropDownButton {
-                font-size: 1.5rem;
-            }
-        }
     }
 }

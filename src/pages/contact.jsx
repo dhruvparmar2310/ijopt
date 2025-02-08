@@ -15,21 +15,21 @@ const Contact = () => {
     return (
         <>
             <Head>
-                <title>Contact</title>
+                <title>Contact | Indian Journal of Physical Therapy</title>
                 <meta charset="utf-8"></meta>
                 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
 
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta name='keywords' content='IJOPT, Indian Journal of Physical Therapy, Indian Journal of Physiotherapy, Open Access Journal, Physiotherapy Journal, Physical Therapy Journal, International Journal for Physiotherapy, PhysioZine, About IJOPT, about indian journal of physical therapy' />
+                <meta name='keywords' content='IJOPT, Indian Journal of Physical Therapy, Indian Journal of Physiotherapy, Open Access Journal, Physiotherapy Journal, Physical Therapy Journal, International Journal for Physiotherapy, PhysioZine, contact ijopt, email of ijopt, phone number of ijopt, mobile number of ijopt, customer care number of ijopt' />
                 <meta name="description" content="Learn about the Indian Journal of Physical Therapy (IJOPT). We are an open-access, peer-reviewed journal publishing original research and articles in physiotherapy." />
 
-                <meta property="og:title" content="About Indian Journal of Physical Therapy" />
+                <meta property="og:title" content="Contact Indian Journal of Physical Therapy" />
                 <meta property="og:description" content="Learn about IJOPT, an open-access, peer-reviewed journal publishing original research in physiotherapy." />
-                <meta property="og:url" content="https://ijopt.vercel.app/about/ijopt/" />
-                <meta property="og:image" content="assets/img/logo.png" />
+                <meta property="og:url" content="https://ijopt.vercel.app/contact" />
+                <meta property="og:image" content="/favicon.ico" />
                 <meta property="og:type" content="website" />
 
-                <link rel="icon" href="assets/img/logo.png" />
+                <link rel="icon" href="/favicon.ico" />
                 <link rel="manifest" href="/manifest.json" />
 
                 {/* <!-- Author and Publisher Meta Tags --> */}
@@ -42,27 +42,15 @@ const Contact = () => {
                         "@context": "https://schema.org",
                         "@type": "Organization",
                         "name": "Indian Journal of Physical Therapy",
-                        "url": "https://ijopt.vercel.app/about/ijopt/",
-                        "logo": "https://ijopt.vercel.app/assets/img/logo.png",
+                        "url": "https://ijopt.vercel.app/contact",
+                        "logo": "https://ijopt.vercel.app/favicon.ico",
                         "description": "Indian Journal of Physical Therapy (IJOPT) is an open-access, peer-reviewed journal publishing original research in physiotherapy.",
                         "contactPoint": {
                             "@type": "ContactPoint",
                             "email": "editor.ijopt@gmail.com",
                             "contactType": "Contact Us"
                         },
-                        "keywords": ["Physiotherapy Journal", "Open Access", "Research Articles", "Physical Therapy"],
-                        "potentialAction": [
-                            {
-                                "@type": "ReadAction",
-                                "target": "https://ijopt.vercel.app/about/ijopt",
-                                "name": "About IJOPT"
-                            },
-                            {
-                                "@type": "ReadAction",
-                                "target": "https://ijopt.vercel.app/about/journal-information",
-                                "name": "Journal Information"
-                            }
-                        ]
+                        "keywords": ["Physiotherapy Journal", "Open Access", "Research Articles", "Physical Therapy", "Contact IJOPT"],
                     })}
                 </script>
             </Head>

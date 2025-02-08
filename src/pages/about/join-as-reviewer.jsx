@@ -21,9 +21,9 @@ const JoinAsReviewer = () => {
                 <meta name='keywords' content='IJOPT, Join as Reviewer in IJOPT, join ijopt, volunteer in ijopt, how to apply as reviewer in ijopt' />
                 <meta name="description" content="Learn about the Indian Journal of Physical Therapy (IJOPT). We are an open-access, peer-reviewed journal publishing original research and articles in physiotherapy." />
 
-                <meta property="og:title" content="About Indian Journal of Physical Therapy" />
+                <meta property="og:title" content="Join as Reviewer in Indian Journal of Physical Therapy" />
                 <meta property="og:description" content="Learn about IJOPT, an open-access, peer-reviewed journal publishing original research in physiotherapy." />
-                <meta property="og:url" content="https://ijopt.vercel.app/about/ijopt" />
+                <meta property="og:url" content="https://ijopt.vercel.app/about/join-as-reviewer" />
                 <meta property="og:image" content="/favicon.ico" />
                 <meta property="og:type" content="website" />
 
@@ -40,7 +40,7 @@ const JoinAsReviewer = () => {
                         "@context": "https://schema.org",
                         "@type": "Organization",
                         "name": "About - Indian Journal of Physical Therapy (IJOPT)",
-                        "url": "https://ijopt.vercel.app/about/ijopt",
+                        "url": "https://ijopt.vercel.app/about/join-as-reviewer",
                         "logo": "https://ijopt.vercel.app/favicon.ico",
                         "description": "Indian Journal of Physical Therapy (IJOPT) is an open-access, peer-reviewed journal publishing original research in physiotherapy.",
                         "contactPoint": {
