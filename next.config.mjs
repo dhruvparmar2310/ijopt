@@ -20,7 +20,7 @@ const nextConfig = {
   },
   env: {
     LOCALHOST: 'http://localhost:3000',
-    DEPLOY: 'https://ijopt.vercel.app/',
+    DEPLOY: 'https://ijopt.co.in/',
   },
 };
 

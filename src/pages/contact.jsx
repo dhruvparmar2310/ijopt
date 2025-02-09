@@ -25,7 +25,7 @@ const Contact = () => {
 
                 <meta property="og:title" content="Contact Indian Journal of Physical Therapy" />
                 <meta property="og:description" content="Learn about IJOPT, an open-access, peer-reviewed journal publishing original research in physiotherapy." />
-                <meta property="og:url" content="https://ijopt.vercel.app/contact" />
+                <meta property="og:url" content="https://ijopt.co.in/contact" />
                 <meta property="og:image" content="/favicon.ico" />
                 <meta property="og:type" content="website" />
 
@@ -42,8 +42,8 @@ const Contact = () => {
                         "@context": "https://schema.org",
                         "@type": "Organization",
                         "name": "Indian Journal of Physical Therapy",
-                        "url": "https://ijopt.vercel.app/contact",
-                        "logo": "https://ijopt.vercel.app/favicon.ico",
+                        "url": "https://ijopt.co.in/contact",
+                        "logo": "https://ijopt.co.in/favicon.ico",
                         "description": "Indian Journal of Physical Therapy (IJOPT) is an open-access, peer-reviewed journal publishing original research in physiotherapy.",
                         "contactPoint": {
                             "@type": "ContactPoint",

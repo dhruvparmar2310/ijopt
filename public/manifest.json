@@ -1,0 +1,18 @@
+{
+    "theme_color": "#163866",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Install IJOPT App",
+    "short_name": "IJOPT Application",
+    "description": "Welcome to Indian Journal of Physical Therapy (IJOPT)",
+    "icons": [
+      {
+        "src": "assets/img/logo-2.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
+  

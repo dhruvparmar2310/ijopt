@@ -24,7 +24,7 @@ const JournalInformation = () => {
 
                 <meta property="og:title" content="Journal Information of IJPOT" />
                 <meta property="og:description" content="Learn about IJOPT, an open-access, peer-reviewed journal publishing original research in physiotherapy." />
-                <meta property="og:url" content="https://ijopt.vercel.app/about/journal-information" />
+                <meta property="og:url" content="https://ijopt.co.in/about/journal-information" />
                 <meta property="og:image" content="/favicon.ico" />
                 <meta property="og:type" content="website" />
 
@@ -41,8 +41,8 @@ const JournalInformation = () => {
                         "@context": "https://schema.org",
                         "@type": "Organization",
                         "name": "Indian Journal of Physical Therapy",
-                        "url": "https://ijopt.vercel.app/about/journal-information",
-                        "logo": "https://ijopt.vercel.app/favicon.ico",
+                        "url": "https://ijopt.co.in/about/journal-information",
+                        "logo": "https://ijopt.co.in/favicon.ico",
                         "description": "Indian Journal of Physical Therapy (IJOPT) is an open-access, peer-reviewed journal publishing original research in physiotherapy.",
                         "contactPoint": {
                             "@type": "ContactPoint",
@@ -53,12 +53,12 @@ const JournalInformation = () => {
                         "potentialAction": [
                             {
                                 "@type": "ReadAction",
-                                "target": "https://ijopt.vercel.app/about/journal-information",
+                                "target": "https://ijopt.co.in/about/journal-information",
                                 "name": "Journal Information"
                             },
                             {
                                 "@type": "ReadAction",
-                                "target": "https://ijopt.vercel.app/about/ijopt",
+                                "target": "https://ijopt.co.in/about/ijopt",
                                 "name": "About IJOPT"
                             }
                         ]

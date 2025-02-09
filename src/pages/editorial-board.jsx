@@ -7,8 +7,11 @@ import drJaspreetKaur from '../../public/assets/img/members/DrJaspreetKaurKang.J
 import drDineshSorani from '../../public/assets/img/members/DrDineshSorani.png'
 import drWaqarNaqvi from '../../public/assets/img/members/waqar-naqvi.JPG'
 import drAshishKakkad from '../../public/assets/img/members/DrAshishKakkad.png'
+import drParitaDave from '../../public/assets/img/members/DrParitaDave.jpg'
 import Link from 'next/link'
 import Head from 'next/head'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 const anton = Anton({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const antonSC = Anton_SC({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
@@ -28,7 +31,7 @@ const EditorialBoard = () => {
 
                 <meta property="og:title" content="Editorial Board of Indian Journal of Physical Therapy" />
                 <meta property="og:description" content="Learn about IJOPT, an open-access, peer-reviewed journal publishing original research in physiotherapy." />
-                <meta property="og:url" content="https://ijopt.vercel.app/editorial-board" />
+                <meta property="og:url" content="https://ijopt.co.in/editorial-board" />
                 <meta property="og:image" content="/favicon.ico" />
                 <meta property="og:type" content="website" />
 
@@ -45,8 +48,8 @@ const EditorialBoard = () => {
                         "@context": "https://schema.org",
                         "@type": "Organization",
                         "name": "Indian Journal of Physical Therapy",
-                        "url": "https://ijopt.vercel.app/editorial-board",
-                        "logo": "https://ijopt.vercel.app/favicon.ico",
+                        "url": "https://ijopt.co.in/editorial-board",
+                        "logo": "https://ijopt.co.in/favicon.ico",
                         "description": "Indian Journal of Physical Therapy (IJOPT) is an open-access, peer-reviewed journal publishing original research in physiotherapy.",
                         "contactPoint": {
                             "@type": "ContactPoint",
@@ -57,12 +60,12 @@ const EditorialBoard = () => {
                         "potentialAction": [
                             {
                                 "@type": "ReadAction",
-                                "target": "https://ijopt.vercel.app/about/ijopt",
+                                "target": "https://ijopt.co.in/about/ijopt",
                                 "name": "About IJOPT"
                             },
                             {
                                 "@type": "ReadAction",
-                                "target": "https://ijopt.vercel.app/about/journal-information",
+                                "target": "https://ijopt.co.in/about/journal-information",
                                 "name": "Journal Information"
                             }
                         ]
@@ -139,6 +142,30 @@ const EditorialBoard = () => {
                             <p className={`member-name ${antonSC?.className}`}>Dr. Ashish Kakkad</p>
                             <p className={inter?.className}>PhD, MPT in Neurological Conditions</p>
                             <p className={inter?.className}>Principal at Faculty of Physiotherapy, Marwadi University (MU), Rajkot</p>
+                        </div>
+                    </div>
+
+                    <h5 className='mt-3'>Editors:</h5>
+                    <hr className='mt-0' />
+                    <div className='member-card mt-3'>
+                        <div className="left-content">
+                            {/* <Image src={drAshishKakkad} alt='Dr. Salvi Shah' quality={100} className='img-fluid' /> */}
+                            <FontAwesomeIcon icon={faUser} color='gray' />
+                        </div>
+                        <div className="right-content">
+                            <p className={`member-name ${antonSC?.className}`}>Dr. Salvi Shah</p>
+                            <p className={inter?.className}>PhD, MPT in Sports</p>
+                            <p className={inter?.className}>Associate Professor at SPB Physiotherapy College, Surat</p>
+                        </div>
+                    </div>
+                    <div className='member-card mt-3'>
+                        <div className="left-content">
+                            <Image src={drParitaDave} alt='Dr. Parita Dave' quality={100} className='img-fluid' />
+                        </div>
+                        <div className="right-content">
+                            <p className={`member-name ${antonSC?.className}`}>Dr. Parita Dave</p>
+                            <p className={inter?.className}>PhD Scholar, MPT in Cardiopulmonary Conditions</p>
+                            <p className={inter?.className}>Associate Professor at KD Institute of Physiotherapy, Ahmedabad</p>
                         </div>
                     </div>
                 </div>

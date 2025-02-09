@@ -23,7 +23,7 @@ const Disclaimer = () => {
 
                 <meta property="og:title" content="Disclaimer of IJPOT" />
                 <meta property="og:description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!" />
-                <meta property="og:url" content="https://ijopt.vercel.app/policy/disclaimer" />
+                <meta property="og:url" content="https://ijopt.co.in/policy/disclaimer" />
                 <meta property="og:image" content="/favicon.ico" />
                 <meta property="og:type" content="website" />
 
@@ -40,19 +40,19 @@ const Disclaimer = () => {
                         "@context": "https://schema.org",
                         "@type": "Organization",
                         "name": "Indian Journal of Physical Therapy",
-                        "url": "https://ijopt.vercel.app/policy/disclaimer",
-                        "logo": "https://ijopt.vercel.app/favicon.ico",
+                        "url": "https://ijopt.co.in/policy/disclaimer",
+                        "logo": "https://ijopt.co.in/favicon.ico",
                         "description": "Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!",
                         "keywords": ["Physiotherapy Journal", "Open Access", "Research Articles", "Physical Therapy", "Disclaimer of IJOPT"],
                         "potentialAction": [
                             {
                                 "@type": "ReadAction",
-                                "target": "https://ijopt.vercel.app/policy/privacy-policy",
+                                "target": "https://ijopt.co.in/policy/privacy-policy",
                                 "name": "Privacy Policy"
                             },
                             {
                                 "@type": "ReadAction",
-                                "target": "https://ijopt.vercel.app/policy/terms-and-condition",
+                                "target": "https://ijopt.co.in/policy/terms-and-condition",
                                 "name": "Terms and Conditions"
                             },
                         ],

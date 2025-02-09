@@ -24,7 +24,7 @@ const IJOPT = () => {
 
                 <meta property="og:title" content="About Indian Journal of Physical Therapy" />
                 <meta property="og:description" content="Learn about IJOPT, an open-access, peer-reviewed journal publishing original research in physiotherapy." />
-                <meta property="og:url" content="https://ijopt.vercel.app/about/ijopt" />
+                <meta property="og:url" content="https://ijopt.co.in/about/ijopt" />
                 <meta property="og:image" content="/favicon.ico" />
                 <meta property="og:type" content="website" />
 
@@ -41,8 +41,8 @@ const IJOPT = () => {
                         "@context": "https://schema.org",
                         "@type": "Organization",
                         "name": "About - Indian Journal of Physical Therapy (IJOPT)",
-                        "url": "https://ijopt.vercel.app/about/ijopt",
-                        "logo": "https://ijopt.vercel.app/favicon.ico",
+                        "url": "https://ijopt.co.in/about/ijopt",
+                        "logo": "https://ijopt.co.in/favicon.ico",
                         "description": "Indian Journal of Physical Therapy (IJOPT) is an open-access, peer-reviewed journal publishing original research in physiotherapy.",
                         "contactPoint": {
                             "@type": "ContactPoint",
@@ -53,12 +53,12 @@ const IJOPT = () => {
                         "potentialAction": [
                             {
                                 "@type": "ReadAction",
-                                "target": "https://ijopt.vercel.app/about/ijopt",
+                                "target": "https://ijopt.co.in/about/ijopt",
                                 "name": "About IJOPT"
                             },
                             {
                                 "@type": "ReadAction",
-                                "target": "https://ijopt.vercel.app/about/journal-information",
+                                "target": "https://ijopt.co.in/about/journal-information",
                                 "name": "Journal Information"
                             }
                         ]

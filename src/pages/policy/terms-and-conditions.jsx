@@ -23,7 +23,7 @@ const TermsAndConditions = () => {
 
                 <meta property="og:title" content="Terms and Conditions of IJPOT" />
                 <meta property="og:description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!" />
-                <meta property="og:url" content="https://ijopt.vercel.app/policy/terms-and-conditions" />
+                <meta property="og:url" content="https://ijopt.co.in/policy/terms-and-conditions" />
                 <meta property="og:image" content="/favicon.ico" />
                 <meta property="og:type" content="website" />
 
@@ -40,8 +40,8 @@ const TermsAndConditions = () => {
                         "@context": "https://schema.org",
                         "@type": "Organization",
                         "name": "Indian Journal of Physical Therapy",
-                        "url": "https://ijopt.vercel.app/policy/terms-and-conditions",
-                        "logo": "https://ijopt.vercel.app/favicon.ico",
+                        "url": "https://ijopt.co.in/policy/terms-and-conditions",
+                        "logo": "https://ijopt.co.in/favicon.ico",
                         "description": "Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!",
                         "keywords": ["Physiotherapy Journal", "Open Access", "Research Articles", "Physical Therapy", "Terms and Conditions of IJOPT"],
                     })}

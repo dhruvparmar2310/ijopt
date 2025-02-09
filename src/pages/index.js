@@ -65,7 +65,7 @@ export default function Home() {
         <meta name="description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!" />
         <meta property="og:title" content="Indian Journal of Physical Therapy - Open Access & Peer-Reviewed Journal" />
         <meta property="og:description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access International Journal. Explore now!" />
-        <meta property="og:url" content="https://ijopt.vercel.app/" />
+        <meta property="og:url" content="https://ijopt.co.in/" />
         <meta property="og:image" content="favicon.ico" />
         <meta property="og:type" content="website" />
         <link rel="icon" href="favicon.ico" />
@@ -84,7 +84,7 @@ export default function Home() {
               "name": "Indian Journal of Physical Therapy (IJOPT)",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ijopt.vercel.app/faicon.ico",
+                "url": "https://ijopt.co.in/faicon.ico",
                 "width": 512,
                 "height": 512
               }
@@ -92,22 +92,22 @@ export default function Home() {
             "potentialAction": [
               {
                 "@type": "ReadAction",
-                "target": "https://ijopt.vercel.app/about/ijopt",
+                "target": "https://ijopt.co.in/about/ijopt",
                 "name": "About Us"
               },
               {
                 "@type": "ReadAction",
-                "target": "https://ijopt.vercel.app/author-tools/guidelines",
+                "target": "https://ijopt.co.in/author-tools/guidelines",
                 "name": "Author Guidelines"
               },
               {
                 "@type": "ReadAction",
-                "target": "https://ijopt.vercel.app/author-tools/submit-paper-online",
+                "target": "https://ijopt.co.in/author-tools/submit-paper-online",
                 "name": "Submit Paper Online"
               },
               {
                 "@type": "ReadAction",
-                "target": "https://ijopt.vercel.app/author-tools/article-processing-charge",
+                "target": "https://ijopt.co.in/author-tools/article-processing-charge",
                 "name": "Article Processing Charge"
               }
             ],

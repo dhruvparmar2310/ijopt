@@ -24,7 +24,7 @@ const Guidelines = () => {
 
                 <meta property="og:title" content="Author Guidelines of IJPOT" />
                 <meta property="og:description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!" />
-                <meta property="og:url" content="https://ijopt.vercel.app/author-tools/guidelines" />
+                <meta property="og:url" content="https://ijopt.co.in/author-tools/guidelines" />
                 <meta property="og:image" content="/favicon.ico" />
                 <meta property="og:type" content="website" />
 
@@ -41,8 +41,8 @@ const Guidelines = () => {
                         "@context": "https://schema.org",
                         "@type": "Organization",
                         "name": "Indian Journal of Physical Therapy",
-                        "url": "https://ijopt.vercel.app/author-tools/guidelines",
-                        "logo": "https://ijopt.vercel.app/favicon.ico",
+                        "url": "https://ijopt.co.in/author-tools/guidelines",
+                        "logo": "https://ijopt.co.in/favicon.ico",
                         "description": "Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!",
                         "keywords": ["Physiotherapy Journal", "Open Access", "Research Articles", "Physical Therapy", "Author Guidelines of IJOPT"],
                     })}
@@ -75,7 +75,7 @@ const Guidelines = () => {
                             </li>
                             <li>
                                 <p>
-                                    Manuscripts should be in English and formatted according to IJPT standards.
+                                    Manuscripts should be in English and formatted according to IJOPT standards.
                                 </p>
                             </li>
                         </ul>
@@ -220,7 +220,7 @@ const Guidelines = () => {
                     <h5>8. Copyright and Licensing:</h5>
                     <hr className='mt-0' />
                     <p className={inter?.className}>
-                        Upon acceptance, authors must sign a copyright transfer agreement granting IJPT the rights to publish the article.
+                        Upon acceptance, authors must sign a copyright transfer agreement granting IJOPT the rights to publish the article.
                     </p>
 
                     <h5>9. Submission Checklist:</h5>
@@ -248,7 +248,7 @@ const Guidelines = () => {
                         </ul>
 
                         <p>
-                            For further inquiries, please contact us at editor.ijopt@gmail.com or visit our website: <a href="https://ijopt.vercel.app" target='_blank'>https://ijopt.vercel.app</a>.
+                            For further inquiries, please contact us at editor.ijopt@gmail.com or visit our website: <a href="https://ijopt.co.in/" target='_blank'>https://ijopt.co.in/</a>.
                         </p>
                     </div>
                 </div>
