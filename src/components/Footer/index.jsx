@@ -119,7 +119,7 @@ const Footer = () => {
                                 </div>
 
                                 <div className={`footer_links`}>
-                                    <h4 className={`${inter?.className}`}>Powered By</h4>
+                                    <h4 className={`${inter?.className}`}>Managed By</h4>
                                     <div className='powered-by-image'>
                                         <Image src={PhysioZineLogo} quality={100} className='img-fluid' />
                                     </div>

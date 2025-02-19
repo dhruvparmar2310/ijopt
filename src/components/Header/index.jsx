@@ -48,7 +48,7 @@ function Header () {
     router?.push(path)
   }
 
-  const allAboutRoutes = router?.route?.includes('/about/ijopt') || router?.route?.includes('/about/research-areas') || router?.route?.includes('/about/journal-information')
+  const allAboutRoutes = router?.route?.includes('/about/ijopt') || router?.route?.includes('/about/research-areas') || router?.route?.includes('/about/journal-information') || router?.route?.includes('/indexing')
 
   const allAuthorToolsRoutes = router?.route?.includes('/author-tools/guidelines') || router?.route?.includes('/author-tools/submit-paper-online') || router?.route?.includes('/author-tools/article-processing-charge') || router?.route?.includes('/author-tools/hard-copy-certificate') || router?.route?.includes('/author-tools/article-formatting-service')
 
@@ -116,6 +116,9 @@ function Header () {
                       <ul className={'dropdownMenu'}>
                         <li>
                           <Link href='/about/ijopt' title='About Us | IJOPT' className={`${router?.route?.includes('/ijopt') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/about/ijopt')}>About IJOPT</Link>
+                        </li>
+                        <li>
+                          <Link href='/about/indexing' title='Indexing | IJOPT' className={`${router?.route?.includes('/indexing') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/about/indexing')}>IJOPT Indexing</Link>
                         </li>
                         <li>
                           <Link href='/about/research-areas' title='Research Areas | IJOPT' className={`${router?.route?.includes('/about/research-areas') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/about/research-areas')}>Research Areas</Link>
@@ -242,6 +245,11 @@ function Header () {
                 </div>
               </li>
 
+              <li>
+                <Link href={'/subscription'} className={`${router?.route?.includes('/subscription') && 'active'} ${inter.className}`} title='Subscription | IJPOT' onClick={(e) => handleClick(e, '/subscription')}>
+                  Subscription
+                </Link>
+              </li>
               <li>
                 <Link href={'/contact'} className={`${router?.route?.includes('/contact') && 'active'} ${inter.className}`} title='Contact | IJPOT' onClick={(e) => handleClick(e, '/contact')}>
                   Contact

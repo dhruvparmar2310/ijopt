@@ -112,7 +112,7 @@ const IJOPT = () => {
                     <hr className='mt-0' />
                     <div className={inter?.className}>
                         <p>
-                            PhysioZine's reputation as a trusted resource in the physiotherapy community makes it an ideal partner for IJPT. Our platform features:
+                            PhysioZine's reputation as a trusted resource in the physiotherapy community makes it an ideal partner for IJOPT. Our platform features:
                         </p>
                         <ul>
                             <li>

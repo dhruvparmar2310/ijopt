@@ -129,7 +129,7 @@ const JournalInformation = () => {
                                 </tr>
                                 <tr>
                                     <th>Address</th>
-                                    <td>Indian Journal of Physical Therapy, Rajkot, Gujarat - 360002</td>
+                                    <td>Indian Journal of Physical Therapy, Ahmedabad, Gujarat</td>
                                 </tr>
                             </tbody>
                         </Table>

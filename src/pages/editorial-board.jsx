@@ -12,6 +12,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
+import { Col, Row } from 'react-bootstrap'
 
 const anton = Anton({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const antonSC = Anton_SC({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
@@ -108,16 +109,44 @@ const EditorialBoard = () => {
 
                     <h5 className='mt-3'>Associate Editor:</h5>
                     <hr className='mt-0' />
-                    <div className='member-card'>
-                        <div className="left-content">
-                            <Image src={drDineshSorani} alt='Dr. Dinesh Sorani' quality={100} className='img-fluid' />
-                        </div>
-                        <div className="right-content">
-                            <p className={`member-name ${antonSC?.className}`}>Dr. Dinesh Sorani</p>
-                            <p className={inter?.className}>PhD, MPT in Physical and Functional Diagnosis</p>
-                            <p className={inter?.className}>Principal at Govt. Physiotherapy College, Jamnagar</p>
-                        </div>
-                    </div>
+                    <Row>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card'>
+                                <div className="left-content">
+                                    <Image src={drDineshSorani} alt='Dr. Dinesh Sorani' quality={100} className='img-fluid' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Dinesh Sorani</p>
+                                    <p className={inter?.className}>PhD, MPT in Physical and Functional Diagnosis</p>
+                                    <p className={inter?.className}>Principal at Govt. Physiotherapy College, Jamnagar</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card'>
+                                <div className="left-content">
+                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Megha Sheth</p>
+                                    <p className={inter?.className}>MPT in Rehabilitation</p>
+                                    <p className={inter?.className}>Lecturer at SBB College of Physiotherapy, Ahmedabad</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Amrutkuvar Shivaji Rayjade</p>
+                                    <p className={inter?.className}>PhD, MPT in Orthopedics</p>
+                                    <p className={inter?.className}>Principal and Professor, D. Y. Patil College of Physiotherapy, Kolhapur</p>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
 
                     <h5 className='mt-3'>International Editor:</h5>
                     <hr className='mt-0' />
@@ -147,27 +176,142 @@ const EditorialBoard = () => {
 
                     <h5 className='mt-3'>Editors:</h5>
                     <hr className='mt-0' />
-                    <div className='member-card mt-3'>
-                        <div className="left-content">
-                            {/* <Image src={drAshishKakkad} alt='Dr. Salvi Shah' quality={100} className='img-fluid' /> */}
-                            <FontAwesomeIcon icon={faUser} color='gray' />
-                        </div>
-                        <div className="right-content">
-                            <p className={`member-name ${antonSC?.className}`}>Dr. Salvi Shah</p>
-                            <p className={inter?.className}>PhD, MPT in Sports</p>
-                            <p className={inter?.className}>Associate Professor at SPB Physiotherapy College, Surat</p>
-                        </div>
-                    </div>
-                    <div className='member-card mt-3'>
-                        <div className="left-content">
-                            <Image src={drParitaDave} alt='Dr. Parita Dave' quality={100} className='img-fluid' />
-                        </div>
-                        <div className="right-content">
-                            <p className={`member-name ${antonSC?.className}`}>Dr. Parita Dave</p>
-                            <p className={inter?.className}>PhD Scholar, MPT in Cardiopulmonary Conditions</p>
-                            <p className={inter?.className}>Associate Professor at KD Institute of Physiotherapy, Ahmedabad</p>
-                        </div>
-                    </div>
+                    <Row>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    {/* <Image src={drAshishKakkad} alt='Dr. Salvi Shah' quality={100} className='img-fluid' /> */}
+                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Moushumi Debnath</p>
+                                    <p className={inter?.className}>PhD Scholar, MPT in Neurological Conditions</p>
+                                    <p className={inter?.className}>Associate Professor at Rashtrant Janardan Swami College of Physiotherapy, Kokamtham</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    {/* <Image src={drAshishKakkad} alt='Dr. Salvi Shah' quality={100} className='img-fluid' /> */}
+                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Raj Kiran Tiku</p>
+                                    <p className={inter?.className}>PhD Scholar, MPT in Cardiopulmonary Conditions</p>
+                                    <p className={inter?.className}>Professor/HOD at Suryadatta Institute of Health Sciences College of Physiotherapy, Pune</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    {/* <Image src={drAshishKakkad} alt='Dr. Salvi Shah' quality={100} className='img-fluid' /> */}
+                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Mandeep Kang</p>
+                                    <p className={inter?.className}>PhD, MPT in Sports</p>
+                                    <p className={inter?.className}>Assistant Professor at Sri Guru Ram Das University of Health Sciences, Amritsar</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    {/* <Image src={drAshishKakkad} alt='Dr. Salvi Shah' quality={100} className='img-fluid' /> */}
+                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Advita Neville Deepak</p>
+                                    <p className={inter?.className}>PhD, MPT in Cardiopulmonary Conditions</p>
+                                    <p className={inter?.className}>Associate Professor at Parul University, Vadodara</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    {/* <Image src={drAshishKakkad} alt='Dr. Salvi Shah' quality={100} className='img-fluid' /> */}
+                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Salvi Shah</p>
+                                    <p className={inter?.className}>PhD, MPT in Sports</p>
+                                    <p className={inter?.className}>Associate Professor at SPB Physiotherapy College, Surat</p>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
+
+                    <h5 className='mt-3'>Reviewers:</h5>
+                    <hr className='mt-0' />
+                    <Row>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    {/* <Image src={drParitaDave} alt='Dr. Himanshu Sharma' quality={100} className='img-fluid' /> */}
+                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Devangi Desai</p>
+                                    <p className={inter?.className}>MPT in Rehabilitation</p>
+                                    <p className={inter?.className}>Professor at Pioneer Physiotherapy College, Vadodara</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    {/* <Image src={drParitaDave} alt='Dr. Himanshu Sharma' quality={100} className='img-fluid' /> */}
+                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Jalpa Parikh</p>
+                                    <p className={inter?.className}>MPT in Neurological Conditions</p>
+                                    <p className={inter?.className}>Associate Professor at LJ Institute of Physiotherapy, Ahmedabad</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    {/* <Image src={drParitaDave} alt='Dr. Himanshu Sharma' quality={100} className='img-fluid' /> */}
+                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Himanshu Sharma</p>
+                                    <p className={inter?.className}>MPT in Neurological Conditions</p>
+                                    <p className={inter?.className}>Associate Professor at Mahalaxmi College of Physiotherapy and Rehabilitation Centre Raigaon Satara Maharashtra</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    {/* <Image src={drParitaDave} alt='Dr. Himanshu Sharma' quality={100} className='img-fluid' /> */}
+                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Badri Vishal</p>
+                                    <p className={inter?.className}>PhD Scholar, MPT in Neurological Conditions</p>
+                                    <p className={inter?.className}>Assistant Professor at Era University, Lucknow</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    <Image src={drParitaDave} alt='Dr. Parita Dave' quality={100} className='img-fluid' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Parita Dave</p>
+                                    <p className={inter?.className}>PhD Scholar, MPT in Cardiopulmonary Conditions</p>
+                                    <p className={inter?.className}>Associate Professor at KD Institute of Physiotherapy, Ahmedabad</p>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
                 </div>
             </section>
         </>

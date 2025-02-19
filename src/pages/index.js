@@ -16,7 +16,7 @@ const settings = {
   autoplay: true,
   speed: 5000,
   autoplaySpeed: 1000,
-  cssEase: "linear",
+  // cssEase: "linear",
   pauseOnHover: false,
   responsive: [
     {
@@ -31,9 +31,14 @@ const settings = {
 
 const indexingImg = [
   { sImage: 'assets/img/index/google-scholar.jpg', sAlt: 'Google Scholar' },
+  { sImage: 'assets/img/index/Crossref-Logo.jpeg', sAlt: 'Crossref' },
   { sImage: 'assets/img/index/issn_logo.png', sAlt: 'ISSN' },
   { sImage: 'assets/img/index/ResearchGate_logo.png', sAlt: 'Research Gate' },
   { sImage: 'assets/img/index/Open_Access_logo.png', sAlt: 'Open Access' },
+  { sImage: 'assets/img/index/cukurova_logo.png', sAlt: 'Cukurova' },
+  { sImage: 'assets/img/index/ici2.png', sAlt: 'ICI2' },
+  { sImage: 'assets/img/index/logo_world_of_journals.png', sAlt: 'ICI World of Journal' },
+  { sImage: 'assets/img/index/scispace-logo.svg', sAlt: 'scispace logo' },
   { sImage: 'assets/img/index/zenodo.png', sAlt: 'Zenodo' },
   { sImage: 'assets/img/index/DOI_logo.png', sAlt: 'DOI' },
   { sImage: 'assets/img/index/am.jpeg', sAlt: 'Acedemia' },
@@ -41,9 +46,14 @@ const indexingImg = [
   { sImage: 'assets/img/index/orcid.logo.png', sAlt: 'ORCID' },
   { sImage: 'assets/img/index/Linkedin-Logo.png', sAlt: 'LinkedIn' },
   { sImage: 'assets/img/index/google-scholar.jpg', sAlt: 'Google Scholar' },
+  { sImage: 'assets/img/index/Crossref-Logo.jpeg', sAlt: 'Crossref' },
   { sImage: 'assets/img/index/issn_logo.png', sAlt: 'ISSN' },
   { sImage: 'assets/img/index/ResearchGate_logo.png', sAlt: 'Research Gate' },
   { sImage: 'assets/img/index/Open_Access_logo.png', sAlt: 'Open Access' },
+  { sImage: 'assets/img/index/cukurova_logo.png', sAlt: 'Cukurova' },
+  { sImage: 'assets/img/index/ici2.png', sAlt: 'ICI2' },
+  { sImage: 'assets/img/index/logo_world_of_journals.png', sAlt: 'ICI World of Journal' },
+  { sImage: 'assets/img/index/scispace-logo.svg', sAlt: 'scispace logo' },
   { sImage: 'assets/img/index/zenodo.png', sAlt: 'Zenodo' },
   { sImage: 'assets/img/index/DOI_logo.png', sAlt: 'DOI' },
   { sImage: 'assets/img/index/am.jpeg', sAlt: 'Acedemia' },
