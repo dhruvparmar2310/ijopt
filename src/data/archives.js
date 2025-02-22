@@ -14,7 +14,7 @@ export const archives = [
                 eTag: 'Article',
                 sDOINo: '10.5281/zenodo.10824766',
                 sDownLoadUrl: '/assets/pdfs/vol-1-issue-1/ROLE_OF_PHYSIOTHERAPY_IN_OSTEONECROSIS_OF_HIP_AFTER_COVID.pdf',
-                sContent: "<p>Osteonecrosis of hip or Avascular necrosis (AVN) of hip, is the vascular disruption of the hip joint lead to the death of the femoral head. AVN is more common in males than in females. Most Commonly clinically presents as the insidious onset of pain around the hip and restricted range of motion of hip Join that lead to patients have a problem in wait bearing and during walking. Patients cannot walk properly.</p><p>Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. D-dimer elevation is often observed in patients with acute COVID-19 due acute lung injury itself or due thromboembolic complications that occur frequently in COVID-19. Thromboembolism can damaged nearby blood vessels and reduce blood flow to bones lead to AVN can developed. Those who are suffering from Mild to Moderate COVID-19 they take more amount of corticosteroids during the acute phase of infection. Use of high-dose corticosteroids, such as prednisone can increase lipid levels in the blood, reducing blood flow. Due to Increase Lipid Levels and more Thromboembolism the cases of AVN Hip is increasing day by day.</p><p>Physiotherapy Can be used for relief of symptoms of Pain and Restricted ROM of hip joint. It can be help to prevent of disease progression and Improvement of functional activity and ADL. Physical therapy treatment focuses on exercises to maintain joint mobility and strengthen the muscles around the affected hip joint. Exercises will focus on the muscles of the hip and thigh but will also include exercises for the core area as they play a large supporting role. To improve functionality, it is important to implement endurance training and coordination training in a more advanced stage of the therapy.</p>"
+                sContent: ""
             },
             {
                 _id: '102',
@@ -24,7 +24,7 @@ export const archives = [
                 eTag: 'Article',
                 sDOINo: '10.5281/zenodo.10824848',
                 sDownLoadUrl: '/assets/pdfs/vol-1-issue-1/HAMSTRING_TIGHTNESS_AND_LOW_BACK_PAIN.pdf',
-                sContent: "<p>Low back pain is defined as pain and discomfort, localized below the costal margin and above the inferior gluteal folds, with or without leg pain. This profoundly affects daily activities and frequently impairs functional tasks. Low back pain (LBP) affects nearly 60-80% of people throughout their lifetime.One of the suspected etiologies of LBP is lack of hamstring flexibility. Sitting at a desk all day can cause tightness and a shortening of hamstring muscles, and therefore leads to back pain.</p><p>The hamstring group refers to the posterior thigh muscles and act as strong flexors of the knee and weak extensors of the hip.</p><p>Hamstring group of muscles includes <strong>semitendinosus</strong>, <strong>semimembranosus</strong>, and <strong>long and short heads</strong> of the <strong>biceps femoris</strong>. All together flex the knee but the short head of biceps femoris alone extends the hip.Blood supply from the perforating branches of the deep femoral artery ,also known as the profunda femoris artery.</p><p>We might be wondering how hamstring tightness could result in back pain. The body is interconnected, and prolonged sitting without stretching can cause the hamstrings to constrict and shorten. These muscles originate from the ischial tuberosity of the pelvis . The pelvis tilts posteriorly as a result of tight hamstrings As the pelvis and the lumbar vertebrae work together, when the pelvis tilts posteriorly, the lumbar vertebrae are forced to flex forward. The pelvis, lumbar spine, and surrounding muscles are put under more tension and strain as a result of this. Blood supply to the hamstrings will be reduced if they are tight. Therefore, muscles are working with less capacity, which results in low back pain.</p><p>The predominance of tightness is greater in female 96% than in male 4%. Its incidence is high in university students from 18-25 years.</p><p><strong>Stretch to reduce the pain .The stretches can gradually lengthen and reduce tension in the hamstring muscle, and in turn reduce stress felt in the lower back.</strong></p>"
+                sContent: ""
             },
             {
                 _id: '103',
@@ -60,6 +60,14 @@ export const archives = [
     },
 ]
 
+const citation_journal_title_primary = 'Indian Journal of Physical Therapy'
+const citation_journal_title_secondary = 'IJOPT'
+const ARTICLE_TAGS = {
+    ARTICLE: 'Article',
+    RESEARCH_ARTICLE: 'Research Article',
+    CASE_STUDY: 'Case Study',
+}
+
 export const archiveList = {
     '2013': [
         {
@@ -67,14 +75,16 @@ export const archiveList = {
             sName: 'Volume 1, Issue 1',
             sImage: 'assets/img/archives/1.png',
             dCreatedDate: '2013',
-            sPdfFile: 'assets/documents/archives/2013/IJOPT Vol1 Iss1.pdf'
+            sPdfFile: 'assets/documents/archives/2013/IJOPT Vol1 Iss1.pdf',
+            aJournals: []
         },
         {
             _id: '2',
             sName: 'Volume 1, Issue 2',
             sImage: 'assets/img/archives/6.png',
             dCreatedDate: '2013',
-            sPdfFile: 'assets/documents/archives/2013/IJOPT Vol1 Iss2.pdf'
+            sPdfFile: 'assets/documents/archives/2013/IJOPT Vol1 Iss2.pdf',
+            aJournals: []
         },
     ],
     '2014': [
@@ -83,14 +93,16 @@ export const archiveList = {
             sName: 'Volume 2, Issue 1',
             sImage: 'assets/img/archives/2.png',
             dCreatedDate: '2014',
-            sPdfFile: 'assets/documents/archives/2014/IJOPT Vol2 Iss1.pdf'
+            sPdfFile: 'assets/documents/archives/2014/IJOPT Vol2 Iss1.pdf',
+            aJournals: []
         },
         {
             _id: '4',
             sName: 'Volume 2, Issue 2',
             sImage: 'assets/img/archives/7.png',
             dCreatedDate: '2014',
-            sPdfFile: 'assets/documents/archives/2014/IJOPT Vol2 Iss2.pdf'
+            sPdfFile: 'assets/documents/archives/2014/IJOPT Vol2 Iss2.pdf',
+            aJournals: []
         },
     ],
     '2015': [
@@ -99,14 +111,16 @@ export const archiveList = {
             sName: 'Volume 3, Issue 1',
             sImage: 'assets/img/archives/3.png',
             dCreatedDate: '2015',
-            sPdfFile: 'assets/documents/archives/2015/IJOPT Vol3 Iss1.pdf'
+            sPdfFile: 'assets/documents/archives/2015/IJOPT Vol3 Iss1.pdf',
+            aJournals: []
         },
         {
             _id: '6',
             sName: 'Volume 3, Issue 2',
             sImage: 'assets/img/archives/8.png',
             dCreatedDate: '2015',
-            sPdfFile: 'assets/documents/archives/2015/IJOPT Vol3 Iss2.pdf'
+            sPdfFile: 'assets/documents/archives/2015/IJOPT Vol3 Iss2.pdf',
+            aJournals: []
         },
     ],
     '2016': [
@@ -115,14 +129,16 @@ export const archiveList = {
             sName: 'Volume 4, Issue 1',
             sImage: 'assets/img/archives/4.png',
             dCreatedDate: '2016',
-            sPdfFile: 'assets/documents/archives/2016/IJOPT Vol4 Iss1.pdf'
+            sPdfFile: 'assets/documents/archives/2016/IJOPT Vol4 Iss1.pdf',
+            aJournals: []
         },
         {
             _id: '8',
             sName: 'Volume 4, Issue 2',
             sImage: 'assets/img/archives/9.png',
             dCreatedDate: '2016',
-            sPdfFile: 'assets/documents/archives/2016/IJOPT Vol4 Iss2.pdf'
+            sPdfFile: 'assets/documents/archives/2016/IJOPT Vol4 Iss2.pdf',
+            aJournals: []
         },
     ],
     '2017': [
@@ -131,7 +147,93 @@ export const archiveList = {
             sName: 'Volume 5, Issue 1',
             sImage: 'assets/img/archives/5.png',
             dCreatedDate: '2017',
-            sPdfFile: 'assets/documents/archives/2017/IJOPT Vol5 Iss1.pdf'
+            sPdfFile: 'assets/documents/archives/2017/IJOPT Vol5 Iss1.pdf',
+            aJournals: [
+                {
+                    _id: '901',
+                    citation_title: "PREVALENCE OF KNEE PROBLEMS EXPERIENCED BY NURSES",
+                    citation_author: [
+                        'RASIKA JOSHI', 'SANKET NAGRALE', 'RACHANA DABADGHAV', 'SAVITA RAIRIKAR', 'ASHOK SHYAM', 'PARAG SANCHETI'
+                    ],
+                    citation_publication_date: 'January - July, 2017',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '5',
+                    citation_issue: '1',
+                    citation_firstpage: '1',
+                    citation_lastpage: '5',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: '',
+                    sDownLoadUrl: '/assets/pdfs/vol-1-issue-1/',
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>Background-Work related Musculoskeletal Disorders are common among health care workers. The nursing population constituting about 33% of the hospital workforce is particularly at a high risk, accounting for 60% of the occupational injuries. Knee joint is the most important weight bearing joint of the body which is involved in various daily activities and hence is the commonest to undergo much wear and tear and damage.</p><p>Objective-To find prevalence of knee problems in nursing staff.</p><p>Method-Validated self administered questionnaire containing three scales- Knee Injury and Osteoarthritis Outcome Score, Knee Outcome Survey Activities of Daily Living Scale and Lysholm, which sought information on demographics, prevalence and pattern of knee problems was employed as the survey instrument. A total of 150 questionnaires were distributed to nurses in the different hospitals, all of which were returned duly filled.</p><p>Results –The average prevalence of knee problems in nursing staff was found to be 71.7% ranging from mild to moderate range of severity .Their results are as follows-KOOS 70%, KOS-ADL 65.71 %, Lysholm 77.5% with Standard Deviation of- 13.0, 11.23, 11.36 respectively .Squatting, twisting and pivoting on one knee, jumping, kneeling stair climbing have been identified as the main activities causing knee pains.</p><p>Conclusion-The prevalence of knee problems in the nursing staff is in the moderate range of severity.</p><p>KEYWORDS: KOOS; KOS-ADL; Lysholm</p>",
+                    citation_quotes: '<p>JOSHI R, NAGRALE S, DABADGHAV R, RAIRIKAR S, SHYAM A, SANCHETI P. PREVALENCE OF KNEE PROBLEMS EXPERIENCED BY NURSES. Indian Journal of Physical Therapy. 2017 January - July; 5(1): 1 - 5.</p>'
+                },
+                {
+                    _id: '902',
+                    citation_title: "SURVEY OF PARTICIPATION, PERCEPTION, ATTITUDE AND BARRIERS TOWARDS RESEARCH AMONGST CLINICAL PHYSIOTHERAPIST",
+                    citation_author: [
+                        'NEHA T GHUGARE', 'SACHIN GAWANDE'
+                    ],
+                    citation_publication_date: 'January - July, 2017',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '5',
+                    citation_issue: '1',
+                    citation_firstpage: '6',
+                    citation_lastpage: '10',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: '',
+                    sDownLoadUrl: '/assets/pdfs/vol-1-issue-1/',
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>Background: Research has been described as a systematic process of investigation, with the aim of contributing to the body of knowledge that shapes and guides academic and or clinical disciplines. Although the past decade have witnessed an increase in physiotherapy research but the implantation of research findings in clinical practice still remains a concern which till date has attracted relatively limited interest.</p><p>Aim: To study participation, perception, attitudes and barriers in clinical physiotherapist towards research.</p><p>Method: A cross sectional questionnaire survey was conducted amongst 291 physiotherapists. Questions about research were measured on Likert scale.</p><p>Results: Descriptive statistics were used for analyzing the responses. The clinical physiotherapist value research and consider research important to the profession, though they were neutral towards involvement in research. The common barriers they faced were lack of time and peer group support.</p><p>Conclusion: From the findings of this study we conclude that physiotherapist have positive attitude to research but are less motivated to participate in research. It is encouraging that the physiotherapist who replied to this survey value research. They have positive attitude towards evidence based practice but face difficulty in implementing it. The barrier to research was lack of availability of time and lack of peer group support.</p><p>KEYWORDS: Research; Physiotherapist; Attitude; Participation; Perception; Barriers</p>",
+                    citation_quotes: '<p>GHUGARE NT, GAWANDE S. SURVEY OF PARTICIPATION, PERCEPTION, ATTITUDE AND BARRIERS TOWARDS RESEARCH AMONGST CLINICAL PHYSIOTHERAPIST. Indian Journal of Physical Therapy. 2017 January - July; 5(1): 6-10.</p>'
+                },
+                {
+                    _id: '903',
+                    citation_title: "LUMBAR CORE STRENGTH COMPARISON BETWEEN SKATERS AND NON-SKATERS",
+                    citation_author: [
+                        'RITHIKA RAVI UCHIL', 'VASANTI JOSHI'
+                    ],
+                    citation_publication_date: 'January - July, 2017',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '5',
+                    citation_issue: '1',
+                    citation_firstpage: '11',
+                    citation_lastpage: '12',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: '',
+                    sDownLoadUrl: '/assets/pdfs/vol-1-issue-1/',
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>Background: Core muscles play a crucial role in the interaction between repetitive limb movements and the effects they have on the body. Poor core strength is considered to be one of the leading causes of low back pain and injuries associated with sport specific performances. The aim of this study was to establish whether there was a significant difference in the lumbar core strength of skaters, when compared to that of age matched non-skaters. Measures should be taken towards achieving a good core strength as a pre-emptive as well as a curative step against low back pain, among skater and the general population not participating in any sport specific performance</p><p>Aims & Objectives: This study sought to assess and compare the lumbar core strength of skaters and non-skaters. Study design: Observational study</p><p>Methodology: A total of 100 participants were selected, 50 skaters and 50 non-skaters, between the ages of 15 to 25 years. The skaters were those who had a minimum of 1 year training without any complaints of low back pain, fracture, etc. and non-skaters were individuals who did not participate in any other form of training. The pressure bio-feedback method was explained to all the participants. Their consent was obtained. The core strength of the participants was then assessed and compared using Unpaired t-Test in Microsoft excel 2007.</p><p>Results: After comparing the data, it was found that the mean core strength of the skaters (case group) was 6.12 ± 1.99, and that of the non-skaters (control group) was 4.56 ± 2.28. The p value obtained was 0.00, which implied that there was a significant difference between the two groups, with the case group having greater core strength value.</p><p>Conclusion: Thus, it was found that, statistically, the lumbar core muscle strength of the case group i.e. skaters was significantly more than that of the control group i.e. non-skaters.</p><p>KEYWORDS: Lumbar core, strength, skaters, adolescence, adult</p>",
+                    citation_quotes: '<p>UCHIL RR, JOSHI V. LUMBAR CORE STRENGTH COMPARISON BETWEEN SKATERS AND NON-SKATERS. Indian Journal of Physical Therapy. 2017 January - July; 5(1): 11-12.</p>'
+                },
+                {
+                    _id: '904',
+                    citation_title: "CORRELATION BETWEEN GLENOHUMERAL ROTATIONAL RANGES AND NONSPECIFIC NECK PAIN IN THROWING ATHLETES",
+                    citation_author: [
+                        'GEETA SAMANT', 'SUROSHREE MITRA', 'RACHANA DABADGHAV'
+                    ],
+                    citation_publication_date: 'January - July, 2017',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '5',
+                    citation_issue: '1',
+                    citation_firstpage: '13',
+                    citation_lastpage: '15',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: '',
+                    sDownLoadUrl: '/assets/pdfs/vol-1-issue-1/',
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>Background: In overhead throwing athletes, there are a few glenohumeral rotational changes observed in the throwing arm like reduced Internal Rotation and an increased External Rotation. There seems to be a prevalence of neck pain in these throwing athletes which correlate with these shoulder rotational range changes.</p><p>Materials and Methods: This is an observational study. 70 overhead throwing athletes were recruited for this study. Materials used were a standard goniometer and the Neck Disability Index (NDI) Questionnaire. The shoulder rotational ranges were measured by a goniometer in supine position. The dominant and non-dominant ranges were compared to determine the differences. Neck pain assessment by using the Neck Disability Index (NDI) was done. Shoulder rotational ranges and NDI were correlated using the Spearman’s Correlation test.</p><p>Results: Significant differences were found in the rotational ranges of dominant and non-dominant shoulder. Out of 70, 42 athletes were found to demonstrate mild disability due to neck pain. The internal rotational deficit had a moderate positive correlation with NDI (r= 0.364, p= 0.01). Also, the Total Range of Motion (TROM) deficit had a moderate positive correlation with the NDI (r= 0.538, p=0.01). No correlation between External Rotation difference and NDI was found.</p><p>Conclusion: There is a prevalence of mild disability due to neck pain in throwing athletes. Internal Rotation deficit and a reduced Total Range of motion have a significant correlation with NDI in throwing athletes.</p><p>KEYWORDS: Throwing athletes; internal rotation deficit; neck pain</p>",
+                    citation_quotes: '<p>SAMANT G, MITRA S, DABADGHAV R. CORRELATION BETWEEN GLENOHUMERAL ROTATIONAL RANGES AND NONSPECIFIC NECK PAIN IN THROWING ATHLETES. Indian Journal of Physical Therapy. 2017 January - July; 5(1): 13-15.</p>'
+                },
+            ]
         },
         {
             _id: '8',

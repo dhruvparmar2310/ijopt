@@ -2,7 +2,7 @@ import React, { Fragment, Suspense, useState } from 'react'
 import Head from 'next/head'
 import BreadCrumb from '@/components/BreadCrumb'
 import { Button, Col, OverlayTrigger, Row, Spinner, Table, Tooltip } from 'react-bootstrap'
-import { withRouter } from 'next/router'
+import { useRouter, withRouter } from 'next/router'
 // import { articles } from '@/data/articles'
 import { MdContentCopy } from "react-icons/md"
 import copy from 'clipboard-copy'
@@ -19,7 +19,8 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const inter = Inter({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 
-function Archives ({ data, router }) {
+function Archives ({ data }) {
+    const router = useRouter()
     const [isCopied, setIsCopied] = useState(false)
     const [openAccordionIndex, setOpenAccordionIndex] = useState(0);
     const [btnToggle, setBtnToggle] = useState({
@@ -148,12 +149,19 @@ function Archives ({ data, router }) {
                             </div>
 
                             <div className={`tab-content`}>
+                                {/* //! Here volOne is not for volume, its Issue Number */}
                                 {btnToggle?.volOne && (<>
                                     <Row>
-                                        {archiveList?.[2013]?.map(({ _id, sName, sImage, sPdfFile }) => {
+                                        {archiveList?.[2013]?.map(({ _id, sName, sImage, sPdfFile, aJournals }) => {
                                             return (
                                                 <Col lg={2} md={4} sm={12} key={_id}>
-                                                    <div className='issue-card' onClick={() => window.open(sPdfFile, "_blank")}>
+                                                    <div className='issue-card' onClick={() => {
+                                                        aJournals?.length > 0 ? router.push({
+                                                            pathname: `/articles/Volume-2/Issue-1`,
+                                                            query: { publishedDate: 'February, 2025' }
+                                                        })
+                                                            : window.open(sPdfFile, "_blank")
+                                                    }}>
                                                         <div className='card-top'>
                                                             <LazyLoadImage
                                                                 alt={sName}
@@ -250,10 +258,15 @@ function Archives ({ data, router }) {
 
                                 {btnToggle?.volFive && (<>
                                     <Row>
-                                        {archiveList?.[2017]?.map(({ _id, sName, sImage, sPdfFile }) => {
+                                        {archiveList?.[2017]?.map(({ _id, sName, sImage, sPdfFile, aJournals }) => {
                                             return (
                                                 <Col lg={2} key={_id}>
-                                                    <div className='issue-card' onClick={() => window.open(sPdfFile, "_blank")}>
+                                                    <div className='issue-card' onClick={() => {
+                                                        aJournals?.length > 0 ? router.push({
+                                                            pathname: `/archives/2017/5/1`,
+                                                        })
+                                                            : window.open(sPdfFile, "_blank")
+                                                    }}>
                                                         <div className='card-top'>
                                                             <LazyLoadImage
                                                                 alt={sName}

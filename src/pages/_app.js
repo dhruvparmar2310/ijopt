@@ -10,6 +10,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Script from "next/script";
+import 'react-loading-skeleton/dist/skeleton.css'
 
 const GA_MEASUREMENT_ID = 'G-P080GEG6FN';
 
