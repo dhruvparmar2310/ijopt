@@ -80,6 +80,23 @@
             padding: 50px;
             color: var(--white-color);
 
+            >div {
+                display: flex;
+                justify-content: space-between;
+                align-items: end;
+
+                button {
+                    background: var(--white-color);
+                    color: var(--primary-color);
+                    border-color: var(--white-color);
+
+                    &:hover {
+                        background: #ececec;
+                        border-color: #ececec;
+                    }
+                }
+            }
+
             h1 {
                 margin: 0;
             }
@@ -95,6 +112,50 @@
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
+
+            .other-indexing {
+                position: sticky;
+                top: 180px;
+                height: 100%;
+
+                .card-design {
+                    width: 300px;
+                    max-width: 300px;
+                    height: auto;
+                    display: block;
+                    overflow: hidden;
+
+                    .card-title {
+                        padding: 10px;
+                        font-size: 20px;
+                        letter-spacing: 0.8px;
+                        background: linear-gradient(270deg, var(--primary-color) 20%, var(--primary-dark) 80%);
+                        color: var(--white-color);
+                        font-style: italic;
+                    }
+
+                    .card-body {
+                        padding-block: 10px;
+
+                        ul {
+                            li {
+                                margin-block: 10px;
+
+                                a {
+                                    text-decoration: none;
+                                    color: #000;
+                                    transition: all 0.3s linear;
+                                    font-weight: 600;
+
+                                    &:hover {
+                                        color: var(--primary-color);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
 
             .issue-list {
                 width: calc(100% - 30%);
@@ -255,6 +316,17 @@
                 }
             }
 
+            .goBackBtn {
+                button {
+                    text-decoration: none;
+                    color: #000;
+
+                    &:hover {
+                        color: var(--primary-color);
+                    }
+                }
+            }
+
             article {
                 width: calc(100% - 30%);
 
@@ -364,6 +436,45 @@
             }
         }
     }
+
+    .particular-article-section {
+        margin-top: 60px !important;
+
+        .inner-content {
+            .current-article {
+                padding: 30px;
+                height: auto;
+
+                >div {
+                    flex-direction: column;
+                    align-items: baseline;
+                    row-gap: 15px;
+                }
+            }
+
+            .all-journal-list {
+                .other-indexing {
+                    width: 100%;
+
+                    .card-design {
+                        width: 100%;
+                        max-width: 100%;
+                    }
+                }
+            }
+
+            .specific-journal {
+                .right-content {
+                    width: 100%;
+
+                    .card-design {
+                        width: 100%;
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -386,6 +497,45 @@
                         p {
                             font-size: 20px;
                         }
+                    }
+                }
+            }
+        }
+    }
+
+    .particular-article-section {
+        margin-top: 60px !important;
+
+        .inner-content {
+            .current-article {
+                padding: 30px;
+                height: auto;
+
+                >div {
+                    flex-direction: column;
+                    align-items: baseline;
+                    row-gap: 15px;
+                }
+            }
+
+            .all-journal-list {
+                .other-indexing {
+                    width: 100%;
+
+                    .card-design {
+                        width: 100%;
+                        max-width: 100%;
+                    }
+                }
+            }
+
+            .specific-journal {
+                .right-content {
+                    width: 100%;
+
+                    .card-design {
+                        width: 100%;
+                        max-width: 100%;
                     }
                 }
             }

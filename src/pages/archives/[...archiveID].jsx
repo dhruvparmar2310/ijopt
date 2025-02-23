@@ -9,7 +9,7 @@ import { FaDownload } from "react-icons/fa6"
 import { Abril_Fatface, Comfortaa, Inter, Ubuntu } from 'next/font/google'
 import { GrFormPrevious, GrPrevious, GrTextAlignFull } from "react-icons/gr"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAlignLeft, faCircleDown, faEye, faFilePdf, faQuoteLeft } from '@fortawesome/free-solid-svg-icons'
+import { faAlignLeft, faCircleDown, faEye, faFilePdf, faLink, faQuoteLeft, faShare } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 import Image from 'next/image'
 import Skeleton from 'react-loading-skeleton'
@@ -47,21 +47,54 @@ function ArchiveID ({ data }) {
         }
     }, [archiveID])
 
+    console.log('archiveID', archiveID)
     return (
         <>
             <Head>
-                <title>Articles - {sArticle} | PhysioZine</title>
+                {archiveID?.length === 3 ? (<title>Volume {currentArticle?.volume} | Issue {currentArticle?.issue} | IJOPT</title>) : <title>{articleData?.citation_title} - IJOPT</title>}
                 <meta charset="utf-8"></meta>
+                <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta name='keywords' content={`PhysioZine, PhysioZine, Physio zine, Physiotherapy, Physio Magazine, Physio Article, ThePhysioBrothers, ${sArticle} of PhysioZine, Magazine for Physiotherapy, Physiotherapy Magazine, Magazine for Physiotherapy India, Indian Physiotherapy Magazine`} />
-                <meta name="description" content="PHYSIOZINE is India’s fastest growing digital magazine with DOI and Peer reviewed content. Contact Us at physiozinemagazine@gmail.com or +91 7984377793." />
-                <meta property="og:title" content="PhysioZine: India's #1 PT E-Magazine Empowering You with Expert Articles & Latest Research" />
-                <meta property="og:description" content="PhysioZine: Explore all the expert articles and latest research on Physiotherapy here." />
-                <meta property="og:url" content="https://physiozine.vercel.app/articles" />
-                <meta property="og:image" content="assets/img/favicon.jpg" />
-                <meta property="og:type" content="article" />
-                <link rel="icon" href="assets/img/favicon.png" />
+                <meta name='keywords' content={`ijopt volume ${currentArticle?.volume} issue ${currentArticle?.issue}, ${articleData?.citation_title} ijopt, ijopt journals, ijopt publications, ijopt articles`} />
+                <meta name="description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!" />
+
+                {archiveID?.length === 3 ? <>
+                    <meta property="og:title" content={`Volume ${currentArticle?.volume} | Issue ${currentArticle?.issue} | IJOPT`} />
+                    <meta property="og:description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!" />
+                    <meta property="og:url" content={`https://ijopt.co.in/${currentArticle?.year}/${currentArticle?.volume}/${currentArticle?.issue}`} />
+                    <meta property="og:image" content="favicon.ico" />
+                    <meta property="og:type" content="website" />
+                </> : <>
+                    <meta property="og:title" content={`${articleData?.citation_title} - IJOPT`} />
+                    <meta property="og:description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!" />
+                    <meta property="og:url" content={`https://ijopt.co.in/${currentArticle?.year}/${currentArticle?.volume}/${currentArticle?.issue}/${articleData?._id}`} />
+                    <meta property="og:image" content="favicon.ico" />
+                    <meta property="og:type" content="website" />
+
+                    {/* citation */}
+                    <meta name="citation_title" content={articleData?.citation_title} />
+                    {articleData?.citation_author?.map(author => {
+                        return (
+                            <meta name="citation_author" content={author} key={author} />
+                        )
+                    })}
+                    <meta name="citation_publication_date" content={articleData?.citation_publication_date} />
+                    <meta name="citation_journal_title" content="Indian Journal of Physical Therapy" />
+                    <meta name="citation_journal_title" content="IJOPT" />
+                    <meta name="citation_volume" content={articleData?.citation_volume} />
+                    <meta name="citation_issue" content={articleData?.citation_issue} />
+                    <meta name="citation_firstpage" content={articleData?.citation_firstpage} />
+                    <meta name="citation_lastpage" content={articleData?.citation_lastpage} />
+                    <meta name="citation_pdf_url" content={`https://ijopt.co.in` + articleData?.sDownLoadUrl} />
+                </>}
+
+                <link rel="icon" href="favicon.ico" />
                 <link rel="manifest" href="/manifest.json" />
+
+                {/* <!-- Author and Publisher Meta Tags --> */}
+                <meta name="author" content="Indian Journal of Physical Therapy" />
+                <meta name="publisher" content="Indian Journal of Physical Therapy" />
             </Head>
 
             <section className={`particular-article-section readArticlePage`} style={{ marginTop: '6rem' }}>
@@ -124,10 +157,15 @@ function ArchiveID ({ data }) {
                             (<>
                                 <div className='current-article'>
                                     <div className={`container ${inter.className}`}>
-                                        <h6>Current Issue</h6>
-                                        <h1>
-                                            Volume {currentArticle.volume} | Issue {currentArticle.issue} | {currentArticle.year}
-                                        </h1>
+                                        <div>
+                                            <h6>Current Issue</h6>
+                                            <h1>
+                                                Volume {currentArticle.volume} | Issue {currentArticle.issue} | {currentArticle.year}
+                                            </h1>
+                                        </div>
+                                        <div>
+                                            <Button type='button' onClick={() => router?.push('/archives')}><FontAwesomeIcon icon={faShare} flip='horizontal' /> Go Back</Button>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="container mt-4">
@@ -157,45 +195,33 @@ function ArchiveID ({ data }) {
                                             })}
                                         </div>
                                         <div className={`other-indexing`}>
-                                            <h1 className={inter?.className}>Quick Links</h1>
-                                            <div className={`line mb-3`}></div>
-
-                                            <div>
-                                                <ul>
-                                                    <li>
-                                                        <Link href='/articles'>All Articles</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href='/submissionForm'>Submit Article</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href='/guidelines'>Author Guidelines</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href='/processing-charge'>Processing Charge</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href='/policy/plagiarismPolicy'>Plagiarism Policy</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href='/policy/editorialPolicy'>Editorial Policy</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href='/policy/referPolicy'>Refer & Earn Policy</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href='/interview'>Expert Interviews</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href='/call-for-interview'>Call for Interview</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href='/be-featured'>Be Featured</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href='/contact'>Contact Us</Link>
-                                                    </li>
-                                                </ul>
+                                            <div className={`card-design ${inter?.className}`}>
+                                                <div className='card-title'><FontAwesomeIcon className='me-1' icon={faLink} fade size='md' /> Quick Links</div>
+                                                <div className='card-body'>
+                                                    <ul>
+                                                        <li>
+                                                            <Link href='https://app.oxfordabstracts.com/stages/78097/submitter'>Call for Publication</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href='/author-tools/guidelines'>Author Guidelines</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href='/author-tools/article-processing-charge'>Article Processing Charge (APC)</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href='#' onClick={(e) => saveAs(samplePaperFormat, 'Sample Paper - IJOPT')}>Sample Paper Format</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href='/policy/peer-review-policy'>Peer Review Policy</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href='/about/indexing'>Indexing</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href='/subscription'>Subscription</Link>
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -240,11 +266,11 @@ function ArchiveID ({ data }) {
                                             <div dangerouslySetInnerHTML={{ __html: articleData?.citation_quotes }} className={`mt-4 citation-text ${inter?.className}`} />
                                         </div>
 
-                                        <div className={`card-design ${inter?.className} mt-2`}>
+                                        <div className={`card-design ${inter?.className} mt-2`} onClick={() => window.open(articleData?.sDownLoadUrl, "_blank")} style={{ cursor: 'pointer' }}>
                                             <div className='card-title'><FontAwesomeIcon className='me-1' icon={faAlignLeft} size='md' /> Full Text</div>
                                         </div>
 
-                                        <div className={`card-design ${inter?.className} mt-2`}>
+                                        <div className={`card-design ${inter?.className} mt-2`} onClick={() => saveAs(`${articleData?.sDownLoadUrl}`, `IJOPT-${articleData?.citation_title}`)} style={{ cursor: 'pointer' }}>
                                             <div className='card-title'><FontAwesomeIcon className='me-1' icon={faCircleDown} size='md' /> Download PDF</div>
                                         </div>
                                     </div>
@@ -252,10 +278,9 @@ function ArchiveID ({ data }) {
 
                                 <div className={`goBackBtn`}>
                                     <Button variant='link' className={`${inter?.className}`} onClick={() => router.push({
-                                        pathname: `/articles/${archiveID?.[0]}/${archiveID?.[1]}`,
-                                        query: { publishedDate }
+                                        pathname: `/archives/${currentArticle?.year}/${currentArticle?.volume}/${currentArticle?.issue}`,
                                     })}>
-                                        <span>&lt;&lt;</span> <span>Previous Page</span>
+                                        <span><FontAwesomeIcon icon={faShare} flip='horizontal' /></span> <span>Previous Page</span>
                                     </Button>
                                 </div>
                             </div>)

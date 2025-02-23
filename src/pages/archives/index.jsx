@@ -258,12 +258,12 @@ function Archives ({ data }) {
 
                                 {btnToggle?.volFive && (<>
                                     <Row>
-                                        {archiveList?.[2017]?.map(({ _id, sName, sImage, sPdfFile, aJournals }) => {
+                                        {archiveList?.[2017]?.map(({ _id, sName, sImage, sPdfFile, aJournals, sIssue, sVolume }) => {
                                             return (
                                                 <Col lg={2} key={_id}>
                                                     <div className='issue-card' onClick={() => {
                                                         aJournals?.length > 0 ? router.push({
-                                                            pathname: `/archives/2017/5/1`,
+                                                            pathname: `/archives/2017/${sVolume}/${sIssue}`,
                                                         })
                                                             : window.open(sPdfFile, "_blank")
                                                     }}>
