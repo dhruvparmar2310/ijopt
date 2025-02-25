@@ -49,7 +49,7 @@ const PrivacyPolicy = () => {
             </Head>
             <section className='author-tools-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Privacy Policy - IJOPT' link='Home' title='Privacy Policy | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/', '/privacy-policy']} title='Privacy Policy | Indian Journal of Physical Therapy' />
 
                     <h1 className='section-title'>Privacy Policy</h1>
                     <hr className='mt-0' />

@@ -61,7 +61,7 @@ const EditorPolicy = () => {
             </Head>
             <section className='author-tools-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Editor Policy - IJOPT' link='Home' title='Editor Policy | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/', '/editor-policy']} title='Editor Policy | Indian Journal of Physical Therapy' />
 
                     <h1 className='section-title'>Editor Policy – Indian Journal of Physical Therapy (IJOPT)</h1>
                     <hr className='mt-0' />

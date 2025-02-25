@@ -61,7 +61,7 @@ const PlagiarismPolicy = () => {
             </Head>
             <section className='author-tools-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Plagiarism Policy - IJOPT' link='Home' title='Plagiarism Policy | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/', '/plagiarism-policy']} title='Plagiarism Policy | Indian Journal of Physical Therapy' />
 
                     <h1 className='section-title'>Plagiarism Policy</h1>
                     <hr className='mt-0' />

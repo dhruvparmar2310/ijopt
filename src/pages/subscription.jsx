@@ -48,7 +48,7 @@ const Subscription = () => {
             </Head>
             <section className='author-tools-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Subscription - IJOPT' link='Home' title='Subscription - IJOPT' />
+                    <BreadCrumb basePath={['/']} title='Subscription - IJOPT' />
 
                     <h1 className='section-title'>Subscription Plans for Indian Journal of Physical Therapy (IJOPT)</h1>
                     <hr className='mt-0' />

@@ -113,7 +113,7 @@ const Footer = () => {
                                             <i className="ri-arrow-right-s-line"></i> <Link href='#' title='Copyright Form | IJOPT' className={`${router?.route?.includes('/ijopt') && 'active'} ${inter.className}`} onClick={(e) => saveAs(copyrightForm, 'Copyright Form - IJOPT')}>Copy Right Form</Link>
                                         </li>
                                         <li>
-                                            <i className="ri-arrow-right-s-line"></i>  <Link href='/about/join-as-reviewer' title='Join As Reviewer | IJOPT' className={inter.className} onClick={(e) => handleClick(e, '/about/join-as-reviewer')}>Join As Reviewer</Link>
+                                            <i className="ri-arrow-right-s-line"></i>  <Link href='/about/join-as-reviewer' title='Join As Reviewer | IJOPT' className={inter.className}>Join As Reviewer</Link>
                                         </li>
                                     </ul>
                                 </div>

@@ -56,7 +56,7 @@ const Contact = () => {
             </Head>
             <section className='contact-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Contact - IJOPT' link='Home' title='Contact | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/']} title='Contact | IJOPT' />
 
                     <h1 className='section-title'>Contact Us</h1>
                     <hr className='mt-0' />

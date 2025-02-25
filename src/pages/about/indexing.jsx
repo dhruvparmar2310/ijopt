@@ -85,7 +85,7 @@ const Indexing = () => {
             </Head>
             <section className='about-us-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Indexing - IJOPT' link='Home' title='IJOPT Indexing' />
+                    <BreadCrumb basePath={['/', '/indexing']} title='IJOPT Indexing' />
 
                     <h1 className='section-title'>Indexing - Indian Journal of Physical Therapy (IJOPT)</h1>
                     <hr className='mt-0' />

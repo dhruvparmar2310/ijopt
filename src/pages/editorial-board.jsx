@@ -75,7 +75,7 @@ const EditorialBoard = () => {
             </Head>
             <section className='editorial-board-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Editorial Board - IJOPT' link='Home' title='Editorial Board | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/']} title='Editorial Board | Indian Journal of Physical Therapy' />
 
                     <h1 className='section-title'>Editorial Board - Indian Journal of Physical Therapy (IJOPT)</h1>
                     <hr className='mt-0' />

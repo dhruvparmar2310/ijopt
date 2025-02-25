@@ -49,7 +49,7 @@ const TermsAndConditions = () => {
             </Head>
             <section className='author-tools-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Terms and Conditions - IJOPT' link='Home' title='Terms and Conditions | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/', '/terms-and-conditions']} title='Terms and Conditions | Indian Journal of Physical Therapy' />
 
                     <h1 className='section-title'>Terms and Conditions</h1>
                     <hr className='mt-0' />

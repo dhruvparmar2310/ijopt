@@ -61,7 +61,7 @@ const PaymentTermsAndCondition = () => {
             </Head>
             <section className='author-tools-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Payment Terms And Condition - IJOPT' link='Home' title='Payment Terms And Condition | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/', '/payment-terms-and-condition-policy']} title='Payment Terms And Condition | Indian Journal of Physical Therapy' />
 
                     <h1 className='section-title'>Payment Terms And Condition</h1>
                     <hr className='mt-0' />

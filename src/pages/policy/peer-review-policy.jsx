@@ -63,7 +63,7 @@ const PeerReviewPolicy = () => {
             </Head>
             <section className='author-tools-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Peer Review Policy - IJOPT' link='Home' title='Peer Review Policy | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/', '/peer-review-policy']} title='Peer Review Policy | Indian Journal of Physical Therapy' />
 
                     <h1 className='section-title'>Peer Review Policy</h1>
                     <hr className='mt-0' />

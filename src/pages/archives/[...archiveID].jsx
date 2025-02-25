@@ -20,13 +20,13 @@ const inter = Inter({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 function ArchiveID ({ data }) {
     const router = useRouter()
     const { archiveID, sArticle } = router.query
+    const archivePath = Array.isArray(archiveID) ? archiveID : [];
     const [articleData, setArticleData] = useState({})
     const [currentArticle, setCurrentArticle] = useState({
         volume: '',
         issue: '',
         year: ''
     })
-    console.log('articleData ::', articleData, router?.query)
     useEffect(() => {
         if (archiveID) {
             const [publicationYear, Volume, Issue, journalNo] = archiveID
@@ -36,7 +36,6 @@ function ArchiveID ({ data }) {
                 year: publicationYear
             })
             let sArticleStr = `Volume ${Volume}, Issue ${Issue}`
-            console.log('router :: ', publicationYear, Volume, Issue, archiveList[publicationYear])
 
             const data = archiveID?.length === 3 ? archiveList[publicationYear]?.find(issue => issue?.sName === sArticleStr)
                 : archiveID?.length === 4 && (archiveList[publicationYear]?.find(issue => issue?.sName === sArticleStr)?.aJournals?.find(journal => journal?._id === journalNo))
@@ -47,7 +46,6 @@ function ArchiveID ({ data }) {
         }
     }, [archiveID])
 
-    console.log('archiveID', archiveID)
     return (
         <>
             <Head>
@@ -162,6 +160,7 @@ function ArchiveID ({ data }) {
                                             <h1>
                                                 Volume {currentArticle.volume} | Issue {currentArticle.issue} | {currentArticle.year}
                                             </h1>
+                                            <BreadCrumb basePath={['/', '/archives', `/${archivePath.join('/')}`]} title={`Volume ${currentArticle.volume} | Issue ${currentArticle.issue} | ${currentArticle.year} | Archives | IJOPT`} />
                                         </div>
                                         <div>
                                             <Button type='button' onClick={() => router?.push('/archives')}><FontAwesomeIcon icon={faShare} flip='horizontal' /> Go Back</Button>
@@ -231,6 +230,7 @@ function ArchiveID ({ data }) {
 
                         {archiveID?.length === 4 &&
                             (<div className='specific-journal container'>
+                                <BreadCrumb basePath={['/', '/archives', `/${archivePath.join('/')}`]} title={`${articleData?.citation_title} | Archives | IJOPT`} />
                                 <div className='issue-list'>
                                     <div className='issue-details'>
                                         <div>

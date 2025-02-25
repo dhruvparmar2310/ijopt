@@ -56,7 +56,7 @@ const ArticleFormattingService = () => {
             </Head>
             <section className='about-us-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Article Formatting Service - IJOPT' link='Home' title='Article Formatting Service | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/', '/article-formatting-service']} title='Article Formatting Service | Indian Journal of Physical Therapy' />
 
                     <h1 className='section-title'>Editing Article Format According to IJOPT Guidelines</h1>
                     <hr className='mt-0' />

@@ -61,7 +61,7 @@ const OpenAccessPolicy = () => {
             </Head>
             <section className='author-tools-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Open Access Policy - IJOPT' link='Home' title='Open Access Policy | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/', '/open-access-policy']} title='Open Access Policy | Indian Journal of Physical Therapy' />
 
                     <h1 className='section-title'>Open Access Policy</h1>
                     <hr className='mt-0' />

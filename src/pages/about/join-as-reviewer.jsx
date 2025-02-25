@@ -66,7 +66,7 @@ const JoinAsReviewer = () => {
             </Head>
             <section className='about-us-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Join As Reviewer - IJOPT' link='Home' title='Join As Reviewer | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/', '/ijopt']} title='Join As Reviewer | Indian Journal of Physical Therapy' />
 
                     <h1 className='section-title'>Join as a Volunteer Reviewer in Indian Journal of Physical Therapy (IJOPT)</h1>
                     <hr className='mt-0' />

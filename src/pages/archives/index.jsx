@@ -124,7 +124,8 @@ function Archives ({ data }) {
 
             <Suspense fallback={<Spinner animation='border' size='md' variant='primary' />}>
                 <section className={`archives-section container`}>
-                    <BreadCrumb current='Archives - IJOPT' link='Home' title='Archives | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/']} title='Archives | Indian Journal of Physical Therapy' />
+
                     <div className={`inner-content`}>
                         <h1 className='section-title'>Our Archives</h1>
                         <hr className='mt-0' />

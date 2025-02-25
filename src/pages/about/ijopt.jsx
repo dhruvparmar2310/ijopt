@@ -67,8 +67,7 @@ const IJOPT = () => {
             </Head>
             <section className='about-us-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='About - IJOPT' link='Home' title='About Us | Indian Journal of Physical Therapy' />
-
+                    <BreadCrumb basePath={['/', '/ijopt']} title='About Us | Indian Journal of Physical Therapy' />
                     <h1 className='section-title'>About - Indian Journal of Physical Therapy (IJOPT)</h1>
                     <hr className='mt-0' />
 

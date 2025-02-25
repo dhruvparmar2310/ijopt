@@ -49,7 +49,7 @@ const HardCopyCertificate = () => {
             </Head>
             <section className='about-us-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Hard Copy Certificate - IJOPT' link='Home' title='Hard Copy Certificate | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/', '/hard-copy-certificate']} title='Hard Copy Certificate | Indian Journal of Physical Therapy' />
 
                     <h1 className='section-title'>Hard Copy Certificate</h1>
                     <hr className='mt-0' />

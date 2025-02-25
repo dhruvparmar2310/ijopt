@@ -102,7 +102,6 @@ const SubmitPaperOnline = () => {
     };
 
     const onSubmit = async (data) => {
-        console.log('data :>>', data)
         // setIsLoading(true)
 
         try {
@@ -134,7 +133,6 @@ const SubmitPaperOnline = () => {
                 Authors: serializeAuthors(articleData.authors || []),
                 "Paper Doc File URL": articleData?.fPaperDocFileBase64,
             };
-            console.log('formDataForSheet :>>', formDataForSheet)
 
             // Post to backend
             const driveResponse = await fetch('/api/upload-to-drive', {
@@ -146,7 +144,6 @@ const SubmitPaperOnline = () => {
             });
 
             const driveData = await driveResponse.json();
-            console.log('driveData ::', driveData)
 
             // Submit the updated form data (with Drive URLs) to Google Sheets
             const sheetResponse = await fetch('/api/submit-to-sheet', {

@@ -66,7 +66,7 @@ const ResearchAreas = () => {
             </Head>
             <section className='research-areas-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Research Areas - IJOPT' link='Home' title='Research Areas | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/', '/research-areas']} title='Research Areas | Indian Journal of Physical Therapy' />
 
                     <h1 className='section-title'>Research Areas</h1>
                     <hr className='mt-0' />

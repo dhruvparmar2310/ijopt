@@ -61,7 +61,7 @@ const RefundPolicy = () => {
             </Head>
             <section className='author-tools-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Refund Policy - IJOPT' link='Home' title='Refund Policy | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/', '/refund-policy']} title='Refund Policy | Indian Journal of Physical Therapy' />
 
                     <h1 className='section-title'>Refund Policy</h1>
                     <hr className='mt-0' />

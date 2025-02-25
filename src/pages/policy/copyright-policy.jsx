@@ -61,7 +61,7 @@ const CopyrightPolicy = () => {
             </Head>
             <section className='author-tools-section'>
                 <div className='container inner-content'>
-                    <BreadCrumb current='Copyright Policy - IJOPT' link='Home' title='Copyright Policy | Indian Journal of Physical Therapy' />
+                    <BreadCrumb basePath={['/', 'guidelines']} title='Copyright Policy | Indian Journal of Physical Therapy' />
 
                     <h1 className='section-title'>Copyright Policy</h1>
                     <hr className='mt-0' />
