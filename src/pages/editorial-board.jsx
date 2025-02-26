@@ -8,6 +8,14 @@ import drDineshSorani from '../../public/assets/img/members/DrDineshSorani.png'
 import drWaqarNaqvi from '../../public/assets/img/members/waqar-naqvi.JPG'
 import drAshishKakkad from '../../public/assets/img/members/DrAshishKakkad.png'
 import drParitaDave from '../../public/assets/img/members/DrParitaDave.jpg'
+import drYagnaShukla from '../../public/assets/img/members/dr_yagna_shukla.jpg'
+import drAnjaliBhise from '../../public/assets/img/members/DrAnjaliBhise.jpg'
+import drNeetaVyas from '../../public/assets/img/members/DrNeetaVyas.jpeg'
+import drKrishmaJagad from '../../public/assets/img/members/DrKrishmaJagad.jpg'
+import drMeghaSheth from '../../public/assets/img/members/DrMeghaSheth.jpg'
+import drAmrutkuvarShivajiRayjade from '../../public/assets/img/members/DrAmrutkuvarShivajiRayjade.jpeg'
+import drMandeepKang from '../../public/assets/img/members/DrMandeepKang.jpeg'
+import drRajKiranTiku from '../../public/assets/img/members/DrRajKiranTiku.jpeg'
 import Link from 'next/link'
 import Head from 'next/head'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -125,7 +133,7 @@ const EditorialBoard = () => {
                         <Col lg={6} md={6} sm={12} xs={12}>
                             <div className='member-card'>
                                 <div className="left-content">
-                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                    <Image src={drMeghaSheth} alt='Dr. Waqar Naqvi' quality={100} className='img-fluid' />
                                 </div>
                                 <div className="right-content">
                                     <p className={`member-name ${antonSC?.className}`}>Dr. Megha Sheth</p>
@@ -137,7 +145,7 @@ const EditorialBoard = () => {
                         <Col lg={6} md={6} sm={12} xs={12}>
                             <div className='member-card mt-3'>
                                 <div className="left-content">
-                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                    <Image src={drAmrutkuvarShivajiRayjade} alt='Dr. Amrutkuvar Shivaji Rayjade' quality={100} className='img-fluid' />
                                 </div>
                                 <div className="right-content">
                                     <p className={`member-name ${antonSC?.className}`}>Dr. Amrutkuvar Shivaji Rayjade</p>
@@ -163,16 +171,70 @@ const EditorialBoard = () => {
 
                     <h5 className='mt-3'>Advisory Member:</h5>
                     <hr className='mt-0' />
-                    <div className='member-card'>
-                        <div className="left-content">
-                            <Image src={drAshishKakkad} alt='Dr. Ashish Kakkad' quality={100} className='img-fluid' />
-                        </div>
-                        <div className="right-content">
-                            <p className={`member-name ${antonSC?.className}`}>Dr. Ashish Kakkad</p>
-                            <p className={inter?.className}>PhD, MPT in Neurological Conditions</p>
-                            <p className={inter?.className}>Principal at Faculty of Physiotherapy, Marwadi University (MU), Rajkot</p>
-                        </div>
-                    </div>
+                    <Row>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    <Image src={drYagnaShukla} alt='Dr. Yagna Shukla' quality={100} className='img-fluid' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Yagna Shukla</p>
+                                    <p className={inter?.className}>PhD, MPT in Musculoskeletal Conditions</p>
+                                    <p className={inter?.className}>Chairperson, National Commission for Allied and Healthcare Professions</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    <Image src={drAnjaliBhise} alt='Dr. Anjali Bhise' quality={100} className='img-fluid' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Anjali Bhise</p>
+                                    <p className={inter?.className}>PhD, MPT in Cardiopulmonary Conditions</p>
+                                    <p className={inter?.className}>Principal, GCS Medical College, Hospital & Research Centre, Ahmedabad
+                                    </p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    <Image src={drNeetaVyas} alt='Dr. Neeta Vyas' quality={100} className='img-fluid' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Neeta Vyas</p>
+                                    <p className={inter?.className}>PhD in Indian Board of Alternative Medicines</p>
+                                    <p className={inter?.className}>Professor at Ahmedabad Institute of Medical Sciences
+                                    </p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    <Image src={drAshishKakkad} alt='Dr. Ashish Kakkad' quality={100} className='img-fluid' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Ashish Kakkad</p>
+                                    <p className={inter?.className}>PhD, MPT in Neurological Conditions</p>
+                                    <p className={inter?.className}>Principal at Faculty of Physiotherapy, Marwadi University (MU), Rajkot</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    <Image src={drKrishmaJagad} alt='Dr. Karishma Jagad' quality={100} className='img-fluid' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Karishma Jagad</p>
+                                    <p className={inter?.className}>MPT in Neurological Conditions</p>
+                                    <p className={inter?.className}>Sr. Lecturer at Govt. Physiotherapy College, Jamnagar</p>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
 
                     <h5 className='mt-3'>Editors:</h5>
                     <hr className='mt-0' />
@@ -193,8 +255,8 @@ const EditorialBoard = () => {
                         <Col lg={6} md={6} sm={12} xs={12}>
                             <div className='member-card mt-3'>
                                 <div className="left-content">
-                                    {/* <Image src={drAshishKakkad} alt='Dr. Salvi Shah' quality={100} className='img-fluid' /> */}
-                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                    <Image src={drRajKiranTiku} alt='Dr. Raj Kiran Tiku' quality={100} className='img-fluid' />
+                                    {/* <FontAwesomeIcon icon={faUser} color='gray' /> */}
                                 </div>
                                 <div className="right-content">
                                     <p className={`member-name ${antonSC?.className}`}>Dr. Raj Kiran Tiku</p>
@@ -206,8 +268,8 @@ const EditorialBoard = () => {
                         <Col lg={6} md={6} sm={12} xs={12}>
                             <div className='member-card mt-3'>
                                 <div className="left-content">
-                                    {/* <Image src={drAshishKakkad} alt='Dr. Salvi Shah' quality={100} className='img-fluid' /> */}
-                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                    <Image src={drMandeepKang} alt='Dr. Mandeep Kang' quality={100} className='img-fluid' />
+                                    {/* <FontAwesomeIcon icon={faUser} color='gray' /> */}
                                 </div>
                                 <div className="right-content">
                                     <p className={`member-name ${antonSC?.className}`}>Dr. Mandeep Kang</p>
