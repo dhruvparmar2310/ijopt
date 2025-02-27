@@ -204,6 +204,9 @@ function Header () {
                         <li>
                           <Link href='/policy/terms-and-conditions' title='Terms and Condition | IJOPT' className={`${router?.route?.includes('/policy/terms-and-conditions') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/policy/terms-and-conditions')}>Terms and Conditions</Link>
                         </li>
+                        <li>
+                          <Link href='/policy/refer-and-earn' title='Refer and Earn | IJOPT' className={`${router?.route?.includes('/policy/refer-and-earn') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/policy/refer-and-earn')}>Refer and Earn</Link>
+                        </li>
                       </ul>
                     </Col>
                     <Col lg={3} md={4} sm={12}>
@@ -238,6 +241,12 @@ function Header () {
                         </li>
                         <li>
                           <Link href='/policy/editor-policy' title='Editor Policy | IJOPT' className={`${router?.route?.includes('/policy/editor-policy') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/policy/editor-policy')}>Editor Policy</Link>
+                        </li>
+                        <li>
+                          <Link href='/policy/incentive-policy' title='Incentive Policy | IJOPT' className={`${router?.route?.includes('/policy/incentive-policy') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/policy/incentive-policy')}>Incentive Policy</Link>
+                        </li>
+                        <li>
+                          <Link href='/policy/ai-generated-policy' title='Ai Generated Policy | IJOPT' className={`${router?.route?.includes('/policy/ai-generated-policy') && 'active'} ${inter.className}`} onClick={(e) => handleClick(e, '/policy/ai-generated-policy')}>Ai Generated Article</Link>
                         </li>
                       </ul>
                     </Col>
