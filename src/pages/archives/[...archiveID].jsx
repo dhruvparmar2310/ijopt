@@ -25,17 +25,21 @@ function ArchiveID ({ data }) {
     const [currentArticle, setCurrentArticle] = useState({
         volume: '',
         issue: '',
-        year: ''
+        year: '',
+        pdf: ''
     })
+
     useEffect(() => {
         if (archiveID) {
             const [publicationYear, Volume, Issue, journalNo] = archiveID
+            let sArticleStr = `Volume ${Volume}, Issue ${Issue}`
+
             setCurrentArticle({
                 volume: Volume,
                 issue: Issue,
-                year: publicationYear
+                year: publicationYear,
+                pdf: archiveList[publicationYear]?.find(issue => issue?.sName === sArticleStr)?.sPdfFile,
             })
-            let sArticleStr = `Volume ${Volume}, Issue ${Issue}`
 
             const data = archiveID?.length === 3 ? archiveList[publicationYear]?.find(issue => issue?.sName === sArticleStr)
                 : archiveID?.length === 4 && (archiveList[publicationYear]?.find(issue => issue?.sName === sArticleStr)?.aJournals?.find(journal => journal?._id === journalNo))
@@ -46,6 +50,10 @@ function ArchiveID ({ data }) {
         }
     }, [archiveID])
 
+
+    const handleDOINavigation = () => {
+        window.open('https://ijopt.co.in/' + articleData?.sDownLoadUrl, '_blank')
+    }
     return (
         <>
             <Head>
@@ -63,6 +71,7 @@ function ArchiveID ({ data }) {
                     <meta property="og:url" content={`https://ijopt.co.in/${currentArticle?.year}/${currentArticle?.volume}/${currentArticle?.issue}`} />
                     <meta property="og:image" content="favicon.ico" />
                     <meta property="og:type" content="website" />
+                    <meta name='keywords' content={`ijopt volume ${currentArticle?.volume} issue ${currentArticle?.issue}, ${articleData?.citation_title} ijopt, ijopt journals, ijopt publications, ijopt articles, ${articleData?.sCitation_SEO_Keywords?.map(item => item)}`} />
                 </> : <>
                     <meta property="og:title" content={`${articleData?.citation_title} - IJOPT`} />
                     <meta property="og:description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!" />
@@ -176,7 +185,7 @@ function ArchiveID ({ data }) {
                                                         <div>
                                                             <span className={`article-tag`}>{item?.eTag}</span> <span>|</span> <span className={`date`}>Published on {item?.citation_publication_date}</span>
                                                         </div>
-                                                        <h1 className={inter?.className}>{item?.citation_title}</h1>
+                                                        <h1 className={`${inter?.className} article-title`}>{item?.citation_title}</h1>
                                                         <p className={`author-name ${inter?.className}`}> {item?.citation_author?.map(item => item)?.join(', ')} </p>
                                                         {/* {item?.sDOINo === '-' ? ''
                                                             : <p className={`doi-number`}>DOI: <span style={{ cursor: 'pointer' }} onClick={() => goToZenodo(item?.sDOINo)}>{item?.sDOINo}</span> <span><FontAwesomeIcon icon={faEye} /> {getArticleStats(item?.sDOINo)}</span></p>
@@ -239,7 +248,15 @@ function ArchiveID ({ data }) {
 
                                         <h1 className={inter?.className}>{articleData?.citation_title}</h1>
                                         <p className={`author-name ${inter?.className}`}> {articleData?.citation_author?.map(item => item)?.join(', ')} </p>
-                                        <p className={`doi-number ${inter?.className}`}>DOI: {articleData?.sDOINo || 'Not Assigned'}</p>
+
+                                        <p
+                                            className={`doi-number ${inter?.className}`}
+                                            onClick={() => {
+                                                articleData?.sPdfFile !== '-' ? handleDOINavigation() : ''
+                                            }}
+                                        >
+                                            DOI: {articleData?.sDOINo || 'Not Assigned'}
+                                        </p>
                                     </div>
                                 </div>
                                 {/*  -heading='Article'>{archiveID?.[2]}</h1> */}

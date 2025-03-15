@@ -194,6 +194,7 @@
                         text-align: start;
                         color: rgba(0, 0, 0, 0.752);
                         cursor: pointer;
+                        text-transform: uppercase;
 
                         &:hover {
                             color: var(--primary-color);
@@ -278,6 +279,7 @@
                         text-align: start;
                         color: rgba(0, 0, 0, 0.752);
                         cursor: pointer;
+                        text-transform: uppercase;
 
                         &:hover {
                             color: var(--primary-color);
@@ -298,6 +300,7 @@
                         font-size: 14px;
                         font-weight: 600;
                         margin: 0;
+                        cursor: pointer;
                     }
 
                     .action-bar {

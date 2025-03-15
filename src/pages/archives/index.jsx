@@ -24,11 +24,12 @@ function Archives ({ data }) {
     const [isCopied, setIsCopied] = useState(false)
     const [openAccordionIndex, setOpenAccordionIndex] = useState(0);
     const [btnToggle, setBtnToggle] = useState({
-        volOne: true,
+        volOne: false,
         volTwo: false,
         volThree: false,
         volFour: false,
-        volFive: false
+        volFive: false,
+        volTwentyFive: true
     })
 
     const handleCopyLink = async (link) => {
@@ -146,6 +147,9 @@ function Archives ({ data }) {
                                 </span>
                                 <span className={`tab ${inter?.className} ${btnToggle?.volFive ? `active` : ''}`} onClick={() => setBtnToggle({ volFive: true })}>
                                     2017
+                                </span>
+                                <span className={`tab ${inter?.className} ${btnToggle?.volTwentyFive ? `active` : ''}`} onClick={() => setBtnToggle({ volTwentyFive: true })}>
+                                    2025
                                 </span>
                             </div>
 
@@ -265,6 +269,36 @@ function Archives ({ data }) {
                                                     <div className='issue-card' onClick={() => {
                                                         aJournals?.length > 0 ? router.push({
                                                             pathname: `/archives/2017/${sVolume}/${sIssue}`,
+                                                        })
+                                                            : window.open(sPdfFile, "_blank")
+                                                    }}>
+                                                        <div className='card-top'>
+                                                            <LazyLoadImage
+                                                                alt={sName}
+                                                                src={sImage}
+                                                                effect='blur'
+                                                                className='img-fluid'
+                                                                threshold={100}
+                                                            />
+                                                        </div>
+                                                        <div className='card-bottom'>
+                                                            <p className={inter?.className}>{sName}</p>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+                                            )
+                                        })}
+                                    </Row>
+                                </>)}
+
+                                {btnToggle?.volTwentyFive && (<>
+                                    <Row>
+                                        {archiveList?.[2025]?.map(({ _id, sName, sImage, sPdfFile, aJournals, sIssue, sVolume }) => {
+                                            return (
+                                                <Col lg={2} key={_id}>
+                                                    <div className='issue-card' onClick={() => {
+                                                        aJournals?.length > 0 ? router.push({
+                                                            pathname: `/archives/2025/${sVolume}/${sIssue}`,
                                                         })
                                                             : window.open(sPdfFile, "_blank")
                                                     }}>

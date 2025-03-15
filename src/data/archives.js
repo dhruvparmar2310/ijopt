@@ -775,5 +775,88 @@ export const archiveList = {
                 },
             ]
         },
+    ],
+    '2025': [
+        {
+            _id: '11',
+            sName: 'Volume 6, Issue 1',
+            sImage: 'assets/img/archives/v6-i1.jpg',
+            dCreatedDate: '2025',
+            sPdfFile: 'assets/documents/archives/2025/1.pdf',
+            sVolume: '6',
+            sIssue: '1',
+            aJournals: [
+                {
+                    _id: '1101',
+                    citation_title: "Evidence-Based Assessment of the Knee Joint in Osteoarthritis: A Comprehensive Approach to Diagnosis, Monitoring, and Treatment Planning for Physiotherapists",
+                    citation_author: [
+                        'Mohammed Amjad Khan', 'Saad Ali Suheimi'
+                    ],
+                    citation_publication_date: 'January - March, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '1',
+                    citation_firstpage: '1',
+                    citation_lastpage: '11',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060103',
+                    sDownLoadUrl: '/assets/documents/archives/2025/1.pdf',
+                    sCitation_SEO_Keywords: ['Knee osteoarthritis', 'evidence-based assessment', 'physiotherapy', 'clinical reasoning', 'diagnosis', 'outcome measures'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Knee osteoarthritis (OA) is a prevalent musculoskeletal disorder that causes chronic pain, reduced mobility, and decreased quality of life. Given its progressive nature, an accurate, evidence-based assessment approach is essential for guiding diagnosis, monitoring disease progression, and informing treatment decisions. Traditional assessment methods often vary among clinicians and may lack standardization, potentially affecting patient outcomes. A structured framework that integrates clinical reasoning, validated tools, and imaging can improve the consistency and accuracy of knee OA evaluation.</p><p><strong>Objective:</strong> This study aims to develop a comprehensive, evidence-based assessment framework for knee OA, offering physiotherapists a standardized yet adaptable approach to diagnosis and treatment planning.</p><p><strong>Methods:</strong> The assessment framework was developed through a combination of current clinical practices, expert recommendations, and validated assessment tools. It includes subjective history-taking, physical examination, and functional outcome measures such as the Knee Injury and Osteoarthritis Outcome Score (KOOS) and the Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC). The role of imaging in specific cases was also considered, with clinical reasoning emphasized to distinguish OA from other knee pathologies. Practitioner feedback was used to evaluate the framework's practicality and effectiveness.</p><p><strong>Results:</strong> The structured framework improves the accuracy and consistency of knee OA assessment by incorporating essential clinical components. It allows for individualized adaptations while maintaining standardized evaluation criteria. Physiotherapists reported increased confidence in diagnosing and monitoring knee OA with this approach.</p><p><strong>Conclusion:</strong> The evidence-based assessment framework standardizes the evaluation of knee OA, aiding early diagnosis, disease monitoring, and treatment planning. Future research should validate its clinical applicability and investigate additional factors, such as psychosocial influences, on OA progression.</p><p><strong>Keywords:</strong> Knee osteoarthritis, evidence-based assessment, physiotherapy, clinical reasoning, diagnosis, outcome measures.</p>",
+                    citation_quotes: '<p>Khan MA, Suheimi SA. Evidence-Based Assessment of the Knee Joint in Osteoarthritis: A Comprehensive Approach to Diagnosis, Monitoring, and Treatment Planning for Physiotherapists. Indian Journal of Physical Therapy. 2025 January - March; 6(1): 1-11. https://doi.org/10.63299/ijopt.060103</p>'
+                },
+                {
+                    _id: '1102',
+                    citation_title: "A STUDY TO FIND OUT THE EFFICACY OF REHABRELIVE ACTIVE GLOVE TO IMPROVE HAND FUNCTION IN STROKE PATIENTS",
+                    citation_author: [
+                        'Dr. Karishma Jagad', 'Dr. Divakar Mehta'
+                    ],
+                    citation_publication_date: 'January - March, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '1',
+                    citation_firstpage: '12',
+                    citation_lastpage: '22',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060105',
+                    sDownLoadUrl: '/assets/documents/archives/2025/2.pdf',
+                    sCitation_SEO_Keywords: [
+                        'RehabRelive Active Glove', 'Conventional therapy', 'Fugl-Meyer Assessment of Upper Extremity', 'Hand dexterity'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>Reducing upper-extremity impairment in stroke survivors is still challenging despite many conventional approaches. Therefore, innovative rehabilitation programs are preferred. This study aims to check the effect of RehabRelive Active glove therapy in improving hand function in stroke survivors. A prospective, interventional study was conducted in patients with subacute and chronic stroke patients. 24 participants were allocated to the experimental group or the control group. The experiment group underwent 45 minutes of conventional physical therapy plus 15 minutes of glove therapy, and 5 minutes of conventional hand treatment. The control group underwent 45 minutes of conventional physical therapy plus 20 minutes of conventional hand therapy. All participants underwent each intervention 4 days/week for four weeks. They were evaluated before and 4 weeks after the intervention. The primary outcome measure was the change in the score of the Fugl-Meyer Assessment of Upper Extremity (wrist and hand component) and the secondary outcome measures were the box and block test, and Chedoke arm and hand activity inventory. Independent t-test or Mann-Whitney U test was applied to compare the outcome measures of both groups. Results of this study showed that RehabRelive glove therapy showed improvement in all outcome measures, which confirms the efficacy of glove therapy. However, there is no statistically significant difference found in comparison of the intervention group with the control group. RehabRelive active glove therapy is feasible, safe, and without adverse effects, providing an entertaining approach to rehabilitation.</p><p><strong>Keywords:</strong> RehabRelive Active Glove, Conventional therapy, Fugl-Meyer Assessment of Upper Extremity, Hand dexterity</p>",
+                    citation_quotes: '<p>Jagad K, Mehta D. A STUDY TO FIND OUT THE EFFICACY OF REHABRELIVE ACTIVE GLOVE TO IMPROVE HAND FUNCTION IN STROKE PATIENTS. Indian Journal of Physical Therapy. 2025 January - March; 6(1): 12-22. https://doi.org/10.63299/ijopt.060105</p>'
+                },
+                {
+                    _id: '1103',
+                    citation_title: "TO COMPARE THE EFFECTIVENESS OF PELVIC PROPRIOCEPTIVE NEUROMUSCULAR FACILITATION (PNF) AND CORE STABILITY EXERCISE ON TRUNK IMPAIRMENT IN SUB ACUTE – CHRONIC STROKE PATIENTS – A COMPARATIVE STUDY",
+                    citation_author: [
+                        'Darshan Parmar', 'Karishma Jagad'
+                    ],
+                    citation_publication_date: 'January - March, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '1',
+                    citation_firstpage: '23',
+                    citation_lastpage: '27',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060104',
+                    sDownLoadUrl: '/assets/documents/archives/2025/3.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Stroke', 'Pelvic PNF', 'Core Stability', 'Trunk Impairment Scale', 'Berg Balance Scale'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Stroke commonly leads to impairments in trunk control, resulting in difficulties in balance and postural stability. Pelvic Proprioceptive Neuromuscular Facilitation (PNF) and Core Stability exercises are two interventions aimed at improving trunk control in stroke patients.</p><p><strong>Objective:</strong> To compare the effectiveness of Pelvic PNF and Core Stability exercises on trunk impairment and balance in stroke patients.</p><p><strong>Methods:</strong> Thirty stroke patients were randomly assigned to either a Pelvic PNF group (Group A, n=15) or a Core Stability exercise group (Group B, n=15). Both groups received their respective interventions 5 days per week for 4 weeks. Trunk Impairment Scale (TIS) and Berg Balance Scale (BBS) were used to evaluate trunk control and balance before and after the intervention.</p><p><strong>Results:</strong> Both Pelvic PNF and Core Stability exercises significantly improved TIS and BBS scores in the respective groups (p<0.05). However, there was no statistically significant difference between the groups in post-intervention outcomes (p>0.05).</p><p><strong>Conclusion:</strong> Pelvic PNF and Core Stability exercises are equally effective in improving trunk control and balance in stroke patients. Either intervention can be utilized in clinical rehabilitation settings depending on patient needs and preferences.</p><p><strong>Keywords:</strong> Stroke, Pelvic PNF, Core Stability, Trunk Impairment Scale, Berg Balance Scale</p>",
+                    citation_quotes: '<p>1.	Parmar D, Jagad K. TO COMPARE THE EFFECTIVENESS OF PELVIC PROPRIOCEPTIVE NEUROMUSCULAR FACILITATION (PNF) AND CORE STABILITY EXERCISE ON TRUNK IMPAIRMENT IN SUB ACUTE – CHRONIC STROKE PATIENTS – A COMPARATIVE STUDY. Indian Journal of Physical Therapy. 2025 January - March; 6(1): 23-27. https://doi.org/10.63299/ijopt.060104</p>'
+                },
+            ]
+        },
     ]
 }

@@ -3,6 +3,9 @@ import Image from "next/image";
 import { Anton, Anton_SC, Geist, Geist_Mono, Inter } from "next/font/google";
 import Hero from "@/components/Hero";
 import Slider from "react-slick";
+import { Col, Row } from "react-bootstrap";
+import { archiveList } from "@/data/archives";
+import { useRouter } from "next/router";
 
 const anton = Anton({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const antonSC = Anton_SC({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
@@ -63,6 +66,7 @@ const indexingImg = [
 ]
 
 export default function Home() {
+  const router = useRouter()
   return (
     <>
       <Head>
@@ -171,6 +175,30 @@ export default function Home() {
                 </li>
               </ul>
             </div>
+          </section>
+
+          <section className="latest-articles-section">
+            <div className="container">
+              <h1 className={antonSC?.className}>Latest Articles</h1>
+
+              <Row>
+                {archiveList[Object.keys(archiveList)[Object.keys(archiveList).length - 1]][0]?.aJournals?.slice(0, 4)?.map((article, index) => {
+                  return (
+                    <Col key={index} md={6} sm={12}>
+                      <div 
+                        className="article-card" 
+                        onClick={() => router.push({
+                          pathname: `/archives/${article?.citation_publication_date?.split(', ')[1]}/${article?.citation_volume}/${article?.citation_issue}`,
+                        })}
+                      >
+                        <h1>{article?.citation_title}</h1>
+                        <p>{article?.citation_author?.join(', ')}</p>
+                      </div>
+                    </Col>
+                  ) 
+                })}
+              </Row>
+            </div> 
           </section>
 
           <section className="index-section">
