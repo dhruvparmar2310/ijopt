@@ -856,6 +856,30 @@ export const archiveList = {
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Stroke commonly leads to impairments in trunk control, resulting in difficulties in balance and postural stability. Pelvic Proprioceptive Neuromuscular Facilitation (PNF) and Core Stability exercises are two interventions aimed at improving trunk control in stroke patients.</p><p><strong>Objective:</strong> To compare the effectiveness of Pelvic PNF and Core Stability exercises on trunk impairment and balance in stroke patients.</p><p><strong>Methods:</strong> Thirty stroke patients were randomly assigned to either a Pelvic PNF group (Group A, n=15) or a Core Stability exercise group (Group B, n=15). Both groups received their respective interventions 5 days per week for 4 weeks. Trunk Impairment Scale (TIS) and Berg Balance Scale (BBS) were used to evaluate trunk control and balance before and after the intervention.</p><p><strong>Results:</strong> Both Pelvic PNF and Core Stability exercises significantly improved TIS and BBS scores in the respective groups (p<0.05). However, there was no statistically significant difference between the groups in post-intervention outcomes (p>0.05).</p><p><strong>Conclusion:</strong> Pelvic PNF and Core Stability exercises are equally effective in improving trunk control and balance in stroke patients. Either intervention can be utilized in clinical rehabilitation settings depending on patient needs and preferences.</p><p><strong>Keywords:</strong> Stroke, Pelvic PNF, Core Stability, Trunk Impairment Scale, Berg Balance Scale</p>",
                     citation_quotes: '<p>1.	Parmar D, Jagad K. TO COMPARE THE EFFECTIVENESS OF PELVIC PROPRIOCEPTIVE NEUROMUSCULAR FACILITATION (PNF) AND CORE STABILITY EXERCISE ON TRUNK IMPAIRMENT IN SUB ACUTE – CHRONIC STROKE PATIENTS – A COMPARATIVE STUDY. Indian Journal of Physical Therapy. 2025 January - March; 6(1): 23-27. https://doi.org/10.63299/ijopt.060104</p>'
                 },
+                {
+                    _id: '1104',
+                    citation_title: "EVALUATION OF SHOULDER PERFORMANCE AND AWARENESS OF PHYSIOTHERAPY IN RECREATIONAL CRICKET PLAYERS – A SURVEY STUDY",
+                    citation_author: [
+                        'Nidhi Panchal', 'Aryan Patel', 'Ankit Bhagat'
+                    ],
+                    citation_publication_date: 'January - March, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '1',
+                    citation_firstpage: '29',
+                    citation_lastpage: '39',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060110',
+                    sDownLoadUrl: '/assets/documents/archives/2025/4.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Cricket', 'Plyometrics', 'Advance Throwers Ten', 'Shoulder Performance', 'Strengthening Exercise'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Cricket is the most popular sport played around the globe. Cricket players require optimum balance between power, strength, speed, accuracy and endurance to avoid any injuries which may affect their game.</p><p><strong>Objective:</strong> Aim of the study to analyze shoulder-related problems experienced by cricketers in the Ahmedabad and Mahemdavad districts of Gujarat, India</p><p><strong>Methods:</strong> A survey of professional and recreational cricket players in the Mahemdavad and Ahmedabad districts of Gujarat, India, was conducted from 5th December 2024 to 5th March 2025. Participants completed a two-part Google e-survey, accessible online via a link distributed through social media and email.</p><p><strong>Results:</strong> Out of 4,000 cricket players, 306 completed the survey (7.65% response rate, 95% CI, 5% margin of error). The majority of respondents were male (63.7%) and between the ages of 15 and 25 (64.8%, 198 out of 306). The result obtained in this survey were analyzed using basic statistics through Microsoft Excel and inbuilt Google form calculation.</p><p><strong>Conclusion:</strong> Majority of the cricket players are facing issues related to power and strength especially during serving the batting and overarm bowling. Majority of players are aware about the role of physiotherapy in improving the performance but have limited knowledge of advance rehabilitation protocols like advance thrower’s ten exercises. There is a strong need to design a strength training protocol addressing the shoulder performance based on fitness & strength parameters of the cricket players which would enhance player’s performance and thereby improving their performance.</p><p><strong>Keywords:</strong> Cricket, Plyometrics, Advance Throwers Ten, Shoulder Performance and Strengthening Exercise</p>",
+                    citation_quotes: '<p>Panchal N, Patel A, Bhagat A. EVALUATION OF SHOULDER PERFORMANCE AND AWARENESS OF PHYSIOTHERAPY IN RECREATIONAL CRICKET PLAYERS. Indian Journal of Physical Therapy. 2025 January - March; 6(1): 29 - 39.</p>'
+                },
             ]
         },
     ]
