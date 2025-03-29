@@ -16,6 +16,11 @@ import drMeghaSheth from '../../public/assets/img/members/DrMeghaSheth.jpg'
 import drAmrutkuvarShivajiRayjade from '../../public/assets/img/members/DrAmrutkuvarShivajiRayjade.jpeg'
 import drMandeepKang from '../../public/assets/img/members/DrMandeepKang.jpeg'
 import drRajKiranTiku from '../../public/assets/img/members/DrRajKiranTiku.jpeg'
+import drAdvitaDeepak from '../../public/assets/img/members/DrAdvitaDeepak.jpg'
+import drMoushumiDebnath from '../../public/assets/img/members/DrMoushumiDebnath.jpg'
+import drSalviShah from '../../public/assets/img/members/DrSalviShah.jpg'
+import drDevangiDesai from '../../public/assets/img/members/DrDevangiDesai.jpg'
+import drJalpaParikh from '../../public/assets/img/members/DrJalpaParikh.jpeg'
 import Link from 'next/link'
 import Head from 'next/head'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -242,8 +247,8 @@ const EditorialBoard = () => {
                         <Col lg={6} md={6} sm={12} xs={12}>
                             <div className='member-card mt-3'>
                                 <div className="left-content">
-                                    {/* <Image src={drAshishKakkad} alt='Dr. Salvi Shah' quality={100} className='img-fluid' /> */}
-                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                    <Image src={drMoushumiDebnath} alt='Dr. Moushumi Debnath' quality={100} className='img-fluid' />
+                                    {/* <FontAwesomeIcon icon={faUser} color='gray' /> */}
                                 </div>
                                 <div className="right-content">
                                     <p className={`member-name ${antonSC?.className}`}>Dr. Moushumi Debnath</p>
@@ -281,8 +286,8 @@ const EditorialBoard = () => {
                         <Col lg={6} md={6} sm={12} xs={12}>
                             <div className='member-card mt-3'>
                                 <div className="left-content">
-                                    {/* <Image src={drAshishKakkad} alt='Dr. Salvi Shah' quality={100} className='img-fluid' /> */}
-                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                    <Image src={drAdvitaDeepak} alt='Dr. Advita Neville Deepak' quality={100} className='img-fluid' />
+                                    {/* <FontAwesomeIcon icon={faUser} color='gray' /> */}
                                 </div>
                                 <div className="right-content">
                                     <p className={`member-name ${antonSC?.className}`}>Dr. Advita Neville Deepak</p>
@@ -294,8 +299,8 @@ const EditorialBoard = () => {
                         <Col lg={6} md={6} sm={12} xs={12}>
                             <div className='member-card mt-3'>
                                 <div className="left-content">
-                                    {/* <Image src={drAshishKakkad} alt='Dr. Salvi Shah' quality={100} className='img-fluid' /> */}
-                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                    <Image src={drSalviShah} alt='Dr. Salvi Shah' quality={100} className='img-fluid' />
+                                    {/* <FontAwesomeIcon icon={faUser} color='gray' /> */}
                                 </div>
                                 <div className="right-content">
                                     <p className={`member-name ${antonSC?.className}`}>Dr. Salvi Shah</p>
@@ -312,8 +317,8 @@ const EditorialBoard = () => {
                         <Col lg={6} md={6} sm={12} xs={12}>
                             <div className='member-card mt-3'>
                                 <div className="left-content">
-                                    {/* <Image src={drParitaDave} alt='Dr. Himanshu Sharma' quality={100} className='img-fluid' /> */}
-                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                    <Image src={drDevangiDesai} alt='Dr. Devangi Desai' quality={100} className='img-fluid' />
+                                    {/* <FontAwesomeIcon icon={faUser} color='gray' /> */}
                                 </div>
                                 <div className="right-content">
                                     <p className={`member-name ${antonSC?.className}`}>Dr. Devangi Desai</p>
@@ -325,8 +330,8 @@ const EditorialBoard = () => {
                         <Col lg={6} md={6} sm={12} xs={12}>
                             <div className='member-card mt-3'>
                                 <div className="left-content">
-                                    {/* <Image src={drParitaDave} alt='Dr. Himanshu Sharma' quality={100} className='img-fluid' /> */}
-                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                    <Image src={drJalpaParikh} alt='Dr. Jalpa Parikh' quality={100} className='img-fluid' />
+                                    {/* <FontAwesomeIcon icon={faUser} color='gray' /> */}
                                 </div>
                                 <div className="right-content">
                                     <p className={`member-name ${antonSC?.className}`}>Dr. Jalpa Parikh</p>
@@ -370,6 +375,19 @@ const EditorialBoard = () => {
                                     <p className={`member-name ${antonSC?.className}`}>Dr. Parita Dave</p>
                                     <p className={inter?.className}>PhD Scholar, MPT in Cardiopulmonary Conditions</p>
                                     <p className={inter?.className}>Associate Professor at KD Institute of Physiotherapy, Ahmedabad</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    {/* <Image src={drParitaDave} alt='Dr. Aditi Shah' quality={100} className='img-fluid' /> */}
+                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Aditi Shah</p>
+                                    <p className={inter?.className}>MPT in Neurological Conditions</p>
+                                    <p className={inter?.className}>Assistant Professor at Jayantrao Tilak College of Physiotherapy, Pune</p>
                                 </div>
                             </div>
                         </Col>
