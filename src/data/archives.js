@@ -880,6 +880,54 @@ export const archiveList = {
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Cricket is the most popular sport played around the globe. Cricket players require optimum balance between power, strength, speed, accuracy and endurance to avoid any injuries which may affect their game.</p><p><strong>Objective:</strong> Aim of the study to analyze shoulder-related problems experienced by cricketers in the Ahmedabad and Mahemdavad districts of Gujarat, India</p><p><strong>Methods:</strong> A survey of professional and recreational cricket players in the Mahemdavad and Ahmedabad districts of Gujarat, India, was conducted from 5th December 2024 to 5th March 2025. Participants completed a two-part Google e-survey, accessible online via a link distributed through social media and email.</p><p><strong>Results:</strong> Out of 4,000 cricket players, 306 completed the survey (7.65% response rate, 95% CI, 5% margin of error). The majority of respondents were male (63.7%) and between the ages of 15 and 25 (64.8%, 198 out of 306). The result obtained in this survey were analyzed using basic statistics through Microsoft Excel and inbuilt Google form calculation.</p><p><strong>Conclusion:</strong> Majority of the cricket players are facing issues related to power and strength especially during serving the batting and overarm bowling. Majority of players are aware about the role of physiotherapy in improving the performance but have limited knowledge of advance rehabilitation protocols like advance thrower’s ten exercises. There is a strong need to design a strength training protocol addressing the shoulder performance based on fitness & strength parameters of the cricket players which would enhance player’s performance and thereby improving their performance.</p><p><strong>Keywords:</strong> Cricket, Plyometrics, Advance Throwers Ten, Shoulder Performance and Strengthening Exercise</p>",
                     citation_quotes: '<p>Panchal N, Patel A, Bhagat A. EVALUATION OF SHOULDER PERFORMANCE AND AWARENESS OF PHYSIOTHERAPY IN RECREATIONAL CRICKET PLAYERS. Indian Journal of Physical Therapy. 2025 January - March; 6(1): 29 - 39.</p>'
                 },
+                {
+                    _id: '1105',
+                    citation_title: "INFLUENCE OF SOCIAL MEDIA ON STRESS AND QUALITY OF LIFE IN GENERATION Z-AN OBSERVATIONAL STUDY",
+                    citation_author: [
+                        'Bhaumi Dave', 'Aashvi Pandya'
+                    ],
+                    citation_publication_date: 'January - March, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '1',
+                    citation_firstpage: '40',
+                    citation_lastpage: '42',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060112',
+                    sDownLoadUrl: '/assets/documents/archives/2025/5.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Social media, Stress', 'Quality of life'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Social media as an internet-based communication platform has a profound influence on individuals encompassing both positive and negative aspects. In contemporary society stress has emerged as a critical concern potentially affecting overall well-being and diminishing quality of life. Given the increasing prevalence of social media usage, it is essential to investigate its potential role in contributing to mental stress and its subsequent impact on quality of life.</p><p><strong>Aim:</strong> To assess the influence of social media on mental health and quality of life of the current generation- Generation Z</p><p><strong>Methods:</strong> A structured Google Form was developed which included total duration of social media usage, the most frequently used social media platforms, any musculoskeletal pain experienced by individuals. Additionally, the form incorporated two standardized instruments: the Perceived Stress Scale (PSS) to measure stress levels and the SF-12 questionnaire to assess their quality of life. The form was subsequently disseminated among individuals belonging to Generation Z for data collection.</p><p><strong>Results:</strong> 129 responses were obtained from the Google form. Data was analysed using SPSS V 21.Normality of data was checked using Kolmograv-Simorav test. As the data was not normally distributed -Spearman Correlation was done. (p>0.05).No correlation was found between Social media usage time and PSS (p=0.128) while weak positive correlation was found between Social media usage time and Quality of life(p=0.207)</p><p><strong>Conclusion:</strong> Social media usage influences quality of life in Generation Z while there is no influence of social media on stress in Generation Z.</p><p><strong>Keywords:</strong> Social media, Stress, Quality of life</p>",
+                    citation_quotes: '<p>Dave B, Pandya A. INFLUENCE OF SOCIAL MEDIA ON STRESS AND QUALITY OF LIFE IN GENERATION Z-AN OBSERVATIONAL STUDY. Indian Journal of Physical Therapy. 2025 January - March; 6(1): 40 - 42.https://doi.org/10.63299/ijopt.060112.</p>'
+                },
+                // {
+                //     _id: '1106',
+                //     citation_title: "INFLUENCE OF SOCIAL MEDIA ON STRESS AND QUALITY OF LIFE IN GENERATION Z-AN OBSERVATIONAL STUDY",
+                //     citation_author: [
+                //         'Bhaumi Dave', 'Aashvi Pandya'
+                //     ],
+                //     citation_publication_date: 'January - March, 2025',
+                //     citation_journal_title: {
+                //         primary: citation_journal_title_primary,
+                //         secondary: citation_journal_title_secondary
+                //     },
+                //     citation_volume: '6',
+                //     citation_issue: '1',
+                //     citation_firstpage: '40',
+                //     citation_lastpage: '42',
+                //     eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                //     sDOINo: 'https://doi.org/10.63299/ijopt.060112',
+                //     sDownLoadUrl: '/assets/documents/archives/2025/5.pdf',
+                //     sCitation_SEO_Keywords: [
+                //         'Social media, Stress', 'Quality of life'
+                //     ],
+                //     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Social media as an internet-based communication platform has a profound influence on individuals encompassing both positive and negative aspects. In contemporary society stress has emerged as a critical concern potentially affecting overall well-being and diminishing quality of life. Given the increasing prevalence of social media usage, it is essential to investigate its potential role in contributing to mental stress and its subsequent impact on quality of life.</p><p><strong>Aim:</strong> To assess the influence of social media on mental health and quality of life of the current generation- Generation Z</p><p><strong>Methods:</strong> A structured Google Form was developed which included total duration of social media usage, the most frequently used social media platforms, any musculoskeletal pain experienced by individuals. Additionally, the form incorporated two standardized instruments: the Perceived Stress Scale (PSS) to measure stress levels and the SF-12 questionnaire to assess their quality of life. The form was subsequently disseminated among individuals belonging to Generation Z for data collection.</p><p><strong>Results:</strong> 129 responses were obtained from the Google form. Data was analysed using SPSS V 21.Normality of data was checked using Kolmograv-Simorav test. As the data was not normally distributed -Spearman Correlation was done. (p>0.05).No correlation was found between Social media usage time and PSS (p=0.128) while weak positive correlation was found between Social media usage time and Quality of life(p=0.207)</p><p><strong>Conclusion:</strong> Social media usage influences quality of life in Generation Z while there is no influence of social media on stress in Generation Z.</p><p><strong>Keywords:</strong> Social media, Stress, Quality of life</p>",
+                //     citation_quotes: '<p>Dave B, Pandya A. INFLUENCE OF SOCIAL MEDIA ON STRESS AND QUALITY OF LIFE IN GENERATION Z-AN OBSERVATIONAL STUDY. Indian Journal of Physical Therapy. 2025 January - March; 6(1): 40 - 42.https://doi.org/10.63299/ijopt.060112.</p>'
+                // },
             ]
         },
     ]
