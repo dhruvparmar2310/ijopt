@@ -21,7 +21,7 @@ const IncentivePolicy = () => {
                 <meta name='keywords' content='IJOPT, Indian Journal of Physical Therapy, Indian Journal of Physiotherapy, Open Access Journal, Physiotherapy Journal, Physical Therapy Journal, International Journal for Physiotherapy, PhysioZine, Incentive Policy of IJOPT, Editorial Policy IJOPT' />
                 <meta name="description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!" />
 
-                <meta property="og:title" content="Incentive Policy of IJPOT" />
+                <meta property="og:title" content="Incentive Policy of IJOPT" />
                 <meta property="og:description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!" />
                 <meta property="og:url" content="https://ijopt.co.in/policy/incentive-policy" />
                 <meta property="og:image" content="/favicon.ico" />

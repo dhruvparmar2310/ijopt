@@ -21,7 +21,7 @@ const ResearchAreas = () => {
                 <meta name='keywords' content='IJOPT, Indian Journal of Physical Therapy, Indian Journal of Physiotherapy, Open Access Journal, Physiotherapy Journal, Physical Therapy Journal, International Journal for Physiotherapy, PhysioZine, research areas of ijopt' />
                 <meta name="description" content="Learn about the Indian Journal of Physical Therapy (IJOPT). We are an open-access, peer-reviewed journal publishing original research and articles in physiotherapy." />
 
-                <meta property="og:title" content="Research Areas of IJPOT" />
+                <meta property="og:title" content="Research Areas of IJOPT" />
                 <meta property="og:description" content="Learn about IJOPT, an open-access, peer-reviewed journal publishing original research in physiotherapy." />
                 <meta property="og:url" content="https://ijopt.co.in/about/research-areas" />
                 <meta property="og:image" content="/favicon.ico" />

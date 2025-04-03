@@ -904,30 +904,78 @@ export const archiveList = {
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Social media as an internet-based communication platform has a profound influence on individuals encompassing both positive and negative aspects. In contemporary society stress has emerged as a critical concern potentially affecting overall well-being and diminishing quality of life. Given the increasing prevalence of social media usage, it is essential to investigate its potential role in contributing to mental stress and its subsequent impact on quality of life.</p><p><strong>Aim:</strong> To assess the influence of social media on mental health and quality of life of the current generation- Generation Z</p><p><strong>Methods:</strong> A structured Google Form was developed which included total duration of social media usage, the most frequently used social media platforms, any musculoskeletal pain experienced by individuals. Additionally, the form incorporated two standardized instruments: the Perceived Stress Scale (PSS) to measure stress levels and the SF-12 questionnaire to assess their quality of life. The form was subsequently disseminated among individuals belonging to Generation Z for data collection.</p><p><strong>Results:</strong> 129 responses were obtained from the Google form. Data was analysed using SPSS V 21.Normality of data was checked using Kolmograv-Simorav test. As the data was not normally distributed -Spearman Correlation was done. (p>0.05).No correlation was found between Social media usage time and PSS (p=0.128) while weak positive correlation was found between Social media usage time and Quality of life(p=0.207)</p><p><strong>Conclusion:</strong> Social media usage influences quality of life in Generation Z while there is no influence of social media on stress in Generation Z.</p><p><strong>Keywords:</strong> Social media, Stress, Quality of life</p>",
                     citation_quotes: '<p>Dave B, Pandya A. INFLUENCE OF SOCIAL MEDIA ON STRESS AND QUALITY OF LIFE IN GENERATION Z-AN OBSERVATIONAL STUDY. Indian Journal of Physical Therapy. 2025 January - March; 6(1): 40 - 42.https://doi.org/10.63299/ijopt.060112.</p>'
                 },
-                // {
-                //     _id: '1106',
-                //     citation_title: "INFLUENCE OF SOCIAL MEDIA ON STRESS AND QUALITY OF LIFE IN GENERATION Z-AN OBSERVATIONAL STUDY",
-                //     citation_author: [
-                //         'Bhaumi Dave', 'Aashvi Pandya'
-                //     ],
-                //     citation_publication_date: 'January - March, 2025',
-                //     citation_journal_title: {
-                //         primary: citation_journal_title_primary,
-                //         secondary: citation_journal_title_secondary
-                //     },
-                //     citation_volume: '6',
-                //     citation_issue: '1',
-                //     citation_firstpage: '40',
-                //     citation_lastpage: '42',
-                //     eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
-                //     sDOINo: 'https://doi.org/10.63299/ijopt.060112',
-                //     sDownLoadUrl: '/assets/documents/archives/2025/5.pdf',
-                //     sCitation_SEO_Keywords: [
-                //         'Social media, Stress', 'Quality of life'
-                //     ],
-                //     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Social media as an internet-based communication platform has a profound influence on individuals encompassing both positive and negative aspects. In contemporary society stress has emerged as a critical concern potentially affecting overall well-being and diminishing quality of life. Given the increasing prevalence of social media usage, it is essential to investigate its potential role in contributing to mental stress and its subsequent impact on quality of life.</p><p><strong>Aim:</strong> To assess the influence of social media on mental health and quality of life of the current generation- Generation Z</p><p><strong>Methods:</strong> A structured Google Form was developed which included total duration of social media usage, the most frequently used social media platforms, any musculoskeletal pain experienced by individuals. Additionally, the form incorporated two standardized instruments: the Perceived Stress Scale (PSS) to measure stress levels and the SF-12 questionnaire to assess their quality of life. The form was subsequently disseminated among individuals belonging to Generation Z for data collection.</p><p><strong>Results:</strong> 129 responses were obtained from the Google form. Data was analysed using SPSS V 21.Normality of data was checked using Kolmograv-Simorav test. As the data was not normally distributed -Spearman Correlation was done. (p>0.05).No correlation was found between Social media usage time and PSS (p=0.128) while weak positive correlation was found between Social media usage time and Quality of life(p=0.207)</p><p><strong>Conclusion:</strong> Social media usage influences quality of life in Generation Z while there is no influence of social media on stress in Generation Z.</p><p><strong>Keywords:</strong> Social media, Stress, Quality of life</p>",
-                //     citation_quotes: '<p>Dave B, Pandya A. INFLUENCE OF SOCIAL MEDIA ON STRESS AND QUALITY OF LIFE IN GENERATION Z-AN OBSERVATIONAL STUDY. Indian Journal of Physical Therapy. 2025 January - March; 6(1): 40 - 42.https://doi.org/10.63299/ijopt.060112.</p>'
-                // },
+                {
+                    _id: '1106',
+                    citation_title: "TO COMPARE THE EFFECT OF BODY MASS INDEX (BMI) ON PEAK EXPIRATORY FLOW RATE (PEFR) AND FUNCTIONAL CAPACITY OF SCHOOL GOING OVERWEIGHT AND OBESE PEDIATRIC POPULATION OF ANAND CITY: A CROSS SECTIONAL ANALYSIS",
+                    citation_author: [
+                        'Dr. Hemangi Parmar', 'Dr. Isha Umaria'
+                    ],
+                    citation_publication_date: 'January - March, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '1',
+                    citation_firstpage: '43',
+                    citation_lastpage: '54',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060106',
+                    sDownLoadUrl: '/assets/documents/archives/2025/6.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Body Mass Index', 'Peak Expiratory Flow Rate', 'School', 'Overweight', 'Obese pediatric population'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Childhood obesity is one of the major problems in public health worldwide. Due to it, approximately all systems of the body suffer from hazardous adverse effects. overweight or obese population, they might observe compression on thoracic cavity, leading to restriction of diaphragmatic movement, causing increased load on muscles of respiration, and might ultimately result in decreased lung volumes and flow rates and indirectly reducing functional capacity.</p><p><strong>Objective:</strong> To compare the effect of Body Mass Index (BMI) on Peak Expiratory Flow Rate (PEFR) and functional capacity of school going overweight and obese paediatric population of Anand city.</p><p><strong>Methods:</strong> Screening method was used to derive participants matching with inclusion criteria. A total of 100 participants were divided into 2 groups as per their BMI into overweight and obese pediatric population. All the participants were assessed for PEFR and 6 Minute Walk Test (6MWT). Outcome variables were compared with predicted values within the group and participants PEFR and 6MWT values were compared between both groups.</p><p><strong>Results:</strong> The mean participants’ values with SD of PEFR were 241.40 ± 61.89 and 245.90 ± 60.92 whereas for 6MWT were 493.17 ± 40.37 and 481.01 ± 42.26 respectively for Group A and B</p><p><strong>Conclusion:</strong> Present study concluded that both the variables PEFR and functional capacity reduces in both groups with increase in the BMI. When compared PEFR, it was more affected in overweight population whereas functional capacity was more affected in obese population.</p><p><strong>Keywords:</strong> Body Mass Index, Peak Expiratory Flow Rate, School, Overweight, Obese pediatric population.</p>",
+                    citation_quotes: '<p>Parmar DH, Umaria DI. TO COMPARE THE EFFECT OF BODY MASS INDEX (BMI) ON PEAK EXPIRATORY FLOW RATE (PEFR) AND FUNCTIONAL CAPACITY OF SCHOOL GOING OVERWEIGHT AND OBESE PEDIATRIC POPULATION OF ANAND CITY: A CROSS SECTIONAL ANALYSIS. Indian Journal of Physical Therapy. 2025 January - March; 6(1): 43 - 54.https://doi.org/10.63299/ijopt.060106.</p>'
+                },
+                {
+                    _id: '1107',
+                    citation_title: "KNOWLEDGE AND DETERMINATION OF ARTIFICIAL INTELLIGENCE IN EDUCATION SYSTEM SCALE: VALIDATION AND RELIABILITY IN PHYSIOTHERAPY EDUCATION",
+                    citation_author: [
+                        'Hetvi Dimothe', 'Anjal Prajapati'
+                    ],
+                    citation_publication_date: 'January - March, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '1',
+                    citation_firstpage: '55',
+                    citation_lastpage: '63',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060114',
+                    sDownLoadUrl: '/assets/documents/archives/2025/7.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Artificial Intelligence', 'Physiotherapy Education', 'Reliability', 'Validity', 'Content Validity'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Artificial Intelligence (AI) is transforming education, including physiotherapy training, by enhancing learning methodologies and clinical decision-making. Assessing AI awareness among physiotherapy students is essential for effective curriculum integration.</p><p><strong>Objective:</strong> This study aims to validate the Knowledge and Determination of Artificial Intelligence in Education System Scale, measuring AI awareness among physiotherapy students.</p><p><strong>Methods:</strong> The validation process involved face and content validity assessments by experts. Reliability was evaluated using Cronbach’s alpha for internal consistency. A total of 100 physiotherapy students participated by completing the questionnaire.</p><p><strong>Results:</strong> The scale demonstrated good validity and reliability, with a Content Validity Index (CVI) of 0.79 and a Cronbach’s alpha coefficient of 0.907.</p><p><strong>Conclusion:</strong> The Knowledge and Determination of Artificial Intelligence in Education System Scale is a valid and reliable tool for evaluating AI awareness in physiotherapy education. Further research should explore its application across diverse student populations.</p><p><strong>Keywords:</strong> Artificial Intelligence, Physiotherapy Education, Reliability, Validity, Content Validity.</p>",
+                    citation_quotes: '<p>Dimothe H, Prajapati A. KNOWLEDGE AND DETERMINATION OF ARTIFICIAL INTELLIGENCE IN EDUCATION SYSTEM SCALE: VALIDATION AND RELIABILITY IN PHYSIOTHERAPY EDUCATION. Indian Journal of Physical Therapy. 2025 January - March; 6(1): 55 - 63.https://doi.org/10.63299/ijopt.060114.</p>'
+                },
+                {
+                    _id: '1108',
+                    citation_title: "COMPARISON OF DUAL TASK TRAINING ON BALANCE PERFORMANCE AND FUNCTIONAL ACTIVITY BETWEEN MALE AND FEMALE OLDER ADULTS",
+                    citation_author: [
+                        'Sonal Sharma', 'Alka Sinha', 'Nidhi Kashyap', 'M.M.Dawar'
+                    ],
+                    citation_publication_date: 'January - March, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '1',
+                    citation_firstpage: '64',
+                    citation_lastpage: '70',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060107',
+                    sDownLoadUrl: '/assets/documents/archives/2025/8.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Older adults', 'Balance', 'functional activity', 'Dual Task Training'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Balance impairment is a major contributor to falls in adults over 65 years of age and a growing body of evidence has confirmed the importance of cognitive factors to impaired balance among older adults.</p><p><strong>Aim & Objective:</strong> To compare the effect of dual task training on balance performance and functional activity between male and female older adults.</p><p><strong>Methods:</strong> Older adult (n=30) 15 males (group 1) and 15 females (group 2) with a mean age of 70.5yr were assigned to dual task training (variable priority). Participants received 45-minute individualized training sessions, 3 times a week for 4 weeks. Balance and functional Activity was measured using Berg Balance Scale, Time Up and Go test and 30 sec chair stand tests at baseline and after training.</p><p><strong>Results:</strong> Participants in both the groups improved on the Berg Balance Scale (p<.01), Time Up and Go (p<.01), 30 Sec Chair Stand (p<.05). Participant in group 1 show greater improvement in BBS (p<.01), TUG (P<.01), 30 Sec Chair Stand Test (P<.01)</p><p><strong>Conclusion:</strong> Dual task training is effective in improving balance and functional activity in both the groups. Group 1 showed a significantly better improvement in balance and functional activity as compared to Group 2. Dual task training programme has more benefit in males than female.</p><p><strong>Keywords:</strong> Older adults, Balance, functional activity, Dual Task Training</p>",
+                    citation_quotes: '<p>Sharma S, Sinha A, Kashyap N, M.M.Dawar. COMPARISON OF DUAL TASK TRAINING ON BALANCE PERFORMANCE AND FUNCTIONAL ACTIVITY BETWEEN MALE AND FEMALE OLDER ADULTS. Indian Journal of Physical Therapy. 2025 January - March; 6(1): 64 - 70.https://doi.org/10.63299/ijopt.060107.</p>'
+                },
             ]
         },
     ]

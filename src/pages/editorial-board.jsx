@@ -21,7 +21,7 @@ import drMoushumiDebnath from '../../public/assets/img/members/DrMoushumiDebnath
 import drSalviShah from '../../public/assets/img/members/DrSalviShah.jpg'
 import drDevangiDesai from '../../public/assets/img/members/DrDevangiDesai.jpg'
 import drJalpaParikh from '../../public/assets/img/members/DrJalpaParikh.jpeg'
-import Link from 'next/link'
+import drAditiShah from '../../public/assets/img/members/DrAditiShah.jpeg'
 import Head from 'next/head'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
@@ -381,8 +381,8 @@ const EditorialBoard = () => {
                         <Col lg={6} md={6} sm={12} xs={12}>
                             <div className='member-card mt-3'>
                                 <div className="left-content">
-                                    {/* <Image src={drParitaDave} alt='Dr. Aditi Shah' quality={100} className='img-fluid' /> */}
-                                    <FontAwesomeIcon icon={faUser} color='gray' />
+                                    <Image src={drAditiShah} alt='Dr. Aditi Shah' quality={100} className='img-fluid' />
+                                    {/* <FontAwesomeIcon icon={faUser} color='gray' /> */}
                                 </div>
                                 <div className="right-content">
                                     <p className={`member-name ${antonSC?.className}`}>Dr. Aditi Shah</p>

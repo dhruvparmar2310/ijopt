@@ -22,7 +22,7 @@ const JournalInformation = () => {
                 <meta name='keywords' content='IJOPT, Indian Journal of Physical Therapy, Indian Journal of Physiotherapy, Open Access Journal, Physiotherapy Journal, Physical Therapy Journal, International Journal for Physiotherapy, PhysioZine, About IJOPT Journal, journal info of ijopt' />
                 <meta name="description" content="Learn about the Indian Journal of Physical Therapy (IJOPT). We are an open-access, peer-reviewed journal publishing original research and articles in physiotherapy." />
 
-                <meta property="og:title" content="Journal Information of IJPOT" />
+                <meta property="og:title" content="Journal Information of IJOPT" />
                 <meta property="og:description" content="Learn about IJOPT, an open-access, peer-reviewed journal publishing original research in physiotherapy." />
                 <meta property="og:url" content="https://ijopt.co.in/about/journal-information" />
                 <meta property="og:image" content="/favicon.ico" />

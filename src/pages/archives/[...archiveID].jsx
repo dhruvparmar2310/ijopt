@@ -15,6 +15,7 @@ import Image from 'next/image'
 import Skeleton from 'react-loading-skeleton'
 import axios from 'axios'
 import { archiveList, archives } from '@/data/archives'
+import advertiseImg from '../../../public/assets/img/archives/call-for-pub.png'
 const inter = Inter({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 
 function ArchiveID ({ data }) {
@@ -230,6 +231,10 @@ function ArchiveID ({ data }) {
                                                         </li>
                                                     </ul>
                                                 </div>
+                                            </div>
+                                            <div className='ads-img'>
+                                                <p>ADVERTISEMENT</p>
+                                                <Image src={advertiseImg} className='img-fluid' alt='Call For Publication' quality={100} priority />
                                             </div>
                                         </div>
                                     </div>

@@ -21,7 +21,7 @@ const AiGeneratedArticle = () => {
                 <meta name='keywords' content='IJOPT, Indian Journal of Physical Therapy, Indian Journal of Physiotherapy, Open Access Journal, Physiotherapy Journal, Physical Therapy Journal, International Journal for Physiotherapy, PhysioZine, AI-Generated Article Policy IJOPT' />
                 <meta name="description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!" />
 
-                <meta property="og:title" content="AI-Generated Article Policy of IJPOT" />
+                <meta property="og:title" content="AI-Generated Article Policy of IJOPT" />
                 <meta property="og:description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!" />
                 <meta property="og:url" content="https://ijopt.co.in/policy/ai-generated-policy" />
                 <meta property="og:image" content="/favicon.ico" />

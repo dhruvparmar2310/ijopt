@@ -106,7 +106,7 @@ function Header () {
                 <Link href='/' title='Home | IJOPT' className={`${router?.route === '/' && 'active'} ${inter.className} homeSvg`} onClick={(e) => handleClick(e, '/')}>Home</Link>
               </li>
               <li className='aboutUs'>
-                <span title='About | IJPOT' className={`${allAboutRoutes && 'active'} ${inter.className}`}
+                <span title='About | IJOPT' className={`${allAboutRoutes && 'active'} ${inter.className}`}
                   onClick={() => width ? toggleDropdown("about") : ''}
                 >About <FaChevronDown /></span>
                 <div className={'aboutUsContent'} style={width ? (aboutDownOpen ? { display: 'block' } : { display: 'none' }) : undefined}>
@@ -255,12 +255,12 @@ function Header () {
               </li>
 
               <li>
-                <Link href={'/subscription'} className={`${router?.route?.includes('/subscription') && 'active'} ${inter.className}`} title='Subscription | IJPOT' onClick={(e) => handleClick(e, '/subscription')}>
+                <Link href={'/subscription'} className={`${router?.route?.includes('/subscription') && 'active'} ${inter.className}`} title='Subscription | IJOPT' onClick={(e) => handleClick(e, '/subscription')}>
                   Subscription
                 </Link>
               </li>
               <li>
-                <Link href={'/contact'} className={`${router?.route?.includes('/contact') && 'active'} ${inter.className}`} title='Contact | IJPOT' onClick={(e) => handleClick(e, '/contact')}>
+                <Link href={'/contact'} className={`${router?.route?.includes('/contact') && 'active'} ${inter.className}`} title='Contact | IJOPT' onClick={(e) => handleClick(e, '/contact')}>
                   Contact
                 </Link>
               </li>

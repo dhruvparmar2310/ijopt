@@ -125,8 +125,31 @@
 
             .other-indexing {
                 position: sticky;
-                top: 180px;
+                top: -150px;
                 height: 100%;
+
+                .ads-img {
+                    p {
+                        margin: 0;
+                        animation: fadeIn 0.4s infinite alternate;
+                    }
+
+                    @keyframes fadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+
+                        100% {
+                            opacity: 1;
+                        }
+                    }
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                        max-width: 300px;
+                    }
+                }
 
                 .card-design {
                     width: 300px;
