@@ -976,6 +976,30 @@ export const archiveList = {
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Balance impairment is a major contributor to falls in adults over 65 years of age and a growing body of evidence has confirmed the importance of cognitive factors to impaired balance among older adults.</p><p><strong>Aim & Objective:</strong> To compare the effect of dual task training on balance performance and functional activity between male and female older adults.</p><p><strong>Methods:</strong> Older adult (n=30) 15 males (group 1) and 15 females (group 2) with a mean age of 70.5yr were assigned to dual task training (variable priority). Participants received 45-minute individualized training sessions, 3 times a week for 4 weeks. Balance and functional Activity was measured using Berg Balance Scale, Time Up and Go test and 30 sec chair stand tests at baseline and after training.</p><p><strong>Results:</strong> Participants in both the groups improved on the Berg Balance Scale (p<.01), Time Up and Go (p<.01), 30 Sec Chair Stand (p<.05). Participant in group 1 show greater improvement in BBS (p<.01), TUG (P<.01), 30 Sec Chair Stand Test (P<.01)</p><p><strong>Conclusion:</strong> Dual task training is effective in improving balance and functional activity in both the groups. Group 1 showed a significantly better improvement in balance and functional activity as compared to Group 2. Dual task training programme has more benefit in males than female.</p><p><strong>Keywords:</strong> Older adults, Balance, functional activity, Dual Task Training</p>",
                     citation_quotes: '<p>Sharma S, Sinha A, Kashyap N, M.M.Dawar. COMPARISON OF DUAL TASK TRAINING ON BALANCE PERFORMANCE AND FUNCTIONAL ACTIVITY BETWEEN MALE AND FEMALE OLDER ADULTS. Indian Journal of Physical Therapy. 2025 January - March; 6(1): 64 - 70.https://doi.org/10.63299/ijopt.060107.</p>'
                 },
+                {
+                    _id: '1109',
+                    citation_title: "KNOWLEDGE AND AWARENESS OF CARDIOVASCULAR DISEASE AND ITS RISK FACTORS IN YOUNG ADULTS",
+                    citation_author: [
+                        'Dr.Vidhi Thakkar', 'Hetalben Patel', 'Aaroh Shrivastav', 'Daksh Panchal'
+                    ],
+                    citation_publication_date: 'January - March, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '1',
+                    citation_firstpage: '71',
+                    citation_lastpage: '78',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060101',
+                    sDownLoadUrl: '/assets/documents/archives/2025/9.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Cardiovascular disease', 'Young adults', 'Knowledge', 'Awareness'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Cardiovascular disease (CVD) is the leading cause of death and disability worldwide, particularly in low- and middle-income countries. Young adults are more susceptible to CVD risk factors, especially in developing countries. As there is No Established Health Program In India To Promote Health Education And Awareness About CVD and Its Risk Factors, This study will point out the need of research so that some advanced diagnosis system may be developed for proper diagnosis of CVDs in early age and to reduce the growing burden of CVDs in the country.</p><p><strong>Methods:</strong> The present observational study was conducted on a sample of 281 normal healthy young individuals aged between 20 To 45 years in Gujarat ,including 119 females and 162 males.A Self administered Questionnaire of 27 questions was spread through google form link online via social media. Statistical analysis (Descriptive) was done using Excel 2019.</p><p><strong>Results:</strong> The study participants showed deficiencies in CVD Knowledge and awareness, which could turn into insufficient preventive behaviour and sub optimal patient outcomes.</p><p><strong>Conclusion:</strong> Poor knowledge and inappropriate attitudes regarding CVD and its risk factors shows urgent need to establish more wide-spread and effective educational interventions.It is recommended to design and implement a healthy diet, physical activity, stress management, and healthy lifestyle programs for the young group along with screening programs to prevent complications and mortality caused by CVD.</p><p><strong>Keywords:</strong> Cardiovascular disease, Young adults, Knowledge, Awareness</p>",
+                    citation_quotes: '<p>Thakkar DV, Patel H, Shrivastav A, Panchal D. KNOWLEDGE AND AWARENESS OF CARDIOVASCULAR DISEASE AND ITS RISK FACTORS IN YOUNG ADULTS. Indian Journal of Physical Therapy. 2025 January - March; 6(1): 71 - 78.https://doi.org/10.63299/ijopt.060101.</p>'
+                },
             ]
         },
     ]
