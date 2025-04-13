@@ -1,11 +1,15 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Anton, Anton_SC, Geist, Geist_Mono, Inter } from "next/font/google";
-import Hero from "@/components/Hero";
-import Slider from "react-slick";
-import { Col, Row } from "react-bootstrap";
-import { archiveList } from "@/data/archives";
-import { useRouter } from "next/router";
+import Head from 'next/head'
+import Image from 'next/image'
+import { Anton, Anton_SC, Geist, Geist_Mono, Inter } from 'next/font/google'
+import Hero from '@/components/Hero'
+import Slider from 'react-slick'
+import { Col, Row } from 'react-bootstrap'
+import { archiveList } from '@/data/archives'
+import { useRouter } from 'next/router'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookOpenReader, faFileArrowDown, faFileLines, faGlobe, faHandHoldingDollar, faLink } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
+import advertiseImg from '../../public/assets/img/archives/call-for-pub.png'
 
 const anton = Anton({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const antonSC = Anton_SC({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
@@ -26,11 +30,11 @@ const settings = {
       breakpoint: 576,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 1,
+        slidesToScroll: 1
       }
-    },
+    }
   ]
-};
+}
 
 const indexingImg = [
   { sImage: 'assets/img/index/google-scholar.jpg', sAlt: 'Google Scholar' },
@@ -62,7 +66,7 @@ const indexingImg = [
   { sImage: 'assets/img/index/am.jpeg', sAlt: 'Acedemia' },
   { sImage: 'assets/img/index/OpenAire_Logo.jpg', sAlt: 'Open Aire' },
   { sImage: 'assets/img/index/orcid.logo.png', sAlt: 'ORCID' },
-  { sImage: 'assets/img/index/Linkedin-Logo.png', sAlt: 'LinkedIn' },
+  { sImage: 'assets/img/index/Linkedin-Logo.png', sAlt: 'LinkedIn' }
 ]
 
 export default function Home() {
@@ -71,60 +75,70 @@ export default function Home() {
     <>
       <Head>
         <title>Indian Journal of Physical Therapy</title>
-        <meta charset="utf-8"></meta>
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+        <meta charset='utf-8'></meta>
+        <meta name='viewport' content='width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0' />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name='keywords' content='IJOPT, Indian Journal of Physical Therapy, Indian Journal of Physiotherapy, Open Access Journal, Physiotherapy Journal, Physical Therapy Journal, International Journal for Physiotherapy, PhysioZine, IJPT, IJPHY, UGC Care Journal, UGC Approved Journal, Top 10 Physiotherapy Journal, Scopus Indexed Physiotherapy Journal' />
-        <meta name="description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!" />
-        <meta property="og:title" content="Indian Journal of Physical Therapy - Open Access & Peer-Reviewed Journal" />
-        <meta property="og:description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access International Journal. Explore now!" />
-        <meta property="og:url" content="https://ijopt.co.in/" />
-        <meta property="og:image" content="favicon.ico" />
-        <meta property="og:type" content="website" />
-        <link rel="icon" href="favicon.ico" />
-        <link rel="manifest" href="/manifest.json" />
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <meta
+          name='keywords'
+          content='IJOPT, Indian Journal of Physical Therapy, Indian Journal of Physiotherapy, Open Access Journal, Physiotherapy Journal, Physical Therapy Journal, International Journal for Physiotherapy, PhysioZine, IJPT, IJPHY, UGC Care Journal, UGC Approved Journal, Top 10 Physiotherapy Journal, Scopus Indexed Physiotherapy Journal'
+        />
+        <meta
+          name='description'
+          content='Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!'
+        />
+        <meta property='og:title' content='Indian Journal of Physical Therapy - Open Access & Peer-Reviewed Journal' />
+        <meta
+          property='og:description'
+          content='Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access International Journal. Explore now!'
+        />
+        <meta property='og:url' content='https://ijopt.co.in/' />
+        <meta property='og:image' content='favicon.ico' />
+        <meta property='og:type' content='website' />
+        <link rel='icon' href='favicon.ico' />
+        <link rel='manifest' href='/manifest.json' />
 
         {/* Structured Data SEO */}
-        <script type="application/ld+json">
+        <script type='application/ld+json'>
           {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "Indian Journal of Physical Therapy (IJOPT)",
-            "url": "www.ijopt.co.in",
-            "description": "Indian Journal of Physical Therapy (IJOPT) is a trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access International Journal.",
-            "publisher": {
-              "@type": "Organization",
-              "name": "Indian Journal of Physical Therapy (IJOPT)",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://ijopt.co.in/faicon.ico",
-                "width": 512,
-                "height": 512
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'Indian Journal of Physical Therapy (IJOPT)',
+            url: 'www.ijopt.co.in',
+            description:
+              'Indian Journal of Physical Therapy (IJOPT) is a trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access International Journal.',
+            publisher: {
+              '@type': 'Organization',
+              name: 'Indian Journal of Physical Therapy (IJOPT)',
+              logo: {
+                '@type': 'ImageObject',
+                url: 'https://ijopt.co.in/faicon.ico',
+                width: 512,
+                height: 512
               }
             },
-            "potentialAction": [
+            potentialAction: [
               {
-                "@type": "ReadAction",
-                "target": "https://ijopt.co.in/about/ijopt",
-                "name": "About Us"
+                '@type': 'ReadAction',
+                target: 'https://ijopt.co.in/about/ijopt',
+                name: 'About Us'
               },
               {
-                "@type": "ReadAction",
-                "target": "https://ijopt.co.in/author-tools/guidelines",
-                "name": "Author Guidelines"
+                '@type': 'ReadAction',
+                target: 'https://ijopt.co.in/author-tools/guidelines',
+                name: 'Author Guidelines'
               },
               {
-                "@type": "ReadAction",
-                "target": "https://ijopt.co.in/author-tools/submit-paper-online",
-                "name": "Submit Paper Online"
+                '@type': 'ReadAction',
+                target: 'https://ijopt.co.in/author-tools/submit-paper-online',
+                name: 'Submit Paper Online'
               },
               {
-                "@type": "ReadAction",
-                "target": "https://ijopt.co.in/author-tools/article-processing-charge",
-                "name": "Article Processing Charge"
+                '@type': 'ReadAction',
+                target: 'https://ijopt.co.in/author-tools/article-processing-charge',
+                name: 'Article Processing Charge'
               }
-            ],
+            ]
             // "sameAs": [
             //   "https://www.facebook.com/physiozine",
             //   "https://www.instagram.com/physiozine",
@@ -133,98 +147,156 @@ export default function Home() {
           })}
         </script>
       </Head>
-      <div
-        className={`page`}
-      >
+      <div className={`page`}>
         <main className='main'>
           <Hero />
+          <div className=''>
+            <div className='ads-section'>
+              <div className='left-content'>
+                <section className='about-section'>
+                  <div className='container'>
+                    <h1 className={antonSC?.className}>About IJOPT</h1>
+                    <p className={`${inter?.className} main-content`}>
+                      Welcome to the Indian Journal of Physical Therapy - An International Journal, a premier platform dedicated to
+                      advancing the field of physical therapy and rehabilitation sciences. Powered by PhysioZine, this peer-reviewed journal
+                      connects researchers, clinicians, and educators worldwide, promoting innovative practices and evidence-based research.
+                      We cover diverse areas, including musculoskeletal, neurological, and sports rehabilitation. Committed to excellence,
+                      our open-access approach ensures global visibility for your work, bridging the gap between research and clinical
+                      practice. Join us in shaping the future of physical therapy and fostering a healthier tomorrow.
+                    </p>
 
-          <section className="about-section">
-            <div className="container">
-              <h1 className={antonSC?.className}>About IJOPT</h1>
-              <p className={`${inter?.className} main-content`}>
-                Welcome to the Indian Journal of Physical Therapy - An International Journal, a premier platform dedicated to advancing the field of physical therapy and rehabilitation sciences. Powered by PhysioZine, this peer-reviewed journal connects researchers, clinicians, and educators worldwide, promoting innovative practices and evidence-based research. We cover diverse areas, including musculoskeletal, neurological, and sports rehabilitation. Committed to excellence, our open-access approach ensures global visibility for your work, bridging the gap between research and clinical practice. Join us in shaping the future of physical therapy and fostering a healthier tomorrow.
-              </p>
+                    <h5 className={`${antonSC?.className} mt-4`}>Scope of Journal</h5>
+                    <p className={`${inter?.className} mb-0 mt-2`}>
+                      The journal welcomes original research, reviews, case studies, and editorials in areas such as:
+                    </p>
+                    <ul>
+                      <li>
+                        <p>Musculoskeletal and Orthopedic Rehabilitation</p>
+                      </li>
+                      <li>
+                        <p>Neurological Rehabilitation</p>
+                      </li>
+                      <li>
+                        <p>Cardiopulmonary Physical Therapy</p>
+                      </li>
+                      <li>
+                        <p>Pediatric and Geriatric Rehabilitation</p>
+                      </li>
+                      <li>
+                        <p>Sports Medicine and Injury Prevention</p>
+                      </li>
+                      <li>
+                        <p>Pain Management</p>
+                      </li>
+                      <li>
+                        <p>Biomechanics and Kinesiology</p>
+                      </li>
+                      <li>
+                        <p>Emerging Technologies in Physical Therapy</p>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
 
-              <h5 className={`${antonSC?.className} mt-4`}>Scope of Journal</h5>
-              <p className={`${inter?.className} mb-0 mt-2`}>The journal welcomes original research, reviews, case studies, and editorials in areas such as:</p>
-              <ul>
-                <li>
-                  <p>Musculoskeletal and Orthopedic Rehabilitation</p>
-                </li>
-                <li>
-                  <p>Neurological Rehabilitation</p>
-                </li>
-                <li>
-                  <p>Cardiopulmonary Physical Therapy</p>
-                </li>
-                <li>
-                  <p>Pediatric and Geriatric Rehabilitation</p>
-                </li>
-                <li>
-                  <p>Sports Medicine and Injury Prevention</p>
-                </li>
-                <li>
-                  <p>Pain Management</p>
-                </li>
-                <li>
-                  <p>Biomechanics and Kinesiology</p>
-                </li>
-                <li>
-                  <p>Emerging Technologies in Physical Therapy</p>
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          <section className="latest-articles-section">
-            <div className="container">
-              <h1 className={antonSC?.className}>Latest Articles</h1>
-
-              <Row>
-                {archiveList[Object.keys(archiveList)[Object.keys(archiveList).length - 1]][0]?.aJournals?.slice(0, 4)?.map((article, index) => {
-                  return (
-                    <Col key={index} md={6} sm={12}>
-                      <div 
-                        className="article-card" 
-                        onClick={() => router.push({
-                          pathname: `/archives/${article?.citation_publication_date?.split(', ')[1]}/${article?.citation_volume}/${article?.citation_issue}`,
+                <section className='latest-articles-section'>
+                  <div className='container'>
+                    <h1 className={`${antonSC?.className} top-header`}>
+                      <span>Latest Articles</span>
+                      <span className='view-button' onClick={() => {
+                        const archiveKeys = Object.keys(archiveList);
+                        const lastKey = archiveKeys[archiveKeys.length - 1];
+                        const lastArchive = archiveList[lastKey]?.[0];
+                        const journal = lastArchive?.aJournals?.[0];
+                    
+                        const year = journal?.citation_publication_date?.split(', ')[1];
+                        const volume = journal?.citation_volume;
+                        const issue = journal?.citation_issue;
+                        router.push(`/archives/${year}/${volume}/${issue}`);
+                      }}>View More</span>
+                    </h1>
+                    <Row>
+                      {archiveList[Object.keys(archiveList)[Object.keys(archiveList).length - 1]][0]?.aJournals
+                        ?.slice(0, 4)
+                        ?.map((article, index) => {
+                          return (
+                            <Col key={index} md={6} sm={12}>
+                              <div
+                                className='article-card'
+                                onClick={() =>
+                                  router.push({
+                                    pathname: `/archives/${article?.citation_publication_date?.split(', ')[1]}/${
+                                      article?.citation_volume
+                                    }/${article?.citation_issue}`
+                                  })
+                                }
+                              >
+                                <h1>{article?.citation_title}</h1>
+                                <p>{article?.citation_author?.join(', ')}</p>
+                              </div>
+                            </Col>
+                          )
                         })}
-                      >
-                        <h1>{article?.citation_title}</h1>
-                        <p>{article?.citation_author?.join(', ')}</p>
-                      </div>
-                    </Col>
-                  ) 
-                })}
-              </Row>
-            </div> 
-          </section>
+                    </Row>
+                  </div>
+                </section>
+              </div>
+              <div className='right-content'>
+                <div className={`other-indexing`}>
+                  <div className={`card-design ${inter?.className}`}>
+                    <div className='card-title'>
+                      <FontAwesomeIcon className='me-1' icon={faLink} fade size='md' /> Quick Links
+                    </div>
+                    <div className='card-body'>
+                      <ul>
+                        <li>
+                          <FontAwesomeIcon icon={faBookOpenReader} /> <Link href='https://app.oxfordabstracts.com/stages/78097/submitter'>Call for Publication</Link>
+                        </li>
+                        <li>
+                          <FontAwesomeIcon icon={faFileLines} /> <Link href='/author-tools/guidelines'>Author Guidelines</Link>
+                        </li>
+                        <li>
+                          <FontAwesomeIcon icon={faHandHoldingDollar} /> <Link href='/author-tools/article-processing-charge'>Article Processing Charge (APC)</Link>
+                        </li>
+                        <li>
+                          <FontAwesomeIcon icon={faFileArrowDown} /> <Link href='#' onClick={(e) => saveAs(samplePaperFormat, 'Sample Paper - IJOPT')}>
+                            Sample Paper Format
+                          </Link>
+                        </li>
+                        <li>
+                         <FontAwesomeIcon icon={faFileLines} /> <Link href='/policy/peer-review-policy'>Peer Review Policy</Link>
+                        </li>
+                        <li>
+                          <FontAwesomeIcon icon={faGlobe} /> <Link href='/about/indexing'>Indexing</Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className='ads-img'>
+                    <p>ADVERTISEMENT</p>
+                    <Image src={advertiseImg} className='img-fluid' alt='Call For Publication' quality={100} priority />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-          <section className="index-section">
-            <div className="container">
-              <div className="slider">
+          <section className='index-section'>
+            <div className='container'>
+              <div className='slider'>
                 <Slider {...settings}>
-                  {indexingImg?.map(( { sImage, sAlt }, i ) => {
+                  {indexingImg?.map(({ sImage, sAlt }, i) => {
                     return (
-                      <div className="slider-item" key={i}>
-                        <Image
-                          src={sImage}
-                          alt={sAlt}
-                          quality={100}
-                          width={100}
-                          height={100}
-                          className="img-fluid"
-                        />
+                      <div className='slider-item' key={i}>
+                        <Image src={sImage} alt={sAlt} quality={100} width={100} height={100} className='img-fluid' />
                       </div>
-                    );
+                    )
                   })}
-                  </Slider>
+                </Slider>
               </div>
             </div>
           </section>
         </main>
       </div>
     </>
-  );
+  )
 }

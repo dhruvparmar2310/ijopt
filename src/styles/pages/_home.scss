@@ -1,4 +1,5 @@
 .about-section {
+    padding: 50px 20px;
     padding-bottom: 20px;
 
     h1 {
@@ -30,8 +31,145 @@
     }
 }
 
+.ads-section {
+    display: flex;
+    position: relative;
+
+    .left-content {
+        width: 100%;
+    }
+
+    .right-content {
+        width: 100%;
+        max-width: 300px;
+        height: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        position: sticky;
+        top: 140px;
+
+        .other-indexing {
+            width: 100%;
+            height: 100%;
+
+            .ads-img {
+                width: 100%;
+
+                p {
+                    margin: 0;
+                    animation: fadeIn 0.4s infinite alternate;
+                }
+
+                @keyframes fadeIn {
+                    0% {
+                        opacity: 0;
+                    }
+
+                    100% {
+                        opacity: 1;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    // max-width: 200px;
+                }
+            }
+
+            .card-design {
+                width: 100%;
+                // max-width: 200px;
+                height: auto;
+                display: block;
+                overflow: hidden;
+                border: 2px solid var(--primary-dark);
+                border-radius: 8px;
+                margin-bottom: 5px;
+
+                .card-title {
+                    padding: 10px;
+                    font-size: 20px;
+                    letter-spacing: 0.8px;
+                    background: linear-gradient(270deg, var(--primary-color) 20%, var(--primary-dark) 80%);
+                    color: var(--white-color);
+                    font-style: italic;
+                }
+
+                .card-body {
+                    // padding: 0 10px;
+
+                    ul {
+                        padding: 0;
+                        margin: 0;
+
+                        li {
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
+                            padding: 8px 10px;
+                            border-bottom: 2px solid var(--primary-dark);
+
+                            &:hover {
+                                cursor: pointer;
+                                background: var(--primary-color);
+
+                                svg,
+                                a {
+                                    color: var(--white-color);
+                                }
+                            }
+
+                            svg {
+                                color: var(--primary-color);
+                            }
+
+                            &:last-child {
+                                border-bottom: none;
+                            }
+
+                            a {
+                                text-decoration: none;
+                                color: #000;
+                                transition: all 0.3s linear;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 .latest-articles-section {
+    padding: 50px 20px;
     padding-top: 0;
+
+    .top-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .view-button {
+            font-size: 15px;
+            text-transform: uppercase;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                background: var(--primary-color);
+                color: var(--white-color);
+                transform: translateY(-2px);
+                box-shadow: 0 5px 5px rgba(96, 125, 255, 0.723);
+            }
+        }
+    }
 
     .article-card {
         width: calc(100% - 20px);
@@ -154,6 +292,12 @@
             p {
                 text-align: left;
             }
+        }
+    }
+
+    .ads-section {
+        .right-content {
+            display: none;
         }
     }
 
