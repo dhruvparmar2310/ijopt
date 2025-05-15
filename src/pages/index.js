@@ -195,6 +195,14 @@ export default function Home() {
                         <p>Emerging Technologies in Physical Therapy</p>
                       </li>
                     </ul>
+                    <div className='notice-board'>
+                      <h1>Notice: UGC-CARE Listing Discontinued</h1>
+                      <p className={`${inter?.className} main-content`}>
+                        The University Grants Commission (UGC) has officially discontinued the UGC-CARE journal listing with immediate
+                        effect and has issued new guidelines for selecting quality peer-reviewed journals.We are pleased to inform you that
+                        our journal follows to the guidelines provided by the UGC. To read the UGC guidelines, <Link href='https://www.ugc.gov.in/pdfnews/9678711_PUBLIC-NOTICE-CARE.pdf' target='_blank' title='UGC Notice'>click here</Link>.
+                      </p>
+                    </div>
                   </div>
                 </section>
 
@@ -202,17 +210,22 @@ export default function Home() {
                   <div className='container'>
                     <h1 className={`${antonSC?.className} top-header`}>
                       <span>Latest Articles</span>
-                      <span className='view-button' onClick={() => {
-                        const archiveKeys = Object.keys(archiveList);
-                        const lastKey = archiveKeys[archiveKeys.length - 1];
-                        const lastArchive = archiveList[lastKey]?.[0];
-                        const journal = lastArchive?.aJournals?.[0];
-                    
-                        const year = journal?.citation_publication_date?.split(', ')[1];
-                        const volume = journal?.citation_volume;
-                        const issue = journal?.citation_issue;
-                        router.push(`/archives/${year}/${volume}/${issue}`);
-                      }}>View More</span>
+                      <span
+                        className='view-button'
+                        onClick={() => {
+                          const archiveKeys = Object.keys(archiveList)
+                          const lastKey = archiveKeys[archiveKeys.length - 1]
+                          const lastArchive = archiveList[lastKey]?.[0]
+                          const journal = lastArchive?.aJournals?.[0]
+
+                          const year = journal?.citation_publication_date?.split(', ')[1]
+                          const volume = journal?.citation_volume
+                          const issue = journal?.citation_issue
+                          router.push(`/archives/${year}/${volume}/${issue}`)
+                        }}
+                      >
+                        View More
+                      </span>
                     </h1>
                     <Row>
                       {archiveList[Object.keys(archiveList)[Object.keys(archiveList).length - 1]][0]?.aJournals
@@ -249,21 +262,24 @@ export default function Home() {
                     <div className='card-body'>
                       <ul>
                         <li>
-                          <FontAwesomeIcon icon={faBookOpenReader} /> <Link href='https://app.oxfordabstracts.com/stages/78097/submitter'>Call for Publication</Link>
+                          <FontAwesomeIcon icon={faBookOpenReader} />{' '}
+                          <Link href='https://app.oxfordabstracts.com/stages/78097/submitter'>Call for Publication</Link>
                         </li>
                         <li>
                           <FontAwesomeIcon icon={faFileLines} /> <Link href='/author-tools/guidelines'>Author Guidelines</Link>
                         </li>
                         <li>
-                          <FontAwesomeIcon icon={faHandHoldingDollar} /> <Link href='/author-tools/article-processing-charge'>Article Processing Charge (APC)</Link>
+                          <FontAwesomeIcon icon={faHandHoldingDollar} />{' '}
+                          <Link href='/author-tools/article-processing-charge'>Article Processing Charge (APC)</Link>
                         </li>
                         <li>
-                          <FontAwesomeIcon icon={faFileArrowDown} /> <Link href='#' onClick={(e) => saveAs(samplePaperFormat, 'Sample Paper - IJOPT')}>
+                          <FontAwesomeIcon icon={faFileArrowDown} />{' '}
+                          <Link href='#' onClick={(e) => saveAs(samplePaperFormat, 'Sample Paper - IJOPT')}>
                             Sample Paper Format
                           </Link>
                         </li>
                         <li>
-                         <FontAwesomeIcon icon={faFileLines} /> <Link href='/policy/peer-review-policy'>Peer Review Policy</Link>
+                          <FontAwesomeIcon icon={faFileLines} /> <Link href='/policy/peer-review-policy'>Peer Review Policy</Link>
                         </li>
                         <li>
                           <FontAwesomeIcon icon={faGlobe} /> <Link href='/about/indexing'>Indexing</Link>

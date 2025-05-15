@@ -2,6 +2,38 @@
     padding: 50px 20px;
     padding-bottom: 20px;
 
+    .notice-board {
+        border-left: 5px solid red;
+        border-radius: 8px;
+        background: rgb(246, 141, 141);
+        color: #ae0707;
+        padding: 20px;
+        margin: 20px 0;
+
+        h1 {
+            text-align: left;
+            font-size: 20px;
+            font-weight: 800;
+        }
+
+        p {
+            margin: 0;
+            font-weight: 600;
+
+            a {
+                color: #fff;
+                text-decoration: none;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    color: #830101;
+                    text-decoration: underline;
+                    text-underline-offset: 5px;
+                }
+            }
+        }
+    }
+
     h1 {
         text-align: center;
         text-transform: uppercase;
