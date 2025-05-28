@@ -1002,5 +1002,62 @@ export const archiveList = {
                 },
             ]
         },
+        {
+            _id: '12',
+            sName: 'Volume 6, Issue 2',
+            sImage: 'assets/img/archives/v6-i2.jpg',
+            dCreatedDate: '2025',
+            sPdfFile: 'assets/documents/archives/2025/1.pdf',
+            sVolume: '6',
+            sIssue: '2',
+            aJournals: [
+                {
+                    _id: '1201',
+                    citation_title: "REFERENCE VALUE OF 6 MINUTE WALK DISTANCE IN PATIENTS WITH CHRONIC STROKE",
+                    citation_author: [
+                        'Dr. Vicky Maru', 'Dr. Manoj Kumar'
+                    ],
+                    citation_publication_date: 'April - June, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '2',
+                    citation_firstpage: '1',
+                    citation_lastpage: '6',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060208',
+                    sDownLoadUrl: '/assets/documents/archives/2025/10.pdf',
+                    sCitation_SEO_Keywords: ['6-minute walk test', 'cutoff value', 'reference value', 'rehabilitation', 'stroke', 'walking independence'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> The 6-minute walk test (6MWT) has strong-to-moderate evidence to assess changes in walking distance for adults with neurologic conditions undergoing rehabilitation. However, the reference value of 6MWT distance according to walking ability in chronic stroke patients in the rehabilitation unit has not been presented. Stroke rehabilitation programs aim to improve walking ability by targeting factors, such as walking velocity, walking endurance, cardiovascular fitness, and balance. Six-minute walk test (6MWT) measures the distance that a subject can quickly walk on a flat and hard surface in a period of 6 min.</p><p><strong>Objective:</strong> To find the reference value of 6 min walk distance depending on the walking ability as measured by functional ambulation category in patients with chronic stroke.</p><p><strong>Methods:</strong> This cross-sectional observational study included 100 chronic stroke patients. 6MWT was used to assess the walking ability. Walking ability was classified using the Functional Ambulation Category (FAC). Reference value of 6MWT distance was presented for each walking ability according to FAC score. The statistical analysis of the data will be done through means [standard deviations].</p><p><strong>Results:</strong> Reference value of 6MWD in chronic stroke patients is 212.41 m. 6MWT distances for each walking ability were as follows: FAC 3 was 147 m, FAC 4 was 234.83 m, and FAC 5 was 287.66 m.</p><p><strong>Conclusion:</strong> 6MWT distance was found to be longer with better walking ability. A distance of 212.41 m during 6MWT might be useful for setting the target value for the higher level of walking ability.</p><p><strong>Keywords:</strong> 6-minute walk test, cutoff value, reference value, rehabilitation; stroke, walking independence</p>",
+                    citation_quotes: '<p>Maru DV, Kumar DM. REFERENCE VALUE OF 6 MINUTE WALK DISTANCE IN PATIENTS WITH CHRONIC STROKE. Indian Journal of Physical Therapy. 2025 April - June; 6(2): 1 - 6. https://doi.org/10.63299/ijopt.060208</p>'
+                },
+                {
+                    _id: '1102',
+                    citation_title: "IMMEDIATE EFFECTS OF INSTRUMENT-ASSISTED SOFT TISSUE MOBILIZATION VERSUS ISCHEMIC COMPRESSION ON PAIN AND RANGE OF MOTION IN TRAPEZITIS",
+                    citation_author: [
+                        'Dr. Nisha Pagi', 'Dr. Nupur Shah'
+                    ],
+                    citation_publication_date: 'April - June, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '2',
+                    citation_firstpage: '7',
+                    citation_lastpage: '16',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060213',
+                    sDownLoadUrl: '/assets/documents/archives/2025/11.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Upper Trapezitis', 'Instrument Assisted Soft Tissue Mobilization (IASTM)', 'Ischemic Compression (IC)'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Trapezitis is a common inflammatory condition among college students, often caused by poor posture, overuse of mobile devices, prolonged static positioning and sudden one-sided movements. It leads to pain, stiffness, and reduced cervical mobility. IASTM and IC are used for myofascial release, limited research compares their immediate effects. This study aims to provide evidence on the best technique for reducing pain and improving cervical ROM.</p><p><strong>AIM & OBJECTIVE:</strong> To study the immediate effects of IASTM versus IC on pain by NPRS and ROM by digital goniometer in college students with upper trapezitis.</p><p><strong>METHOD:</strong> 30 participants selected based on inclusion and exclusion criteria. They were divided into two groups: Group A received IASTM and Group B received IC. Both groups received a hot pack before treatment and active cervical spine exercises post-treatment. The subjects were evaluated using the NPRS and Digital-goniometer at pre and post-treatment intervals.</p><p><strong>RESULT:</strong> Both groups demonstrated significant reductions in pain and improvements in ROM. However, between-group comparisons revealed no significant difference in pain reduction (IASTM: 3.46 ± 0.55 vs. IC: 3.47 ± 0.75; p = 1). IASTM resulted in significantly greater improvement in ROM (Left: 6.91 ± 0.68 vs. 2.97 ± 0.78; p = 0.000021, Right: 6.58 ± 0.08 vs. 3.65 ± 0.02; p = 0.000013).</p><p><strong>CONCLUSION:</strong> Both IASTM and IC were effective in reducing pain and improving cervical range of motion in students with trapezitis. However, IASTM showed significantly greater improvements in ROM, indicating its superior effectiveness in enhancing mobility.</p><p><strong>Keywords:</strong> Upper Trapezitis, Instrument Assisted Soft Tissue Mobilization (IASTM), Ischemic Compression (IC).</p>",
+                    citation_quotes: '<p>Pagi DN, Shah DN. IMMEDIATE EFFECTS OF INSTRUMENT-ASSISTED SOFT TISSUE MOBILIZATION VERSUS ISCHEMIC COMPRESSION ON PAIN AND RANGE OF MOTION IN TRAPEZITIS. Indian Journal of Physical Therapy. 2025 April - June; 6(2): 7 - 16. https://doi.org/10.63299/ijopt.060213</p>'
+                },
+            ]
+        },
     ]
 }
