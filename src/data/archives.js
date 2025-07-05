@@ -1031,10 +1031,10 @@ export const archiveList = {
                     sDownLoadUrl: '/assets/documents/archives/2025/10.pdf',
                     sCitation_SEO_Keywords: ['6-minute walk test', 'cutoff value', 'reference value', 'rehabilitation', 'stroke', 'walking independence'],
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> The 6-minute walk test (6MWT) has strong-to-moderate evidence to assess changes in walking distance for adults with neurologic conditions undergoing rehabilitation. However, the reference value of 6MWT distance according to walking ability in chronic stroke patients in the rehabilitation unit has not been presented. Stroke rehabilitation programs aim to improve walking ability by targeting factors, such as walking velocity, walking endurance, cardiovascular fitness, and balance. Six-minute walk test (6MWT) measures the distance that a subject can quickly walk on a flat and hard surface in a period of 6 min.</p><p><strong>Objective:</strong> To find the reference value of 6 min walk distance depending on the walking ability as measured by functional ambulation category in patients with chronic stroke.</p><p><strong>Methods:</strong> This cross-sectional observational study included 100 chronic stroke patients. 6MWT was used to assess the walking ability. Walking ability was classified using the Functional Ambulation Category (FAC). Reference value of 6MWT distance was presented for each walking ability according to FAC score. The statistical analysis of the data will be done through means [standard deviations].</p><p><strong>Results:</strong> Reference value of 6MWD in chronic stroke patients is 212.41 m. 6MWT distances for each walking ability were as follows: FAC 3 was 147 m, FAC 4 was 234.83 m, and FAC 5 was 287.66 m.</p><p><strong>Conclusion:</strong> 6MWT distance was found to be longer with better walking ability. A distance of 212.41 m during 6MWT might be useful for setting the target value for the higher level of walking ability.</p><p><strong>Keywords:</strong> 6-minute walk test, cutoff value, reference value, rehabilitation; stroke, walking independence</p>",
-                    citation_quotes: '<p>Maru DV, Kumar DM. REFERENCE VALUE OF 6 MINUTE WALK DISTANCE IN PATIENTS WITH CHRONIC STROKE. Indian Journal of Physical Therapy. 2025 April - June; 6(2): 1 - 6. https://doi.org/10.63299/ijopt.060208</p>'
+                    citation_quotes: '<p>Maru V, Kumar M. REFERENCE VALUE OF 6 MINUTE WALK DISTANCE IN PATIENTS WITH CHRONIC STROKE. Indian Journal of Physical Therapy. 2025 April - June; 6(2): 1 - 6. https://doi.org/10.63299/ijopt.060208</p>'
                 },
                 {
-                    _id: '1102',
+                    _id: '1202',
                     citation_title: "IMMEDIATE EFFECTS OF INSTRUMENT-ASSISTED SOFT TISSUE MOBILIZATION VERSUS ISCHEMIC COMPRESSION ON PAIN AND RANGE OF MOTION IN TRAPEZITIS",
                     citation_author: [
                         'Dr. Nisha Pagi', 'Dr. Nupur Shah'
@@ -1055,7 +1055,175 @@ export const archiveList = {
                         'Upper Trapezitis', 'Instrument Assisted Soft Tissue Mobilization (IASTM)', 'Ischemic Compression (IC)'
                     ],
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Trapezitis is a common inflammatory condition among college students, often caused by poor posture, overuse of mobile devices, prolonged static positioning and sudden one-sided movements. It leads to pain, stiffness, and reduced cervical mobility. IASTM and IC are used for myofascial release, limited research compares their immediate effects. This study aims to provide evidence on the best technique for reducing pain and improving cervical ROM.</p><p><strong>AIM & OBJECTIVE:</strong> To study the immediate effects of IASTM versus IC on pain by NPRS and ROM by digital goniometer in college students with upper trapezitis.</p><p><strong>METHOD:</strong> 30 participants selected based on inclusion and exclusion criteria. They were divided into two groups: Group A received IASTM and Group B received IC. Both groups received a hot pack before treatment and active cervical spine exercises post-treatment. The subjects were evaluated using the NPRS and Digital-goniometer at pre and post-treatment intervals.</p><p><strong>RESULT:</strong> Both groups demonstrated significant reductions in pain and improvements in ROM. However, between-group comparisons revealed no significant difference in pain reduction (IASTM: 3.46 ± 0.55 vs. IC: 3.47 ± 0.75; p = 1). IASTM resulted in significantly greater improvement in ROM (Left: 6.91 ± 0.68 vs. 2.97 ± 0.78; p = 0.000021, Right: 6.58 ± 0.08 vs. 3.65 ± 0.02; p = 0.000013).</p><p><strong>CONCLUSION:</strong> Both IASTM and IC were effective in reducing pain and improving cervical range of motion in students with trapezitis. However, IASTM showed significantly greater improvements in ROM, indicating its superior effectiveness in enhancing mobility.</p><p><strong>Keywords:</strong> Upper Trapezitis, Instrument Assisted Soft Tissue Mobilization (IASTM), Ischemic Compression (IC).</p>",
-                    citation_quotes: '<p>Pagi DN, Shah DN. IMMEDIATE EFFECTS OF INSTRUMENT-ASSISTED SOFT TISSUE MOBILIZATION VERSUS ISCHEMIC COMPRESSION ON PAIN AND RANGE OF MOTION IN TRAPEZITIS. Indian Journal of Physical Therapy. 2025 April - June; 6(2): 7 - 16. https://doi.org/10.63299/ijopt.060213</p>'
+                    citation_quotes: '<p>Pagi N, Shah N. IMMEDIATE EFFECTS OF INSTRUMENT-ASSISTED SOFT TISSUE MOBILIZATION VERSUS ISCHEMIC COMPRESSION ON PAIN AND RANGE OF MOTION IN TRAPEZITIS. Indian Journal of Physical Therapy. 2025 April - June; 6(2): 7 - 16. https://doi.org/10.63299/ijopt.060213</p>'
+                },
+                {
+                    _id: '1203',
+                    citation_title: "THE EFFECTS OF CHANDRA NADI PRANAYAMA ON BLOOD PRESSURE, HEART RATE, AND SPASTICITY IN SUBACUTE AND CHRONIC STROKE PATIENTS: AN EXPERIMENTAL STUDY",
+                    citation_author: [
+                        'Dr. Foram Bavisa', 'Dr. Karishma Jagad'
+                    ],
+                    citation_publication_date: 'April - June, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '2',
+                    citation_firstpage: '17',
+                    citation_lastpage: '22',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060215',
+                    sDownLoadUrl: '/assets/documents/archives/2025/12.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Chandra nadi pranayama', 'Blood pressure', 'Heart rate', 'Spasticity'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Unilateral left nostril breathing pranayama may promote the parasympathetic division of the autonomic nervous system, resulting in lowered heart rate, blood pressure, and a relaxed state.</p><p><strong>OBJECTIVE:</strong> To investigate the effects of Chandra Nadi Pranayama on blood pressure, heart rate, and spasticity in subacute and chronic stroke patients.</p><p><strong>METHOD:</strong> A random sample of 36 hypertensive, subacute and chronic stroke male and female patients were recruited. Subjects were selected and allocated into one of the two groups namely Chandra nadi pranayama group and Control group. Patients in both groups underwent conventional therapy for 45 minutes. Chandra nadi pranayama group performed 10 cycles, 3 sets of Chandra nadi pranayama before conventional therapy for 15 minutes. All participants received training 5 sessions a week for a period of 4 weeks. BP, HR, and MAS were taken before and after 4 weeks of the intervention for analysis.</p><p><strong>RESULT:</strong> Data was analysed using SPSS 27.0 version. For within group comparison of BP, MAS were done with Wilcoxon signed-rank test and for HR paired t-test. Inter group comparison for BP, MAS were done with Mann-Whitney U test and for HR independent t-test. Statistically significant differences were observed in outcome measures systolic BP and spasticity (MAS). A minor or non-significant difference was observed in outcome measure HR and no significant changes were observed in diastolic BP.</p><p><strong>CONCLUSION:</strong> Chandra nadi pranayama is an effective method for improving heart rate, systolic blood pressure, and spasticity in stroke patients.</p><p><strong>Keywords:</strong> Chandra nadi pranayama, Blood pressure, Heart rate, Spasticity</p>",
+                    citation_quotes: '<p>Bavisa F, Jagad K. THE EFFECTS OF CHANDRA NADI PRANAYAMA ON BLOOD PRESSURE, HEART RATE, AND SPASTICITY IN SUBACUTE AND CHRONIC STROKE PATIENTS: AN EXPERIMENTAL STUDY. Indian Journal of Physical Therapy. 2025 April - June; 6(2): 17 - 22. https://doi.org/10.63299/ijopt.060215</p>'
+                },
+                {
+                    _id: '1204',
+                    citation_title: "PREVALENCE OF KINESIOPHOBIA AMONG COMMUNITY-DWELLING INDIVIDUALS WITH KNEE PAIN: A CROSS-SECTIONAL STUDY",
+                    citation_author: [
+                        'Dr. Krupal Modi', 'Dr. Drashti Kasundra'
+                    ],
+                    citation_publication_date: 'April - June, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '2',
+                    citation_firstpage: '23',
+                    citation_lastpage: '27',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060218',
+                    sDownLoadUrl: '/assets/documents/archives/2025/13.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Knee pain','Kinesiophobia', 'BMI', 'Rehabilitation'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Knee pain is a common and debilitating condition, particularly among older adults, and is often associated with degenerative diseases such as osteoarthritis. Alongside physical impairment, psychological factors such as kinesiophobia (fear of movement) play a crucial role in the persistence and exacerbation of pain.</p><p><strong>AIMS & OBJECTIVE:</strong> The primary aim of this study was to assess the prevalence of kinesiophobia using the Tampa Scale for Kinesiophobia (TSK) in individuals with knee pain. A secondary objective was to examine the relationship between BMI and kinesiophobia severity.</p><p><strong>METHOD:</strong> A cross-sectional study was conducted with 81 participants aged 40-80 years with knee pain, selected through convenience sampling in Surat city. Participants were assessed using the TSK (Gujarati version), and BMI was categorized according to the World Health Organization (WHO) classification. Descriptive and inferential statistics were performed using Microsoft Excel 2016.</p><p><strong>RESULT:</strong> Out of 81 participants, 44 individuals (54%) had a TSK score greater than 37, indicating high levels of kinesiophobia. The mean TSK score for this group was 39.79 ± 3.93. No significant difference in kinesiophobia severity was observed between the BMI categories (p = 0.33).</p><p><strong>CONCLUSION:</strong> The study highlights the high prevalence of kinesiophobia in individuals with knee pain. Incorporating psychological assessments like the TSK into routine evaluations can help identify individuals at risk and guide more holistic treatment approaches to improve outcomes in knee pain rehabilitation.</p><p><strong>Keywords:</strong> Knee pain, Kinesiophobia, BMI, Rehabilitation.</p>",
+                    citation_quotes: '<p>Modi K, Kasundra D. PREVALENCE OF KINESIOPHOBIA AMONG COMMUNITY-DWELLING INDIVIDUALS WITH KNEE PAIN: A CROSS-SECTIONAL STUDY. Indian Journal of Physical Therapy. 2025 April - June; 6(2): 23 - 27. https://doi.org/10.63299/ijopt.060218</p>'
+                },
+                {
+                    _id: '1205',
+                    citation_title: "Comparison of Fear of fall, Mobility and Balance among older people with and without Diabetes Mellitus - An Observational study",
+                    citation_author: [
+                        'Darshiniben H. Shah', 'Dr. Megha Sheth'
+                    ],
+                    citation_publication_date: 'April - June, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '2',
+                    citation_firstpage: '28',
+                    citation_lastpage: '31',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060219',
+                    sDownLoadUrl: '/assets/documents/archives/2025/14.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Fear of fall', 'Diabetes Mellitus', 'older people'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> The prevalence of diabetes increasing rapidly worldwide, especially in low- and middle-income countries. Diabetes mellitus can lead to so many other complications. This study has been conducted to find out fear of fall in diabetic elderly.</p><p><strong>OBJECTIVE:</strong> This study was designed to find out fear of fall in older people with Diabetes Mellitus</p><p><strong>METHOD:</strong> An observational study on 200 males and females, who were aged more than 60 years, included by purposive sampling method, from which 100 were diabetics and 100 were nondiabetics was conducted in community of Ahmedabad. Fall Efficacy Scale International (FES-I), Timed Up and Go (TUG) test and sharpened Romberg test were taken to assess to assess fear of fall, mobility, and balance respectively. Both groups were compared using Mann Whitney U test. Level of significance was kept at 5%.</p><p><strong>RESULT:</strong> Results showed statistically significant difference in fear of fall on FES-I scale (p=0.03) and mobility on TUG scale (p=0.043) between both groups. But there was no statistically significant difference in balance on sharpened Romberg test (p=0.158)</p><p><strong>CONCLUSION:</strong> This study concluded that, there is more fear of fall as well as reduced mobility in diabetic elderly as compared with non-diabetic elderly. But no difference in balance was seen.</p><p><strong>Keywords:</strong> Fear of fall, Diabetes Mellitus, older people.</p>",
+                    citation_quotes: '<p>Shah DH, Sheth M. Comparison of Fear of fall, Mobility and Balance among older people with and without Diabetes Mellitus - An Observational study. Indian Journal of Physical Therapy. 2025 April - June; 6(2): 28 - 31. https://doi.org/10.63299/ijopt.060219</p>'
+                },
+                {
+                    _id: '1206',
+                    citation_title: "TEXT NECK SYNDROME: PREVENTION AND MANAGEMENT",
+                    citation_author: [
+                        'Vishaben Patel', 'Jaimini Sailor', 'Kencykumari Patel', 'Zeel Patel', 'Salvi Shah'
+                    ],
+                    citation_publication_date: 'April - June, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '2',
+                    citation_firstpage: '32',
+                    citation_lastpage: '43',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060220',
+                    sDownLoadUrl: '/assets/documents/archives/2025/15.pdf',
+                    sCitation_SEO_Keywords: [
+                        ''
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>Text neck syndrome refers to the overuse injury which leads to the cervical spinal degeneration due to repeated stress over it while texting in the smartphones. It affects cervical as well as thoracic postures in individuals using smartphones. Cervical posture changes lead to forward head posture and thoracic posture changes lead towards forward position of the scapula and shoulder. Muscle activity changes are seen in sternocleidomastoid and middle trapezius muscles while texting. The clinical examination is directed towards to assess postural changes by photogrammatic examination for various postural angles such as craniovertebral angel (CVA), Sagittal head tilt, Coronal head tilt etc. Ergonomic modifications will help to prevent the further injury to spine. The pain due to this can be managed by medication and improvement in posture managed by strengthening and stretching exercises as well as ergonomic modification.</p>",
+                    citation_quotes: '<p>Patel V, Sailor J, Patel K, Patel Z, Shah S. TEXT NECK SYNDROME: PREVENTION AND MANAGEMENT. Indian Journal of Physical Therapy. 2025 April - June; 6(2): 32 - 43. https://doi.org/10.63299/ijopt.060220</p>'
+                },
+                {
+                    _id: '1207',
+                    citation_title: "EFFICACY OF CUPPING THERAPY VERSUS STANDARD CARE IN MANAGING CHRONIC NON-SPECIFIC BACK PAIN AMONG COMPUTER USERS: A DOUBLE-ARM RANDOMIZED CONTROLLED TRIAL",
+                    citation_author: [
+                        'Dr. Pratik Gohil', 'Dr.Pooja Mishra'
+                    ],
+                    citation_publication_date: 'April - June, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '2',
+                    citation_firstpage: '44',
+                    citation_lastpage: '49',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060221',
+                    sDownLoadUrl: '/assets/documents/archives/2025/16.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Cupping therapy', 'chonic non-specific back pain', 'physiotherapy', 'standard care', 'disability index', 'randomized trial'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Chronic non-specific back pain (CNSBP) is highly prevalent among computer users due to prolonged static posture and repetitive strain. Effective interventions are essential to improve quality of life and reduce disability.</p><p><strong>METHOD:</strong> A randomized controlled trial was conducted on 70 adult computer users with CNSBP. Participants were divided into two groups: 35 received cupping therapy and 35 underwent standard physiotherapy care. Outcomes were assessed using the Oswestry Disability Index (ODI) and Visual Analog Scale (VAS) over a 6-week period.</p><p><strong>RESULT:</strong> Both groups showed significant improvement in ODI and VAS scores. The cupping therapy group demonstrated faster pain relief and greater reduction in disability, with VAS reducing from 7.5 to 1.2 and ODI from 59.1 to 18.2. Standard care showed gradual improvement with VAS decreasing from 7.4 to 2.6 and ODI from 58.3 to 29.3.</p><p><strong>CONCLUSION:</strong> Cupping therapy is effective for short-term relief in CNSBP, whereas standard physiotherapy ensures sustained improvement. A combined approach may yield optimal outcomes in managing chronic low back pain.</p><p><strong>Keywords:</strong> Cupping therapy, chronic non-specific back pain, physiotherapy, standard care, disability index, randomized trial.</p>",
+                    citation_quotes: '<p>Gohil P, Mishra P. EFFICACY OF CUPPING THERAPY VERSUS STANDARD CARE IN MANAGING CHRONIC NON-SPECIFIC BACK PAIN AMONG COMPUTER USERS: A DOUBLE-ARM RANDOMIZED CONTROLLED TRIAL. Indian Journal of Physical Therapy. 2025 April - June; 6(2): 44 - 49. https://doi.org/10.63299/ijopt.060221</p>'
+                },
+                {
+                    _id: '1208',
+                    citation_title: "IMMEDIATE EFFECT OF NORDIC HAMSTRING CURL AND DYNAMIC STRETCHING ON SLR90⁰-90⁰ AND Y-BALANCE TEST–A COMPARATIVE STUDY",
+                    citation_author: [
+                        'Dr. Arya Nandalal Dadhaniya', 'Dr. Himashi Harshadrai Ruparelia', 'Dr. Ashish Dhirajlal Kakkad', 'Dr. Shahrukhkhan Chauhan', 'Dr. Kuldip M. Ramavat'
+                    ],
+                    citation_publication_date: 'April - June, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '2',
+                    citation_firstpage: '50',
+                    citation_lastpage: '55',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060224',
+                    sDownLoadUrl: '/assets/documents/archives/2025/17.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Nordic Hamstring Curl', 'Y- balance test', 'SLR 90-90'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> A key physiological element of physical fitness is the elasticity of muscles. Occupational inefficiencies might be resulted from a lack of flexibility. The Y-Balance Test is a dynamic balance measurement that has been made more popular. Therefore, the immediate effects of dynamic stretching with Nordic hamstring curls are compared by this study. 90-90 SLR: Also referred to as the Active Knee Extension Test (AKET), the dimension of the hamstrings and the potential for hamstring tightness are measured by the 90-90 Straight Leg Raise Test. Y Balance Test: Innovative tests that call for motion perception, power, and elasticity are represented by the Star Excursion Balance Test (SEBT) and the Y balance test. For athletics as well as physically demanding individuals, dynamic balance is measured by it, which presents a considerable difficulty.</p><p><strong>METHOD:</strong> The subjects completing the parameters for choosing will be chosen from the ages of 18-25, Following that, everyone was placed into two groups at random. (Nordic hamstring curl and dynamic stretching). A consort form was taken from all subjects before giving the intervention analysis of dynamic flexibility by Y-balance test. The intervention was given for hamstring muscles in the form of Nordic hamstring curls and dynamic stretching. Then post-evaluation, hamstring tightness by SLR 90-90 and Y-balance test will be done.</p><p><strong>CONCLUSION:</strong> The statistical analysis suggests that both the technique Nordic hamstring curl and Dynamic Stretching show significant improvement in flexibility and dynamic balance.</p><p><strong>Keywords:</strong> Nordic Hamstring Curl, Y- balance test, SLR 90-90</p>",
+                    citation_quotes: '<p>Dadhaniya AN, Ruparelia HH, Kakkad AD, Chauhan S, Ramavat KM. IMMEDIATE EFFECT OF NORDIC HAMSTRING CURL AND DYNAMIC STRETCHING ON SLR90⁰-90⁰ AND Y-BALANCE TEST–A COMPARATIVE STUDY. Indian Journal of Physical Therapy. 2025 April - June; 6(2): 50 - 55. https://doi.org/10.63299/ijopt.060224</p>'
+                },
+                {
+                    _id: '1209',
+                    citation_title: "A STUDY TO COMPARE IMMEDIATE EFFECT OF MYOFASCIAL RELEASE & POSITIONAL RELEASE TECHNIQUE ON PAIN IN COMPUTER WORKERS WITH UPPER TRAPEZITIS-AN INTERVENTIONAL STUDY",
+                    citation_author: [
+                        'Dr Foram Jagdishbhai Bhut', 'Dr Brijeshkumar Tribhovanbhai Varma'
+                    ],
+                    citation_publication_date: 'April - June, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '2',
+                    citation_firstpage: '56',
+                    citation_lastpage: '62',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060225',
+                    sDownLoadUrl: '/assets/documents/archives/2025/18.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Trapezitis', 'Myofascial Release', 'Positional Release Technique', 'Computer Workers', 'Pain Relief'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Trapezitis is a common condition among computer workers due to prolonged static postures and poor ergonomics. Continuous desk work causes the trapezius muscle to remain in a fixed position, leading to muscle fatigue and spasms. Pain intensity can be assessed using the Numerical Pain Rating Scale (NPRS). Manual therapy techniques like Myofascial Release (MFR) and Positional Release Technique (PRT) are commonly used to manage this condition. Both treatments have been found effective in reducing pain and improving muscle function in individuals with upper Trapezitis.</p><p><strong>AIM:</strong> To compare immediate effect of myofascial release & positional release technique on pain in computer workers with upper Trapezitis.</p><p><strong>OBJECTIVE:</strong> To evaluate the effect of Myofascial release on pain in computer workers with upper Trapezitis. To evaluate the effect of Positional release technique on pain in computer workers with upper Trapezitis. To compare the effect of Myofascial release and positional release technique on pain in computer workers with upper Trapezitis.</p><p><strong>METHOD:</strong> A total of 30 subjects were randomly selected from the computer department based on inclusion and exclusion criteria. Participants were randomly divided into two groups: Group A received the Myofascial Release Technique, and Group B received the Positional Release Technique. Each participant received only one treatment session. The intensity of pain was measured before and after the intervention using the Numerical Pain Rating Scale (NPRS). The study aimed to compare the immediate effects of both techniques on upper Trapezitis. Data were analyzed to determine the effectiveness of each treatment.</p><p><strong>RESULT:</strong> Data were analyzed using SPSS software. For statistical evaluation, a paired t-test was used to compare pre- and post-treatment scores within each group, and an unpaired t-test was used to compare outcomes between Group A and Group B.</p><p><strong>CONCLUSION:</strong> Both techniques were found to be effective in relieving pain associated with upper Trapezitis. However, Myofascial Release (MFR) was found to be more effective than the Positional Release Technique (PRT) in reducing pain.</p><p><strong>Keywords:</strong> Trapezitis, Myofascial Release, Positional Release Technique, Computer Workers, Pain Relief.</p>",
+                    citation_quotes: '<p>Bhut FJ, Varma BT. A STUDY TO COMPARE IMMEDIATE EFFECT OF MYOFASCIAL RELEASE & POSITIONAL RELEASE TECHNIQUE ON PAIN IN COMPUTER WORKERS WITH UPPER TRAPEZITIS-AN INTERVENTIONAL STUDY. Indian Journal of Physical Therapy. 2025 April - June; 6(2): 56 - 62. https://doi.org/10.63299/ijopt.060225</p>'
                 },
             ]
         },

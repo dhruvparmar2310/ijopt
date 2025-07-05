@@ -21,9 +21,9 @@ const settings = {
   slidesToShow: 4,
   slidesToScroll: 1,
   autoplay: true,
-  speed: 5000,
-  autoplaySpeed: 1000,
-  // cssEase: "linear",
+  speed: 3000,
+  autoplaySpeed: 3000,
+  cssEase: "linear",
   pauseOnHover: false,
   responsive: [
     {
@@ -41,6 +41,10 @@ const indexingImg = [
   { sImage: 'assets/img/index/Crossref-Logo.jpeg', sAlt: 'Crossref' },
   { sImage: 'assets/img/index/issn_logo.png', sAlt: 'ISSN' },
   { sImage: 'assets/img/index/ResearchGate_logo.png', sAlt: 'Research Gate' },
+  { sImage: 'assets/img/index/r-discovery-logo.png', sAlt: 'Research Discovery' },
+  { sImage: 'assets/img/index/Open_Ukrainian_Citation_Index_logo.png', sAlt: 'OUC' },
+  { sImage: 'assets/img/index/europub.png', sAlt: 'EuroPub' },
+  { sImage: 'assets/img/index/scilit-Logo.png', sAlt: 'Scilit' },
   { sImage: 'assets/img/index/Open_Access_logo.png', sAlt: 'Open Access' },
   { sImage: 'assets/img/index/cukurova_logo.png', sAlt: 'Cukurova' },
   { sImage: 'assets/img/index/ici2.png', sAlt: 'ICI2' },
@@ -56,6 +60,10 @@ const indexingImg = [
   { sImage: 'assets/img/index/Crossref-Logo.jpeg', sAlt: 'Crossref' },
   { sImage: 'assets/img/index/issn_logo.png', sAlt: 'ISSN' },
   { sImage: 'assets/img/index/ResearchGate_logo.png', sAlt: 'Research Gate' },
+  { sImage: 'assets/img/index/r-discovery-logo.png', sAlt: 'Research Discovery' },
+  { sImage: 'assets/img/index/Open_Ukrainian_Citation_Index_logo.png', sAlt: 'OUC' },
+  { sImage: 'assets/img/index/europub.png', sAlt: 'EuroPub' },
+  { sImage: 'assets/img/index/scilit-Logo.png', sAlt: 'Scilit' },
   { sImage: 'assets/img/index/Open_Access_logo.png', sAlt: 'Open Access' },
   { sImage: 'assets/img/index/cukurova_logo.png', sAlt: 'Cukurova' },
   { sImage: 'assets/img/index/ici2.png', sAlt: 'ICI2' },
@@ -228,7 +236,8 @@ export default function Home() {
                       </span>
                     </h1>
                     <Row>
-                      {archiveList[Object.keys(archiveList)[Object.keys(archiveList).length - 1]][0]?.aJournals
+                      {archiveList[Object.keys(archiveList).at(-1)].at(-1)?.aJournals
+                        ?.sort((a,b) => b._id - a._id)
                         ?.slice(0, 4)
                         ?.map((article, index) => {
                           return (

@@ -63,7 +63,7 @@ function ArchiveID ({ data }) {
                 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
 
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta name='keywords' content={`ijopt volume ${currentArticle?.volume} issue ${currentArticle?.issue}, ${articleData?.citation_title} ijopt, ijopt journals, ijopt publications, ijopt articles`} />
+                <meta name='keywords' content={`ijopt volume ${currentArticle?.volume} issue ${currentArticle?.issue}, ${articleData?.citation_title}, ijopt journals, ijopt publications, ijopt articles`} />
                 <meta name="description" content="Indian Journal of Physical Therapy (IJOPT): Your trusted source for peer-reviewed articles, latest research, and expert insights in physiotherapy, Open access Journal. Explore now!" />
 
                 {archiveID?.length === 3 ? <>
