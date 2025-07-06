@@ -18,7 +18,8 @@ const Hero = () => {
             <div>
                 <p className={`${inter?.className} mt-5 mb-0`}>ISSN Approved Journal No: 2321-5690 | ESTD Year: 2013, Follow UGC CARE Journal Norms and Guidelines</p>
                 <p className={`${inter?.className}`}>Scholarly open access journal and Peer-reviewed</p>
-                <p className={`${inter?.className} mt-3 last-date`}>Last date for Article Submission: 10th June, 2025 for Volume 6, Issue 2</p>
+                <p className={`${inter?.className} mt-3 last-date`}>Last date for Article Submission: 10th September, 2025 for Volume 6, Issue 3</p>
+                <p className={`${inter?.className} mt-3 last-date`}>Journal DOI: <span className='text-lowercase'>https://doi.org/10.63299/ijopt</span></p>
             </div>
 
             <div className='mt-5 d-flex'>
