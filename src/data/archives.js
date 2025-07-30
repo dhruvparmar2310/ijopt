@@ -1227,5 +1227,230 @@ export const archiveList = {
                 },
             ]
         },
+        {
+            _id: '13',
+            sName: 'Volume 6, Issue 3',
+            sImage: 'assets/img/archives/v6-i3.jpg',
+            dCreatedDate: '2025',
+            sPdfFile: 'assets/documents/archives/2025/19.pdf',
+            sVolume: '6',
+            sIssue: '3',
+            aJournals: [
+                {
+                    _id: '1301',
+                    citation_title: "RETROSPECTIVE EVALUATION OF THE IMPACT OF KNEE OSTEOARTHRITIS SEVERITY ON TREATMENT OUTCOMES: A LONGITUDINAL STUDY",
+                    citation_author: [
+                        'Dr. Hardik Badala', 'Dr. Vaibhav Dave', 'Dr. Prachi Oza', 'Dr. Hemant Kumar', 'Dr. Aprajeeta Choauhan'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '1',
+                    citation_lastpage: '13',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060301',
+                    sDownLoadUrl: '/assets/documents/archives/2025/19.pdf',
+                    sCitation_SEO_Keywords: ['Knee osteoarthritis', 'Kellgren-Lawrence grading', 'treatment outcomes', 'conservative management', 'surgical intervention', 'longitudinal study', 'functional assessment'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Knee osteoarthritis (OA) affects approximately 528 million people worldwide, representing a significant healthcare burden with variable treatment outcomes based on disease severity. Understanding the relationship between severity grading and treatment effectiveness is crucial for optimizing patient management strategies.</p><p><strong>Objective:</strong> To evaluate the impact of knee osteoarthritis severity, assessed using the Kellgren-Lawrence (KL) grading system, on treatment outcomes over a 24-month longitudinal period.</p><p><strong>Methods:</strong> This retrospective longitudinal study analyzed 1,247 patients with knee OA treated between January 2020 and December 2023. Patients were stratified by KL grades (0-4) and treatment modalities (conservative vs. surgical). Primary outcomes included pain scores using Visual Analog Scale (VAS), functional outcomes using Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) and Knee injury and Osteoarthritis Outcome Score (KOOS), and quality of life measures at baseline, 6, 12, and 24 months.</p><p><strong>Results:</strong> Patients with KL grades 0-2 showed significantly better responses to conservative treatments, with mean VAS scores improving from 6.2±1.8 to 2.4±1.2 (p<0.001). Advanced OA (KL grades 3-4) demonstrated superior outcomes with surgical interventions, achieving 78% functional improvement compared to 34% with conservative management. Treatment failure rates increased with severity grade, ranging from 12% in KL grade 1 to 67% in KL grade 4 for conservative treatments.</p><p><strong>Conclusion:</strong> Knee osteoarthritis severity significantly influences treatment outcomes, with early-stage disease responding favorably to conservative management while advanced stages require surgical intervention for optimal results. These findings support severity-based treatment algorithms for improved patient outcomes.</p><p><strong>Keywords:</strong> Knee osteoarthritis, Kellgren-Lawrence grading, treatment outcomes, conservative management, surgical intervention, longitudinal study, functional assessment</p>",
+                    citation_quotes: '<p>Badala H, Dave V, Oza P, Kumar H, Choauhan A. RETROSPECTIVE EVALUATION OF THE IMPACT OF KNEE OSTEOARTHRITIS SEVERITY ON TREATMENT OUTCOMES: A LONGITUDINAL STUDY. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 1 - 13. https://doi.org/10.63299/ijopt.060301</p>'
+                },
+                {
+                    _id: '1302',
+                    citation_title: "OPTIMIZING HAND FUNCTION RECOVERY AFTER LIVER TRANSPLANTATION THROUGH PHYSIOTHERAPY INTERVENTION: A CASE REPORT",
+                    citation_author: [
+                        'Dr. Shweta Dixit', 'Dr. Mansi Patel', 'Dr. Bharat Tiwari', 'Dr. Harda Shah', 'Dr. Fagun Jain', 'Dr. Nirali Vakani', 'Dr. Nishita Parekh'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '14',
+                    citation_lastpage: '20',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060302',
+                    sDownLoadUrl: '/assets/documents/archives/2025/20.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Physiotherapy, Radial', 'Median Neuropathy', 'Liver Transplantation', 'Neuromuscular Electrical Stimulation'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Liver transplantation is a proven intervention for patients with acute and chronic end-stage liver disease. The surgery typically lasts approximately 12 hours. The surgical position involves head support, arms abducted to 90 degrees, and legs apart. Several procedures, including intubation, arterial cannulation, and general anesthesia, are performed concurrently. According to research, prolonged surgical procedures may result in nerve compression and functional impairments.</p><p><strong>CASE PRESENTATION:</strong> We report the case of a 43-year-old man who underwent orthotopic cadaveric liver transplantation on July 2, 2024, due to end-stage liver disease. On the fifth postoperative day, he complained of tingling, numbness, and paresthesia in the left hand, difficulty grasping, making a fist, and curling the metacarpophalangeal joints. Examination revealed pain (8/10 on VAS), poor grip strength (HHD: 0 kg), and weak finger extensors and abductors (MMT: 2+/5). Neurological tests indicated radial and median nerve neuropraxia.</p><p><strong>PURPOSE:</strong> To investigate the effect of a tailor-made rehabilitation protocol on muscle strength and function in patients with hand nerve injury.</p><p><strong>METHOD:</strong> The rehabilitation was divided into two phases: (1) Acute Phase: Passive ROM for wrist and fingers, NMES, stretching, PNF, and functional splinting. (2) Subacute/Late Phase: Active-assisted exercises, faradic re-education, gripping, and active exercises.</p><p><strong>RESULT:</strong> After three weeks of physiotherapy, there was significant improvement in ROM (from passive to active), muscle strength (from 2+/5 to 4/5), grip strength (from 0 kg to 12 kg), and PRWE score (from 111 to 0).</p><p><strong>CONCLUSION:</strong> Physiotherapy rehabilitation is a comprehensive approach that enhances strength, movement, grip, and coordination—especially in rare cases of radial neuropathy following liver transplantation.</p><p><strong>Keywords:</strong> Physiotherapy, Radial and Median Neuropathy, Liver Transplantation, Neuromuscular Electrical Stimulation.</p>",
+                    citation_quotes: '<p>Dixit S, Patel M, Tiwari B, Shah H, Jain F, Vakani N, et al. OPTIMIZING HAND FUNCTION RECOVERY AFTER LIVER TRANSPLANTATION THROUGH PHYSIOTHERAPY INTERVENTION: A CASE REPORT. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 14 - 20. https://doi.org/10.63299/ijopt.060302</p>'
+                },
+                {
+                    _id: '1303',
+                    citation_title: "BEYOND THE BASICS: AN ANALYSIS OF CLINICAL PRACTICE GUIDELINES IN PHYSIOTHERAPY FOR LOW BACK ACHE",
+                    citation_author: [
+                        'Pooja Surve', 'Makkuva Ajtiha', 'Pallabi Nandi'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '21',
+                    citation_lastpage: '30',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060323',
+                    sDownLoadUrl: '/assets/documents/archives/2025/21.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Lowback ache', 'clinical practice guideline', 'evidence-based practice', 'musculoskeletal rehabilitation', 'pain management'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> As one of among the most prominent musculoskeletal ailments around the world, Lowback ache (LBA) impacts individuals from every decade and causes a substantial financial, social, and personal load. Clinical Practice Guidelines (CPGs) offer physiotherapists evidence-based suggestions for the efficient diagnosis and treatment of LBA.</p><p><strong>OBJECTIVE:</strong> The purpose of this study is to improve clinical decision-making and advance standardized, patient-centered care by presenting evidence-based physiotherapy treatments for the alleviation of short-term, long-term, and persistent low-back pain.</p><p><strong>METHOD:</strong> A comprehensive analysis of the most recent, high-quality evidence was carried out using pubmed, google scholar, cochrane which includes meta-analyses, randomized controlled trials, and established guidelines.The recommendations were rated using globally accepted frameworks according to the quality and strength of the evidence.</p><p><strong>RESULT:</strong> Key suggestions include minimizing the use of radiological and pharmaceutical therapies until there are red flags; employing exercise therapy, manual therapy, and cognitive-behavioral techniques for chronic LBA; and using patient education, reassurance, and guidance to stay active for acute LBA. Individualized care strategy, goal-setting, and encouraging self-management are prioritized.</p><p><strong>CONCLUSION:</strong> Physiotherapists can maximize the management of patients with low back pain by using the CPG's straightforward, evidence-based strategies. It is anticipated that putting these recommendations into practice will enhance clinical results, lessen practice variability, and encourage effective resource utilization in the physiotherapy treatment of LBA. Adherence to guidelines improves diagnostic accuracy and optimises tretment strategies for better clinical outcomes. continued integration of CPG's into physiotherapy can lead to better healthcare efficiency.</p><p><strong>Keywords:</strong> Lowback ache, clinical practice guideline, evidence-based practice , musculoskeletal rehabilitation, pain management</p>",
+                    citation_quotes: '<p>Surve P, Ajtiha M, Nand P. BEYOND THE BASICS: AN ANALYSIS OF CLINICAL PRACTICE GUIDELINES IN PHYSIOTHERAPY FOR LOW BACK ACHE. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 21 - 30. https://doi.org/10.63299/ijopt.060323</p>'
+                },
+                {
+                    _id: '1304',
+                    citation_title: "A CASE REPORT: REHABILITATION IN A MIDDLE-AGED WOMAN AFTER ACUTE NON-HEMORRHAGIC CEREBELLAR INFARCTION WITH HYDROCEPHALUS",
+                    citation_author: [
+                        'Hiral Patel', 'Stephen Christian'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '31',
+                    citation_lastpage: '39',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060326',
+                    sDownLoadUrl: '/assets/documents/archives/2025/22.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Cerebellar Ataxia', 'Hydrocephalus', 'Rehabilitation', 'Physiotherapy', 'Independency'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Cerebellar strokes make up about 2–3% of all ischemic strokes. Acute cerebellar stroke can cause serious neurological symptoms like ataxia, dysmetria, dysdiadochokinesia, and truncal instability, but they rarely result in aphasia or hemiplegia.</p><p><strong>CASE DESCRIPTION:</strong> A 41-year-old female patient presented to our department with complaints of difficulty walking and transferring, challenges in performing daily activities (bathing, eating, grooming, cooking, chopping, and mopping), as well as dysphagia and slurred speech following a cerebrovascular accident.</p><p><strong>EXAMINATION:</strong> Neurological examination revealed significant in-coordination, balance impairment, dysarthria, and swallowing difficulties without significant motor weakness. We assessed the patient with MMSE (Mini Mental Status Examination), FIM (Functional independency measure), ISS (Indian Stroke Scale), BBS (Berg Balance scale), SARA (The Scale for the Assessment and Rating of Ataxia), 6MWD (Six Minute Walk Distance), and FIST (Function In Sitting Test).</p><p><strong>PHYSIOTHERAPY INTERVENTION:</strong> Physiotherapy management was provided 5 days a week for 12-week, progression was done every 1 to 2 weeks as needed according to the therapist to keep the activity challenging.</p><p><strong>DISCUSSION:</strong> All the parameters showed improvement after 12 weeks of intervention. We also assessed the patient after 1 month for follow-up and we found that almost all the parameters were either same or had improved suggesting the efficacy of management and transfer of skill at home environment. Conclusion: - This case report demonstrates that tailored made individual specific exercise protocol with regular counselling can lead to improvement in a Post non-haemorrhagic acute stroke with hydrocephalus.</p><p><strong>Keywords:</strong>Cerebellar Ataxia, Hydrocephalus, Rehabilitation, Physiotherapy, Independency.</p>",
+                    citation_quotes: '<p>Patel H, Christian S. A CASE REPORT: REHABILITATION IN A MIDDLE-AGED WOMAN AFTER ACUTE NON-HEMORRHAGIC CEREBELLAR INFARCTION WITH HYDROCEPHALUS. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 31 - 39. https://doi.org/10.63299/ijopt.060326</p>'
+                },
+                {
+                    _id: '1305',
+                    citation_title: "A STUDY TO COMPARE EFFECTIVENESS OF PROPRIOCEPTIVE NEUROMUSCULAR FACILITATION TECHNIQUE Vs SUBOCCIPITAL RELAXATION EXERCISE ON PAIN AND NECK DISABILITY AMONG PATIENTS WITH CERVICOGENIC HEADCHE OF AGE GROUP 20-45 YEARS",
+                    citation_author: [
+                        'Jayasudh', 'Dr. Rajendra Kachhwaha', 'Dr. Srimonta Das'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '40',
+                    citation_lastpage: '45',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060327',
+                    sDownLoadUrl: '/assets/documents/archives/2025/23.pdf',
+                    sCitation_SEO_Keywords: [
+                        'PNF', 'Cervicogenic headache', 'Suboccipital relaxation exercises', 'NDI in cervicogenic headache', 'NPRS cervicogenic head'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Cervicogenic headache is chronic headache in people who are 20 to 45 years. as it mainly affects the upper cervical joints and atlantooccipital joints leading to unilateral dominant headache, neck pain, weakness of cervical flexors, tenderness of upper cervical region, tightness of cervical extensors with the neck pain and neck disability. The cervical flexion-rotation test (CFRT) is highly reliable for diagnosing cervicogenic headache. PNF techniques help improve posture, strengthen cervical flexors, and reduce pain. Suboccipital relaxation targets muscle fatigue and decreases headache severity. This study compares the effects of PNF and suboccipital relaxation on pain and neck disability in CGH patients.</p><p><strong>OBJECTIVE:</strong> The objective of the study is to investigate the effect of Proprioceptive neuromuscular facilitation technique versus suboccipital relaxation exercise on pain and neck disability among patients with cervicogenic headache.</p><p><strong>METHOD:</strong> Participants with a positive cervical flexion-rotation test were randomly assigned into two groups using the sealed envelope method. Group A received PNF and Group B received suboccipital relaxation exercises for 60 minutes/day, 4 days/week for 4 weeks. Outcomes were measured using the Neck Disability Index (NDI) and Numeric Pain Rating Scale (NPRS).</p><p><strong>RESULT:</strong> The baseline characteristics age, gender, Neck disability index, NPRS, scores were calculated for both the groups. The NPRS for group A (19.04 ± 2.38) and Group B (18.35 ± 0.630) and NDI score was Group A (11.31 ± 5.42) and Group B (13.46 ± 4.57) respectively. Between the groups there is statistically significant difference (p<0.05) in post test score of NPRS.</p><p><strong>CONCLUSION:</strong> Both PNF and suboccipital relaxation exercises reduced pain and neck disability in cervicogenic headache. However, the PNF group showed greater post-intervention improvement. It significantly enhanced NPRS, NDI scores, and cervical muscle function.</p><p><strong>Keywords:</strong> PNF, Cervicogenic headache, Suboccipital relaxation exercises, NDI in cervicogenic headache, NPRS cervicogenic head.</p>",
+                    citation_quotes: '<p>Jayasudh , Kachhwaha R, Das S. A STUDY TO COMPARE EFFECTIVENESS OF PROPRIOCEPTIVE NEUROMUSCULAR FACILITATION TECHNIQUE Vs SUBOCCIPITAL RELAXATION EXERCISE ON PAIN AND NECK DISABILITY AMONG PATIENTS WITH CERVICOGENIC HEADCHE OF AGE GROUP 20-45 YEARS. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 40 - 45. https://doi.org/10.63299/ijopt.060327</p>'
+                },
+                {
+                    _id: '1306',
+                    citation_title: "GAINS AND CHALLENGES OF TELEREHABILITATION: A NARRATIVE REVIEW",
+                    citation_author: [
+                        'Dr. Manisha Tonape', 'Mayurpangkhi Borthakur', 'Rohan Das'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '46',
+                    citation_lastpage: '50',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060329',
+                    sDownLoadUrl: '/assets/documents/archives/2025/24.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Telerehabilitation', 'Telemedicine', 'COVID-19 pandemic', 'Remote healthcare', 'Physical therapy'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> COVID-19 has accelerated the adoption of telehealth among various specialties, including physical therapy. The rapid adoption of telerehabilitation (TR) has uncovered both its potential benefits and associated challenges, highlighting the need for innovative approaches to improve remote healthcare services. Understanding current trends and challenges in post-pandemic TR utilization is essential for future healthcare planning.</p><p><strong>OBJECTIVE:</strong> This review aimed to identify and analyze the gains and challenges associated with telerehabilitation implementation.</p><p><strong>METHOD:</strong> A systematic bibliographic search was conducted across six online databases (PubMed, Google Scholar, ResearchGate, Scopus, ScienceDirect, and Cochrane Library) covering the period from 2020 to 2024. Original articles and reviews published in English were included for analysis.</p><p><strong>RESULT:</strong> After comprehensive review, multiple benefits of TR were identified from both physiotherapist and patient perspectives. TR offers cost-effective and convenient solutions while empowering patients to take control of their home-based therapy, fostering patient autonomy. It particularly benefits underserved communities, enhances treatment frequency, and improves therapist-patient interaction through digital platforms. TR proves especially valuable for elderly, pediatric, and musculoskeletal care populations, increasing exercise adherence and supporting remote monitoring with personalized care delivery. However, TR faces significant challenges in performing physical assessments and manual techniques, limiting its effectiveness compared to in-person therapy. Inconsistent outcomes and lower patient satisfaction, particularly for conditions such as dementia, raise concerns about feasibility and clinical acceptance.</p><p><strong>CONCLUSION:</strong> While TR demonstrates significant potential for expanding healthcare access and improving patient autonomy, addressing limitations in physical assessment capabilities and patient satisfaction remains crucial for widespread clinical acceptance.</p><p><strong>Keywords:</strong> Telerehabilitation, Telemedicine, COVID-19 pandemic, Remote healthcare, Physical therapy</p>",
+                    citation_quotes: '<p>Tonape M, Borthakur M, Das R. GAINS AND CHALLENGES OF TELEREHABILITATION: A NARRATIVE REVIEW. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 46 - 50. https://doi.org/10.63299/ijopt.060329</p>'
+                },
+                {
+                    _id: '1307',
+                    citation_title: "COMPARISON BETWEEN MOVEMENT- BASED MIRROR THERAPY AND ACTIVITY- BASED MIRROR THERAPY ON THE OUTCOMES OF LOWER EXTREMITY MOTOR FUNCTION AND AMBULATION AMONG SUBACUTE STROKE PATIENTS",
+                    citation_author: [
+                        'Dr. Anjali Sharma', 'Dr. Amandeep Singh', 'Dr. Umangpreet Kaur', 'Dr. Reetika Soni'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '51',
+                    citation_lastpage: '61',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060330',
+                    sDownLoadUrl: '/assets/documents/archives/2025/25.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Activity-based mirror therapy', 'ambulation', 'lower extremity motor function', 'movement-based mirror therapy', 'subacute stroke'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Stroke is characterized as a neurological deficit attributed to an acute focal injury of the central nervous system by a vascular cause. Mirror Therapy, introduced by Altschuler et al., improves upper and lower extremity motor recovery among post stroke patients.</p><p><strong>OBJECTIVE:</strong> The purpose of the study was to compare the effect of Movement- based and Activity-based Mirror Therapy on the outcomes of lower extremity motor function and ambulation among subacute stroke patients.</p><p><strong>METHOD:</strong> This was a quasi-experimental study, which is comparative in nature. Based on inclusion and exclusion criteria, 45 stroke patients of age 45-65 years were taken. The participants were divided into 3 groups as Group-A, B and C of 15 each. Group-A (Experimental 1) was administered Movement-based Mirror Therapy. Group-B (Experimental 2) was administered Activity-based Mirror Therapy and Group-C (Control) underwent Conventional Treatment. Participants received training 5 days/week for 4 weeks. Pre and Post scores were taken for motor function and ambulation using Motricity Index, Fugl Meyer Assessment, 10-meter Walk Test and Functional Ambulation Category.</p><p><strong>RESULT:</strong> Data was meaningfully assorted through calculation of Mean and Standard Deviation. Thereafter, Paired ‘t’ test were applied for intragroup Comparison at 0.05 level of significance and ANOVA was applied for intergroup comparison. All the groups showed improvement in intragroup analysis whereas, there was no significant difference between Movement-based Mirror Therapy group, Activity-based Mirror Therapy Group and Control group on the outcomes of lower extremity motor function and ambulation, except for Fugl Meyer Assessment which showed significant improvement in group which received Activity-based Mirror Therapy</p><p><strong>CONCLUSION:</strong> Both Movement-based and Activity-based Mirror therapies are effective in improving the lower extremity motor function and ambulation among subacute stroke patients. However, Activity-based Mirror therapy appears to be superior to Movement-based Mirror Therapy in improving lower extremity motor function</p><p><strong>Keywords:</strong> Activity-based mirror therapy; ambulation; lower extremity motor function; movement-based mirror therapy; subacute stroke.</p>",
+                    citation_quotes: '<p>Sharma A, Singh A, Kaur U. COMPARISON BETWEEN MOVEMENT- BASED MIRROR THERAPY AND ACTIVITY- BASED MIRROR THERAPY ON THE OUTCOMES OF LOWER EXTREMITY MOTOR FUNCTION AND AMBULATION AMONG SUBACUTE STROKE PATIENTS. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 51 - 61. https://doi.org/10.63299/ijopt.060330</p>'
+                },
+                {
+                    _id: '1308',
+                    citation_title: "WOBBLE BOARD-BASED BALANCE TRAINING AND ITS EFFECT ON DYNAMIC STABILITY IN FEMALE SPRINTERS: A STAR EXCURSION BALANCE TEST STUDY",
+                    citation_author: [
+                        'S. K. Nikida', 'Priyanka N. H. M.', 'Cedric Eugene Fernandez', ' Usha Nandhini M.', 'Kavith K.'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '62',
+                    citation_lastpage: '68',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060332',
+                    sDownLoadUrl: '/assets/documents/archives/2025/26.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Balance', 'Star Excursion Balance Test', 'Wobble Board', 'Sprinters'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Balance, whether static or dynamic, plays a crucial role in sports performance, helping to reduce the risk of injuries. Incorporating balance training into sports routines is essential, and wobble board exercises have demonstrated effectiveness in minimizing the risk of falls and injuries.</p><p><strong>AIM:</strong> This study aimed to evaluate the effectiveness of wobble board exercises on the Star Excursion Balance Test (SEBT) in female sprinters.</p><p><strong>METHOD:</strong> A single-group pre-post experimental design was employed, involving 15 female sprinters. The SEBT was conducted before and after the intervention. The participants underwent wobble board training for four weeks, with three sessions per week.</p><p><strong>RESULT:</strong> A statistically significant improvement was observed in the Star Excursion Balance Test (SEBT) reach distances across all eight directions post-intervention. The anterior direction of the right lower limb showed the greatest increase, while the medial direction of the left limb showed the least improvement.</p><p><strong>CONCLUSION:</strong> The study concluded that four weeks of wobble board training effectively improved dynamic balance in all eight directions of the SEBT.</p><p><strong>Keywords:</strong> Balance, Star Excursion Balance Test, Wobble Board, Sprinters.</p>",
+                    citation_quotes: '<p>S.K.NIKIDA , N.H.M P, FERNANDEZ CE, M UN, K K. WOBBLE BOARD-BASED BALANCE TRAINING AND ITS EFFECT ON DYNAMIC STABILITY IN FEMALE SPRINTERS: A STAR EXCURSION BALANCE TEST STUDY. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 62 - 68. https://doi.org/10.63299/ijopt.060332</p>'
+                },
+                {
+                    _id: '1309',
+                    citation_title: "IMMEDIATE EFFECT OF SUB-OCCIPITAL RELEASE ON PAIN, CRANIOVERTEBRAL ANGLE AND DEEP NECK FLEXOR ACTIVATION IN YOUNG ADULTS WITH FORWARD HEAD POSTURE - A PRE-POST EXPERIMENTAL DESIGN",
+                    citation_author: [
+                        'Mr. Ragiri Rammohan', 'Dr. Mubarak Habibulla', 'Dr. Mohammed Rafi', 'Dr. Sowjanya Maruboyina'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '69',
+                    citation_lastpage: '75',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060333',
+                    sDownLoadUrl: '/assets/documents/archives/2025/27.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Forward head posture', 'Cervicovertebral angle', 'Deep neck flexor endurance', 'Sub-occipital release', 'Neck pain'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Forward Head Posture(FHP) is a common postural issue associated with prolonged use of smartphones, particularly among young adults. Neck pain, muscular imbalances, and reduced deep neck flexor(DNF) function might arise from the head projecting forward from the ideal position. The sub-occipital muscles, which hold the head posture, have an affinity to become hyperactive in an FHP. The immediate effects of sub-occipital release on neck pain, Cranio-Vertebral Angle(CVA) and DNF activation among young adults with FHP was the purpose of this study.</p><p><strong>METHODOLOGY:</strong> A pre-post experimental study was conducted with 25 young adults(ages 18–26) diagnosed with FHP(defined by a craniovertebral angle <50°). Participants received a standardized 5-minute sub-occipital release intervention. Key outcomes—pain(Numeric Pain Rating Scale), DNF activation(pressure biofeedback), and CVA(Kinovea software)—were assessed before and after the intervention.</p><p><strong>RESULT:</strong> Non-parametric analysis supported the findings related to pain and muscle activation. Following the intervention, the participants reported a notable improvement in pain reduction (p=0.0001) and DNF activation(p=0.0001). However, there was no statistically significant change in CVA(p=0.285).</p><p><strong>CONCLUSION:</strong> A single session of sub-occipital release significantly reduced neck pain and improved DNF activation in individuals with FHP. While the craniovertebral angle did not show immediate improvement, the technique shows promise as an early intervention for FHP management. Further research is needed to evaluate its long-term effects on posture correction.</p><p><strong>Keywords:</strong> Forward head posture, Cervicovertebral angle, Deep neck flexor endurance, Sub-occipital release, Neck pain</p>",
+                    citation_quotes: '<p>Rammohan R, Habibulla M, Rafi M, Maruboyina S. IMMEDIATE EFFECT OF SUB-OCCIPITAL RELEASE ON PAIN, CRANIOVERTEBRAL ANGLE AND DEEP NECK FLEXOR ACTIVATION IN YOUNG ADULTS WITH FORWARD HEAD POSTURE - A PRE-POST EXPERIMENTAL DESIGN. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 69 - 75. https://doi.org/10.63299/ijopt.060333</p>'
+                },
+            ]
+        },
     ]
 }
