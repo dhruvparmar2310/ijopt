@@ -1273,7 +1273,7 @@ export const archiveList = {
                     citation_issue: '3',
                     citation_firstpage: '14',
                     citation_lastpage: '20',
-                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    eTag: ARTICLE_TAGS.CASE_STUDY,
                     sDOINo: 'https://doi.org/10.63299/ijopt.060302',
                     sDownLoadUrl: '/assets/documents/archives/2025/20.pdf',
                     sCitation_SEO_Keywords: [
@@ -1321,7 +1321,7 @@ export const archiveList = {
                     citation_issue: '3',
                     citation_firstpage: '31',
                     citation_lastpage: '39',
-                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    eTag: ARTICLE_TAGS.CASE_STUDY,
                     sDOINo: 'https://doi.org/10.63299/ijopt.060326',
                     sDownLoadUrl: '/assets/documents/archives/2025/22.pdf',
                     sCitation_SEO_Keywords: [
@@ -1465,7 +1465,7 @@ export const archiveList = {
                     citation_issue: '3',
                     citation_firstpage: '76',
                     citation_lastpage: '80',
-                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    eTag: ARTICLE_TAGS.CASE_STUDY,
                     sDOINo: 'https://doi.org/10.63299/ijopt.060305',
                     sDownLoadUrl: '/assets/documents/archives/2025/28.pdf',
                     sCitation_SEO_Keywords: [
