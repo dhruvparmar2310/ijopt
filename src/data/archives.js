@@ -1450,6 +1450,30 @@ export const archiveList = {
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Forward Head Posture(FHP) is a common postural issue associated with prolonged use of smartphones, particularly among young adults. Neck pain, muscular imbalances, and reduced deep neck flexor(DNF) function might arise from the head projecting forward from the ideal position. The sub-occipital muscles, which hold the head posture, have an affinity to become hyperactive in an FHP. The immediate effects of sub-occipital release on neck pain, Cranio-Vertebral Angle(CVA) and DNF activation among young adults with FHP was the purpose of this study.</p><p><strong>METHODOLOGY:</strong> A pre-post experimental study was conducted with 25 young adults(ages 18–26) diagnosed with FHP(defined by a craniovertebral angle <50°). Participants received a standardized 5-minute sub-occipital release intervention. Key outcomes—pain(Numeric Pain Rating Scale), DNF activation(pressure biofeedback), and CVA(Kinovea software)—were assessed before and after the intervention.</p><p><strong>RESULT:</strong> Non-parametric analysis supported the findings related to pain and muscle activation. Following the intervention, the participants reported a notable improvement in pain reduction (p=0.0001) and DNF activation(p=0.0001). However, there was no statistically significant change in CVA(p=0.285).</p><p><strong>CONCLUSION:</strong> A single session of sub-occipital release significantly reduced neck pain and improved DNF activation in individuals with FHP. While the craniovertebral angle did not show immediate improvement, the technique shows promise as an early intervention for FHP management. Further research is needed to evaluate its long-term effects on posture correction.</p><p><strong>Keywords:</strong> Forward head posture, Cervicovertebral angle, Deep neck flexor endurance, Sub-occipital release, Neck pain</p>",
                     citation_quotes: '<p>Rammohan R, Habibulla M, Rafi M, Maruboyina S. IMMEDIATE EFFECT OF SUB-OCCIPITAL RELEASE ON PAIN, CRANIOVERTEBRAL ANGLE AND DEEP NECK FLEXOR ACTIVATION IN YOUNG ADULTS WITH FORWARD HEAD POSTURE - A PRE-POST EXPERIMENTAL DESIGN. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 69 - 75. https://doi.org/10.63299/ijopt.060333</p>'
                 },
+                {
+                    _id: '1400',
+                    citation_title: "Role of Physiotherapy in Male Sexual Incapability: A Case Study-Based Research in India",
+                    citation_author: [
+                        'Dr. Usha Purohit'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '76',
+                    citation_lastpage: '80',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060305',
+                    sDownLoadUrl: '/assets/documents/archives/2025/28.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Physiotherapy', 'Erectile Dysfunction', 'Pelvic Floor Muscle Training', 'Male Sexual Dysfunction', 'India', 'Rehabilitation', 'Premature Ejaculation'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>Male sexual dysfunction, particularly erectile dysfunction (ED), premature ejaculation, and pelvic floor dysfunction, is often viewed solely through a urological or psychological lens. However, emerging evidence suggests a significant role of physiotherapy, especially pelvic floor rehabilitation, in restoring sexual function. This research paper presents case study-based evidence from India, analyzing how targeted physiotherapeutic interventions can improve outcomes in males suffering from sexual incapability.</p><p><strong>Keywords:</strong> Physiotherapy, Erectile Dysfunction, Pelvic Floor Muscle Training, Male Sexual Dysfunction, India, Rehabilitation, Premature Ejaculation.</p>",
+                    citation_quotes: '<p>Purohit U. Role of Physiotherapy in Male Sexual Incapability: A Case Study-Based Research in India. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 76 - 80. https://doi.org/10.63299/ijopt.060305</p>'
+                },
             ]
         },
     ]

@@ -9,7 +9,7 @@ import { useRouter } from 'next/router'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookOpenReader, faFileArrowDown, faFileLines, faGlobe, faHandHoldingDollar, faLink } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
-import advertiseImg from '../../public/assets/img/archives/call-for-pub.png'
+import advertiseImg from '../../public/assets/img/archives/webinar.jpg'
 
 const anton = Anton({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const antonSC = Anton_SC({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
@@ -203,14 +203,14 @@ export default function Home() {
                         <p>Emerging Technologies in Physical Therapy</p>
                       </li>
                     </ul>
-                    <div className='notice-board'>
+                    {/* <div className='notice-board'>
                       <h1>Notice: UGC-CARE Listing Discontinued</h1>
                       <p className={`${inter?.className} main-content`}>
                         The University Grants Commission (UGC) has officially discontinued the UGC-CARE journal listing with immediate
                         effect and has issued new guidelines for selecting quality peer-reviewed journals.We are pleased to inform you that
                         our journal follows to the guidelines provided by the UGC. To read the UGC guidelines, <Link href='https://www.ugc.gov.in/pdfnews/9678711_PUBLIC-NOTICE-CARE.pdf' target='_blank' title='UGC Notice'>click here</Link>.
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                 </section>
 
