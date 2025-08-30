@@ -1474,6 +1474,150 @@ export const archiveList = {
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>Male sexual dysfunction, particularly erectile dysfunction (ED), premature ejaculation, and pelvic floor dysfunction, is often viewed solely through a urological or psychological lens. However, emerging evidence suggests a significant role of physiotherapy, especially pelvic floor rehabilitation, in restoring sexual function. This research paper presents case study-based evidence from India, analyzing how targeted physiotherapeutic interventions can improve outcomes in males suffering from sexual incapability.</p><p><strong>Keywords:</strong> Physiotherapy, Erectile Dysfunction, Pelvic Floor Muscle Training, Male Sexual Dysfunction, India, Rehabilitation, Premature Ejaculation.</p>",
                     citation_quotes: '<p>Purohit U. Role of Physiotherapy in Male Sexual Incapability: A Case Study-Based Research in India. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 76 - 80. https://doi.org/10.63299/ijopt.060305</p>'
                 },
+                {
+                    _id: '1401',
+                    citation_title: "CORRELATION BETWEEN FOOT POSTURE INDEX WITH STATIC AND DYNAMIC BALANCES IN SOCCER PLAYERS",
+                    citation_author: [
+                        'Muhammed Shimil. K', 'Kshama Susheel Shetty', 'Swaraj Shetty'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '81',
+                    citation_lastpage: '90',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060306',
+                    sDownLoadUrl: '/assets/documents/archives/2025/29.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Foot Posture Index', 'Static Balance', 'Dynamic Balance', 'Soccer Players', 'Y-Balance Test', 'Stork Balance Test'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND: </strong>Static and dynamic balance is essential for optimal performance in sport activity. In the case of soccer players, the static dynamic balance are important factors. By the deficiency of the static and dynamic balance they may get more injured. The feet are the only body segments that come into direct contact with the ground surface, especially during weight bearing and gait. When their anatomical and sensorial structure is intact, with no joint or soft tissue changes, they contribute to the maintenance of postural stability. Variations in foot posture also one of the factors that will affect the balance.Some studies shows that postural stability is affected by foot type under both static and dynamic conditions. Screening of the athletes by using FPI to identify risk of injury related to balance problems is important to prevent future serious injuries.</p><p><strong>MATERIALS AND METHODS: </strong>Recreational soccer players with BMI between 18–24 were selected from football academies. After obtaining informed consent, each participant underwent the following assessments: Foot Posture Index (FPI) to classify foot posture. Static balance assessed by the Stork Balance Test (both limbs). Dynamic balance assessed by the Y-Balance Test (both limbs). Data were analyzed using correlation statistics.</p><p><strong>RESULTS: </strong>Right Foot: FPI vs Static Balance: Significant negative correlation (r = -0.364) FPI vs Dynamic Balance: Non-significant negative correlation (r = -0.006). Left Foot: FPI vs Static Balance: Significant negative correlation (r = -0.404), FPI vs Dynamic Balance: Non-significant negative correlation (r = -0.047)</p><p><strong>DISCUSSION: </strong>The results suggest that an abnormal foot posture, as indicated by FPI, negatively impacts both static and dynamic balance. Significant findings with static balance highlight the potential role of foot alignment in postural control. Although the dynamic balance did not show significant results, the trend still suggests an inverse relationship.</p><p><strong>CONCLUSION: </strong>This study concludes that FPI is negatively correlated with both static and dynamic balance in recreational soccer players, with a significant correlation noted in static balance on both sides.</p><p><strong>Keywords:</strong> Foot Posture Index, Static Balance, Dynamic Balance, Soccer Players, Y-Balance Test, Stork Balance Test</p>",
+                    citation_quotes: '<p>K MS, Shetty KS, Shetty S. CORRELATION BETWEEN FOOT POSTURE INDEX WITH STATIC AND DYNAMIC BALANCES IN SOCCER PLAYERS. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 81 - 90. https://doi.org/10.63299/ijopt.060306</p>'
+                },
+                {
+                    _id: '1402',
+                    citation_title: "EVALUATION OF SLEEP QUALITY AND FATIGUE LEVEL AMONG THE PARTICIPANTS SUFFERING FROM PULMONARY TUBERCULOSIS – A CROSS-SECTIONAL STUDY",
+                    citation_author: [
+                        'Dr. Dimpal Paija', 'Dr. Jayshree M Sutaria'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '91',
+                    citation_lastpage: '99',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060328',
+                    sDownLoadUrl: '/assets/documents/archives/2025/30.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Pulmonary Tuberculosis', 'Sleep Quality', 'Fatigue', 'Pittsburgh Sleep Quality Index (PSQI)', 'Piper Fatigue Scale (PFS)', 'Fatigue Management', 'Quality of Life'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND: </strong>Pulmonary tuberculosis (TB) continues to be a significant public health issue, particularly in countries like India. While diagnostic and treatment protocols have improved, the non-respiratory consequences of TB—such as sleep disturbances and fatigue remain under-addressed, despite their substantial impact on recovery, quality of life, and treatment adherence.</p><p><strong>OBJECTIVES: </strong>This study aimed to assess sleep quality and fatigue levels in individuals with pulmonary TB and to determine the correlation between these two variables.</p><p><strong>METHODS: </strong>A cross-sectional observational study was conducted at the Tuberculosis and Chest Diseases (TBCD) Ward of Civil Hospital, Ahmedabad. Fifty-six participants diagnosed with pulmonary TB for over three months were evaluated. Sleep quality was measured using the Pittsburgh Sleep Quality Index (PSQI), and fatigue levels were assessed using the Piper Fatigue Scale (PFS-12). Descriptive statistics and Pearson/Spearman correlation tests were used to analyse the data.</p><p><strong>RESULTS: </strong>Participants had poor sleep quality (mean PSQI = 15.64) and moderate to high fatigue (mean PFS = 6.22). Among them, 73.2% experienced moderate fatigue and 26.8% had severe fatigue. A statistically significant moderate positive correlation (r = 0.515, p < 0.01) was found between sleep quality and fatigue levels. Disease duration showed a strong positive correlation with poor sleep (ρ = 0.866) and moderate correlation with fatigue (ρ = 0.441), highlighting a progressive impact.</p><p><strong>CONCLUSION: </strong>Poor sleep and significant fatigue are highly prevalent in pulmonary TB patients and are strongly correlated. These findings emphasize the need for routine screening and integrative management strategies including sleep hygiene education, fatigue interventions, and psychological support. Future studies should explore longitudinal changes and evaluate targeted interventions to improve quality of life and treatment outcomes in TB care.</p><p><strong>Keywords:</strong> Pulmonary Tuberculosis, Sleep Quality, Fatigue, Pittsburgh Sleep Quality Index (PSQI), Piper Fatigue Scale (PFS), Fatigue Management, Quality of Life.</p>",
+                    citation_quotes: '<p>Paija D, Sutaria JM. EVALUATION OF SLEEP QUALITY AND FATIGUE LEVEL AMONG THE PARTICIPANTS SUFFERING FROM PULMONARY TUBERCULOSIS – A CROSS-SECTIONAL STUDY. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 91 - 99. https://doi.org/10.63299/ijopt.060328</p>'
+                },
+                {
+                    _id: '1403',
+                    citation_title: "PHYSIOTHERAPY INTERVENTION FOR BLADDER, BOWEL, AND FUNCTIONAL MOBILITY RECOVERY IN NEGLECTED CAUDA EQUINA SYNDROME POST L4–L5 DISCECTOMY AND FUSION: A CASE REPORT",
+                    citation_author: [
+                        'Mohamed Zerein Fathima.M', 'Hari Babu.L', 'K.C. Gayathri', 'Sujitha Suthadevan', 'Mohamed Nainar.A'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '100',
+                    citation_lastpage: '108',
+                    eTag: ARTICLE_TAGS.CASE_STUDY,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060331',
+                    sDownLoadUrl: '/assets/documents/archives/2025/31.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Cauda Equina Syndrome (CES)', 'bladder and bowel dysfunction', 'NBD Score', 'ICIQ-UI Short Form', 'physiotherapy', 'MRC scale', 'Lower extremity functional scale'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>Cauda Equina Syndrome (CES) is a rare and potentially debilitating condition that results from severe compression of the cauda equina nerve roots in the lumbar spine. This syndrome can lead to a variety of symptoms, lower back pain, leg weakness, bladder and bowel dysfunction, sexual dysfunction, saddle anaesthesia and reduced functional mobility. Timely intervention is essential to optimize outcomes, but neglected cases pose a unique challenge in rehabilitation. This subject a 65-year-old female, presented with numbness and weakness of bilateral lower limbs with low back pain on and off for the past 15 years which worsened for the past two years leading to complete loss of bladder and bowel control and weakness of the lower limb muscles with loss of sensation of bilateral foot and saddle anaesthesia pattern. The subject had undergone decompression discectomy L4-L5 with posterior lumbar inter body fusionL4-L5, but due to a delayed intervention, neurological deficits persisted. A comprehensive physiotherapy management program was implemented, including Electrical Stimulation, core stabilization exercises, lower limb strengthening exercises, gait training, and bladder and bowel retraining. Over an eight weeks’ period, the patient demonstrated significant improvements in motor power in lower limbs, bladder bowel function and functional mobility and quality of life. This single case study brings lights on physiotherapy management on a neglected case of CES after decompression and stabilization prognosis is good and the patient can have a better quality of life. Physiotherapy intervention appeared to play a crucial role in enhancing the patient's overall well-being.</p>",
+                    citation_quotes: '<p>Fathima.M MZ, Babu.L H, Gayathri KC, Suthadevan S, Nainar.A M. PHYSIOTHERAPY INTERVENTION FOR BLADDER, BOWEL, AND FUNCTIONAL MOBILITY RECOVERY IN NEGLECTED CAUDA EQUINA SYNDROME POST L4–L5 DISCECTOMY AND FUSION: A CASE REPORT. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 100 - 108. https://doi.org/10.63299/ijopt.060331</p>'
+                },
+                {
+                    _id: '1404',
+                    citation_title: "IMMEDIATE EFFECT OF SUB-OCCIPITAL RELEASE ON PAIN, CRANIOVERTEBRAL ANGLE AND DEEP NECK FLEXOR ACTIVATION IN YOUNG ADULTS WITH FORWARD HEAD POSTURE - A PRE-POST EXPERIMENTAL DESIGN",
+                    citation_author: [
+                        'Mr. Ragiri Rammohan', 'Dr. Mubarak Habibulla', 'Dr. Mohammed Rafi', 'Dr. Sowjanya Maruboyina'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '109',
+                    citation_lastpage: '115',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060333',
+                    sDownLoadUrl: '/assets/documents/archives/2025/32.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Forward head posture', 'Cervicovertebral angle', 'Deep neck flexor endurance', 'Sub-occipital release', 'Neck pain'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND: </strong>Forward Head Posture(FHP) is a common postural issue associated with prolonged use of smartphones, particularly among young adults. Neck pain, muscular imbalances, and reduced deep neck flexor(DNF) function might arise from the head projecting forward from the ideal position. The sub-occipital muscles, which hold the head posture, have an affinity to become hyperactive in an FHP. The immediate effects of sub-occipital release on neck pain, Cranio-Vertebral Angle(CVA) and DNF activation among young adults with FHP was the purpose of this study.</p><p><strong>METHODOLOGY: </strong>A pre-post experimental study was conducted with 25 young adults(ages 18–26) diagnosed with FHP(defined by a craniovertebral angle <50°). Participants received a standardized 5-minute sub-occipital release intervention. Key outcomes—pain(Numeric Pain Rating Scale), DNF activation(pressure biofeedback), and CVA(Kinovea software)—were assessed before and after the intervention.</p><p><strong>RESULTS: </strong>Non-parametric analysis supported the findings related to pain and muscle activation. Following the intervention, the participants reported a notable improvement in pain reduction (p=0.0001) and DNF activation(p=0.0001). However, there was no statistically significant change in CVA(p=0.285).</p><p><strong>CONCLUSION: </strong>A single session of sub-occipital release significantly reduced neck pain and improved DNF activation in individuals with FHP. While the craniovertebral angle did not show immediate improvement, the technique shows promise as an early intervention for FHP management. Further research is needed to evaluate its long-term effects on posture correction.</p><p><strong>Keywords:</strong> Forward head posture, Cervicovertebral angle, Deep neck flexor endurance, Sub-occipital release, Neck pain</p>",
+                    citation_quotes: '<p>Rammohan R, Habibulla M, Rafi M, Maruboyina S. IMMEDIATE EFFECT OF SUB-OCCIPITAL RELEASE ON PAIN, CRANIOVERTEBRAL ANGLE AND DEEP NECK FLEXOR ACTIVATION IN YOUNG ADULTS WITH FORWARD HEAD POSTURE - A PRE-POST EXPERIMENTAL DESIGN. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 109 - 115. https://doi.org/10.63299/ijopt.060333</p>'
+                },
+                {
+                    _id: '1405',
+                    citation_title: "DETERMINANTS OF ADHERENCE TO HOME-BASED EXERCISE PROGRAMS IN PHYSICAL REHABILITATION: A LITERATURE REVIEW",
+                    citation_author: [
+                        'Jignasha Gohil', 'Mansi Soni'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '116',
+                    citation_lastpage: '123',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060334',
+                    sDownLoadUrl: '/assets/documents/archives/2025/33.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Home-based exercises', 'home exercise program', 'home-based physical therapy', 'adherence', 'facilitators', 'barriers'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND: </strong>Home-based physical therapy is essential for optimizing the effectiveness and success of physiotherapy. Majority of patients report that they cannot exercise at home and there is a lack of adherence to home-based exercise program. Understanding factors that influence patients' adherence with home-based physical therapy might help practitioners support improved adherence. Therefore, the purpose of this review is to determine all relevant factors that could influence adherence to home-based exercise program.</p><p><strong>METHODS: </strong>A literature search was performed in CINAHL, Pubmed-MEDLINE and PEDro databases. The following search categories were used: 'physiotherapy', 'home-based exercises', 'home exercise program', 'home-based physical therapy', 'adherence', 'effectiveness', 'facilitators', and 'barriers'. A total of 612 studies were identified and title and abstract analysis was performed and 8 relevant studies were included for further analysis.</p><p><strong>RESULTS: </strong>The following factors were found to influence adherence to home-based exercise programs are: self-motivation, self-efficacy, locus of control, perceptions about physical therapy, their previous experience of an exercise program, participants' active role in the rehabilitation, psychological influences such as depression and anxiety, stress and coping strategies, social support, time constraints, physical environment. Even exercise prescription, patient-therapist communication and some cultural-specific factors such as opting for folk medicine over rehabilitation and social stigma were also found to influence adherence.</p><p><strong>CONCLUSION: </strong>Therapists should emphasize more on reported findings and incorporate them into management strategies to increase adherence to home-based exercise program. This study can lead to the development of effective interventions for promoting adherence to home-based exercise program.</p><p><strong>Keywords:</strong> Home-based exercises, home exercise program, home-based physical therapy, adherence, facilitators, and barriers.</p>",
+                    citation_quotes: '<p>Gohil J, Soni M. DETERMINANTS OF ADHERENCE TO HOME-BASED EXERCISE PROGRAMS IN PHYSICAL REHABILITATION: A LITERATURE REVIEW. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 116 - 123. https://doi.org/10.63299/ijopt.060334</p>'
+                },
+                {
+                    _id: '1406',
+                    citation_title: "EFFECTIVENESS OF STRETCHING AND STRENGTHENING EXERCISE PROTOCOL (JANDA’S APPROACH) IN COLLEGE GOING STUDENTS WITH LOWER CROSSED SYNDROME -AN EXPERIMENTAL STUDY",
+                    citation_author: [
+                        'Leela Siva Parvathi Devi. Parisa', 'Praniti', 'Rajesh Brundavanam'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '124',
+                    citation_lastpage: '129',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060336',
+                    sDownLoadUrl: '/assets/documents/archives/2025/34.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Lower Crossed Syndrome', 'Janda Approach', 'Physiotherapy', 'Strengthening And Stretching Exercises'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>OBJECTIVE: </strong>The main objective of the study was to find out the effectiveness of stretching and strengthening exercises (Janda’s Approach) in College going students with lower crossed syndrome.</p><p><strong>METHODOLOGY: </strong>50 Students between the ages of 18 to 25 years were screened for lower crossed syndrome and 20 students were screened positive for lower crossed syndrome and were selected for the study. The treatment program was conducted for 4 weeks, scheduled for 16 sessions. The outcome measures were manual muscle testing of the abdominal muscles and gluteal muscles and modified schober test for lumbar flexibility and modified thomas test for hip flexor tightness which were recorded before and after treatment sessions</p><p><strong>RESULTS: </strong>There was increase in strengths of abdominal muscles and gluteal muscles after 4 weeks treatment (p value < 0.001) which was statistically significant and there was reduction in tightness of hip flexor muscles and lumbar flexor muscles (p value < 0.001) which was statistically significant</p><p><strong>CONCLUSION: </strong>On the basis of results of our study we concluded stretching and strengthening exercises (Janda’s Approach) are effective in treating lower crossed syndrome in college going students</p><p><strong>Keywords:</strong> Lower Crossed Syndrome, Janda Approach, Physiotherapy, Strengthening And Stretching Exercises</p>",
+                    citation_quotes: '<p>Parisa LSPD, Praniti , Brundavanam R. EFFECTIVENESS OF STRETCHING AND STRENGTHENING EXERCISE PROTOCOL (JANDA’S APPROACH) IN COLLEGE GOING STUDENTS WITH LOWER CROSSED SYNDROME -AN EXPERIMENTAL STUDY. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 124 - 129. https://doi.org/10.63299/ijopt.060336</p>'
+                },
             ]
         },
     ]

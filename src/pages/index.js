@@ -9,7 +9,7 @@ import { useRouter } from 'next/router'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookOpenReader, faFileArrowDown, faFileLines, faGlobe, faHandHoldingDollar, faLink } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
-import advertiseImg from '../../public/assets/img/archives/webinar.jpg'
+import advertiseImg from '../../public/assets/img/archives/webinar.png'
 
 const anton = Anton({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const antonSC = Anton_SC({ subsets: ['latin'], weight: ['400'], style: ['normal'] })

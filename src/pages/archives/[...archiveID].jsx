@@ -15,7 +15,7 @@ import Image from 'next/image'
 import Skeleton from 'react-loading-skeleton'
 import axios from 'axios'
 import { archiveList, archives } from '@/data/archives'
-import advertiseImg from '../../../public/assets/img/archives/webinar.jpg'
+import advertiseImg from '../../../public/assets/img/archives/webinar.png'
 const inter = Inter({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 
 function ArchiveID ({ data }) {

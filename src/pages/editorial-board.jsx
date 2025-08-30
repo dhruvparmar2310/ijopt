@@ -22,6 +22,7 @@ import drSalviShah from '../../public/assets/img/members/DrSalviShah.jpg'
 import drDevangiDesai from '../../public/assets/img/members/DrDevangiDesai.jpg'
 import drJalpaParikh from '../../public/assets/img/members/DrJalpaParikh.jpeg'
 import drAditiShah from '../../public/assets/img/members/DrAditiShah.jpeg'
+import drSmatiSambyal from '../../public/assets/img/members/Dr.SmatiSambyal.JPG'
 import Head from 'next/head'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
@@ -306,6 +307,19 @@ const EditorialBoard = () => {
                                     <p className={`member-name ${antonSC?.className}`}>Dr. Salvi Shah</p>
                                     <p className={inter?.className}>PhD, MPT in Sports</p>
                                     <p className={inter?.className}>Associate Professor at SPB Physiotherapy College, Surat</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} xs={12}>
+                            <div className='member-card mt-3'>
+                                <div className="left-content">
+                                    <Image src={drSmatiSambyal} alt='Dr. Smati Sambyal' quality={100} className='img-fluid' />
+                                    {/* <FontAwesomeIcon icon={faUser} color='gray' /> */}
+                                </div>
+                                <div className="right-content">
+                                    <p className={`member-name ${antonSC?.className}`}>Dr. Smati Sambyal</p>
+                                    <p className={inter?.className}>MPT in Neurological Conditions</p>
+                                    <p className={inter?.className}>Associate Professor at College of Physiotherapy, Baba Farid University of Health Sciences, Faridkot</p>
                                 </div>
                             </div>
                         </Col>
