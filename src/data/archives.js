@@ -1618,6 +1618,102 @@ export const archiveList = {
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>OBJECTIVE: </strong>The main objective of the study was to find out the effectiveness of stretching and strengthening exercises (Janda’s Approach) in College going students with lower crossed syndrome.</p><p><strong>METHODOLOGY: </strong>50 Students between the ages of 18 to 25 years were screened for lower crossed syndrome and 20 students were screened positive for lower crossed syndrome and were selected for the study. The treatment program was conducted for 4 weeks, scheduled for 16 sessions. The outcome measures were manual muscle testing of the abdominal muscles and gluteal muscles and modified schober test for lumbar flexibility and modified thomas test for hip flexor tightness which were recorded before and after treatment sessions</p><p><strong>RESULTS: </strong>There was increase in strengths of abdominal muscles and gluteal muscles after 4 weeks treatment (p value < 0.001) which was statistically significant and there was reduction in tightness of hip flexor muscles and lumbar flexor muscles (p value < 0.001) which was statistically significant</p><p><strong>CONCLUSION: </strong>On the basis of results of our study we concluded stretching and strengthening exercises (Janda’s Approach) are effective in treating lower crossed syndrome in college going students</p><p><strong>Keywords:</strong> Lower Crossed Syndrome, Janda Approach, Physiotherapy, Strengthening And Stretching Exercises</p>",
                     citation_quotes: '<p>Parisa LSPD, Praniti , Brundavanam R. EFFECTIVENESS OF STRETCHING AND STRENGTHENING EXERCISE PROTOCOL (JANDA’S APPROACH) IN COLLEGE GOING STUDENTS WITH LOWER CROSSED SYNDROME -AN EXPERIMENTAL STUDY. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 124 - 129. https://doi.org/10.63299/ijopt.060336</p>'
                 },
+                {
+                    _id: '1407',
+                    citation_title: "EFFECT OF SEGMENTAL STABILIZATION EXERCISE ALONG WITH SACROILIAC JOINT MOBILIZATION ON LOW BACK PAIN AMONG ROLLER SKATERS",
+                    citation_author: [
+                        'Anand Babu Kaliyaperumal', 'I. Hemasodhi', 'V. Jeyavarthini', 'Poongodi Anand'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '130',
+                    citation_lastpage: '135',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060338',
+                    sDownLoadUrl: '/assets/documents/archives/2025/35.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Anterior innominate', 'Posterior innominate', 'Quebec Back Pain Disability Scale (QBPDS) Questionnaire', 'Modified Oswestry Disability Index (MODI) Questionnaire'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>OBJECTIVE: </strong>To study the effectiveness of Segmental Stabilizing Exercises along with Sacroiliac Joint Mobilization on LBP among roller skaters.</p><p><strong>METHODOLOGY: </strong>The study design was a pilot study. 15 samples were conveniently selected for the study. Population between the ages of 12 to 20 years roller skaters were enrolled in the survey. Segmental Stabilization exercise along with Sacroiliac Joint Mobilization were given to the subjects. They were assessed by using outcome measure like QBPS and MODI.</p><p><strong>RESULTS: </strong>Data analysis was done by using a paired ‘t’ test for within the group. The results of the study shows that Segmental Stabilization along with Sacroiliac Joint Mobilization were effective in reducing LBP and disability among roller skaters (p <0.001).</p><p><strong>CONCLUSION: </strong>This study concluded that 6 weeks of Segmental Stabilization exercise along with Sacroiliac Joint Mobilization had a positive result in reducing LBP and disability among roller skaters, as measured by the QBPDS and MODI. As a result, the null hypothesis is rejected.</p><p><strong>Keywords:</strong> Anterior innominate, Posterior innominate, Quebec Back Pain Disability Scale (QBPDS) Questionnaire, Modified Oswestry Disability Index (MODI) Questionnaire.</p>",
+                    citation_quotes: '<p>Kaliyaperumal AB, Hemasodhi I, Jeyavarthini V, Anand P. EFFECT OF SEGMENTAL STABILIZATION EXERCISE ALONG WITH SACROILIAC JOINT MOBILIZATION ON LOW BACK PAIN AMONG ROLLER SKATERS. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 130 - 135. https://doi.org/10.63299/ijopt.060338</p>'
+                },
+                {
+                    _id: '1408',
+                    citation_title: "FUNCTIONAL RECOVERY IN A POST-MASTECTOMY LYMPHEDEMA CASE USING KINESIOLOGICAL TAPING AS AN ADJUNCT TO PHYSIOTHERAPY: A CASE STUDY",
+                    citation_author: [
+                        'Dr. Nikhil Mathur', 'Dr. Atul Kalla'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '136',
+                    citation_lastpage: '142',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060339',
+                    sDownLoadUrl: '/assets/documents/archives/2025/36.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Kinesiological taping', 'Post-mastectomy lymphedema', 'Breast cancer rehabilitation', 'Lymphatic drainage', 'Functional recovery', 'DASH score', 'Range of motion', 'Upper limb edema', 'Case report'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND: </strong>Post-mastectomy lymphedema is a prevalent and distressing complication experienced by many breast cancer survivors. It typically results from disruption of lymphatic channels following axillary lymph node dissection or radiation therapy, leading to fluid accumulation, pain, and reduced upper limb function. Conventional physiotherapy remains the cornerstone of treatment; however, complementary modalities such as kinesiological taping (KT) are emerging as promising non-invasive interventions to enhance lymphatic flow, reduce edema, and restore functional independence.</p><p><strong>CASE DESCRIPTION: </strong>A 52-year-old right-handed female, 8 weeks post-right-sided modified radical mastectomy for stage II invasive ductal carcinoma, presented to the physiotherapy department with complaints of heaviness, swelling, and restricted mobility in her right upper limb. Clinical examination revealed Grade II lymphedema with moderate pitting edema and shoulder range of motion (ROM) limitation. There were no signs of active infection or contraindications to physical therapy or taping. Her baseline Disability of the Arm, Shoulder and Hand (DASH) score was 58, and Visual Analog Scale (VAS) for pain was 6/10.</p><p><strong>INTERVENTION: </strong>A comprehensive rehabilitation program was designed, consisting of: Manual Lymphatic Drainage (MLD): Gentle, rhythmic massage to stimulate lymph flow, performed 5 times/week, Kinesiological Taping: Fan-cut KT strips were applied from distal to proximal limb to facilitate lymphatic return, replaced every 3–4 days, Range of Motion Exercises: Assisted and active ROM for shoulder flexion, abduction, and external rotation, Scapular Stabilization: Isometric and resistance band exercises targeting rhomboids, trapezius, and serratus anterior, Patient Education: On skin care, positioning, self-drainage techniques, and daily arm elevation. The treatment protocol was continued over a period of 6 weeks with regular monitoring. Outcomes: Marked improvements were observed in clinical parameters: Limb Circumference Reduction:, Mid-bicep: Reduced from 32 cm to 29 cm, Wrist: Reduced from 21.5 cm to 19 cm, Shoulder ROM Gains (Active Range), Flexion: 80° → 145°, Abduction: 60° → 135°, External Rotation: 30° → 70°, VAS Score: Reduced from 6/10 to 2/10, DASH Score: Improved from 58 to 22, Patient Feedback: Reported lighter limb sensation, reduced discomfort during dressing/grooming tasks, and improved self-esteem. No adverse effects or skin reactions were reported during the taping intervention.</p><p><strong>CONCLUSION: </strong>This case highlights the effective use of kinesiological taping as an adjunct to physiotherapy in managing post-mastectomy upper limb lymphedema. The lymphatic KT application technique, when combined with traditional manual and exercise therapies, contributed to measurable reductions in limb edema, improved upper limb mobility, and enhanced overall functional independence. KT is safe, economical, and easily applicable in outpatient settings, and its integration into post-breast cancer rehabilitation programs may offer additional therapeutic value.</p><p><strong>Keywords:</strong> Kinesiological taping, Post-mastectomy lymphedema, Breast cancer rehabilitation, Lymphatic drainage, Functional recovery, DASH score, Range of motion, Upper limb edema, Case report</p>",
+                    citation_quotes: '<p>Mathur N, Kalla A. FUNCTIONAL RECOVERY IN A POST-MASTECTOMY LYMPHEDEMA CASE USING KINESIOLOGICAL TAPING AS AN ADJUNCT TO PHYSIOTHERAPY: A CASE STUDY. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 136 - 142. https://doi.org/10.63299/ijopt.060339</p>'
+                },
+                {
+                    _id: '1409',
+                    citation_title: "BRACHIORADIALIS SYNDROME: AN ATYPICAL OVERUSE INJURY PRESENTING TO THE EMERGENCY DEPARTMENT",
+                    citation_author: [
+                        'Maya Karnani', 'Renaldo Pavrey'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '143',
+                    citation_lastpage: '146',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060340',
+                    sDownLoadUrl: '/assets/documents/archives/2025/37.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Brachioradialis syndrome', 'Overuse Myopathy', 'Emergency Department', 'Emergency Medicine'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>Brachioradialis syndrome is an uncommon overuse injury that can manifest as diffuse forearm pain, particularly in individuals exposed to repetitive upper limb strain. We describe the case of a 28-year-old Information Technology (IT) male professional who presented to the Emergency Department (ED) of a tertiary care hospital in Mumbai, with sudden-onset bilateral forearm pain and muscle weakness following prolonged use of a laptop device. A thorough clinical assessment, along with imaging and neurophysiological investigations, helped exclude more frequent causes such as cervical radiculopathy, peripheral neuropathy, and primary muscle disorders. The patient improved with conservative treatment, including oral analgesics and ergonomic modifications. Our case underscores the need to consider occupational and postural factors in patients with atypical musculoskeletal complaints.</p><p><strong>Keywords:</strong> Brachioradialis syndrome, Overuse Myopathy, Emergency Department, Emergency Medicine</p>",
+                    citation_quotes: '<p>Karnani M, Pavrey R. BRACHIORADIALIS SYNDROME: AN ATYPICAL OVERUSE INJURY PRESENTING TO THE EMERGENCY DEPARTMENT. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 143 - 146. https://doi.org/10.63299/ijopt.060340</p>'
+                },
+                {
+                    _id: '1410',
+                    citation_title: "PSYCHOMETRIC PROPERTIES OF GUJARATI VERSION OF FEAR OF FALLING QUESTIONNAIRE – REVISED",
+                    citation_author: [
+                        'Rhythm Thacker', 'Megha Sheth'
+                    ],
+                    citation_publication_date: 'July - Sept, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '3',
+                    citation_firstpage: '147',
+                    citation_lastpage: '151',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060342',
+                    sDownLoadUrl: '/assets/documents/archives/2025/38.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Fear of Falling Questionnaire', 'Fear of Fall', 'FFQ-R – Gujarati version'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>OBJECTIVES: </strong>The aim of this study was to translate Fear of Falling Questionnaire – Revised (FFQ-R) and find the reliability and validity of the Gujarati version.</p><p><strong>METHOD: </strong>A methodological study based on WHO guidelines was conducted in Ahmedabad. Forward and backward translation of the FFQ-R was done. An expert panel of five physiotherapists reviewed the pre final version. A pilot study was carried out on 30 Gujarati speaking individuals from the community who were aged over 60 years. Item content validity index (I-CVI) and scale content validity index (S-CVI) were calculated. Interclass correlation coefficient (ICC) was used to find the reliability.</p><p><strong>RESULTS: </strong>The Gujarati version of FFQ-R demonstrated adequate psychometric properties with good I-CVI and S-CVI. The translated version showed excellent reliability (ICC = 0.961).</p><p><strong>CONCLUSION: </strong>The Gujarati version of the FFQ-R is a valid and reliable instrument for evaluating fear of fall in older adults which enables accurate assessment of fear of falling in Gujarati-speaking individuals, improving the understanding of an individual’s perspective</p><p><strong>Keywords:</strong> Fear of Falling Questionnaire, Fear of Fall, FFQ-R – Gujarati version</p>",
+                    citation_quotes: '<p>Thacker R, Sheth M. PSYCHOMETRIC PROPERTIES OF GUJARATI VERSION OF FEAR OF FALLING QUESTIONNAIRE – REVISED. Indian Journal of Physical Therapy. 2025 July - Sept; 6(3): 147 - 151. https://doi.org/10.63299/ijopt.060342</p>'
+                },
             ]
         },
     ]
