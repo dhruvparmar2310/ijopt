@@ -9,7 +9,8 @@ import { useRouter } from 'next/router'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookOpenReader, faFileArrowDown, faFileLines, faGlobe, faHandHoldingDollar, faLink } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
-import advertiseImg from '../../public/assets/img/archives/webinar.png'
+import advertiseImg1 from '../../public/assets/img/archives/webinar-1.jpg'
+import advertiseImg2 from '../../public/assets/img/archives/webinar-2.jpg'
 
 const anton = Anton({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const antonSC = Anton_SC({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
@@ -298,7 +299,8 @@ export default function Home() {
                   </div>
                   <div className='ads-img'>
                     <p>ADVERTISEMENT</p>
-                    <Image src={advertiseImg} className='img-fluid' alt='Call For Publication' quality={100} priority />
+                    <Image src={advertiseImg1} className='img-fluid' alt='Call For Publication' quality={100} priority />
+                    <Image src={advertiseImg2} className='img-fluid' alt='Call For Publication' quality={100} priority />
                   </div>
                 </div>
               </div>
