@@ -260,6 +260,11 @@ function Header () {
                 </Link>
               </li>
               <li>
+                <Link href={'/conference'} className={`${router?.route?.includes('/conference') && 'active'} ${inter.className}`} title='Conference | IJOPT' onClick={(e) => handleClick(e, '/conference')}>
+                  Conference
+                </Link>
+              </li>
+              <li>
                 <Link href={'/contact'} className={`${router?.route?.includes('/contact') && 'active'} ${inter.className}`} title='Contact | IJOPT' onClick={(e) => handleClick(e, '/contact')}>
                   Contact
                 </Link>
