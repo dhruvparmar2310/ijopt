@@ -1,6 +1,7 @@
 .hero-section {
     width: 100%;
-    height: 110vh;
+    // height: 110vh;
+    height: auto;
     background: linear-gradient(130deg, #b2ccef 0%, #322690 100%);
     background-image: url('../../../public/assets/img/bg.svg');
     background-position: center;
@@ -12,6 +13,14 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
+    // &:last-child {
+    //     div {
+    //         width: 100%;
+    //         height: 100%;
+    //         max-width: 500px;
+    //     }
+    // }
 
     h1,
     h5 {
@@ -32,6 +41,32 @@
 
         &.last-date {
             font-weight: 800;
+        }
+    }
+
+    .search-bar {
+        width: 100%;
+        max-width: 500px;
+        height: 100%;
+
+        form {
+            width: 100%;
+            height: 100%;
+
+            .input-field {
+                width: 100%;
+
+                >div {
+                    height: 100%;
+
+                    input {
+                        width: 100%;
+                        max-width: 500px;
+                        height: 45px;
+                        border-radius: 99px;
+                    }
+                }
+            }
         }
     }
 

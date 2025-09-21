@@ -122,6 +122,13 @@ const Conference = () => {
                                 <p className="note"><em>Note: Click on the events to get rules.</em></p>
                                 <hr />
 
+                                <p>National Level Professional Awards:</p>
+                                <div className='event-btn-groups'>
+                                    <Button onClick={() => window.open('/assets/documents/conference/AWARD NOMINATION - JG PHYSIOCON.pdf', '_blank')}>Nomination Award Rules</Button>
+                                    <Button variant='success' onClick={() => window.open('https://forms.gle/nrHBae1uu3oyi3aJ7', '_blank')}>Registration Link</Button>
+                                </div>
+                                <hr />
+
                                 <p>Contact Details:</p>
                                 <div className="contact-details">
                                     <h3>Dr. Mihirdev Jhala (PT) - 8849966410</h3>
