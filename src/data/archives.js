@@ -1716,5 +1716,518 @@ export const archiveList = {
                 },
             ]
         },
+        {
+            _id: '14',
+            sName: 'Volume 6, Issue 4',
+            sImage: 'assets/img/archives/v6-i4.png',
+            dCreatedDate: '2025',
+            sPdfFile: 'assets/documents/archives/2025/19.pdf',
+            sVolume: '6',
+            sIssue: '4',
+            aJournals: [
+                {
+                    _id: '1401',
+                    citation_title: "CORRELATION OF ISOMETRIC STRENGTH OF POSTERIOR SLING MUSCLES WITH DIFFERENT PHASES OF MENSTRUAL CYCLE IN YOUNG ADULTS – A MIXED METHOD CORRELATION STUDY",
+                    citation_author: [
+                        'Ms. A. Sirichandana', 'Dr. Mubeena Banu N', 'Dr. Mohammed Rafi', 'Dr. Sowjanya Maruboyina'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '1',
+                    citation_lastpage: '9',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060443',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/1.pdf',
+                    sCitation_SEO_Keywords: ['Menstruation', 'Muscle strength', 'Follicular phase', 'Ovulation phase', 'Luteal phase', 'Quadratus lumborum', 'Gluteus maximus', 'Hamstrings', 'Calf muscles', 'Adults'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Menstrual cycle is a series of cyclic changes that happens in the reproductive life of women. Muscle strength is affected by different stages of menstrual cycle in women. Each phase of the cycle is influenced by different types of hormones which have positive or negative changes in the physiological properties of the female body. Likewise, the muscle strength of the posterior sling muscles like Quadratus Lumborum, Gluteus Maximus, Hamstrings, Calf is also affected by different phases of the menstrual cycle. This strength is measured by using a dynamometer. Therefore, there is an observed effect of muscle strength in different phases of the menstrual cycle in young adults.</p><p><strong>Methods:</strong> This study is designed as a single-group, correlational study. A sample size of 38 women with regular menses who fulfilled the inclusion criteria was selected, and the isometric strength was correlated with different phases of the menstrual cycle. The outcome measures are dynamometric isometric strength, IPAQ, and WaLLID score.</p><p><strong>Results:</strong> There is a significant correlation between isometric and different phases of the menstrual cycle(p<0.05). And there was no significant correlation between Baseline parameters like BMI, WHR, and IPAQ with different phases of the menstrual cycle.</p><p><strong>Conclusion:</strong> This study concludes that there is a significant variation in isometric strength of posterior sling muscles across different phases of the menstrual cycle in young adult females.</p><p><strong>Keywords:</strong> Menstruation, Muscle strength, Follicular phase, Ovulation phase, Luteal phase, Quadratus lumborum, Gluteus maximus, Hamstrings, Calf muscles, Adults.</p>",
+                    citation_quotes: '<p>Sirichandana A, N MB, Rafi M, Maruboyina S. CORRELATION OF ISOMETRIC STRENGTH OF POSTERIOR SLING MUSCLES WITH DIFFERENT PHASES OF MENSTRUAL CYCLE IN YOUNG ADULTS – A MIXED METHOD CORRELATION STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 1 - 9. https://doi.org/10.63299/ijopt.060443</p>'
+                },
+                {
+                    _id: '1402',
+                    citation_title: "AWARENESS OF VARICOSE VEINS IN EARLY ADULTHOOD-A CROSS-SECTIONAL STUDY",
+                    citation_author: [
+                        'Nidhi Panchal', 'Krupali Makwana', 'Shreya Patel'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '10',
+                    citation_lastpage: '17',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060444',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/2.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Adulthood', 'Varicose Veins', 'Sclerotherapy', 'Physiotherapy', 'Pneumatic Compression'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Varicose veins (VVs) are a common manifestation of chronic venous disease, characterized by the winding and expansion of superficial veins in the lower legs, commonly accompanied by pain, heaviness, itching, swelling, and pulsating discomfort25. Varicose veins are twisted; dilated veins most commonly located on the lower extremities.</p><p><strong>OBJECTIVE:</strong> Aim of the study for awareness of varicose veins in early adulthood in the Ahmedabad and Mahemdavad districts of Gujarat, India.</p><p><strong>METHODS:</strong> A survey of varicose vein in the Mahemdavad and Ahmedabad districts of Gujarat, India, was conducted from 16th April 2025 to 5th July 2025. Participants completed a two-part Google e-survey, accessible online via a link distributed through social media and email.</p><p><strong>RESULT:</strong> Out of 4,900 participants, 323 completed the survey (6.5% response rate, 95% CI, 5.3% margin of error). The majority of respondents were female (55.70%) and between the ages of 18 and 30 (76%, 180 out of 323). The result obtained in this survey were analyzed using basic statistics through Microsoft Excel and inbuilt Google form calculation.</p><p><strong>CONCLUSION:</strong> A significant lack of awareness regarding varicose veins among young adults. The findings indicate that most participants possess limited knowledge about the causes, symptoms, and potential complications of the condition. While many could recognize the most common symptom visible, twisted veins they were largely unaware of other signs, such as aching, heaviness, or swelling in the legs.</p><p><strong>Keywords:</strong> Adulthood, Varicose Veins, Sclerotherapy, Physiotherapy, Pneumatic Compression.</p>",
+                    citation_quotes: '<p>Panchal N, Makwana K, Patel S. AWARENESS OF VARICOSE VEINS IN EARLY ADULTHOOD-A CROSS-SECTIONAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 10 - 17. https://doi.org/10.63299/ijopt.060444</p>'
+                },
+                {
+                    _id: '1403',
+                    citation_title: "OCCUPATIONAL VARIATIONS IN HAND GRIP STRENGTH AND WRIST RANGE OF MOTION AMONG FEMALES: A COMPARATIVE STUDY",
+                    citation_author: [
+                        'Mohammad Hammad Khan', 'Sakshi Arora'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '18',
+                    citation_lastpage: '25',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060445',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/3.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Hand Grip Strength', 'Wrist ROM', 'MUAC', 'BMI'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Hand grip strength (HGS), wrist range of motion (ROM), and mean upper arm circumference (MUAC) are vital indicators of muscle strength, joint flexibility, and body composition, frequently utilized in assessing physical capabilities and health.</p><p><strong>AIMS:</strong> This study aimed to investigate disparities in HGS and wrist ROM among females in various occupations, and to explore the relationship between these variables, MUAC, and body mass index (BMI). Settings and Design: The study involved 90 individuals from Bulandshahr, Dankaur, and nearby villages, employing a handheld dynamometer and goniometer for HGS and wrist ROM measurements, respectively. Anthropometric measurements including MUAC, height, weight, and BMI were also recorded.</p><p><strong>METHOD:</strong> Statistical analysis included comparisons of HGS, wrist ROM, MUAC, and BMI across different occupational groups, as well as correlation analyses between these variables.</p><p><strong>RESULT:</strong> While HGS showed little variation among farmers, house-helps, and teachers, significant differences were observed in wrist ROM and MUAC. Positive correlations were found between HGS and BMI, as well as HGS and MUAC, particularly notable among farmers.</p><p><strong>CONCLUSION:</strong> This study underscores the importance of HGS assessment in occupational health and rehabilitation programs, highlighting its relevance in evaluating physical fitness and overall well-being among female workers.</p><p><strong>Keywords:</strong> Hand Grip Strength, Wrist ROM, MUAC, BMI</p>",
+                    citation_quotes: '<p>Khan MH, Arora S. OCCUPATIONAL VARIATIONS IN HAND GRIP STRENGTH AND WRIST RANGE OF MOTION AMONG FEMALES: A COMPARATIVE STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 18 - 25. https://doi.org/10.63299/ijopt.060445</p>'
+                },
+                {
+                    _id: '1404',
+                    citation_title: "EVALUATING MUSCLE RESPONSE TO DRY NEEDLING AND FARADIC STIMULI AMONG GLUTEAL AMNESIA: A SYSTEMATIC REVIEW",
+                    citation_author: [
+                        'Dr. Shivam Grover', 'Dr. Naina Aggarwal', 'Dr. Megha Sharma', 'Dr. Nidhi Gautam'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '26',
+                    citation_lastpage: '31',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060446',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/4.pdf',
+                    sCitation_SEO_Keywords: [
+                        'dry needling', 'faradic stimulation', 'gluteal amnesia', 'neuromuscular', 'proprioception', 'resistive training'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Gluteal amnesia, characterized by diminished gluteal muscle activation is associated with chronic lower back pain, hip dysfunction, and impaired proprioception. This systematic review evaluates muscle response to dry needling and faradic stimuli among gluteal amnesia.</p><p><strong>METHODS:</strong> Following PRISMA guidelines, a comprehensive search of PubMed, EBSCO Host, Cochrane Library, and Google Scholar was conducted. Fifteen studies (randomized controlled trials, quasi-experimental studies, and clinical case series) were included. Methodological quality was assessed using the Critical Appraisal Skills Programme (CASP) tool.</p><p><strong>RESULT:</strong> NDN demonstrated moderate evidence for short-term improvements in gluteal muscle activation and pain modulation. FS significantly enhanced neuromuscular recruitment and proprioception during functional tasks. RT exhibited the strongest evidence for long-term strength gains and pelvic stability, with 80% of studies reporting proprioceptive improvements.</p><p><strong>CONCLUSION:</strong> Combined NDN, FS, and RT interventions significantly enhance gluteal muscle strength and proprioception in gluteal amnesia patients.</p><p><strong>Keywords:</strong>dry needling, faradic stimulation, gluteal amnesia, neuromuscular, proprioception, resistive training</p>",
+                    citation_quotes: '<p>Grover S, Aggarwal N, Sharma M, Gautam N. EVALUATING MUSCLE RESPONSE TO DRY NEEDLING AND FARADIC STIMULI AMONG GLUTEAL AMNESIA: A SYSTEMATIC REVIEW. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 26 - 31. https://doi.org/10.63299/ijopt.060446</p>'
+                },
+                {
+                    _id: '1405',
+                    citation_title: "COMPARISON OF RAPID UPPER LIMB ASSESSMENT AND NECK DISABILITY INDEX IN ERGONOMIC RISK SCREENING FOR TEXT NECK SYNDROME AMONG ADOLESCENTS IN GUJARAT",
+                    citation_author: [
+                        'Dr. Nausheen Saiyad', 'Dr. Mohammad Sohel Quadri', 'Dr. Manisha Rathi', 'Dr. Tanuja Pandya', 'Dr.Pratik A Gohil'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '32',
+                    citation_lastpage: '36',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060447',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/5.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Text Neck Syndrome', 'Adolescents', 'Smartphone Use', 'Rapid Upper Limb Assessment', 'Neck Disability Index', 'Ergonomic Risk Assessment'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Text Neck Syndrome (TNS) is an emerging musculoskeletal condition associated with sustained forward head posture during smartphone use. Adolescents, due to high digital dependency, are at particular risk of cervical dysfunction. While the Rapid Upper Limb Assessment (RULA) objectively evaluates ergonomic posture, the Neck Disability Index (NDI) quantifies self-perceived disability. Their combined utility in adolescent populations remains underexplored. b To compare outcomes of RULA and NDI in assessing ergonomic risk and functional disability related to TNS among adolescents in Gujarat, India.</p><p><strong>METHOD:</strong> A cross-sectional analytical study was conducted among 97 undergraduate students (aged 18–25 years) with ≥2 hours/day smartphone use for at least six months. RULA scores were obtained from posture recordings during texting, while participants completed the NDI questionnaire in English or Gujarati. Descriptive statistics summarized demographic and outcome variables. Pearson’s correlation coefficient determined the relationship between RULA and NDI scores, with significance set at p < 0.05.</p><p><strong>RESULT:</strong> Participants (mean age 20.4 ± 1.8 years; 43.3% male, 56.7% female) reported average smartphone use of 4.8 ± 1.2 hours/day. Mean RULA score was 4.2 ± 1.0, placing most (59.8%) in the medium-risk category. Mean NDI score was 12.6 ± 4.9, indicating mild disability for the majority (66.0%). Pearson’s correlation revealed a weak, non-significant positive association between RULA and NDI scores (r = 0.21, p = 0.06).</p><p><strong>CONCLUSION:</strong> Adolescents demonstrated medium ergonomic risk and mild neck disability, with weak correlation between RULA and NDI. These findings suggest the tools measure distinct domains. Incorporating both objective and subjective assessments may improve screening and guide early ergonomic interventions for TNS prevention.</p><p><strong>Keywords:</strong> Text Neck Syndrome; Adolescents; Smartphone Use; Rapid Upper Limb Assessment; Neck Disability Index; Ergonomic Risk Assessment</p>",
+                    citation_quotes: '<p>Saiyad N, Quadri MS, Rathi M, Pandya T, Gohil PA. COMPARISON OF RAPID UPPER LIMB ASSESSMENT AND NECK DISABILITY INDEX IN ERGONOMIC RISK SCREENING FOR TEXT NECK SYNDROME AMONG ADOLESCENTS IN GUJARAT. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 32 - 36. https://doi.org/10.63299/ijopt.060447</p>'
+                },
+                {
+                    _id: '1406',
+                    citation_title: "EFFECT OF NEURAL TISSUE MOBILIZATION ON NERVE CONDUCTION, HAND DEXTERITY AND HAND GRIP STRENGTH IN YOUNG OLD POPULATION-AN EXPERIMENTAL STUDY",
+                    citation_author: [
+                        'Dr Ketaki Ravindra Naik', 'Dr Abhishek Panchal', 'Dr Shamla Pazare'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '37',
+                    citation_lastpage: '45',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060448',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/6.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Elderly', 'Grip strength', 'Dexterity', 'NCV', 'Neural tissue mobilization'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Aging leads to a progressive decline in physiological functions, affecting coordination, sensory processing, and musculoskeletal health. In India, the elderly population (60+) is expected to rise significantly, with those aged 70+ projected to increase from 27 million in 2001 to 132 million by 2050. A key age-related change is the decline in hand function due to muscle loss and reduced strength, particularly after 60 years. This study aimed to assess the effects of a 4-week neural tissue mobilization program on hand grip strength, nerve conduction, and dexterity in the 'young-old' population using the Jamar dynamometer, NCV test, and 9-hole peg board test.</p><p><strong>METHODOLOGY:</strong> The study included 25 subjects aged 60-75 years, with ethical clearance obtained. Participants were selected based on specific criteria and provided informed consent. Assessments included hand grip strength (Jamar dynamometer), dexterity (9-hole peg board test), and nerve conduction velocity (NCV apparatus). Neural tensioners were applied for 4 weeks, 3 times per week, with 6-8 oscillations, a 10-second hold, and 3 sets per nerve, allowing a 1-minute rest or until symptoms subsided. Pre- and post-intervention readings were recorded.</p><p><strong>RESULT:</strong> The study results showed significant post-intervention improvements in hand dexterity and grip strength, with slight enhancements in nerve conduction across all three nerves. The dominant hand exhibited greater improvement than the non-dominant hand. The findings suggest that neural tissue mobilization can effectively enhance grip strength, thereby improving dexterity and helping prevent hand function deterioration in the elderly.</p><p><strong>CONCLUSION:</strong> This study concludes that neural tissue mobilization effectively enhances hand grip strength and dexterity in the young-old population. However, no significant improvement was observed in nerve conduction.</p><p><strong>Keywords:</strong> Elderly, Grip strength, Dexterity, NCV, Neural tissue mobilization.</p>",
+                    citation_quotes: '<p>Naik KR, Panchal A, Pazare S. EFFECT OF NEURAL TISSUE MOBILIZATION ON NERVE CONDUCTION, HAND DEXTERITY AND HAND GRIP STRENGTH IN YOUNG OLD POPULATION-AN EXPERIMENTAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 37 - 45. https://doi.org/10.63299/ijopt.060448</p>'
+                },
+                {
+                    _id: '1407',
+                    citation_title: "YOGA VS PHYSICAL ACTIVITY: A COMPARATIVE STUDY OF STRESS AND SLEEP IN YOUNG ADULTS",
+                    citation_author: [
+                        'Abid Manzoor', 'Sabita Yograj', 'Megha Kapoor', 'Mohita Singh', 'Taranjot Singh'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '46',
+                    citation_lastpage: '51',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060449',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/7.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Yogic Breathing', 'Physical Activity', 'Stress', 'Sleep Quality', 'Medical Students', 'Mental Health'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> The high prevalence of stress and sleep disorders among medical students necessitates effective, non-pharmacological interventions. While both yogic breathing and physical activity are beneficial, their comparative efficacy on these specific outcomes remains unclear.</p><p><strong>AIM:</strong> This study aimed to compare the effects of a structured yogic breathing intervention and moderate-intensity physical activity on perceived stress levels and subjective sleep quality in healthy medical students.</p><p><strong>METHOD:</strong> A prospective, randomized controlled trial was conducted with 170 participants allocated to either a Yogic Breathing Group (n=85) or a Physical Activity Group (n=85). The intervention lasted five weeks, with sessions conducted five days per week. The primary outcomes, psychological stress and sleep quality, were assessed using the Depression Anxiety Stress Scales (DASS-21) and the Pittsburgh Sleep Quality Index (PSQI), respectively, at baseline and post-intervention. Data were analyzed using paired t-tests and Analysis of co-variance.</p><p><strong>RESULT:</strong> Both groups showed significant within-group improvements in stress (p<0.001). However, between-group analysis revealed that the Yogic Breathing group achieved a significantly greater reduction in DASS-21 scores compared to the Physical Activity group (mean Δ: -14.43 ± 6.21 vs. -3.69 ± 5.12; p<0.001). Conversely, the Physical Activity group demonstrated a significantly greater improvement in PSQI scores than the Yogic Breathing group (mean Δ: -0.96 ± 1.42 vs. -0.40 ± 1.05; p=0.012).</p><p><strong>CONCLUSION:</strong> Yogic breathing was superior for reducing perceived stress, whereas physical activity was more effective for enhancing sleep quality. The results indicate that both approaches complement each other rather than replace one another. Selecting the right approach should depend on the specific needs, helping to provide a more individualized plan for well-being</p><p><strong>Keywords:</strong> Yogic Breathing, Physical Activity, Stress, Sleep Quality, Medical Students, Mental Health</p>",
+                    citation_quotes: '<p>Manzoor A, Yograj S, Kapoor M, Singh M, Singh T. YOGA VS PHYSICAL ACTIVITY: A COMPARATIVE STUDY OF STRESS AND SLEEP IN YOUNG ADULTS. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 46 - 51. https://doi.org/10.63299/ijopt.060449</p>'
+                },
+                {
+                    _id: '1408',
+                    citation_title: "THE PREVALENCE OF REDUCED UPPER CERVICAL MOBILITY AND NECK DISABILITY AMONG UNIVERSITY COMPUTER WORKERS",
+                    citation_author: [
+                        'Dr. Yash Patel', 'Dr. Nupur Shah'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '52',
+                    citation_lastpage: '57',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060450',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/8.pdf',
+                    sCitation_SEO_Keywords: [
+                        'university computer workers', 'Cervical flexion-rotation test', 'Neck Disability Index questionnaire'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Prolonged computer use raises the risk of neck disability and decreased upper cervical mobility, particularly for university employees. Musculoskeletal imbalances brought on by repetitive and static postures can result in discomfort, limited mobility, and functional limitations.</p><p><strong>AIM :</strong> This study aims to determine the prevalence of reduced upper cervical mobility and neck disability in university computer workers.</p><p><strong>METHODOLOGY:</strong> This cross-sectional study was conducted among 100 university computer workers aged between 18 to 65 years. The assessment was carried out using the cervical flexion-rotation test to assess restriction in upper cervical mobility and the Neck Disability Index questionnaire to assess neck disability in university computer workers.</p><p><strong>RESULT:</strong> In this study conducted among 100 computer workers, the mean age of the participants was 37.03 years, and the average daily computer use duration was 6.69 hours. During the cervical flexion-rotation test, 20% of the participants were found to have limitations in upper cervical mobility. An assessment through the Neck Disability Index (NDI) revealed that 52% of the participants reported no disability, 39% had mild disability, 8% showed moderate disability, and 1% experienced severe disability, while none reported complete disability.</p><p><strong>CONCLUSION:</strong> The study indicates that a small portion of computer workers experience upper cervical mobility limitations and varying degrees of neck disability. While over half reported no disability, a notable percentage exhibited mild to severe impairments, highlighting the need for ergonomic interventions and preventive measures.</p><p><strong>Keywords:</strong> university computer workers, Cervical flexion-rotation test, Neck Disability Index questionnaire.</p>",
+                    citation_quotes: '<p>Patel Y, Shah N. THE PREVALENCE OF REDUCED UPPER CERVICAL MOBILITY AND NECK DISABILITY AMONG UNIVERSITY COMPUTER WORKERS. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 52 - 57. https://doi.org/10.63299/ijopt.060450</p>'
+                },
+                {
+                    _id: '1409',
+                    citation_title: "COMPARISON OF COGNITIVE MOTOR STRATEGY AND RESISTANCE TRAINING ON FUNCTION AND FALL RISK IN PARKINSON’S",
+                    citation_author: [
+                        'Jith U S', 'Dr. S Harihara Sudan'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '58',
+                    citation_lastpage: '66',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060451',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/9.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Idiopathic Parkinson disease', 'Cognitive motor strategy training', 'Progressive resistance training', 'Berg balance scale', 'Tinetti performance-oriented mobility test', 'Short– Fall efficacy scale'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Idiopathic Parkinson's disease (IPD) is a neurological condition that worsens with time and is characterised by both motor and non-motor symptoms that lead to problems with balance, mobility, and fall risk. Medication and physical therapy techniques must be used in tandem for effective management. Focussing certain functional impairments, Cognitive Motor Strategy Training (CMST) and Progressive Resistance Training (PRT) may enhance results.</p><p><strong>AIM:</strong> To evaluate how CMST and PRT affect people with IPD's mobility, balance, functional results, and risk of falling.</p><p><strong>METHODOLOGY:</strong> This experimental pre-test and post-test investigation was carried out at KG Hospital in Coimbatore over a period of eight months. Thirty patients between the ages of 50 and 70 who had MMSE scores more than 24 and stage II or III IPD (Modified Hoehn and Yahr Scale) were split into two groups at random. While Group B received PRT together with traditional treatment, Group A received CMST along with traditional physiotherapy. For six weeks, each group received 60-minute sessions four times a week. The Tinetti Performance Orientated Mobility Assessment (POMA), the Berg Balance Scale (BBS), and the Fall Efficacy Scale (FES) were used to measure the results both before and after the intervention.</p><p><strong>RESULT:</strong> Group A showed greater gains (BBS: +8.8, POMA: +3.3, FES: +7.67) compared to Group B (BBS: +4.4, POMA: +2.25, FES: +6.53). Between-group comparisons favoured CMST (p < 0.05). Those two groups showed significant improvements (p < 0.05).</p><p><strong>CONCLUSION:</strong> For improving mobility, balance, and lowering the risk of falls in people with IPD, CMST works better than PRT. CMST may improve functional results when incorporated into rehabilitation regimens.</p><p><strong>Keywords:</strong> Idiopathic Parkinson disease, Cognitive motor strategy training, Progressive resistance training, Berg balance scale, Tinetti performance-oriented mobility test, Short– Fall efficacy scale</p>",
+                    citation_quotes: '<p>S JU, Sudan SH. COMPARISON OF COGNITIVE MOTOR STRATEGY AND RESISTANCE TRAINING ON FUNCTION AND FALL RISK IN PARKINSON’S. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 58 - 66. https://doi.org/10.63299/ijopt.060451</p>'
+                },
+                {
+                    _id: '1500',
+                    citation_title: "TO ASSESS THE EFFECTIVENESS OF CIRCUIT TRAINING ON CARDIOVASCULAR ENDURANCE IN COLLEGE GOING STUDENTS -AN EXPERIMENTAL STUDY",
+                    citation_author: [
+                        'Pala Keerthy', 'Rajesh Brundavanam'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '67',
+                    citation_lastpage: '72',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060452',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/10.pdf',
+                    sCitation_SEO_Keywords: [
+                        'cardiovascular endurance', 'circuit training', 'College going students', 'physical fitness'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>OBJECTIVE:</strong> The main objective of the study was to find out the effectiveness of circuit training on cardiovascular endurance in College going students.</p><p><strong>METHODS:</strong> 100 Students between the ages of 18 to 25 years were screened for PAR -Q and 50 students were selected for the study. The treatment program was conducted for 12 weeks, scheduled for 32 sessions. The outcome measures were six minutes walk test and Three minutes step test which were recorded before and after treatment sessions</p><p><strong>RESULT:</strong> There was increase in cardiovascular endurance after 12 weeks circuit training program (p value < 0.001) which was statistically significant.</p><p><strong>CONCLUSION:</strong> On the basis of results of our study we concluded that circuit training exercises are effective in improving the cardiovascular endurance in college going students</p><p><strong>Keywords:</strong> cardiovascular endurance, circuit training, College going students, physical fitness.</p>",
+                    citation_quotes: '<p>Keerthy P, Brundavanam R. TO ASSESS THE EFFECTIVENESS OF CIRCUIT TRAINING ON CARDIOVASCULAR ENDURANCE IN COLLEGE GOING STUDENTS -AN EXPERIMENTAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 67 - 72. https://doi.org/10.63299/ijopt.060452</p>'
+                },
+                {
+                    _id: '1501',
+                    citation_title: "EFFECT OF BREATHING EXERCISES ON PEAK EXPIRATORY FLOW RATE IN COLLEGE STUDENTS: AN EXPERIMENTAL STUDY",
+                    citation_author: [
+                        'Maram. Vyshnavi', 'Praniti', 'Rajesh Brundavanam'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '73',
+                    citation_lastpage: '78',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060454',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/11.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Breathing exercises', 'Peak Expiratory Flow Rate', 'Dyspnea', 'College students', 'Pulmonary function', 'Respiratory health'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>OBJECTIVE: </strong>The purpose of this study was to determine the effect of breathing exercises on peak expiratory flow rate (PEFR) in college-going students, as PEFR is a simple and reliable measure of pulmonary function.</p><p><strong>METHODOLOGY: </strong>An experimental study was conducted on 30 college-going students (18–25 years) with reduced PEFR and mild to moderate dyspnea. Baseline PEFR was measured using a peak flow meter, and dyspnea was assessed using the Modified MRC Dyspnea Scale. Participants performed diaphragmatic and thoracic expansion breathing exercises twice daily for 6 weeks, after which PEFR and MRC grades were reassessed and analyzed using SPSS.</p><p><strong>RESULTS: </strong>The findings demonstrated a statistically significant improvement in PEFR among college-going students after 6 weeks of breathing exercises (P < 0.001), indicating enhanced lung function and better expiratory capacity.</p><p><strong>CONCLUSION: </strong>Breathing exercises are effective, simple, and non-invasive techniques that can significantly improve respiratory function in young adults. They may be recommended as part of routine health and fitness programs for college students, as they are easy to implement and show promise in improving pulmonary health in young adults.</p><p><strong>Keywords:</strong> Breathing exercises, Peak Expiratory Flow Rate, Dyspnea, College students, Pulmonary function, Respiratory health</p>",
+                    citation_quotes: '<p>Vyshnavi M, Praniti , Brundavanam R. EFFECT OF BREATHING EXERCISES ON PEAK EXPIRATORY FLOW RATE IN COLLEGE STUDENTS: AN EXPERIMENTAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 73 - 78. https://doi.org/10.63299/ijopt.060454</p>'
+                },
+                {
+                    _id: '1502',
+                    citation_title: "KNOWLEDGE, ATTITUDE, AND PERCEPTION REGARDING MENOPAUSE AMONG PREMENOPAUSAL WOMEN IN A RURAL COMMUNITY: A CROSS-SECTIONAL STUDY",
+                    citation_author: [
+                        'Dr. Akanksha M Chandak', 'Dr. Shyam D Ganvir'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '79',
+                    citation_lastpage: '84',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060455',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/12.pdf',
+                    sCitation_SEO_Keywords: [
+                        'menopause', 'knowledge', 'attitude', 'perception', 'rural women', 'India'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND: </strong>Menopause is a natural physiological transition in every woman’s life. However, a lack of knowledge, negative attitudes, and strong socio-cultural taboos complicate women’s menopausal experience, particularly in rural India. The objective of this study was to evaluate the knowledge, attitudes, and perceptions regarding menopause among premenopausal women.</p><p><strong>METHODS: </strong>A cross-sectional, observational study was conducted among 20 premenopausal women in a rural setting. Participants were assessed using a structured questionnaire collecting demographic data along with queries exploring their knowledge, attitudes, and perceptions regarding menopause. Descriptive statistics were used to summarize findings.</p><p><strong>RESULTS: </strong>The mean age of participants was 36.25 (SD 5.63) years. While 65% had heard about menopause, only 20% correctly attributed it to hormonal changes, and just 15% were aware of symptom management options. Misconceptions about menopause were prevalent, with 15% believing it could be caused by infection. A majority (75%) believed menopause would negatively affect their quality of life, and 60% obtained information from healthcare professionals. Importantly, 95% stated menopause remains a taboo topic in their community. About half (50%) felt unprepared for the menopausal transition, and only 40% felt somewhat comfortable discussing menopause with a doctor.</p><p><strong>CONCLUSION: </strong>Premenopausal women in this rural community demonstrated significant knowledge gaps and negative attitudes toward menopause, compounded by cultural taboos and limited preparedness. Most participants lacked awareness of the causes and management of menopause.</p><p><strong>Keywords:</strong> menopause, knowledge, attitude, perception, rural women, India.</p>",
+                    citation_quotes: '<p>Chandak AM, Ganvir SD. KNOWLEDGE, ATTITUDE, AND PERCEPTION REGARDING MENOPAUSE AMONG PREMENOPAUSAL WOMEN IN A RURAL COMMUNITY: A CROSS- SECTIONAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 79 - 84. https://doi.org/10.63299/ijopt.060455</p>'
+                },
+                {
+                    _id: '1503',
+                    citation_title: "EFFECT OF PLYOMETRIC TRAINING VERSUS SWISS BALL TRAINING ON SPEED AND AGILITY IN KARATE PLAYERS - AN EXPERIMENTAL STUDY",
+                    citation_author: [
+                        'Dr. Divya Patil', 'Ms. Bhavna Rathva', 'Mr. Ashish Patel', 'Mr. Jenti Chavda', 'Ms. Manisha Nayak'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '85',
+                    citation_lastpage: '91',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060456',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/13.pdf',
+                    sCitation_SEO_Keywords: [
+                        'T Agility test', '50 Meter Dash test', 'karate player', 'plyometric', 'Swiss ball'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Karate is an active activity that necessitates a combination of strength, power, flexibility, agility, and endurance for top performance. High-speed movements, particularly in executing kicks and punches, are greatly dependent on the strength and power of the lower limb muscles, especially those responsible for knee extension. Plyometrics are exercises that improve neuromuscular performance through natural sports movements like jumping, hopping, and skipping. Swiss ball training is done with an exercise ball or includes various exercises targeting different muscle groups in the body.</p><p><strong>Objective:</strong> To determine the effect of plyometric training versus Swiss ball training on speed and agility in karate players.</p><p><strong>Methods:</strong> After considering the selection criteria and randomly dividing into two groups; 15 subjects in Group- A and 15 in group B. Group A received plyometric training and group B received Swiss ball training for 3 session/week for 3 weeks. Outcome measures were assessed with pre and post intervention with T- agility test & 50 Meter Dash test for speed & agility</p><p><strong>Results:</strong> The results of this study showed statistically significant improvement in T agility test & Dash test with both plyometric training & Swiss ball exercise. (P value<0.05).</p><p><strong>Conclusion:</strong> Both groups showed statistically significant improvement of speed & agility in karate players with plyometric training & Swiss ball exercise. But all findings support the idea and concluded that plyometric training were found to be more prominent in improving speed & agility in karate players.</p><p><strong>Keywords:</strong> T Agility test, 50 Meter Dash test, karate player, plyometric, Swiss ball.</p>",
+                    citation_quotes: '<p>Patil D, Rathva B, Patel A, Chavda J, Nayak M. EFFECT OF PLYOMETRIC TRAINING VERSUS SWISS BALL TRAINING ON SPEED AND AGILITY IN KARATE PLAYERS - AN EXPERIMENTAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 85 - 91. https://doi.org/10.63299/ijopt.060456</p>'
+                },
+                {
+                    _id: '1504',
+                    citation_title: "ASSOCIATION OF PECTORALIS MINOR TIGHTNESS WITH INSPIRATORY CAPACITY AND CHEST EXPANSION IN COLLEGE STUDENTS: A CORRELATIONAL STUDY",
+                    citation_author: [
+                        'Dr.Maitri Parmar', 'Kiran Rathod', 'Krishna Gamit', 'Vishwa Barad', 'Dinkal Patel'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '92',
+                    citation_lastpage: '97',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060457',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/14.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Pectoralis minor tightness', 'Thoracic expansion', 'Inspiratory capacity'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background: </strong>The pectoralis minor muscle significantly contributes to scapular positioning and upper thoracic mobility. Tightness in this muscle is commonly observed in individuals with poor posture, such as rounded shoulders and forward head posture, which may restrict thoracic cage movement and affect breathing efficiency. Among students, prolonged sitting, use of electronic devices, and poor ergonomics can contribute to postural imbalances and increased muscle tightness. Since effective thoracic expansion is crucial for optimal breathing, it is important to investigate whether pectoralis minor tightness affects lung function and chest wall mobility. Understanding this relationship can aid in developing integrated musculoskeletal and cardiopulmonary rehabilitation strategies.</p><p><strong>Objective: </strong>The aim of this study was to determine the correlation between pectoralis minor tightness and inspiratory capacity, and to evaluate its relationship with thoracic expansion measured at the axilla, nipple, and xiphoid levels in healthy student participants.</p><p><strong>Methods: </strong>Eighty-five healthy students participated in the study. Pectoralis minor tightness was assessed using a standardized length test. Inspiratory capacity was measured using an incentive volumetric spirometer, and thoracic expansion was measured at three anatomical levels using a measuring tape. Pearson’s correlation test was used for analysis.</p><p><strong>Results: </strong>There was a modest, non-significant link between pectoralis minor tightness and thoracic expansion, but a substantial moderate correlation with inspiratory capacity (r = 0.309, p = 0.004). At the axillary level, there was a weak and negative correlation between thoracic expansion and pectoralis minor tension (r = – 0.194, p = 0.075).At the nipple level, there was a weak and statistically insignificant correlation between pectoralis minor tightness and thoracic expansion (r = 0.006, p = 0.956). Additionally, there was a slight and negative correlation (r = –0.189, p = 0.084) between thoracic extension at the xiphoid level and pectoralis minor tightness.</p><p><strong>Conclusion: </strong>Pectoralis minor tightness moderately affects inspiratory capacity but not regional thoracic expansion.</p><p><strong>Keywords:</strong> Pectoralis minor tightness, Thoracic expansion, Inspiratory capacity</p>",
+                    citation_quotes: '<p>Parmar M, Rathod K, Gamit K, Barad V, Patel D. ASSOCIATION OF PECTORALIS MINOR TIGHTNESS WITH INSPIRATORY CAPACITY AND CHEST EXPANSION IN COLLEGE STUDENTS: A CORRELATIONAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 92 - 97. https://doi.org/10.63299/ijopt.060457</p>'
+                },
+                {
+                    _id: '1505',
+                    citation_title: "CORRELATION OF FLATFOOT WITH HAMSTRING MUSCLE TIGHTNESS IN 18- TO 25-YEAR-OLD COLLEGE GOING STUDENTS",
+                    citation_author: [
+                        'Dr. Fenal M Parvatia'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '98',
+                    citation_lastpage: '104',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060458',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/15.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Foot posture index', 'Active knee extension test', 'Flat foot', 'Hamstring muscle tightness', 'correlation', 'young adults', 'universal goniometer', 'foot print test'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background: </strong>Young adults frequently have flatfoot and hamstring discomfort as a result of their sedentary lifestyles and bad posture. Both disorders affect posture and lower limb biomechanics. Examining their relationship can help with musculoskeletal dysfunctions in this population, including early diagnosis, prevention, and treatment.</p><p><strong>Objective: </strong>In order to facilitate early diagnosis and preventive measures, this study intends to investigate the association between hamstring muscle tightness and flatfoot in college students between the ages of 18 and 25. It will do this by determining the prevalence of flatfoot, assessing hamstring flexibility, and examining the relationship between the two.</p><p><strong>Methods: </strong>84 randomly chosen Surat college students, ages 18 to 25, participated in a 6-month comparison study. Among the requirements for inclusion were flatfooted, healthy students. The Foot Posture Index (FPI-6), Active Knee Extension test using a goniometer, and the footprint test were used to quantify foot posture and hamstring flexibility.</p><p><strong>Results: </strong>A small but statistically significant positive connection between both sides of hamstring tightness and flat foot posture was seen in 84 young people, indicating that biomechanical interdependence links more pronated feet to less hamstring flexibility.</p><p><strong>Conclusion: </strong>This study discovered a small but significant positive correlation between hamstring tightness and flat foot position, suggesting a biomechanical relationship. Reduced hamstring flexibility was observed in those with more pronated feet, highlighting the significance of foot alignment in musculoskeletal evaluation and treatment methods.</p><p><strong>Keywords:</strong> Foot posture index, Active knee extension test, Flat foot, Hamstring muscle tightness, correlation, young adults, universal goniometer, foot print test</p>",
+                    citation_quotes: '<p>Parvatia FM. CORRELATION OF FLATFOOT WITH HAMSTRING MUSCLE TIGHTNESS IN 18- TO 25-YEAR-OLD COLLEGE GOING STUDENTS. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 98 - 104. https://doi.org/10.63299/ijopt.060458</p>'
+                },
+                {
+                    _id: '1506',
+                    citation_title: "EFFECT OF EXERGAMING EYE HAND COORIDNATION IN HEALTHY GERIATRICS – AN EXPIREMENTAL STUDY",
+                    citation_author: [
+                        'Ishana Kadam', 'Sushil Arora'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '105',
+                    citation_lastpage: '111',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060459',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/16.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Eye hand Co-ordination', 'Mirror tracing test', 'Exergaming', 'Trail making test A Trail making test B'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background: </strong>Aging is associated with a decline in both physical and cognitive functions, including eye-hand coordination (EHC)—the ability to synchronize visual input with hand movements. EHC depends on the integration of sensory, motor, and cognitive processes such as attention and memory, and is essential for performing everyday tasks independently. Declines in EHC can increase dependency in daily life. Exergames, which combine physical and cognitive training, have shown potential in enhancing motor and cognitive abilities across all age groups, particularly in the elderly.</p><p><strong>Methodology: </strong>60 healthy Geriatric population participated in this study. Participants were selected on basis of the inclusion and exclusion criteria and divided into two equal groups using chit method. Group A participants underwent the Exergaming exercise protocol and Group B participants underwent Conventional exercise training for thrice a week for four weeks each. Mirror tracing test and Trail making test A and B were used to assess the pre and post intervention. Statistical analysis was done and conclusion was drawn accordingly.</p><p><strong>Result: </strong>The performance of mirror tracing test compared between Group A and Group B, shows that In Group A errors and time taken for Mirror tracing test in reduced as compared to Group B with a mean difference of 12.5, with p value <0.0001.</p><p><strong>Conclusion: </strong>The study Concludes that the effect of exergaming in improving eye hand coordination is effective after the 4 weeks of training in geriatrics population.</p><p><strong>Keywords:</strong> Eye hand Co-ordination, Mirror tracing test, Exergaming, Trail making test A Trail making test B</p>",
+                    citation_quotes: '<p>Kadam I, Arora S. EFFECT OF EXERGAMING EYE HAND COORIDNATION IN HEALTHY GERIATRICS – AN EXPIREMENTAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 105 - 111. https://doi.org/10.63299/ijopt.060459</p>'
+                },
+                {
+                    _id: '1507',
+                    citation_title: "PREVALENCE OF MILD COGNITIVE IMPAIRMENT IN MIDDLE AGED POPULATION OF AHMEDABAD",
+                    citation_author: [
+                        'Dhruvi Shah', 'Megha Sheth'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '112',
+                    citation_lastpage: '116',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060460',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/17.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Mild cognitive impairment', 'Middle-aged population', 'Risk factors'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background: </strong>The objective of this study is to identify the prevalence of mild cognitive impairment in middle aged population of Ahmedabad and to identify the factors affecting it.</p><p><strong>Methodology: </strong>A cross-sectional analytical study was conducted in Ahmedabad. Cognition, physical activity, lifestyle and stress were assessed by asking the participants to fill Addenbrooke's cognitive examination-III test (ACE-3), International physical activity questionnaire-SF(IPAQ-SF), perceived stress scale (PSS) and Simple lifestyle indicator questionnaire (SLIQ) along with details.</p><p><strong>Analysis: </strong>Data analysis was done using Microsoft excel and SPSS 20. Level of significance was kept 5%. Association was found using Chi square test between MCI and demographics, and other outcomes.</p><p><strong>Results: </strong>Mean age of participants was 50.74±4.5 years. Mean score of ACE-3 was 89.18±8.2, PSS was 14.98±6.2 and SLIQ was 6.69±1.3. Prevalence of MCI was 38.18%. No association was found between MCI and gender(rho=0.13,p=0.17), stress(rho=0.12,p=0.36), SLIQ (rho=0.14,p=0.28), physical activity (rho=0.12,p=0.35), sleep hours (rho=0.02,p=0.88), alcohol intake (rho=0.296,p=0.55) or smoking (rho=0.67,p=0.14).</p><p><strong>Conclusion: </strong>Prevalence of MCI in middle-aged population is 38.18%. No association was found between MCI with stress, gender, lifestyle, physical activity, sleep hours, alcohol addiction and smoking.</p><p><strong>Clinical implications: </strong>It is necessary for middle aged population to undergo MCI screening as it is treatable condition in early stages. Necessary interventions can be taken and dementia onset can be prevented or delayed. Further interventions for management of MCI should be studied.</p><p><strong>Keywords:</strong> Mild cognitive impairment, Middle-aged population, Risk factors</p>",
+                    citation_quotes: '<p>Shah D, Sheth M. PREVALENCE OF MILD COGNITIVE IMPAIRMENT IN MIDDLE AGED POPULATION OF AHMEDABAD. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 112 - 116. https://doi.org/10.63299/ijopt.060460</p>'
+                },
+                {
+                    _id: '1508',
+                    citation_title: "CORRELATION BETWEEN DAILY SCREEN TIME PATTERNS AND SMARTPHONE ADDICTION LEVELS AMONG PHYSIOTHERAPY STUDENTS: A CROSS-SECTIONAL STUDY",
+                    citation_author: [
+                        'Akshitbhai Virani', 'Aansi Patel', 'Sandhya K Singal', 'Jayshree M Sutaria', 'Yagna U Shukla'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '117',
+                    citation_lastpage: '125',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060461',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/18.pdf',
+                    sCitation_SEO_Keywords: [
+                        'smartphone addiction', 'screen time', 'physiotherapy students', 'Smartphone Addiction Scale', 'digital wellness', 'behavioral health'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background: </strong>Smartphones are used by most people worldwide, especially young adults aged 18-49. Smartphone addiction occurs when people use their phones excessively and cannot control their use, leading to problems in their daily lives and relationships. College students are at a higher risk because they depend heavily on smartphones for studying, socializing, and entertainment. High usage rates have been correlated with an increased risk of depression, anxiety, sleep disorders, decreased academic performance, and musculoskeletal issues. This is especially concerning among populations where physical and mental health are essential, such as healthcare students. Physiotherapy students may be particularly affected because they need to stay physically and mentally healthy to become good healthcare providers.</p><p><strong>Objective: </strong>To determine whether the screen time threshold is linked to an increased risk and to investigate the relationship between daily screen time and the degree of smartphone addiction among physiotherapy students.</p><p><strong>Methods: </strong>A cross-sectional study was conducted among 236 physiotherapy students (aged 17–24 years) in Gujarat, India. Smartphone addiction was assessed using the Smartphone Addiction Scale–Short Version (SAS-SV), and screen time was objectively tracked using built-in monitoring applications. Descriptive statistics, Pearson and Spearman correlations, analysis of variance (ANOVA) with post hoc testing, and receiver operating characteristic (ROC) curve analyses were performed.</p><p><strong>Results: </strong>Participants reported a mean daily screen time of 4.74 ± 2.22 hours (range 0.2–19.0) and mean SAS-SV scores of 28.13 ± 9.25 (range 10–55). A weak but statistically significant positive correlation was found between screen time and smartphone addiction (Pearson’s r = 0.173, p = 0.008; Spearman’s ρ = 0.133, p = 0.041). Students with >6 hours/day of screen time (11.0% of the sample) showed significantly higher addiction scores (31.8 ± 11.1) than their peers with ≤6 hours/day (27.6 ± 8.8, p < 0.001, Cohen’s d ≈ 0.46). ROC analysis identified six hours/day as a practical threshold for high-risk addiction, with an AUC of 0.68</p><p><strong>Conclusion: </strong>Daily screen time was positively associated with smartphone addiction severity among physiotherapy students. Screen use exceeding six hours/day represents a critical risk marker, highlighting the need for targeted preventive strategies and the integration of digital wellness into healthcare education.</p><p><strong>Keywords:</strong> smartphone addiction, screen time, physiotherapy students, Smartphone Addiction Scale, digital wellness, behavioral health</p>",
+                    citation_quotes: '<p>Virani A, Patel A, Singal SK, Sutaria ⁠M, Shukla YU. CORRELATION BETWEEN DAILY SCREEN TIME PATTERNS AND SMARTPHONE ADDICTION LEVELS AMONG PHYSIOTHERAPY STUDENTS: A CROSS-SECTIONAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 117 - 125. https://doi.org/10.63299/ijopt.060461</p>'
+                },
+                {
+                    _id: '1509',
+                    citation_title: "RETROSPECTIVE EVALUATION OF THE IMPACT OF KNEE OSTEOARTHRITIS SEVERITY ON TREATMENT",
+                    citation_author: [
+                        'Dr.Juhi Bhambhani', 'Dr. Vaibhav Dave', 'Dr. Prachi Oza', 'Dr. Hemant Kumar', 'Dr. Aprajeeta Chouhan'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '126',
+                    citation_lastpage: '138',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060401',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/19.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Knee osteoarthritis', 'Kellgren-Lawrence grading', 'treatment outcomes', 'conservative management', 'surgical intervention', 'longitudinal study', 'functional assessment'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background: </strong>Knee osteoarthritis (OA) affects approximately 528 million people worldwide, representing a significant healthcare burden with variable treatment outcomes based on disease severity. Understanding the relationship between severity grading and treatment effectiveness is crucial for optimizing patient management strategies.</p><p><strong>Objective:</strong> To evaluate the impact of knee osteoarthritis severity, assessed using the Kellgren-Lawrence (KL) grading system, on treatment outcomes over a 24-month longitudinal period.</p><p><strong>Methods:</strong> This retrospective longitudinal study analyzed 1,247 patients with knee OA treated between January 2020 and December 2023. Patients were stratified by KL grades (0-4) and treatment modalities (conservative vs. surgical). Primary outcomes included pain scores using Visual Analog Scale (VAS), functional outcomes using Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) and Knee injury and Osteoarthritis Outcome Score (KOOS), and quality of life measures at baseline, 6, 12, and 24 months.</p><p><strong>Results:</strong> Patients with KL grades 0-2 showed significantly better responses to conservative treatments, with mean VAS scores improving from 6.2±1.8 to 2.4±1.2 (p<0.001). Advanced OA (KL grades 3-4) demonstrated superior outcomes with surgical interventions, achieving 78% functional improvement compared to 34% with conservative management. Treatment failure rates increased with severity grade, ranging from 12% in KL grade 1 to 67% in KL grade 4 for conservative treatments.</p><p><strong>Conclusion: </strong>Knee osteoarthritis severity significantly influences treatment outcomes, with early-stage disease responding favorably to conservative management while advanced stages require surgical intervention for optimal results. These findings support severity-based treatment algorithms for improved patient outcomes.</p><p><strong>Keywords:</strong> Knee osteoarthritis, Kellgren-Lawrence grading, treatment outcomes, conservative management, surgical intervention, longitudinal study, functional assessment</p>",
+                    citation_quotes: '<p>Bhambhani J, Dave V, Oza P, Kumar H, Chouhan A. RETROSPECTIVE EVALUATION OF THE IMPACT OF KNEE OSTEOARTHRITIS SEVERITY ON TREATMENT. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 126 - 138. https://doi.org/10.63299/ijopt.060401</p>'
+                },
+                {
+                    _id: '1610',
+                    citation_title: "A COMPARATIVE STUDY ON THE EFFECTIVENESS OF EXTERNAL OBLIQUE MUSCLE STRENGTHENING ON POSTURE IN PATIENTS WITH STROKE",
+                    citation_author: [
+                        'Kritika Kuldeep', 'Dr. Arunachalam Ramchandarn', 'Dr. Aditee Bhardwaj', 'Dr. Vaibhav Dave', 'Dr. Prachi H. Oza', 'Dr. Hemant Kumar'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '139',
+                    citation_lastpage: '148',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060402',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/20.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Stroke', 'External Oblique Muscle', 'Posture', 'Trunk Stability', 'Rehabilitation', 'Muscle Strengthening', 'Postural Control'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>This study investigates the effectiveness of external oblique muscle strengthening exercises on improving posture in stroke patients. A randomized controlled trial (RCT) design was used, involving 30 participants with chronic hemiparetic stroke (aged 40-75). Participants were randomly assigned to either an intervention group (n=15) or a control group (n=15). The intervention group underwent a six-week, structured rehabilitation program focused on external oblique strengthening exercises, which included resistance training, trunk rotation exercises, and stability drills aimed at enhancing muscle activation and endurance. The control group participated in standard rehabilitation practices, which primarily focused on improving general mobility, stretching, and balance training. Posture was evaluated using a combination of objective and subjective measures, including the Postural Control Assessment (PCA), and the Trunk Impairment Scale (TIS). The results revealed statistically significant improvements in the intervention group compared to the control group. The intervention group demonstrated greater improvements in trunk alignment, including a reduction in lateral flexion and an increase in the ability to maintain an erect posture during standing and dynamic tasks. Additionally, the external oblique strengthening regimen was associated with enhanced postural stability, as evidenced by higher scores on the Postural Control Assessment and the Trunk Impairment Scale.</p><p><strong>Keywords:</strong> Stroke, External Oblique Muscle, Posture, Trunk Stability, Rehabilitation, Muscle Strengthening, Postural Control.</p>",
+                    citation_quotes: '<p>Kuldeep K, Ramchandarn A, Bhardwaj A, Dave V, Oza PH, Kumar H. A COMPARATIVE STUDY ON THE EFFECTIVENESS OF EXTERNAL OBLIQUE MUSCLE STRENGTHENING ON POSTURE IN PATIENTS WITH STROKE. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 139 - 148. https://doi.org/10.63299/ijopt.060402</p>'
+                },
+                {
+                    _id: '1611',
+                    citation_title: "EFFECT OF KNEE JOINT TRACTION ON PAIN AND FUNCTIONAL MOBILITY IN PATIENT WITH KNEE OSTEOARTHRITIS",
+                    citation_author: [
+                        'Muskan Gupta', 'Dr. Anandan D', 'Dr. Vaibhav C. Dave', 'Dr. Hemant Kumar', 'Dr. Prachi H. Oza'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '149',
+                    citation_lastpage: '157',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060403',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/21.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Knee osteoarthritis', 'knee joint traction', 'continuous traction', 'intermittent traction', 'pain management', 'functional mobility', 'range of motion', 'physiotherapy', 'WOMAC', 'VAS', 'depression', 'quality of life'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>Osteoarthritis (OA) of the knee is a prevalent condition causing chronic pain and functional limitations, often with suboptimal responses to conventional treatments. This randomized controlled trial investigated the effectiveness of knee joint traction as an adjunct to standard physiotherapy in 30-40 patients aged 40-70 years with radiologically confirmed knee OA. Participants were allocated to either an experimental group receiving combined traction (continuous or intermittent) and conventional therapy or a control group receiving conventional therapy alone. Outcomes including pain (VAS), functional mobility (WOMAC), knee range of motion (goniometry), and psychological status (BDI) were assessed pre- and post-intervention. Results demonstrated that the traction group exhibited significantly greater improvements in pain reduction, functional capacity, and joint mobility compared to controls, with continuous traction proving particularly effective for alleviating stiffness and enhancing physical performance. Additionally, traction therapy yielded psychological benefits, including reduced depressive symptoms. The optimal therapeutic effect was observed at 60°- 90° of knee flexion. These findings suggest that knee joint traction represents a safe and clinically beneficial intervention for managing knee OA, though further large-scale research is warranted to establish standardized treatment protocols and confirm long-term efficacy. This study contributes to the growing evidence supporting mechanical traction as a valuable component in the multimodal management of knee osteoarthritis.</p><p><strong>Keywords:</strong> Knee osteoarthritis, knee joint traction, continuous traction, intermittent traction, pain management, functional mobility, range of motion, physiotherapy, WOMAC, VAS, depression, quality of life.</p>",
+                    citation_quotes: '<p>Gupta M, D A, Dave VC, Kumar H, Oza PH. EFFECT OF KNEE JOINT TRACTION ON PAIN AND FUNCTIONAL MOBILITY IN PATIENT WITH KNEE OSTEOARTHRITIS. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 149 - 157. https://doi.org/10.63299/ijopt.060403</p>'
+                },
+            ]
+        },
     ]
 }
