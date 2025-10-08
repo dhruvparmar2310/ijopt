@@ -1867,30 +1867,30 @@ export const archiveList = {
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> Aging leads to a progressive decline in physiological functions, affecting coordination, sensory processing, and musculoskeletal health. In India, the elderly population (60+) is expected to rise significantly, with those aged 70+ projected to increase from 27 million in 2001 to 132 million by 2050. A key age-related change is the decline in hand function due to muscle loss and reduced strength, particularly after 60 years. This study aimed to assess the effects of a 4-week neural tissue mobilization program on hand grip strength, nerve conduction, and dexterity in the 'young-old' population using the Jamar dynamometer, NCV test, and 9-hole peg board test.</p><p><strong>METHODOLOGY:</strong> The study included 25 subjects aged 60-75 years, with ethical clearance obtained. Participants were selected based on specific criteria and provided informed consent. Assessments included hand grip strength (Jamar dynamometer), dexterity (9-hole peg board test), and nerve conduction velocity (NCV apparatus). Neural tensioners were applied for 4 weeks, 3 times per week, with 6-8 oscillations, a 10-second hold, and 3 sets per nerve, allowing a 1-minute rest or until symptoms subsided. Pre- and post-intervention readings were recorded.</p><p><strong>RESULT:</strong> The study results showed significant post-intervention improvements in hand dexterity and grip strength, with slight enhancements in nerve conduction across all three nerves. The dominant hand exhibited greater improvement than the non-dominant hand. The findings suggest that neural tissue mobilization can effectively enhance grip strength, thereby improving dexterity and helping prevent hand function deterioration in the elderly.</p><p><strong>CONCLUSION:</strong> This study concludes that neural tissue mobilization effectively enhances hand grip strength and dexterity in the young-old population. However, no significant improvement was observed in nerve conduction.</p><p><strong>Keywords:</strong> Elderly, Grip strength, Dexterity, NCV, Neural tissue mobilization.</p>",
                     citation_quotes: '<p>Naik KR, Panchal A, Pazare S. EFFECT OF NEURAL TISSUE MOBILIZATION ON NERVE CONDUCTION, HAND DEXTERITY AND HAND GRIP STRENGTH IN YOUNG OLD POPULATION-AN EXPERIMENTAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 37 - 45. https://doi.org/10.63299/ijopt.060448</p>'
                 },
-                {
-                    _id: '1407',
-                    citation_title: "YOGA VS PHYSICAL ACTIVITY: A COMPARATIVE STUDY OF STRESS AND SLEEP IN YOUNG ADULTS",
-                    citation_author: [
-                        'Abid Manzoor', 'Sabita Yograj', 'Megha Kapoor', 'Mohita Singh', 'Taranjot Singh'
-                    ],
-                    citation_publication_date: 'Oct - Dec, 2025',
-                    citation_journal_title: {
-                        primary: citation_journal_title_primary,
-                        secondary: citation_journal_title_secondary
-                    },
-                    citation_volume: '6',
-                    citation_issue: '4',
-                    citation_firstpage: '46',
-                    citation_lastpage: '51',
-                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
-                    sDOINo: 'https://doi.org/10.63299/ijopt.060449',
-                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/7.pdf',
-                    sCitation_SEO_Keywords: [
-                        'Yogic Breathing', 'Physical Activity', 'Stress', 'Sleep Quality', 'Medical Students', 'Mental Health'
-                    ],
-                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> The high prevalence of stress and sleep disorders among medical students necessitates effective, non-pharmacological interventions. While both yogic breathing and physical activity are beneficial, their comparative efficacy on these specific outcomes remains unclear.</p><p><strong>AIM:</strong> This study aimed to compare the effects of a structured yogic breathing intervention and moderate-intensity physical activity on perceived stress levels and subjective sleep quality in healthy medical students.</p><p><strong>METHOD:</strong> A prospective, randomized controlled trial was conducted with 170 participants allocated to either a Yogic Breathing Group (n=85) or a Physical Activity Group (n=85). The intervention lasted five weeks, with sessions conducted five days per week. The primary outcomes, psychological stress and sleep quality, were assessed using the Depression Anxiety Stress Scales (DASS-21) and the Pittsburgh Sleep Quality Index (PSQI), respectively, at baseline and post-intervention. Data were analyzed using paired t-tests and Analysis of co-variance.</p><p><strong>RESULT:</strong> Both groups showed significant within-group improvements in stress (p<0.001). However, between-group analysis revealed that the Yogic Breathing group achieved a significantly greater reduction in DASS-21 scores compared to the Physical Activity group (mean Δ: -14.43 ± 6.21 vs. -3.69 ± 5.12; p<0.001). Conversely, the Physical Activity group demonstrated a significantly greater improvement in PSQI scores than the Yogic Breathing group (mean Δ: -0.96 ± 1.42 vs. -0.40 ± 1.05; p=0.012).</p><p><strong>CONCLUSION:</strong> Yogic breathing was superior for reducing perceived stress, whereas physical activity was more effective for enhancing sleep quality. The results indicate that both approaches complement each other rather than replace one another. Selecting the right approach should depend on the specific needs, helping to provide a more individualized plan for well-being</p><p><strong>Keywords:</strong> Yogic Breathing, Physical Activity, Stress, Sleep Quality, Medical Students, Mental Health</p>",
-                    citation_quotes: '<p>Manzoor A, Yograj S, Kapoor M, Singh M, Singh T. YOGA VS PHYSICAL ACTIVITY: A COMPARATIVE STUDY OF STRESS AND SLEEP IN YOUNG ADULTS. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 46 - 51. https://doi.org/10.63299/ijopt.060449</p>'
-                },
+                // {
+                //     _id: '1407',
+                //     citation_title: "YOGA VS PHYSICAL ACTIVITY: A COMPARATIVE STUDY OF STRESS AND SLEEP IN YOUNG ADULTS",
+                //     citation_author: [
+                //         'Abid Manzoor', 'Sabita Yograj', 'Megha Kapoor', 'Mohita Singh', 'Taranjot Singh'
+                //     ],
+                //     citation_publication_date: 'Oct - Dec, 2025',
+                //     citation_journal_title: {
+                //         primary: citation_journal_title_primary,
+                //         secondary: citation_journal_title_secondary
+                //     },
+                //     citation_volume: '6',
+                //     citation_issue: '4',
+                //     citation_firstpage: '46',
+                //     citation_lastpage: '51',
+                //     eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                //     sDOINo: 'https://doi.org/10.63299/ijopt.060449',
+                //     sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/7.pdf',
+                //     sCitation_SEO_Keywords: [
+                //         'Yogic Breathing', 'Physical Activity', 'Stress', 'Sleep Quality', 'Medical Students', 'Mental Health'
+                //     ],
+                //     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>BACKGROUND:</strong> The high prevalence of stress and sleep disorders among medical students necessitates effective, non-pharmacological interventions. While both yogic breathing and physical activity are beneficial, their comparative efficacy on these specific outcomes remains unclear.</p><p><strong>AIM:</strong> This study aimed to compare the effects of a structured yogic breathing intervention and moderate-intensity physical activity on perceived stress levels and subjective sleep quality in healthy medical students.</p><p><strong>METHOD:</strong> A prospective, randomized controlled trial was conducted with 170 participants allocated to either a Yogic Breathing Group (n=85) or a Physical Activity Group (n=85). The intervention lasted five weeks, with sessions conducted five days per week. The primary outcomes, psychological stress and sleep quality, were assessed using the Depression Anxiety Stress Scales (DASS-21) and the Pittsburgh Sleep Quality Index (PSQI), respectively, at baseline and post-intervention. Data were analyzed using paired t-tests and Analysis of co-variance.</p><p><strong>RESULT:</strong> Both groups showed significant within-group improvements in stress (p<0.001). However, between-group analysis revealed that the Yogic Breathing group achieved a significantly greater reduction in DASS-21 scores compared to the Physical Activity group (mean Δ: -14.43 ± 6.21 vs. -3.69 ± 5.12; p<0.001). Conversely, the Physical Activity group demonstrated a significantly greater improvement in PSQI scores than the Yogic Breathing group (mean Δ: -0.96 ± 1.42 vs. -0.40 ± 1.05; p=0.012).</p><p><strong>CONCLUSION:</strong> Yogic breathing was superior for reducing perceived stress, whereas physical activity was more effective for enhancing sleep quality. The results indicate that both approaches complement each other rather than replace one another. Selecting the right approach should depend on the specific needs, helping to provide a more individualized plan for well-being</p><p><strong>Keywords:</strong> Yogic Breathing, Physical Activity, Stress, Sleep Quality, Medical Students, Mental Health</p>",
+                //     citation_quotes: '<p>Manzoor A, Yograj S, Kapoor M, Singh M, Singh T. YOGA VS PHYSICAL ACTIVITY: A COMPARATIVE STUDY OF STRESS AND SLEEP IN YOUNG ADULTS. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 46 - 51. https://doi.org/10.63299/ijopt.060449</p>'
+                // },
                 {
                     _id: '1408',
                     citation_title: "THE PREVALENCE OF REDUCED UPPER CERVICAL MOBILITY AND NECK DISABILITY AMONG UNIVERSITY COMPUTER WORKERS",
