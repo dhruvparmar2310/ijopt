@@ -2227,6 +2227,30 @@ export const archiveList = {
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>Osteoarthritis (OA) of the knee is a prevalent condition causing chronic pain and functional limitations, often with suboptimal responses to conventional treatments. This randomized controlled trial investigated the effectiveness of knee joint traction as an adjunct to standard physiotherapy in 30-40 patients aged 40-70 years with radiologically confirmed knee OA. Participants were allocated to either an experimental group receiving combined traction (continuous or intermittent) and conventional therapy or a control group receiving conventional therapy alone. Outcomes including pain (VAS), functional mobility (WOMAC), knee range of motion (goniometry), and psychological status (BDI) were assessed pre- and post-intervention. Results demonstrated that the traction group exhibited significantly greater improvements in pain reduction, functional capacity, and joint mobility compared to controls, with continuous traction proving particularly effective for alleviating stiffness and enhancing physical performance. Additionally, traction therapy yielded psychological benefits, including reduced depressive symptoms. The optimal therapeutic effect was observed at 60°- 90° of knee flexion. These findings suggest that knee joint traction represents a safe and clinically beneficial intervention for managing knee OA, though further large-scale research is warranted to establish standardized treatment protocols and confirm long-term efficacy. This study contributes to the growing evidence supporting mechanical traction as a valuable component in the multimodal management of knee osteoarthritis.</p><p><strong>Keywords:</strong> Knee osteoarthritis, knee joint traction, continuous traction, intermittent traction, pain management, functional mobility, range of motion, physiotherapy, WOMAC, VAS, depression, quality of life.</p>",
                     citation_quotes: '<p>Gupta M, D A, Dave VC, Kumar H, Oza PH. EFFECT OF KNEE JOINT TRACTION ON PAIN AND FUNCTIONAL MOBILITY IN PATIENT WITH KNEE OSTEOARTHRITIS. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 149 - 157. https://doi.org/10.63299/ijopt.060403</p>'
                 },
+                {
+                    _id: '1612',
+                    citation_title: "Evaluating the Impact of Muscle Energy Technique and Myofascial Release on Cervical Spine Function: A Cross-Sectional Study",
+                    citation_author: [
+                        'Dr.Juhi Bhambhani', 'Dr. Vaibhav Dave', 'Dr. Prachi Oza', 'Dr. Hemant Kumar', 'Dr. Aprajeeta Chouhan'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '158',
+                    citation_lastpage: '170',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060440',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/22.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Muscle Energy Technique', 'Myofascial Release', 'Cervical Spine Function', 'Neck Disability Index', 'Manual Therapy', 'Range of Motion', 'Chronic Neck Pain'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Cervical spine dysfunction represents a significant global health burden affecting millions worldwide. Manual therapy interventions, particularly Muscle Energy Technique (MET) and Myofascial Release (MFR), have gained prominence as non-invasive treatment modalities for improving cervical spine function.</p><p><strong>Objective:</strong> This cross-sectional study investigated the comparative effectiveness of MET and MFR interventions on cervical spine function, pain reduction, and range of motion in individuals with chronic neck pain.</p><p><strong>Methods:</strong> A total of 120 participants (aged 25-55 years) with chronic cervical pain were recruited and allocated into three groups: MET group (n=40), MFR group (n=40), and control group (n=40). Primary outcome measures included the Neck Disability Index (NDI), Visual Analog Scale (VAS) for pain assessment, cervical range of motion (CROM), and pressure pain threshold (PPT). Data collection occurred at baseline and post-intervention assessments using standardized protocols.</p><p><strong>Results:</strong> Both MET and MFR groups demonstrated significant improvements compared to the control group. The MET group showed a mean NDI reduction of 18.4 ± 4.2 points (p<0.001), while the MFR group achieved a reduction of 15.7 ± 3.8 points (p<0.001). VAS scores decreased by 3.2 ± 0.8 points in the MET group and 2.9 ± 0.7 points in the MFR group. Cervical flexion improved by 12.5° ± 3.1° in the MET group and 10.8° ± 2.9° in the MFR group.</p><p><strong>Conclusion:</strong> Both MET and MFR techniques demonstrated clinically significant improvements in cervical spine function, with MET showing marginally superior outcomes. These findings support the integration of manual therapy approaches in comprehensive cervical spine dysfunction management.</p><p><strong>Keywords:</strong> Muscle Energy Technique, Myofascial Release, Cervical Spine Function, Neck Disability Index, Manual Therapy, Range of Motion, Chronic Neck Pain</p>",
+                    citation_quotes: '<p>Bhambhani J, Dave V, Oza P, Kumar H, Chouhan A. Evaluating the Impact of Muscle Energy Technique and Myofascial Release on Cervical Spine Function: A Cross-Sectional Study. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 158 - 170. https://doi.org/10.63299/ijopt.060440</p>'
+                },
             ]
         },
     ]
