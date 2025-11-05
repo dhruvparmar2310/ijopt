@@ -2255,7 +2255,7 @@ export const archiveList = {
                     _id: '1613',
                     citation_title: "EFFECT OF HIGH INTENSITY INTERVAL TRAINING AND LOW INTENSITY INTERVAL TRAINING IN SPRINTER- AN EVIDENCED BASED STUDY",
                     citation_author: [
-                        'Parita Dave', 'Mohit Shah', 'Kasish Panchal', 'Maan Patel'
+                        'Parita Dave', 'Mohit Shah', 'Kashish Panchal', 'Maan Patel'
                     ],
                     citation_publication_date: 'Oct - Dec, 2025',
                     citation_journal_title: {
