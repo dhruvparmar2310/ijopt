@@ -2275,6 +2275,366 @@ export const archiveList = {
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Sprint performance relies heavily on speed, power, and muscular endurance. While both High-Intensity Interval Training (HIIT) and Low-Intensity Interval Training (LIIT) are widely implemented in athletic conditioning, their distinct impacts on sprinter performance remain unexplored. HIIT involves short bursts of maximal effort followed by recovery and is employed during intensive training blocks. LIIT consists of longer, moderate- intensity intervals with minimal rest, often used during recovery periods.Study provides evidence regarding HIIT and LIIT for sprinters.</p><p><strong>Objective:</strong> To evaluate the effect of HIIT and LIIT on muscular endurance, strength, speed, and flexibility in trained sprinters.</p><p><strong>Methodology:</strong> A systematic literature review was conducted using databases such as MEDLINE, PubMed, Google Scholar, and The Cochrane Collaboration. Ten studies were initially identified, out of which five met the inclusion criteria and were selected for detailed analysis. The focus was on studies evaluating sprint-specific outcomes following HIIT and LIIT interventions.</p><p><strong>Results:</strong> HIIT interventions demonstrated significant improvements in anaerobic power, sprint speed, and muscular strength. LIIT showed enhancements in aerobic endurance and flexibility. The contrasting mechanisms of protocols support their individual benefits, HIIT as an effective strategy for high-intensity performance gains, and LIIT as a supportive recovery tool promoting sustained conditioning.</p><p><strong>Conclusion:</strong> HIIT and LIIT serves essential and complementary roles for sprinters. HIIT is more effective in boosting anaerobic capabilities and explosive performance, while LIIT supports recovery, flexibility, and endurance. A strategic combination of these training offers a balanced approach to optimizing overall sprint performance.</p><p><strong>Keywords:</strong> High-Intensity Interval Training, Low-Intensity Interval Training, Sprint Performance</p>",
                     citation_quotes: '<p>Dave P, Shah M, Panchal K, Patel M. EFFECT OF HIGH INTENSITY INTERVAL TRAINING AND LOW INTENSITY INTERVAL TRAINING IN SPRINTER- AN EVIDENCED BASED STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 171 - 179. https://doi.org/10.63299/ijopt.060470</p>'
                 },
+                {
+                    _id: '1614',
+                    citation_title: "Pharyngeal Electrical Stimulation for Neurogenic Dysphagia: A Comprehensive Systematic Review of Efficacy, Safety, Cost-Effectiveness, and Implementation",
+                    citation_author: [
+                        'Yogikumar S. Jaisar'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '180',
+                    citation_lastpage: '190',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060462',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/24.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Electrical Stimulation', 'Dysphagia'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Neurogenic dysphagia affects millions of patients with stroke, traumatic brain injury, and other neurological conditions, leading to aspiration pneumonia, malnutrition, prolonged hospital stays, and increased healthcare costs. Pharyngeal electrical stimulation (PES), commercially known as Phagenyx, has emerged as a neurostimulation approach for treating neurogenic dysphagia via sensory-driven neuroplasticity mechanisms.</p><p><strong>Objective:</strong> To systematically evaluate the efficacy, safety, cost-effectiveness, and patient-reported outcomes of PES for treating neurogenic dysphagia across diverse clinical populations and provide comprehensive evidence synthesis for clinical decision-making.</p><p><strong>Methods:</strong> A comprehensive systematic review was conducted following the PRISMA 2020 guidelines, searching electronic databases (MEDLINE, EMBASE, Cochrane Library, and CINAHL) from inception to September 2024. We included randomized controlled trials, systematic reviews, and economic evaluations investigating PES for neurogenic dysphagia. Two independent reviewers performed study selection, data extraction, and risk of bias assessment using the Cochrane RoB 2 tool.</p><p><strong>Results:</strong> Eleven studies met the inclusion criteria. Risk of bias assessment revealed moderate to high concerns due to inadequate blinding and selective outcome reporting issues. Small randomized controlled trials demonstrated improved decannulation rates (75% vs. 20%, p<0.01) and reduced pneumonia events in selected populations, while the largest multicenter trial (n=162) showed no significant improvement in primary swallowing endpoints. Meta-analyses reported modest within-subject improvements but inconsistent between-group effects. Cost-effectiveness data were critically limited, with no published economic evaluations that met the quality standards.</p><p><strong>Conclusion:</strong> Current evidence demonstrates mixed efficacy with modest benefits in selected populations but lacks robust evidence of clinically meaningful improvements in aspiration pneumonia or quality of life. High-quality, adequately powered trials with standardized protocols, comprehensive cost-effectiveness analyses, and patient-reported outcomes are required before widespread clinical adoption. The evidence suggests that PES may offer benefits in some swallowing measures and nasogastric tube removal, particularly in tracheotomized patients, but direct evidence for pneumonia reduction remains limited.</p><p><strong>Keywords:</strong> Electrical Stimulation, Dysphagia</p>",
+                    citation_quotes: '<p>Jaisar YS. Pharyngeal Electrical Stimulation for Neurogenic Dysphagia: A Comprehensive Systematic Review of Efficacy, Safety, Cost-Effectiveness, and Implementation. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 180 - 190. https://doi.org/10.63299/ijopt.060462</p>'
+                },
+                {
+                    _id: '1615',
+                    citation_title: "A STUDY TO FIND OUT THE DIFFERENCE BETWEEN INTERNAL & EXTERNAL ROTATION ROM OF GLENOHUMERAL JOINT IN SPIN & FAST CRICKET BOWLERS-A CROSS-SECTIONAL STUDY",
+                    citation_author: [
+                        'Dr. Pruthviben B Upadhyay', 'Dr. Manisha Rathi', 'Dr. Tanuja Pandya', 'Dr. Maheshwari Jadeja'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '191',
+                    citation_lastpage: '199',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060463',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/25.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Glenohumeral Joint', 'Internal Rotation and External Rotation', 'Spin bowlers & Fast bowlers'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> The shoulder is a highly mobile joint susceptible to sport-specific adaptations in overhead athletes. In cricket, repetitive bowling actions may alter glenohumeral internal and external rotation, potentially affecting performance and injury risk.</p><p><strong>Objective:</strong> To compare internal and external rotation range of motion (ROM) of the glenohumeral joint between fast and spin bowlers.</p><p><strong>Methods:</strong> A cross-sectional observational study was conducted on 44 cricket bowlers (22 fast, 22 spin) aged 20–26 years. Internal and external rotation ROM of dominant and non-dominant shoulders was measured using a universal goniometer. Data were analyzed using independent t-tests to compare ROM and side-to-side differences.</p><p><strong>Results:</strong> Fast bowlers demonstrated significantly greater internal rotation (69.95° ± 4.49) than spin bowlers (61.32° ± 4.19; p = 0.02), while spin bowlers showed greater external rotation (90.64° ± 3.15 vs 84.18° ± 2.85; p = 0.05). External rotation difference (ERD) was significantly higher in fast bowlers (22.67° vs 16.34°; p = 0.005), whereas internal rotation difference (IRD) was slightly higher in spin bowlers (14.56° vs 13.90°; p = 0.025).</p><p><strong>Conclusion:</strong> Fast bowlers have greater internal rotation, while spin bowlers exhibit higher external rotation. Fast bowlers also show larger side-to-side differences in external rotation. These sport-specific adaptations highlight the need for targeted shoulder conditioning and injury prevention programs in cricket.</p><p><strong>Keywords:</strong> Glenohumeral Joint, Internal Rotation and External Rotation, Spin bowlers & Fast bowlers</p>",
+                    citation_quotes: '<p>Upadhyay PB, Rathi M, Pandya T, Jadeja M. A STUDY TO FIND OUT THE DIFFERENCE BETWEEN INTERNAL & EXTERNAL ROTATION ROM OF GLENOHUMERAL JOINT IN SPIN & FAST CRICKET BOWLERS-A CROSS-SECTIONAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 191 - 199. https://doi.org/10.63299/ijopt.060463</p>'
+                },
+                {
+                    _id: '1616',
+                    citation_title: "THE EFFICACY OF HEAL HEART CHAKRA MUSIC THERAPY ON HEMODYNAMIC PARAMETERS AND STRESS LEVEL IN PRE-HYPERTENSIVE STAFF MEMBERS OF A TERTIARY CARDIAC CARE HOSPITAL – AN INTERVENTIONAL STUDY",
+                    citation_author: [
+                        'Dr. Miral Vyas', 'Dr. Mihir Mehta', 'Dr. Ayesha Mulla', 'Dr. Falak Oza'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '200',
+                    citation_lastpage: '212',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060464',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/26.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Blood Pressure', 'Heal Heart Chakra Music Therapy', 'Pre-hypertension', 'Stress'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Individuals with systolic blood pressure [SBP] of 120-139 mm Hg &/or diastolic blood pressure [DBP] of 80-89 mm Hg are considered as prehypertensive. Early intervention prevents progression to hypertension. Some relaxation trainings have achieved positive results in reducing BP and stress level. This study aimed at finding effect of heal heart chakra music therapy on hemodynamic parameters & stress level.</p><p><strong>Objective:</strong> To find out the effect of heal heart chakra music therapy on hemodynamic parameters & stress level in pre-hypertensive individuals.</p><p><strong>Methods:</strong> After ethical approval, a total of 60 participants fulfilling selection criteria were randomly allocated to control [CG] & intervention groups [IG]. IG [n=30] received music therapy [heal heart chakra music] once a day, 5 days/week for 4 weeks. CG [n=30] received advice to prevent hypertension. Hemodynamic parameters and stress level [Perceived Stress Scale-10] were measured before and at end of 4th week. Statistical analysis was performed using SPSS software [version-27.0].</p><p><strong>Results:</strong> SBP & DBP significantly reduced [p<0.05] in IG as compared with CG. There was no significant difference [p>0.05] in heart rate within and between groups. Stress level significantly reduced between groups and within IG.</p><p><strong>Conclusion:</strong> Heal heart chakra music therapy significantly reduces BP and stress level in prehypertensive subjects, but does not affect heart rate. Hence, music therapy is recommended in pre-hypertensive individuals to prevent progression to hypertension.</p><p><strong>Keywords:</strong> Blood Pressure, Heal Heart Chakra Music Therapy, Pre-hypertension, Stress</p>",
+                    citation_quotes: '<p>Vyas M, Mehta M, Mulla A, Oza F. THE EFFICACY OF HEAL HEART CHAKRA MUSIC THERAPY ON HEMODYNAMIC PARAMETERS AND STRESS LEVEL IN PRE-HYPERTENSIVE STAFF MEMBERS OF A TERTIARY CARDIAC CARE HOSPITAL – AN INTERVENTIONAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 200 - 212. https://doi.org/10.63299/ijopt.060464</p>'
+                },
+                {
+                    _id: '1617',
+                    citation_title: "A COMPARATIVE ANALYSIS OF THE THERAPEUTIC EFFICACY OF INFRARED RADIATION (IRR) AND SHORTWAVE DIATHERMY (SWD) ON CHRONIC NECK PAIN AMONG OFFICE WORKERS IN GUJARAT",
+                    citation_author: [
+                        'Dr. Anand Mukeshbhai Shah', 'Dr. Manisha Rathi', 'Dr. Tanuja Pandya', 'Dr. Jaynesh Vadra'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '213',
+                    citation_lastpage: '222',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060467',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/27.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Chronic neck pain', 'Infrared radiation', 'Shortwave diathermy', 'Office workers', 'Physiotherapy', 'Thermal therapy'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Chronic neck pain (CNP) is a common musculoskeletal problem among office workers due to prolonged sitting, poor posture, and computer use. These factors contribute to muscle imbalance, pain, and restricted mobility. Physiotherapeutic heat modalities like Infrared Radiation (IRR) and Shortwave Diathermy (SWD) are widely used for pain relief, but their comparative efficacy remains unclear.</p><p><strong>Objective:</strong> To compare the therapeutic efficacy of Infrared Radiation (IRR) and Shortwave Diathermy (SWD) in reducing pain and disability among office workers with chronic neck pain in Gujarat.</p><p><strong>Methods:</strong> A randomized controlled trial was conducted among 60 office workers (aged 25–60 years) with chronic neck pain lasting over three months. Participants were randomly divided into two groups: Group A received IRR therapy and Group B received SWD therapy. Both groups underwent standard physiotherapy protocols. Pain and disability were assessed using the Numeric Pain Rating Scale (NPRS) and Neck Disability Index (NDI). Data were analyzed using paired and unpaired t-tests, with significance set at p < 0.05.</p><p><strong>Results:</strong> Both groups showed significant post-intervention improvements. Group A (IRR) showed reductions in NPRS (6.3→2.8, p=0.01) and NDI (34.13→18.3, p=0.02). Group B (SWD) demonstrated greater reductions in NPRS (6.2→2.5, p=0.01) and NDI (33.23→16.2, p=0.02). Between-group analysis revealed statistically significant differences favoring SWD (p=0.012 for NPRS; p=0.001 for NDI).</p><p><strong>Conclusion:</strong> Both IRR and SWD effectively reduced pain and disability in office workers with chronic neck pain, with SWD showing slightly superior outcomes due to deeper tissue heating. Incorporating these modalities into rehabilitation can enhance pain management and functional recovery in sedentary populations.</p><p><strong>Keywords:</strong> Chronic neck pain, Infrared radiation, Shortwave diathermy, Office workers, Physiotherapy, Thermal therapy</p>",
+                    citation_quotes: '<p>Shah AM, Rathi M, Pandya T, Vadra J. A COMPARATIVE ANALYSIS OF THE THERAPEUTIC EFFICACY OF INFRARED RADIATION (IRR) AND SHORTWAVE DIATHERMY (SWD) ON CHRONIC NECK PAIN AMONG OFFICE WORKERS IN GUJARAT. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 213 - 222. https://doi.org/10.63299/ijopt.060467</p>'
+                },
+                {
+                    _id: '1618',
+                    citation_title: "A STUDY ON IMPACT OF MYOFASCIAL RELEASE TECHNIQUE VERSUS SUB OCCIPITAL MUSCLE INHIBITION TECHNIQUE ON HAMSTRING FLEXIBILITY AMONG IT WORKERS WITH HAMSTRING TIGHTNESS",
+                    citation_author: [
+                        'Vysakh M Kumar', 'Dr. Manoj Abraham Manoharlal'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '223',
+                    citation_lastpage: '232',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060468',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/28.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Hamstring flexibility', 'Superficial back line', 'Sub-occipital muscle inhibition', 'Myofascial release technique', 'Active knee extension test'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> The capacity to move a single joint or a set of joints effectively across an unrestricted, pain-free Range of Motion (ROM) is referred to as flexibility. Reduced Flexibility can cause reduced ROM, which in turn causes changes in biomechanics and, consequently, joint problems. A prolonged forward bend sitting posture puts stress on the hamstrings, resulting in reduced flexibility.</p><p><strong>Objective:</strong> To study combined effect of myofascial release technique (MFR) and sub occipital muscle inhibition technique (SMI) on Hamstring flexibility pre and post intervention using active knee extension test.</p><p><strong>Methodology:</strong> 30 subjects were selected based on the selection criteria they were divided into 2 groups. Group A consist of 15 subjects and they received MFR technique, Group B consist of 15 subjects and they received SMI technique. Both the groups received the interventions for 5 sessions per week for 4 weeks.</p><p><strong>Results:</strong> The pre and posttest values for hamstring flexibility where measured by active knee extension test. The pre mean value of group A&B for AKE(R) where 120.07 &120.65. The pre mean value of group A&B for AKE (L) where 119.27 & 119.2.The Post mean value of group A&B for AKE(R) where 140.47 &147.53. The Post mean value of group A&B for AKE (L) where 139.6& 146.4</p><p><strong>Conclusion:</strong> The study concluded that SMI technique was more effective in improving the hamstring flexibility among IT workers with hamstring tightness.</p><p><strong>Keywords:</strong> Hamstring flexibility, Superficial back line, Sub-occipital muscle inhibition, Myofascial release technique, Active knee extension test.</p>",
+                    citation_quotes: '<p>Kumar VM, Manoharlal MA. A STUDY ON IMPACT OF MYOFASCIAL RELEASE TECHNIQUE VERSUS SUB OCCIPITAL MUSCLE INHIBITION TECHNIQUE ON HAMSTRING FLEXIBILITY AMONG IT WORKERS WITH HAMSTRING TIGHTNESS. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 223 - 232. https://doi.org/10.63299/ijopt.060468</p>'
+                },
+                {
+                    _id: '1619',
+                    citation_title: "EFFECT OF DIAPHRAGM MANUAL RELEASE VERSUS CHEST PROPRIOCEPTIVE NEUROMUSCULAR FACILITATION ON PULMONARY AND PHYSICAL FUNCTION IN MALE SMOKERS – AN INTERVENTIONAL STUDY",
+                    citation_author: [
+                        'Priya Amarbhai Kokadiya', 'Dr.P.S.Maniarasi'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '233',
+                    citation_lastpage: '241',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060469',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/29.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Male smokers', 'Diaphragm manual release', 'Chest PNF', 'pulmonary', 'physical function'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Cigarette smoking is single most preventable cause of death and disability across globe which impairs pulmonary function and reduce physical performance. Manual therapy techniques such as Diaphragm Manual Release (DMR) and Chest Proprioceptive Neuromuscular Facilitation (PNF) have shown promise in enhancing respiratory mechanics.</p><p><strong>Methods:</strong> A randomized controlled trial was conducted involving 60 male smokers aged more than 18 years, in which Group A received DMR, while Group B underwent Chest PNF techniques for period of 4 weeks. Primary outcomes : Pulmonary function was assessed using spirometry (FVC, FEV₁, FEV1/FVC ratio), and physical function was evaluated via the Queen college step test which calculated VO2max. Secondary</p><p><strong>Outcome:</strong> Quality of life was assessed using Respiratory Symptom Experience Scale (RSES).</p><p><strong>Results:</strong> Both groups demonstrated statistically significant improvements in FVC, FEV₁, FEV1/FVC ratio,VO2max post-intervention (p<0.05).In between Group analysis,Group A showed superior effect in improving VO2max compared to Group B(p>0.05).</p><p><strong>Conclusion:</strong> Hence, it concludes that diaphragm manual release and chest PNF are equally effective in improving pulmonary function and also improves quality of life, but diaphragm manual release is more effective in improving physical function when compared to chest PNF.</p><p><strong>Keywords:</strong> Male smokers, Diaphragm manual release, Chest PNF, pulmonary, physical function.</p>",
+                    citation_quotes: '<p>Kokadiya PA, P.S.Maniarasi. EFFECT OF DIAPHRAGM MANUAL RELEASE VERSUS CHEST PROPRIOCEPTIVE NEUROMUSCULAR FACILITATION ON PULMONARY AND PHYSICAL FUNCTION IN MALE SMOKERS – AN INTERVENTIONAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 233 - 241. https://doi.org/10.63299/ijopt.060469</p>'
+                },
+                {
+                    _id: '1620',
+                    citation_title: "INFLUENCE OF ANTHROPOMETRIC FACTORS ON FOOT POSTURE IN HEALTHY VARKARIS RESIDING IN COMMUNITY: A CROSS-SECTIONAL STUDY",
+                    citation_author: [
+                        'Dr. Shyam D. Ganvir', 'Shreya Patwari', 'Dr. Pradnya Y. Dumore', 'Dr. Pratik R. Ingle', 'Dr. Deepti C. Thokal'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '242',
+                    citation_lastpage: '253',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060471',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/30.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Foot posture', 'Pronated', 'Supinated', 'Neutral', 'Varkari', 'Age', 'Gender', 'BMI'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> In order to detect aberrant alignment patterns that may impact gait, balance, and the likelihood of future musculoskeletal problems, it is crucial to evaluate the foot posture in geriatric. A number of factors can affect foot posture during this period of fast growth and increased activity. Foot posture assessment in Geriatric is essential for identifying abnormal alignment patterns that can affect gait, balance, and risk of future musculoskeletal issues. During this stage of rapid growth and increased activity foot posture can be influenced by several factors. Elder population are more prone to pronation due to ligamentous laxity, with corrections expected as they age, but many retain non-neutral posture. Gender differences are observed, with females often showing a higher prevalence of pronated posture, likely due to anatomical and physiological variables. BMI also plays a significant role- underweight populations tend to have increased pronation, possibly from reduced muscle and tissue support in the feet, highlighting the importance of health in foot posture.</p><p><strong>Method:</strong> This is a cross- sectional observational study was carried out on Varkari Community Camp. The study involved 300 healthy varkaris both male and female participated in the study.</p><p><strong>Results:</strong> The result show that pronated foot posture is predominant among elderly, making up the majority cases, Females and Underweight were more likely to have pronation, while neutral posture was rare. Age consistenly correlated with a high rate of pronation, especially in elder populations.</p><p><strong>Conclusion:</strong> The study concludes that pronated foot posture is highly prevalent among elderly especially in females and underweight groups.</p><p><strong>Keywords:</strong> Foot posture, Pronated, Supinated, Neutral, Varkari, Age, Gender, BMI.</p>",
+                    citation_quotes: '<p>Ganvir SD, Patwari S, Dumore PY, Ingle PR, Thokal DC. INFLUENCE OF ANTHROPOMETRIC FACTORS ON FOOT POSTURE IN HEALTHY VARKARIS RESIDING IN COMMUNITY: A CROSS-SECTIONAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 242 - 253. https://doi.org/10.63299/ijopt.060471</p>'
+                },
+                {
+                    _id: '1621',
+                    citation_title: "THE EFFECTIVENESS OF KENDALL EXERCISE VERSUS SCAPULAR STABILIZATION EXERCISE PROGRAM ON PAIN, NECK ALIGNMENT AND FUNCTIONAL ACTIVITES IN SUBJECTS WITH FORWARD HEAD POSTURE: A COMPARATIVE STUDY",
+                    citation_author: [
+                        'Dr. Dhwani Patel', 'Dr. Manisha Rathi', 'Dr. Tanuja pandya', 'Dr. Bhakti Ambasana'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '254',
+                    citation_lastpage: '265',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060472',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/31.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Forward Head Posture', 'Kendall Exercise', 'Scapular Stabilization Exercise', 'Neck Pain', 'Postural Correction', 'Craniovertebral Angle'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Forward Head Posture (FHP) is a common postural deformity characterized by anterior displacement of the head relative to the body’s center of gravity, often resulting from prolonged poor posture, excessive screen use, and muscular imbalances. This misalignment increases cervical loading, leading to pain, restricted motion, and reduced functional ability. Physiotherapeutic interventions such as the Kendall Exercise Program and Scapular Stabilization Exercises (SSE) are widely used to restore postural balance and reduce neck discomfort.</p><p><strong>Objective:</strong> The study aimed to compare the effectiveness of Kendall Exercises and Scapular Stabilization Exercises in improving cervical alignment, reducing pain, and enhancing functional performance among individuals with Forward Head Posture.</p><p><strong>Methods:</strong> A comparative experimental study was conducted on 34 participants aged 20–45 years diagnosed with FHP. Participants were randomly assigned into two groups: Group A (Kendall Exercises, n = 17) and Group B (SSE, n = 17). Both groups received conventional physiotherapy along with their respective exercise interventions three times per week for four weeks. Outcome measures included the Numerical Pain Rating Scale (NPRS), Craniovertebral Angle (CVA), and Neck Disability Index (NDI). Pre- and post-intervention data were analyzed using paired and unpaired t-tests with a significance level set at p < 0.05.</p><p><strong>Results:</strong> Both groups showed statistically significant improvements in all outcome measures (p = 0.001). Between-group analysis revealed that the Kendall group demonstrated greater improvement in CVA (p = 0.02) and pain reduction (p = 0.026), while NDI improvement was not significantly different between groups (p = 0.073).</p><p><strong>Conclusion:</strong> Both exercise programs effectively improved posture, reduced pain, and enhanced functional ability in individuals with FHP. However, Kendall Exercises proved more effective in restoring cervical alignment and reducing pain, suggesting their superiority for targeted correction of Forward Head Posture.</p><p><strong>Keywords:</strong> Forward Head Posture, Kendall Exercise, Scapular Stabilization Exercise, Neck Pain, Postural Correction, Craniovertebral Angle</p>",
+                    citation_quotes: '<p>Patel D, Rathi M, pandya T, Ambasana B. THE EFFECTIVENESS OF KENDALL EXERCISE VERSUS SCAPULAR STABILIZATION EXERCISE PROGRAM ON PAIN, NECK ALIGNMENT AND FUNCTIONAL ACTIVITES IN SUBJECTS WITH FORWARD HEAD POSTURE: A COMPARATIVE STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 254 - 265. https://doi.org/10.63299/ijopt.060472</p>'
+                },
+                {
+                    _id: '1622',
+                    citation_title: "STRUCTURED EXERCISE PROTOCOL IN INDIVIDUALS WITH RHYTHM DISORDERS OF MENSTRUATION: SINGLE GROUP STUDY",
+                    citation_author: [
+                        'Dr. Nandini B. Kadabi', 'Dr. Rafat Sanadi', 'Aditi Mahajan', 'Nidhi Kerkar', 'Rajan Bhandari'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '266',
+                    citation_lastpage: '277',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060473',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/32.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Rhythm disorders', 'menstruation', 'pain', 'physiotherapy', 'core strengthening', 'stretching', 'kegels exercise', 'VAS', 'MEDI-Q', 'EQ-5D'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Objective:</strong> To evaluate the efficacy of a physiotherapy program for relieving symptoms among rhythmic disorders of menstruation in women using MEDI-Q and VAS. To evaluate impact of physiotherapy programme on quality of life of women with menstrual disorders using EQ-5D.</p><p><strong>Study Design:</strong> Experimental Study</p><p><strong>Methods:</strong> Sample size for this study was n=60 as it was calculated using G*Power 3.1 (Universitat Dusseldorf, Germany). A single group experimental study was conducted among 60 females with age between 18-30 years. The students were screened on the basis of inclusion and exclusion criteria in order to assess menstrual pain, symptoms and quality of life using VAS, MEDI-Q and EQ-5D questionnaire.</p><p><strong>Results:</strong> Results revealed significantly reduction in the menstrual pain and symptoms after the intervention. The physiotherapy intervention was beneficial in reduction of pain and symptoms of rhythm disorders of menstruation.</p><p><strong>Conclusion:</strong> The results showed that physiotherapy intervention has highly significant reducing the pain intensity and the symptoms and increase in quality of life in subjects with rhythm disorders of menstruation.</p><p><strong>Keywords:</strong> Rhythm disorders, menstruation, pain, physiotherapy, core strengthening, stretching, kegels exercise, VAS, MEDI-Q, EQ-5D.</p>",
+                    citation_quotes: '<p>Kadabi NB, Sanadi R, Mahajan A, Kerkar N, Bhandari R. STRUCTURED EXERCISE PROTOCOL IN INDIVIDUALS WITH RHYTHM DISORDERS OF MENSTRUATION: SINGLE GROUP STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 266 - 277. https://doi.org/10.63299/ijopt.060473</p>'
+                },
+                {
+                    _id: '1623',
+                    citation_title: "EFFECTIVENESS OF CRYOTHERAPY AND COMPRESSION THERAPY IN UNDERGRADUATE STUDENTS IN TENSION TYPE OF HEADACHE.",
+                    citation_author: [
+                        'Dr. Nandini B. Kadabi', 'Bheemappa Pujar', 'Basamma Hooli', 'Bhairavi Honnavarkar'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '278',
+                    citation_lastpage: '284',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060474',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/33.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Tension type of headache', 'Cryotherapy', 'compression therapy', 'VAS', 'HIT', '4 point scale'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Tension type of headache formerly called tension muscle contraction headache is a common condition usually is self-treated with over the counter (OTC) analgesics.</p><p><strong>Objective:</strong> 1. To study the Effectiveness of cryotherapy and compression therapy in undergraduate students with tension type of headache. 2.To study of Effectiveness of cryotherapy in undergraduate students in tension type of headache 3.To study of Effectiveness of compression therapy in undergraduate students in tension type of headache results being statistically significant. HIT: Performance scores improved in both groups, again reaching statistical significance with CRYO showing a greater effect. The statistical significance of each result was confirmed with p-values as follows: VAS: p < 0.00001 (significant), 4Point: p ≈ 0.00001 (significant), HIT: p < 0.00001 (significant).</p><p><strong>Method:</strong> In this experimental study, total 40 number of students were recruited in the study including tension type of headache perceived cryotherapy and compression therapy treatment over 4 week duration, with treatment sessions conducted three times weekly. The outcomes assessed were pain intensity using verbal analogue scale , Headache impact test,4 point scale</p><p><strong>Result:</strong> 1.VAS: Both interventions significantly reduced pain, with CRYO producing a larger average reduction than COMPRESS. 2.4Point: Functional improvements were significant in both groups, with similar average benefits and all results being statistically significant. 3.HIT: Performance scores improved in both groups, again reaching statistical significance with CRYO showing a greater effect.)</p><p><strong>Conclusion:</strong> Based on the results, It can be conclude that cryotherapy is more effective than the compression therapy.</p><p><strong>Keywords:</strong> Tension type of headache, Cryotherapy, compression therapy, VAS, HIT, 4 point scale</p>",
+                    citation_quotes: '<p>Kadabi NB, Pujar B, Hooli B, Honnavarkar B. EFFECTIVENESS OF CRYOTHERAPY AND COMPRESSION THERAPY IN UNDERGRADUATE STUDENTS IN TENSION TYPE OF HEADACHE. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 278 - 284. https://doi.org/10.63299/ijopt.060474</p>'
+                },
+                {
+                    _id: '1624',
+                    citation_title: "EFFECTIVENESS OF PROPRIOCEPTIVE NEUROMUSCULAR FACILITATION ON CERVICOGENIC HEADACHE",
+                    citation_author: [
+                        'Dr. Nandini B. Kadabi', 'Prachi Sankeshwari', 'Shifa Shaikh', 'Sharddha Satre'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '285',
+                    citation_lastpage: '294',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060475',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/34.pdf',
+                    sCitation_SEO_Keywords: [
+                        'PNF', 'Cervicogenic headache', 'NDI', 'Cervical flexion rotation test (CFRT)'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Cervicogenic headache (CGH) is a secondary headache that originates from dysfunction or pathology in the cervical spine and its associated bony, disc, or soft tissue structures, particularly the upper cervical segments (C1-C3). Investigation into PNF for cervicogenic headache management has demonstrated diverse outcomes concering pain relief, cervical mobility assessed the flexion-rotation test, and functional improvement.</p><p><strong>Objective:</strong> To study the Effectiveness of Proprioceptive Neuromuscular Facilitation (PNF) on cervicogenic headache.</p><p><strong>Method:</strong> In this experimental study ,40 participants diagnosed with cervicogenic headache received PNF treatment over a 4 week duration, with treatment sessions conducted three times weekly. The outcomes assessed were pain intensity using verbal analog scale, cervical mobility via the cervical flexion-rotation test, and functional disability using the neck disability index.</p><p><strong>Result:</strong> Analysis revealed mean difference scores of 5.45 ± 2.05 for VAS, 0.19 ± 0.09 for NDI, and 29.03 ± 38.08 for CFRT. The observed changes in all three parameters were statistically significant with p value <0.0001.</p><p><strong>Conclusion:</strong> Based on the results , it can be conclude that proprioceptive neuromuscular facilitation (PNF) is an effective approach for reducing symptoms associated with cervicogenic headache.</p><p><strong>Keywords:</strong> PNF, Cervicogenic headache, NDI, Cervical flexion rotation test (CFRT)</p>",
+                    citation_quotes: '<p>Kadabi NB, Sankeshwari P, Shaikh S, Satre S. EFFECTIVENESS OF PROPRIOCEPTIVE NEUROMUSCULAR FACILITATION ON CERVICOGENIC HEADACHE. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 285 - 294. https://doi.org/10.63299/ijopt.060475</p>'
+                },
+                {
+                    _id: '1625',
+                    citation_title: "EFFECTS OF TASK-ORIENTED TRAINING AND CORE EXERCISE TRAINING ON TRUNK CONTROL ABILITY AND BALANCE OF STROKE PATIENTS - A COMPARATIVE STUDY",
+                    citation_author: [
+                        'Dr. Vishwa Bhatt', 'Dr. Manisha Rathi', 'Dr. Namrata Parekh'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '295',
+                    citation_lastpage: '307',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060477',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/35.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Stroke Rehabilitation', 'Task-Oriented Training', 'Core Strengthening Exercises', 'Trunk Control', 'Balance Berg Balance Scale (BBS)', 'Trunk Impairment Scale (TIS)'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Trunk control and balance are critical factors for functional independence in stroke patients. Among stroke survivors, up to 80% experience impairments in trunk control and balance, which are crucial for functional independence and activities of daily living (ADLs). While both task-oriented and core exercise training are commonly used in rehabilitation, their comparative effects on improving trunk control and balance remain unclear.</p><p><strong>Objective:</strong> The research aimed to bridge the gap by investigating the effect of task-oriented versus core exercise training on trunk control ability and balance in stroke patients.</p><p><strong>Methods:</strong> This study was conducted to compare the effects of task-oriented training and core strengthening exercises on trunk control and balance in stroke patients. Participants aged 45–60 years with a first-ever ischemic or hemorrhagic stroke (3 months to 1 year duration), and an MMSE score ≥24, were recruited through purposive sampling from a clinical rehabilitation center. Eligible participants (n=30) were randomly allocated into two groups using simple randomization.</p><p><strong>Results:</strong> The present study demonstrated that participants in Group A (Task-Oriented Training) showed a highly significant improvement in balance as measured by the Berg Balance Scale (BBS), with a mean increase of 13.7 points from pre- to post-intervention, indicating a strong effect of the intervention. In contrast, Group B (Core Strengthening Exercises) showed a moderate yet statistically significant improvement in BBS, with a 6.0-point increase. Regarding trunk control measured through the Trunk Impairment Scale (TIS), Group B demonstrated a statistically significant improvement of 2.9 points (P = 0.037) whereas Group A improved by 3.3 points, but this change was not statistically significant (P = 0.23). These findings suggest that task-oriented training is particularly effective for improving balance, while core strengthening may be more beneficial for trunk control in stroke patients.</p><p><strong>Conclusion:</strong> Task-oriented training was found to be more effective in enhancing dynamic balance, as it involves functional movements that closely mimic real-life activities, thereby fostering neuroplasticity and improving postural control. This supports the growing body of literature on the importance of task-specific training in stroke rehabilitation. On the other hand, core strengthening exercises demonstrated a marked improvement in trunk control, a crucial factor for stabilizing posture and enhancing functional mobility.</p><p><strong>Keywords:</strong> Stroke Rehabilitation, Task-Oriented Training, Core Strengthening Exercises, Trunk Control, Balance Berg Balance Scale (BBS),Trunk Impairment Scale (TIS).</p>",
+                    citation_quotes: '<p>Bhatt V, Rathi M, Parekh N. EFFECTS OF TASK-ORIENTED TRAINING AND CORE EXERCISE TRAINING ON TRUNK CONTROL ABILITY AND BALANCE OF STROKE PATIENTS - A COMPARATIVE STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 295 - 307. https://doi.org/10.63299/ijopt.060477</p>'
+                },
+                {
+                    _id: '1626',
+                    citation_title: "EFFECT OF STRENGTHENING VS CONTRAST THERAPY ON CHRONIC LOW BACK PAIN IN DESKTOP WORKERS: AN INTERVENTIONAL STUDY",
+                    citation_author: [
+                        'Dr. Anjali R Umaraniya', 'Dr. Manisha Rathi', 'Dr. Tanuja Pandya', 'Dr. Maheshwari Jadeja'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '308',
+                    citation_lastpage: '317',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060478',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/36.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Chronic low back pain', 'contrast therapy', 'strengthening exercises', 'occupational health', 'pain relief', 'Oswestry Disability Index', 'Visual Analogue Scale', 'physiotherapy'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Chronic low back pain (CLBP) is a common musculoskeletal disorder and a leading cause of disability worldwide, particularly among desktop workers exposed to prolonged sitting and poor ergonomics. Sedentary posture leads to muscle imbalance, reduced spinal stability, and persistent pain. Effective management strategies that address both pain and function are essential for this population.</p><p><strong>Objective:</strong> This study aimed to compare the effects of muscle strengthening exercises and contrast therapy on pain intensity and functional disability among desktop workers with chronic low back pain.</p><p><strong>Methodology:</strong> Thirty participants aged 30 - 45 years with CLBP were randomly divided into two groups: Group A (Strengthening Exercise Group) and Group B (Contrast Therapy Group), with 15 participants each. Both groups received conventional stretching, while Group A performed core-strengthening exercises, and Group B received contrast therapy using alternating hot and cold packs. The intervention was conducted five days per week for four weeks. Pain and functional outcomes were assessed using the Visual Analogue Scale (VAS) and Oswestry Disability Index (ODI). Data were analyzed using paired and unpaired t-tests, with a significance level of p < 0.05.</p><p><strong>Results:</strong> Both groups showed significant improvements in VAS and ODI scores post-intervention (p < 0.05). Between-group analysis revealed that contrast therapy produced greater short-term improvement in pain and disability compared to strengthening exercises (p < 0.001).</p><p><strong>Conclusion:</strong> Both interventions effectively reduced pain and improved function in desktop workers with CLBP. Contrast therapy provided superior short-term relief, while strengthening exercises enhanced long-term spinal stability. A combined approach is recommended for optimal rehabilitation outcomes.</p><p><strong>Keywords:</strong> Chronic low back pain, contrast therapy, strengthening exercises, occupational health, pain relief, Oswestry Disability Index, Visual Analogue Scale, physiotherapy.</p>",
+                    citation_quotes: '<p>Umaraniya AR, Rathi M, Pandya T, Jadeja M. EFFECT OF STRENGTHENING VS CONTRAST THERAPY ON CHRONIC LOW BACK PAIN IN DESKTOP WORKERS: AN INTERVENTIONAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 308 - 317. https://doi.org/10.63299/ijopt.060478</p>'
+                },
+                {
+                    _id: '1627',
+                    citation_title: "COMPARATIVE EFFECT OF NEUROMUSCULAR ELECTRICAL STIMULATION AND UNDERWATER ULTRASOUND THERAPY ON PAIN, INFLAMMATION, HAND FUNCTION, AND QUALITY OF LIFE IN PATIENTS WITH RHEUMATOID ARTHRITIS: A RANDOMIZED CLINICAL TRIAL",
+                    citation_author: [
+                        'Dr. Prashant Kaushik', 'Dr. Akanksha Tewari', 'Dr. Madhuri Saini'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '318',
+                    citation_lastpage: '323',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060479',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/37.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Rheumatoid Arthritis', 'NMES', 'Underwater Ultrasound Therapy', 'Pain', 'Inflammation', 'Hand Function', 'Quality of Life'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Rheumatoid arthritis (RA) is a chronic autoimmune condition characterized by joint inflammation, pain, and functional impairment, significantly affecting patients' quality of life. Physiotherapeutic modalities like Neuromuscular Electrical Stimulation (NMES) and Underwater Ultrasound Therapy (UWUS) have emerged as adjunctive treatments aimed at reducing symptoms and improving function.</p><p><strong>Material:</strong> A randomized controlled trial was conducted on 60 RA patients, randomly assigned into two groups: Group A received NMES and Group B received UWUS, thrice weekly for 4 weeks, alongside standard pharmacotherapy. Outcomes were assessed using the Visual Analog Scale (VAS) for pain, C-reactive protein (CRP) and ESR for inflammation, Michigan Hand Outcomes Questionnaire (MHQ) for hand function, and SF-36 for quality of life, at baseline and post-intervention.</p><p><strong>Results:</strong> Both interventions significantly reduced pain and inflammation and improved hand function and quality of life (p < 0.05). NMES showed a greater effect on hand function (p = 0.01), while UWUS was more effective in pain reduction (p = 0.03).</p><p><strong>Conclusion:</strong> This randomized clinical trial demonstrated that both neuromuscular electrical stimulation (NMES) and underwater ultrasound therapy (UWUS) were effective in reducing pain and inflammation, and in improving hand function and quality of life in patients with rheumatoid arthritis. However, NMES showed slightly greater improvements in functional outcomes and pain relief, while UWUS had a more pronounced effect on reducing local inflammation. These findings suggest that both interventions can be considered as valuable adjuncts to conventional therapy in the management of rheumatoid arthritis, with the choice of modality potentially tailored to individual patient needs and clinical goals. Further research with larger sample sizes and long-term follow-up is recommended to confirm and expand upon these findings.</p><p><strong>Keywords:</strong> Rheumatoid Arthritis, NMES, Underwater Ultrasound Therapy, Pain, Inflammation, Hand Function, Quality of Life.</p>",
+                    citation_quotes: '<p>Kaushik P, Tewari A, Saini M. COMPARATIVE EFFECT OF NEUROMUSCULAR ELECTRICAL STIMULATION AND UNDERWATER ULTRASOUND THERAPY ON PAIN, INFLAMMATION, HAND FUNCTION, AND QUALITY OF LIFE IN PATIENTS WITH RHEUMATOID ARTHRITIS: A RANDOMIZED CLINICAL TRIAL. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 318 - 323. https://doi.org/10.63299/ijopt.060479</p>'
+                },
+                {
+                    _id: '1628',
+                    citation_title: "EFFECTIVENESS OF THERAGUN ON PAIN , FLEXIBILITY AND QUALITY OF LIFE AMONG PATIENTS WITH OA KNEE",
+                    citation_author: [
+                        'Dr. Nandini B. Kadabi', 'Dr. Omkar Ghadi', 'Radhapriya Ghadge', 'Ishra Shaikh', 'Itoka Zhimo'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '324',
+                    citation_lastpage: '336',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.060476',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/38.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Knee Osteoarthritis', 'percussion gun', 'strengthing exercises', 'WOMAC questionnaire', 'VAS', 'muscle flexibility'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> According to the World Health Organization (WHO): Knee osteoarthritis (OA) is a degenerative joint disease characterized by the progressive deterioration of articular cartilage, changes in subchondral bone, synovial inflammation, and joint space narrowing, leading to pain, stiffness, reduced mobility, and functional disability. OA is an intricate disease that includes multiple related factors, including trauma, mechanical forces, inflammation, and pain. Therefore, changes to the non-cartilaginous components of the joint, such as the joint capsule, synovium, subchondral bone, ligaments, and periarticular muscles, are the primary cause of pain. According to its etiology, osteoarthritis (OA) can be classified as either primary (idiopathic or non-traumatic) or secondary (which is often followed on by trauma or mechanical misalignment).</p><p><strong>Objectives:</strong> To determine the effect of Theragun on pain, flexibility and quality of life among patients with OA knee using VAS, Flexibility test and WOMAC questionnaire.</p><p><strong>Methods:</strong> 40 patients within age group of 40-70 were recruited and who was having a VAS score between 3-7 . In this study out of 40 patients, 20 were recruited for Group A(Conventional group) and 20 for Group B (Percussion massage group).Age group was 40-70. The patients with mild to moderate knee OA were screened on the basis of inclusion and exclusion criteria and pre and post examination was done by using VAS, flexibility tests and WOMAC questionnaire.</p><p><strong>Results:</strong> Results showed significant pain reduction, increased flexibility and good impact on quality of life of patients in Group B (percussion massage group) than Group A (Conventional group). The conventional therapy ( stretching, strengthening exercises) in addition with percussion gun was beneficial for OA Knee.</p><p><strong>Conclusion:</strong> The study concluded that conventional therapy in addition with percussion gun has good impact on reducing pain, increasing flexibility and good quality of life in patients with OA knee.</p><p><strong>Keywords:</strong> Knee Osteoarthritis, percussion gun, strengthing exercises, WOMAC questionnaire, VAS, muscle flexibility.</p>",
+                    citation_quotes: '<p>Kadabi NB, Ghadi O, Ghadge R, Shaikh I, Zhimo I. EFFECTIVENESS OF THERAGUN ON PAIN , FLEXIBILITY AND QUALITY OF LIFE AMONG PATIENTS WITH OA KNEE. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 324 - 336. https://doi.org/10.63299/ijopt.060476</p>'
+                },
             ]
         },
     ]
