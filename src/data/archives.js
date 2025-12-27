@@ -2459,13 +2459,13 @@ export const archiveList = {
                     citation_firstpage: '254',
                     citation_lastpage: '265',
                     eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
-                    sDOINo: 'https://doi.org/10.63299/ijopt.060472',
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060472',
                     sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/31.pdf',
                     sCitation_SEO_Keywords: [
                         'Forward Head Posture', 'Kendall Exercise', 'Scapular Stabilization Exercise', 'Neck Pain', 'Postural Correction', 'Craniovertebral Angle'
                     ],
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Forward Head Posture (FHP) is a common postural deformity characterized by anterior displacement of the head relative to the body’s center of gravity, often resulting from prolonged poor posture, excessive screen use, and muscular imbalances. This misalignment increases cervical loading, leading to pain, restricted motion, and reduced functional ability. Physiotherapeutic interventions such as the Kendall Exercise Program and Scapular Stabilization Exercises (SSE) are widely used to restore postural balance and reduce neck discomfort.</p><p><strong>Objective:</strong> The study aimed to compare the effectiveness of Kendall Exercises and Scapular Stabilization Exercises in improving cervical alignment, reducing pain, and enhancing functional performance among individuals with Forward Head Posture.</p><p><strong>Methods:</strong> A comparative experimental study was conducted on 34 participants aged 20–45 years diagnosed with FHP. Participants were randomly assigned into two groups: Group A (Kendall Exercises, n = 17) and Group B (SSE, n = 17). Both groups received conventional physiotherapy along with their respective exercise interventions three times per week for four weeks. Outcome measures included the Numerical Pain Rating Scale (NPRS), Craniovertebral Angle (CVA), and Neck Disability Index (NDI). Pre- and post-intervention data were analyzed using paired and unpaired t-tests with a significance level set at p < 0.05.</p><p><strong>Results:</strong> Both groups showed statistically significant improvements in all outcome measures (p = 0.001). Between-group analysis revealed that the Kendall group demonstrated greater improvement in CVA (p = 0.02) and pain reduction (p = 0.026), while NDI improvement was not significantly different between groups (p = 0.073).</p><p><strong>Conclusion:</strong> Both exercise programs effectively improved posture, reduced pain, and enhanced functional ability in individuals with FHP. However, Kendall Exercises proved more effective in restoring cervical alignment and reducing pain, suggesting their superiority for targeted correction of Forward Head Posture.</p><p><strong>Keywords:</strong> Forward Head Posture, Kendall Exercise, Scapular Stabilization Exercise, Neck Pain, Postural Correction, Craniovertebral Angle</p>",
-                    citation_quotes: '<p>Patel D, Rathi M, pandya T, Ambasana B. THE EFFECTIVENESS OF KENDALL EXERCISE VERSUS SCAPULAR STABILIZATION EXERCISE PROGRAM ON PAIN, NECK ALIGNMENT AND FUNCTIONAL ACTIVITES IN SUBJECTS WITH FORWARD HEAD POSTURE: A COMPARATIVE STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 254 - 265. https://doi.org/10.63299/ijopt.060472</p>'
+                    citation_quotes: '<p>Patel D, Rathi M, pandya T, Ambasana B. THE EFFECTIVENESS OF KENDALL EXERCISE VERSUS SCAPULAR STABILIZATION EXERCISE PROGRAM ON PAIN, NECK ALIGNMENT AND FUNCTIONAL ACTIVITES IN SUBJECTS WITH FORWARD HEAD POSTURE: A COMPARATIVE STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 254 - 265. https://doi.org/10.63299/ijopt.0060472</p>'
                 },
                 {
                     _id: '1622',
@@ -2483,13 +2483,13 @@ export const archiveList = {
                     citation_firstpage: '266',
                     citation_lastpage: '277',
                     eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
-                    sDOINo: 'https://doi.org/10.63299/ijopt.060473',
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060473',
                     sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/32.pdf',
                     sCitation_SEO_Keywords: [
                         'Rhythm disorders', 'menstruation', 'pain', 'physiotherapy', 'core strengthening', 'stretching', 'kegels exercise', 'VAS', 'MEDI-Q', 'EQ-5D'
                     ],
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Objective:</strong> To evaluate the efficacy of a physiotherapy program for relieving symptoms among rhythmic disorders of menstruation in women using MEDI-Q and VAS. To evaluate impact of physiotherapy programme on quality of life of women with menstrual disorders using EQ-5D.</p><p><strong>Study Design:</strong> Experimental Study</p><p><strong>Methods:</strong> Sample size for this study was n=60 as it was calculated using G*Power 3.1 (Universitat Dusseldorf, Germany). A single group experimental study was conducted among 60 females with age between 18-30 years. The students were screened on the basis of inclusion and exclusion criteria in order to assess menstrual pain, symptoms and quality of life using VAS, MEDI-Q and EQ-5D questionnaire.</p><p><strong>Results:</strong> Results revealed significantly reduction in the menstrual pain and symptoms after the intervention. The physiotherapy intervention was beneficial in reduction of pain and symptoms of rhythm disorders of menstruation.</p><p><strong>Conclusion:</strong> The results showed that physiotherapy intervention has highly significant reducing the pain intensity and the symptoms and increase in quality of life in subjects with rhythm disorders of menstruation.</p><p><strong>Keywords:</strong> Rhythm disorders, menstruation, pain, physiotherapy, core strengthening, stretching, kegels exercise, VAS, MEDI-Q, EQ-5D.</p>",
-                    citation_quotes: '<p>Kadabi NB, Sanadi R, Mahajan A, Kerkar N, Bhandari R. STRUCTURED EXERCISE PROTOCOL IN INDIVIDUALS WITH RHYTHM DISORDERS OF MENSTRUATION: SINGLE GROUP STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 266 - 277. https://doi.org/10.63299/ijopt.060473</p>'
+                    citation_quotes: '<p>Kadabi NB, Sanadi R, Mahajan A, Kerkar N, Bhandari R. STRUCTURED EXERCISE PROTOCOL IN INDIVIDUALS WITH RHYTHM DISORDERS OF MENSTRUATION: SINGLE GROUP STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 266 - 277. https://doi.org/10.63299/ijopt.0060473</p>'
                 },
                 {
                     _id: '1623',
@@ -2507,13 +2507,13 @@ export const archiveList = {
                     citation_firstpage: '278',
                     citation_lastpage: '284',
                     eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
-                    sDOINo: 'https://doi.org/10.63299/ijopt.060474',
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060474',
                     sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/33.pdf',
                     sCitation_SEO_Keywords: [
                         'Tension type of headache', 'Cryotherapy', 'compression therapy', 'VAS', 'HIT', '4 point scale'
                     ],
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Tension type of headache formerly called tension muscle contraction headache is a common condition usually is self-treated with over the counter (OTC) analgesics.</p><p><strong>Objective:</strong> 1. To study the Effectiveness of cryotherapy and compression therapy in undergraduate students with tension type of headache. 2.To study of Effectiveness of cryotherapy in undergraduate students in tension type of headache 3.To study of Effectiveness of compression therapy in undergraduate students in tension type of headache results being statistically significant. HIT: Performance scores improved in both groups, again reaching statistical significance with CRYO showing a greater effect. The statistical significance of each result was confirmed with p-values as follows: VAS: p < 0.00001 (significant), 4Point: p ≈ 0.00001 (significant), HIT: p < 0.00001 (significant).</p><p><strong>Method:</strong> In this experimental study, total 40 number of students were recruited in the study including tension type of headache perceived cryotherapy and compression therapy treatment over 4 week duration, with treatment sessions conducted three times weekly. The outcomes assessed were pain intensity using verbal analogue scale , Headache impact test,4 point scale</p><p><strong>Result:</strong> 1.VAS: Both interventions significantly reduced pain, with CRYO producing a larger average reduction than COMPRESS. 2.4Point: Functional improvements were significant in both groups, with similar average benefits and all results being statistically significant. 3.HIT: Performance scores improved in both groups, again reaching statistical significance with CRYO showing a greater effect.)</p><p><strong>Conclusion:</strong> Based on the results, It can be conclude that cryotherapy is more effective than the compression therapy.</p><p><strong>Keywords:</strong> Tension type of headache, Cryotherapy, compression therapy, VAS, HIT, 4 point scale</p>",
-                    citation_quotes: '<p>Kadabi NB, Pujar B, Hooli B, Honnavarkar B. EFFECTIVENESS OF CRYOTHERAPY AND COMPRESSION THERAPY IN UNDERGRADUATE STUDENTS IN TENSION TYPE OF HEADACHE. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 278 - 284. https://doi.org/10.63299/ijopt.060474</p>'
+                    citation_quotes: '<p>Kadabi NB, Pujar B, Hooli B, Honnavarkar B. EFFECTIVENESS OF CRYOTHERAPY AND COMPRESSION THERAPY IN UNDERGRADUATE STUDENTS IN TENSION TYPE OF HEADACHE. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 278 - 284. https://doi.org/10.63299/ijopt.0060474</p>'
                 },
                 {
                     _id: '1624',
@@ -2531,13 +2531,13 @@ export const archiveList = {
                     citation_firstpage: '285',
                     citation_lastpage: '294',
                     eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
-                    sDOINo: 'https://doi.org/10.63299/ijopt.060475',
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060475',
                     sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/34.pdf',
                     sCitation_SEO_Keywords: [
                         'PNF', 'Cervicogenic headache', 'NDI', 'Cervical flexion rotation test (CFRT)'
                     ],
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Cervicogenic headache (CGH) is a secondary headache that originates from dysfunction or pathology in the cervical spine and its associated bony, disc, or soft tissue structures, particularly the upper cervical segments (C1-C3). Investigation into PNF for cervicogenic headache management has demonstrated diverse outcomes concering pain relief, cervical mobility assessed the flexion-rotation test, and functional improvement.</p><p><strong>Objective:</strong> To study the Effectiveness of Proprioceptive Neuromuscular Facilitation (PNF) on cervicogenic headache.</p><p><strong>Method:</strong> In this experimental study ,40 participants diagnosed with cervicogenic headache received PNF treatment over a 4 week duration, with treatment sessions conducted three times weekly. The outcomes assessed were pain intensity using verbal analog scale, cervical mobility via the cervical flexion-rotation test, and functional disability using the neck disability index.</p><p><strong>Result:</strong> Analysis revealed mean difference scores of 5.45 ± 2.05 for VAS, 0.19 ± 0.09 for NDI, and 29.03 ± 38.08 for CFRT. The observed changes in all three parameters were statistically significant with p value <0.0001.</p><p><strong>Conclusion:</strong> Based on the results , it can be conclude that proprioceptive neuromuscular facilitation (PNF) is an effective approach for reducing symptoms associated with cervicogenic headache.</p><p><strong>Keywords:</strong> PNF, Cervicogenic headache, NDI, Cervical flexion rotation test (CFRT)</p>",
-                    citation_quotes: '<p>Kadabi NB, Sankeshwari P, Shaikh S, Satre S. EFFECTIVENESS OF PROPRIOCEPTIVE NEUROMUSCULAR FACILITATION ON CERVICOGENIC HEADACHE. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 285 - 294. https://doi.org/10.63299/ijopt.060475</p>'
+                    citation_quotes: '<p>Kadabi NB, Sankeshwari P, Shaikh S, Satre S. EFFECTIVENESS OF PROPRIOCEPTIVE NEUROMUSCULAR FACILITATION ON CERVICOGENIC HEADACHE. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 285 - 294. https://doi.org/10.63299/ijopt.0060475</p>'
                 },
                 {
                     _id: '1625',
@@ -2555,13 +2555,13 @@ export const archiveList = {
                     citation_firstpage: '295',
                     citation_lastpage: '307',
                     eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
-                    sDOINo: 'https://doi.org/10.63299/ijopt.060477',
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060477',
                     sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/35.pdf',
                     sCitation_SEO_Keywords: [
                         'Stroke Rehabilitation', 'Task-Oriented Training', 'Core Strengthening Exercises', 'Trunk Control', 'Balance Berg Balance Scale (BBS)', 'Trunk Impairment Scale (TIS)'
                     ],
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Trunk control and balance are critical factors for functional independence in stroke patients. Among stroke survivors, up to 80% experience impairments in trunk control and balance, which are crucial for functional independence and activities of daily living (ADLs). While both task-oriented and core exercise training are commonly used in rehabilitation, their comparative effects on improving trunk control and balance remain unclear.</p><p><strong>Objective:</strong> The research aimed to bridge the gap by investigating the effect of task-oriented versus core exercise training on trunk control ability and balance in stroke patients.</p><p><strong>Methods:</strong> This study was conducted to compare the effects of task-oriented training and core strengthening exercises on trunk control and balance in stroke patients. Participants aged 45–60 years with a first-ever ischemic or hemorrhagic stroke (3 months to 1 year duration), and an MMSE score ≥24, were recruited through purposive sampling from a clinical rehabilitation center. Eligible participants (n=30) were randomly allocated into two groups using simple randomization.</p><p><strong>Results:</strong> The present study demonstrated that participants in Group A (Task-Oriented Training) showed a highly significant improvement in balance as measured by the Berg Balance Scale (BBS), with a mean increase of 13.7 points from pre- to post-intervention, indicating a strong effect of the intervention. In contrast, Group B (Core Strengthening Exercises) showed a moderate yet statistically significant improvement in BBS, with a 6.0-point increase. Regarding trunk control measured through the Trunk Impairment Scale (TIS), Group B demonstrated a statistically significant improvement of 2.9 points (P = 0.037) whereas Group A improved by 3.3 points, but this change was not statistically significant (P = 0.23). These findings suggest that task-oriented training is particularly effective for improving balance, while core strengthening may be more beneficial for trunk control in stroke patients.</p><p><strong>Conclusion:</strong> Task-oriented training was found to be more effective in enhancing dynamic balance, as it involves functional movements that closely mimic real-life activities, thereby fostering neuroplasticity and improving postural control. This supports the growing body of literature on the importance of task-specific training in stroke rehabilitation. On the other hand, core strengthening exercises demonstrated a marked improvement in trunk control, a crucial factor for stabilizing posture and enhancing functional mobility.</p><p><strong>Keywords:</strong> Stroke Rehabilitation, Task-Oriented Training, Core Strengthening Exercises, Trunk Control, Balance Berg Balance Scale (BBS),Trunk Impairment Scale (TIS).</p>",
-                    citation_quotes: '<p>Bhatt V, Rathi M, Parekh N. EFFECTS OF TASK-ORIENTED TRAINING AND CORE EXERCISE TRAINING ON TRUNK CONTROL ABILITY AND BALANCE OF STROKE PATIENTS - A COMPARATIVE STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 295 - 307. https://doi.org/10.63299/ijopt.060477</p>'
+                    citation_quotes: '<p>Bhatt V, Rathi M, Parekh N. EFFECTS OF TASK-ORIENTED TRAINING AND CORE EXERCISE TRAINING ON TRUNK CONTROL ABILITY AND BALANCE OF STROKE PATIENTS - A COMPARATIVE STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 295 - 307. https://doi.org/10.63299/ijopt.0060477</p>'
                 },
                 {
                     _id: '1626',
@@ -2579,13 +2579,13 @@ export const archiveList = {
                     citation_firstpage: '308',
                     citation_lastpage: '317',
                     eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
-                    sDOINo: 'https://doi.org/10.63299/ijopt.060478',
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060478',
                     sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/36.pdf',
                     sCitation_SEO_Keywords: [
                         'Chronic low back pain', 'contrast therapy', 'strengthening exercises', 'occupational health', 'pain relief', 'Oswestry Disability Index', 'Visual Analogue Scale', 'physiotherapy'
                     ],
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Chronic low back pain (CLBP) is a common musculoskeletal disorder and a leading cause of disability worldwide, particularly among desktop workers exposed to prolonged sitting and poor ergonomics. Sedentary posture leads to muscle imbalance, reduced spinal stability, and persistent pain. Effective management strategies that address both pain and function are essential for this population.</p><p><strong>Objective:</strong> This study aimed to compare the effects of muscle strengthening exercises and contrast therapy on pain intensity and functional disability among desktop workers with chronic low back pain.</p><p><strong>Methodology:</strong> Thirty participants aged 30 - 45 years with CLBP were randomly divided into two groups: Group A (Strengthening Exercise Group) and Group B (Contrast Therapy Group), with 15 participants each. Both groups received conventional stretching, while Group A performed core-strengthening exercises, and Group B received contrast therapy using alternating hot and cold packs. The intervention was conducted five days per week for four weeks. Pain and functional outcomes were assessed using the Visual Analogue Scale (VAS) and Oswestry Disability Index (ODI). Data were analyzed using paired and unpaired t-tests, with a significance level of p < 0.05.</p><p><strong>Results:</strong> Both groups showed significant improvements in VAS and ODI scores post-intervention (p < 0.05). Between-group analysis revealed that contrast therapy produced greater short-term improvement in pain and disability compared to strengthening exercises (p < 0.001).</p><p><strong>Conclusion:</strong> Both interventions effectively reduced pain and improved function in desktop workers with CLBP. Contrast therapy provided superior short-term relief, while strengthening exercises enhanced long-term spinal stability. A combined approach is recommended for optimal rehabilitation outcomes.</p><p><strong>Keywords:</strong> Chronic low back pain, contrast therapy, strengthening exercises, occupational health, pain relief, Oswestry Disability Index, Visual Analogue Scale, physiotherapy.</p>",
-                    citation_quotes: '<p>Umaraniya AR, Rathi M, Pandya T, Jadeja M. EFFECT OF STRENGTHENING VS CONTRAST THERAPY ON CHRONIC LOW BACK PAIN IN DESKTOP WORKERS: AN INTERVENTIONAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 308 - 317. https://doi.org/10.63299/ijopt.060478</p>'
+                    citation_quotes: '<p>Umaraniya AR, Rathi M, Pandya T, Jadeja M. EFFECT OF STRENGTHENING VS CONTRAST THERAPY ON CHRONIC LOW BACK PAIN IN DESKTOP WORKERS: AN INTERVENTIONAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 308 - 317. https://doi.org/10.63299/ijopt.0060478</p>'
                 },
                 {
                     _id: '1627',
@@ -2603,13 +2603,13 @@ export const archiveList = {
                     citation_firstpage: '318',
                     citation_lastpage: '323',
                     eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
-                    sDOINo: 'https://doi.org/10.63299/ijopt.060479',
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060479',
                     sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/37.pdf',
                     sCitation_SEO_Keywords: [
                         'Rheumatoid Arthritis', 'NMES', 'Underwater Ultrasound Therapy', 'Pain', 'Inflammation', 'Hand Function', 'Quality of Life'
                     ],
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Rheumatoid arthritis (RA) is a chronic autoimmune condition characterized by joint inflammation, pain, and functional impairment, significantly affecting patients' quality of life. Physiotherapeutic modalities like Neuromuscular Electrical Stimulation (NMES) and Underwater Ultrasound Therapy (UWUS) have emerged as adjunctive treatments aimed at reducing symptoms and improving function.</p><p><strong>Material:</strong> A randomized controlled trial was conducted on 60 RA patients, randomly assigned into two groups: Group A received NMES and Group B received UWUS, thrice weekly for 4 weeks, alongside standard pharmacotherapy. Outcomes were assessed using the Visual Analog Scale (VAS) for pain, C-reactive protein (CRP) and ESR for inflammation, Michigan Hand Outcomes Questionnaire (MHQ) for hand function, and SF-36 for quality of life, at baseline and post-intervention.</p><p><strong>Results:</strong> Both interventions significantly reduced pain and inflammation and improved hand function and quality of life (p < 0.05). NMES showed a greater effect on hand function (p = 0.01), while UWUS was more effective in pain reduction (p = 0.03).</p><p><strong>Conclusion:</strong> This randomized clinical trial demonstrated that both neuromuscular electrical stimulation (NMES) and underwater ultrasound therapy (UWUS) were effective in reducing pain and inflammation, and in improving hand function and quality of life in patients with rheumatoid arthritis. However, NMES showed slightly greater improvements in functional outcomes and pain relief, while UWUS had a more pronounced effect on reducing local inflammation. These findings suggest that both interventions can be considered as valuable adjuncts to conventional therapy in the management of rheumatoid arthritis, with the choice of modality potentially tailored to individual patient needs and clinical goals. Further research with larger sample sizes and long-term follow-up is recommended to confirm and expand upon these findings.</p><p><strong>Keywords:</strong> Rheumatoid Arthritis, NMES, Underwater Ultrasound Therapy, Pain, Inflammation, Hand Function, Quality of Life.</p>",
-                    citation_quotes: '<p>Kaushik P, Tewari A, Saini M. COMPARATIVE EFFECT OF NEUROMUSCULAR ELECTRICAL STIMULATION AND UNDERWATER ULTRASOUND THERAPY ON PAIN, INFLAMMATION, HAND FUNCTION, AND QUALITY OF LIFE IN PATIENTS WITH RHEUMATOID ARTHRITIS: A RANDOMIZED CLINICAL TRIAL. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 318 - 323. https://doi.org/10.63299/ijopt.060479</p>'
+                    citation_quotes: '<p>Kaushik P, Tewari A, Saini M. COMPARATIVE EFFECT OF NEUROMUSCULAR ELECTRICAL STIMULATION AND UNDERWATER ULTRASOUND THERAPY ON PAIN, INFLAMMATION, HAND FUNCTION, AND QUALITY OF LIFE IN PATIENTS WITH RHEUMATOID ARTHRITIS: A RANDOMIZED CLINICAL TRIAL. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 318 - 323. https://doi.org/10.63299/ijopt.0060479</p>'
                 },
                 {
                     _id: '1628',
@@ -2627,13 +2627,326 @@ export const archiveList = {
                     citation_firstpage: '324',
                     citation_lastpage: '336',
                     eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
-                    sDOINo: 'https://doi.org/10.63299/ijopt.060476',
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060476',
                     sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/38.pdf',
                     sCitation_SEO_Keywords: [
                         'Knee Osteoarthritis', 'percussion gun', 'strengthing exercises', 'WOMAC questionnaire', 'VAS', 'muscle flexibility'
                     ],
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> According to the World Health Organization (WHO): Knee osteoarthritis (OA) is a degenerative joint disease characterized by the progressive deterioration of articular cartilage, changes in subchondral bone, synovial inflammation, and joint space narrowing, leading to pain, stiffness, reduced mobility, and functional disability. OA is an intricate disease that includes multiple related factors, including trauma, mechanical forces, inflammation, and pain. Therefore, changes to the non-cartilaginous components of the joint, such as the joint capsule, synovium, subchondral bone, ligaments, and periarticular muscles, are the primary cause of pain. According to its etiology, osteoarthritis (OA) can be classified as either primary (idiopathic or non-traumatic) or secondary (which is often followed on by trauma or mechanical misalignment).</p><p><strong>Objectives:</strong> To determine the effect of Theragun on pain, flexibility and quality of life among patients with OA knee using VAS, Flexibility test and WOMAC questionnaire.</p><p><strong>Methods:</strong> 40 patients within age group of 40-70 were recruited and who was having a VAS score between 3-7 . In this study out of 40 patients, 20 were recruited for Group A(Conventional group) and 20 for Group B (Percussion massage group).Age group was 40-70. The patients with mild to moderate knee OA were screened on the basis of inclusion and exclusion criteria and pre and post examination was done by using VAS, flexibility tests and WOMAC questionnaire.</p><p><strong>Results:</strong> Results showed significant pain reduction, increased flexibility and good impact on quality of life of patients in Group B (percussion massage group) than Group A (Conventional group). The conventional therapy ( stretching, strengthening exercises) in addition with percussion gun was beneficial for OA Knee.</p><p><strong>Conclusion:</strong> The study concluded that conventional therapy in addition with percussion gun has good impact on reducing pain, increasing flexibility and good quality of life in patients with OA knee.</p><p><strong>Keywords:</strong> Knee Osteoarthritis, percussion gun, strengthing exercises, WOMAC questionnaire, VAS, muscle flexibility.</p>",
-                    citation_quotes: '<p>Kadabi NB, Ghadi O, Ghadge R, Shaikh I, Zhimo I. EFFECTIVENESS OF THERAGUN ON PAIN , FLEXIBILITY AND QUALITY OF LIFE AMONG PATIENTS WITH OA KNEE. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 324 - 336. https://doi.org/10.63299/ijopt.060476</p>'
+                    citation_quotes: '<p>Kadabi NB, Ghadi O, Ghadge R, Shaikh I, Zhimo I. EFFECTIVENESS OF THERAGUN ON PAIN , FLEXIBILITY AND QUALITY OF LIFE AMONG PATIENTS WITH OA KNEE. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 324 - 336. https://doi.org/10.63299/ijopt.0060476</p>'
+                },
+                {
+                    _id: '1629',
+                    citation_title: "Association of Body Mass Index with Postural Stability and Functional Disability in Patients with Chronic Low Back Pain: An Observational Study",
+                    citation_author: [
+                        'Harsh Brahmbhatt', 'Payal Gahlot'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '337',
+                    citation_lastpage: '345',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060480',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/39.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Chronic low back pain', 'Body Mass Index', 'Postural stability', 'Functional disability', 'Balance', 'Modified Oswestry Disability Index'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Chronic low back pain (CLBP) is a prevalent musculoskeletal ailment that causes significant disability and impairs quality of life. Recent literature demonstrates that a higher body mass index (BMI) reflects a higher functional disability, and postural stability also declines with increasing BMI.</p><p><strong>Objectives:</strong> This study examined the association of BMI with postural stability and functional disability in people with CLBP.</p><p><strong>Methods:</strong> An observational cross-sectional study was conducted involving 73 participants aged 30–60 years with CLBP. Following World Health Organization (WHO) guidelines, BMI was recorded. Postural stability was assessed via the One Leg Stand Test (OLST) with eyes open and eyes closed, and via the Y-Balance Test–Lower Quarter (YBT-LQ). Functional disability was measured using the Modified Oswestry Disability Index (MODI). Data were analyzed with SPSS v20; Pearson correlation coefficients determined correlations between the variables.</p><p><strong>Results:</strong> Results showed significant correlations. BMI was negatively correlated (eyes open: r = -0.651; eyes closed: r = -0.622; YBT-LQ: r = -0.602; p < 0.01) with functional disability (r = 0.562; p < 0.01). There was a significant correlation between functional disability and postural stability (eyes open: r -0.667; eyes closed: r -0.715; YBT-LQ: r -0.893; p < 0.01).</p><p><strong>Conclusion:</strong> Increased body mass is directly correlated to decrease in postural stability and increase in functional disability in CLBP patients. The strong association was found between balance and functional disability in CLBP patients.</p><p><strong>Keywords:</strong> Chronic low back pain, Body Mass Index, Postural stability, Functional disability, Balance, Modified Oswestry Disability Index</p>",
+                    citation_quotes: '<p>Brahmbhatt H, Gahlot P. Association of Body Mass Index with Postural Stability and Functional Disability in Patients with Chronic Low Back Pain: An Observational Study. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 337 - 345. https://doi.org/10.63299/ijopt.0060480</p>'
+                },
+                {
+                    _id: '1630',
+                    citation_title: "EFFECT OF A STRUCTURED BALANCE TRAINING PROGRAM ON FOOTWORK IN BEGINNER BADMINTON PLAYERS",
+                    citation_author: [
+                        'Ms. Maitreyee Joshi', 'Dr. Arwa Sinnarwala', 'Dr. Albin Jerome'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '346',
+                    citation_lastpage: '357',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060481',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/40.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Footwork', 'balance', 'shuttle run test', 'badminton'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Badminton is a racket sport that needs good footwork. Footwork consists of starting, moving, braking, and returning. For performing all these activities balance plays a crucial role as it helps in quick directional movements across the court and therefore balance training must be integrated in the training on regular basis.</p><p><strong>Objectives:</strong> To assess the effect of a structured balance training program on beginner badminton players in the domain of footwork using shuttle run test.</p><p><strong>Methods:</strong> The study included male and female beginner badminton players aged 6-14 years who had 1-2 years of playing experience and engaged in regular practice for approximately 1 hour/day and 5 hours/week. Players with any recent injury to the ankle, knee, or hip, as well as those undergoing advanced balance training, were excluded. This experimental study was conducted over a period of 6 months in Pune. Total sample of 98 participants allocated alternately into 2 groups of 49 each using convenient sampling. The shuttle run test was used as the outcome measure. A pre-shuttle run test was done for both the groups. A structured balance training program was given for 3 days/week for 4 weeks to the participants in the interventional group which consisted of various static and dynamic balance activities. A post shuttle run test was done for both the groups after 4 weeks and data analysis was performed using paired and unpaired t-test to derive the results.</p><p><strong>Results:</strong> The interventional group demonstrated a statistically significant improvement in shuttle run performance following the structured balance training program.</p><p><strong>Conclusion:</strong> The study concluded that the structured balance training program significantly improved footwork performance in beginner badminton players. Therefore, balance training can be considered an effective, practical, and low-cost addition to conventional badminton training, particularly for beginners as it represents an effective and evidence-based strategy for both performance optimization and injury prevention.</p><p><strong>Keywords:</strong> Footwork, balance, shuttle run test, badminton.</p>",
+                    citation_quotes: '<p>Joshi M, Sinnarwala A, Jerome A. EFFECT OF A STRUCTURED BALANCE TRAINING PROGRAM ON FOOTWORK IN BEGINNER BADMINTON PLAYERS. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 346 - 357. https://doi.org/10.63299/ijopt.0060481</p>'
+                },
+                {
+                    _id: '1631',
+                    citation_title: "ASSOCIATION OF PEAK EXPIRATORY FLOW RATE WITH FORWARD HEAD POSTURE IN YOUNG ADULTS",
+                    citation_author: [
+                        'Dharmi Patel', 'Dr. Sweety Shah'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '358',
+                    citation_lastpage: '366',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060482',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/41.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Forward Head Posture', 'Peak Expiratory Flow Rate', 'Cranio-Vertebral Angle', 'Young Adults'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Forward Head Posture (FHP) is a postural deviation where the lower neck (C4-C7) bends forward while the upper neck (C1-C3) and head extend backward, creating an exaggerated inward curve. This posture limits diaphragmatic expansion, reducing lung function by restricting breathing mechanics. Accessory muscles are recruited, rib cage mobility is reduced, and diaphragmatic ventilation is impaired, leading to decreased alveolar ventilation.</p><p><strong>Objectives:</strong> The aim of the study is to investigate the association between Peak Expiratory Flow Rate (PEFR) and Forward head Posture.</p><p><strong>Methodology:</strong> A cross-sectional analytical study was conducted in Ahmedabad involving 100 young adults aged 18-25 years who voluntarily participated. Individuals with orthopaedic, major neurological, and cardio-respiratory disorders were excluded. Participants exhibiting forward head posture were assessed by measuring their cranio-vertebral angle (CVA). PEFR was measured three times using a peak flow meter. As it requires effort, the highest value was used for analysis.</p><p><strong>Results:</strong> Participants (mean age 21.46±2.19 years, mean BMI 23.33±4.41). Significant association was found between PEFR, CV angle (rho=0.325, p<0.001) and BMI (rho=0.323, p<0.001). No association was found between CV angle and BMI (rho=0.118, p=0.244). Data were analyzed using SPSS v20 with a 5% significance level, employing the Spearman correlation test.</p><p><strong>Conclusion:</strong> A strong association was observed between PEFR and both CV angle and BMI in young adults. These findings suggest that postural assessment can help predict respiratory function and support integrating posture correction into respiratory care and rehabilitation.</p><p><strong>Keywords:</strong> Forward Head Posture, Peak Expiratory Flow Rate, Cranio-Vertebral Angle, Young Adults</p>",
+                    citation_quotes: '<p>Patel D, Shah S. ASSOCIATION OF PEAK EXPIRATORY FLOW RATE WITH FORWARD HEAD POSTURE IN YOUNG ADULTS. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 358 - 366. https://doi.org/10.63299/ijopt.0060482</p>'
+                },
+                {
+                    _id: '1632',
+                    citation_title: "CORRELATION OF 6 MINUTE WALK DISTANCE AND LUNG VOLUMES IN YOUNG HEALTHY ADULTS",
+                    citation_author: [
+                        'Amisha Gohil', 'Dr. Sweety Shah'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '367',
+                    citation_lastpage: '374',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060483',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/42.pdf',
+                    sCitation_SEO_Keywords: [
+                        '6-minute walk test', '6 min walk distance', 'lung volume', 'spirometer', 'pulmonary function test'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> The 6-minute walk test (6MWT) is a widely used, simple, and practical tool to assess functional exercise capacity. understanding its relevance in healthy individuals, especially in relation to lung volumes, can help establish normative values and identify early deviations in respiratory health.</p><p><strong>Aim:</strong> to investigate the correlation between the 6MWD and lung volumes, including forced vital capacity (FVC), forced expiratory volume in 1 second (FEV₁), and FEV1/FVC, in young healthy adults.</p><p><strong>Objective:</strong> To assess the correlation between the 6MWD and lung volumes parameters.</p><p><strong>Method:</strong> This cross-sectional study included 60 young healthy adults aged 18–25 years. All Participants performed the 6MWT according to ATS guidelines and underwent pulmonary function test to assess lung volumes. The correlation between 6MWD and lung volume parameters was analyzed using Pearson’s correlation coefficient.</p><p><strong>Results:</strong> Data was analysed using SPSS V20 keeping the level of significance at 5%. The correlation analysis showed a weak and non-significant relationship between 6MWD and FVC (r=0.014, p=0.91), FEV1 (r=0.004, p=0.97) and FEV1/FVC (r=0.068, P=0.607).</p><p><strong>Conclusion:</strong> The study found negative correlation between 6-minute walk distance and lung volumes in young healthy adults. This suggest that lung volumes may not be a strong predictor of functional exercise capacity, as measured by 6MWD, in this population. Further research with larger sample sizes and diverse populations may help clarify this association.</p><p><strong>Keywords:</strong> 6-minute walk test, 6 min walk distance, lung volume, spirometer, pulmonary function test.</p>",
+                    citation_quotes: '<p>Gohil A, Shah S. CORRELATION OF 6 MINUTE WALK DISTANCE AND LUNG VOLUMES IN YOUNG HEALTHY ADULTS. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 367 - 374. https://doi.org/10.63299/ijopt.0060483</p>'
+                },
+                {
+                    _id: '1633',
+                    citation_title: "EFFECTIVENESS OF COMBINED AND COMPARISION OF MANUAL THERAPY AND CLOSED CHAIN EXERCISES ON PAIN, STRENGTH, FUNCTION PERFORMANCE IN CHRONIC CHONDROMALACIA PATELLA -AN EXPERIMENTAL STUDY",
+                    citation_author: [
+                        'Dr. Sree Madhumathi Bhyravabhotla', 'Dr. Anupama Jena', 'Dr. Raghu Vamshi Pogula',
+'Dr. Mohammed Rafi', 'Dr. Sowjanya Maruboyina'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '375',
+                    citation_lastpage: '386',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060484',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/43.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Chondromalacia patella', 'Manual therapy', 'CKC', 'Knee pain', 'VAS', 'ROM', 'KAKP score'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Chondromalacia patella, characterized by softening and degeneration of the patellar cartilage, is a common cause of anterior knee pain in young and active individuals. Manual therapy and closed chain exercises are frequently used rehabilitation approaches, but their comparative effectiveness remains uncertain.</p><p><strong>Objective:</strong> The present study aimed to evaluate combined and compare the effectiveness of manual therapy and closed chain exercises in improving pain, functional performance among individuals with chondromalacia patella.</p><p><strong>Methods:</strong> An Experimental study was conducted with 40 participants diagnosed with chondromalacia patella. Participants were randomly assigned to two groups, Group A received manual therapy interventions including Medial Patellar Glide and Deep friction massage while Group B received closed chain strengthening exercises targeting quadriceps and hip stabilizers based on selection criteria. Both groups received treatment three times per week for six weeks. all subjects are approved with informed consent statement for participation. Outcome measures included the VAS ,strength ,KROM,KAKP scale with pre and post test values.</p><p><strong>Results:</strong> Both interventions demonstrated significant improvements in post tests knee pain reduction and functional outcomes (p = 0.05). However, participants in the manual therapy and closed kinematic chain exercise group showed greater enhancement in pain, muscle strength, functional performance with Kujala Anterior Knee pain Scale(KAKPS) showed greater improvement ( p =0.05).</p><p><strong>Conclusion:</strong> However both manual therapy and CKC are effective in managing symptoms of chondromalacia patella. whereas Manual therapy provides significant reduction in anterior knee pain, while closed kinematic chain exercises provides increase in knee range of motion and Functional performance. A combined approach may offers significant rehabilitation outcomes subjects with chondromalacia patella.</p><p><strong>Keywords:</strong> Chondromalacia patella, Manual therapy, CKC, Knee pain, VAS, ROM, KAKP score</p>",
+                    citation_quotes: '<p>Bhyravabhotla SM, Jena A, Pogula RV, Rafi M, Maruboyina S. EFFECTIVENESS OF COMBINED AND COMPARISION OF MANUAL THERAPY AND CLOSED CHAIN EXERCISES ON PAIN, STRENGTH, FUNCTION PERFORMANCE IN CHRONIC CHONDROMALACIA PATELLA -AN EXPERIMENTAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 375 - 386. https://doi.org/10.63299/ijopt.0060484</p>'
+                },
+                {
+                    _id: '1634',
+                    citation_title: "STUDY TO FIND OUT THE EFFECT OF RESPIRATORY MUSCLE STRETCH GYMNASTICS ON PULMONARY FUNCTION IN A POST-OPERATIVE CORONARY ARTERY BYPASS GRAFTING – AN INTERVENTIONAL STUDY",
+                    citation_author: [
+                        'Yesha Rathva', 'Mihir Mehta', 'Ayesha Mulla'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '387',
+                    citation_lastpage: '402',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060427',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/44.pdf',
+                    sCitation_SEO_Keywords: [
+                        'pulmonary function', 'respiratory muscle stretch gymnastics', 'chest expansion', 'coronary artery bypass grafting'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Cardiovascular diseases (CVDs) continue to be a predominant global health issue, with atherosclerosis as a pivotal factor. Atherosclerosis is defined as the accumulation of lipid plaques in artery walls, resulting in constriction, rigidity, and potential obstructions that increase the risk of myocardial infarctions and cerebrovascular accidents. In severe cases, cardiovascular diseases may require surgical procedures such as coronary artery bypass grafting (CABG). Post-operative rehabilitation is crucial, especially for patients recovering after CABG, to improve results and avert problems. In this study, the use of respiratory muscle stretch gymnastics (RMSG) into rehabilitation programs following CABG is investigated. The findings demonstrate that RMSG can significantly improve lung function, reduce surgical complications, and hasten the healing process. To confirm these benefits and evaluate their long-term impacts, more research is needed with larger, more diverse patient groups and longer follow-up periods.</p><p><strong>Methodology:</strong> A total of 54 postoperative coronary artery bypass grafting patients were included in the study. Patients were randomly allocated to 2 groups: the experimental group (Group A) and the control group (Group B). Group A received conventional exercise-based cardiac rehabilitation and RMSG exercise, 4 sets, 3 days/week for 4 weeks. Group B received conventional exercise-based cardiac rehabilitation for the same period. After 4 weeks of exercise, assessment, and documentation of pulmonary function tests (FVC, FEV1, PEFR, PImax) and chest expansion.</p><p><strong>Results:</strong> The results showed that there was statistically significant improvement in pulmonary function (FVC, FEV1, PEFR, PIMAX) and chest expansion in the experimental group (Group A) and the control group (Group B) after 4 weeks of intervention for all the outcome measures within the group. Between-group analysis showed more improvement in the experimental group (Group A) compared to the control group (Group B) on all outcome measures.</p><p><strong>Conclusion:</strong> The study concluded that respiratory muscle stretch gymnastics improve pulmonary functions (FVC, FEV1, PEFR, PImax) and chest expansion in patients with coronary artery bypass grafting.</p><p><strong>Keywords:</strong> pulmonary function, respiratory muscle stretch gymnastics, chest expansion, coronary artery bypass grafting</p>",
+                    citation_quotes: '<p>Rathva Y, Mehta M, Mulla A. STUDY TO FIND OUT THE EFFECT OF RESPIRATORY MUSCLE STRETCH GYMNASTICS ON PULMONARY FUNCTION IN A POST-OPERATIVE CORONARY ARTERY BYPASS GRAFTING – AN INTERVENTIONAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 387 - 402. https://doi.org/10.63299/ijopt.0060427</p>'
+                },
+                {
+                    _id: '1635',
+                    citation_title: "EFFECT OF DIFFERENT INDIAN CLASSICAL DANCE FORM TRAINING ON PULMONARY FUNCTION IN INDIVIDUALS AGED 30-59 YEARS - A COMPARATIVE STUDY",
+                    citation_author: [
+                        'Aayushi Siddhpura', 'Dr. Dipali Suvarna'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '403',
+                    citation_lastpage: '407',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060485',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/45.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Indian classical dance', 'Pulmonary function', 'PEFR', 'Breath Holding Test', 'Respiratory efficiency', 'Community rehabilitation', 'Middle-aged adults'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Indian classical dance integrates rhythmic movement with controlled breathing, offering potential benefits for respiratory function. This study aimed to compare the effects of Bharatanatyam, Kathak, and Odissi training on pulmonary function in adults aged 30 to 59 years. A total of sixty trained dancers, with 20 in each group and a minimum of one year of practice at least twice weekly, were recruited. Peak Expiratory Flow Rate (PEFR) was measured using a peak flow meter, while cardiopulmonary reserve was assessed by the Breath Holding Test (BHT). Data normality was examined using the Shapiro–Wilk test, and intergroup comparisons were performed using the non-parametric Kruskal–Wallis test. The results demonstrated significant differences in PEFR (H = 7.268, p = 0.026) and BHT (p < 0.001) across the three groups, with Odissi dancers achieving the highest values, followed by Bharatanatyam and Kathak. These findings indicate that variations in breathing techniques and movement intensity among dance forms influence pulmonary outcomes. In conclusion, Odissi and Bharatanatyam appear more effective than Kathak in enhancing respiratory efficiency. The study highlights the potential of Indian classical dance as a culturally enriching and enjoyable means of promoting pulmonary health in middle-aged adults, supporting its integration into wellness and rehabilitation programs.</p><p><strong>Keywords:</strong> Indian classical dance, Pulmonary function, PEFR, Breath Holding Test, Respiratory efficiency, Community rehabilitation, Middle-aged adults.</p>",
+                    citation_quotes: '<p>Siddhpura A, Suvarna D. EFFECT OF DIFFERENT INDIAN CLASSICAL DANCE FORM TRAINING ON PULMONARY FUNCTION IN INDIVIDUALS AGED 30-59 YEARS - A COMPARATIVE STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 403 - 407. https://doi.org/10.63299/ijopt.0060485</p>'
+                },
+                {
+                    _id: '1636',
+                    citation_title: "EFFECTS OF DIAPHRAGMATIC BREATHING EXERCISE AND ANULOM VILOM ON PFT, PEFR AND BREATH HOLDING TIME IN GRADE 1 HYPERTENSIVE ADULTS: A COMPARATIVE STUDY",
+                    citation_author: [
+                        'Dr. Rujuta Tidke', 'Dr. Shilpa Parab'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '408',
+                    citation_lastpage: '422',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060486',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/46.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Diaphragmatic Breathing Exercise', 'Anulom Vilom', 'Pulmonary Function Test', 'PEFR', 'Breath Holding Time', 'Pranayama'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Hypertension is a major global health concern and is associated with impaired pulmonary function and autonomic imbalance. Breathing-based interventions such as diaphragmatic breathing exercises and Anulom Vilom pranayama have been shown to improve respiratory mechanics, autonomic regulation, and overall cardiopulmonary efficiency. However, comparative evidence on their effectiveness in hypertensive individuals remains limited.</p><p><strong>Aim:</strong> To compare the effectiveness of diaphragmatic breathing exercises and Anulom Vilom pranayama on pulmonary function parameters and breath-holding time in individuals with grade 1 hypertension.</p><p><strong>Methods:</strong> A comparative study was conducted on 100 participants with grade 1 hypertension, randomly assigned into two groups: Group A (n=50) received diaphragmatic breathing exercises, and Group B (n=50) practiced Anulom Vilom pranayama for four weeks. Pre- and post-intervention assessments included Forced Vital Capacity (FVC), Forced Expiratory Volume in 1 second (FEV₁), Peak Expiratory Flow Rate (PEFR), and Breath-Holding Time (BHT). Data were analysed using appropriate statistical tests, with significance set at p < 0.05.</p><p><strong>Results:</strong> Both groups demonstrated significant improvements in FVC, FEV₁, PEFR, and BHT following the intervention (p < 0.05). However, diaphragmatic breathing exercises produced significantly greater improvements compared to Anulom Vilom. Group A showed superior gains in FVC, FEV₁, PEFR, and BHT (p < 0.05), while the FEV₁/FVC ratio remained statistically non-significant in both groups.</p><p><strong>Conclusion:</strong> Both diaphragmatic breathing exercises and Anulom Vilom pranayama effectively enhance pulmonary function and breath-holding capacity in individuals with grade 1 hypertension. However, diaphragmatic breathing exercises demonstrate greater overall efficacy.</p><p><strong>Keywords:</strong> Diaphragmatic Breathing Exercise, Anulom Vilom, Pulmonary Function Test, PEFR, Breath Holding Time, Pranayama</p>",
+                    citation_quotes: '<p>Tidke R, Parab S. EFFECTS OF DIAPHRAGMATIC BREATHING EXERCISE AND ANULOM VILOM ON PFT, PEFR AND BREATH HOLDING TIME IN GRADE 1 HYPERTENSIVE ADULTS: A COMPARATIVE STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 408 - 422. https://doi.org/10.63299/ijopt.0060486</p>'
+                },
+                {
+                    _id: '1637',
+                    citation_title: "PREVALENCE OF PROLAPSED INTERVERTEBRAL DISC WITH LOW BACK PAIN IN CHEF - CROSS SECTIONAL STUDY",
+                    citation_author: [
+                        'Dr. Saloni M kapadia', 'Dr. Tanuja pandya', 'Dr. Manisha Rathi'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '423',
+                    citation_lastpage: '434',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060487',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/47.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Low Back Pain (LBP)', 'Prolapsed Intervertebral Disc (PIVD)', 'chefs', 'occupational health', 'Oswestry Disability Index (ODI)', 'Straight Leg Raise (SLR) Test', 'Slump Tes'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Low back pain (LBP) is a common musculoskeletal disorder and a leading cause of disability globally. Prolapsed intervertebral disc (PIVD) is a major structural contributor to LBP, causing localized pain, radiating symptoms, and functional limitations. Chefs are at high risk due to prolonged standing, repetitive bending, lifting, and awkward postures in confined kitchen spaces, which increase lumbar disc stress and degeneration. Despite this, limited data exist on PIVD prevalence in chefs, particularly in India.</p><p><strong>Objective:</strong> To determine the prevalence of PIVD among chefs with LBP, assess associated disability, and identify occupational risk factors.</p><p><strong>Methods:</strong> A cross-sectional study included 43 professional chefs from Ahmedabad, Gujarat, recruited via convenience sampling. Inclusion criteria were LBP with or without radiculopathy, positive clinical signs on Straight Leg Raise (SLR) or Slump Test, and ≥4–5 hours of daily kitchen work. Exclusion criteria included prior spinal surgery, systemic or non-PIVD causes of pain, and neurological red flags. Participants underwent SLR and Slump Tests, and completed the Oswestry Disability Index (ODI) to evaluate functional impairment. Data were analyzed using SPSS v25; p < 0.05 was considered significant.</p><p><strong>Results:</strong> Participants had a mean age of 41.95 ± 4.41 years; 53.48% were female. Radiating pain was reported by 93.02%. SLR positivity was observed in 39.53% and Slump Test positivity in 20.93%. ODI scores indicated severe disability in 55.81% and crippled status in 9.3%. A significant correlation was found between pain duration and disability severity (p = 0.001), with longer pain associated with higher functional limitations.</p><p><strong>Conclusion:</strong> PIVD is prevalent among chefs with LBP, particularly in those with prolonged pain and higher disability. Early screening, ergonomic modifications, posture education, and physiotherapy interventions are critical to prevent progression to chronic disability.</p><p><strong>Keywords:</strong> Low Back Pain (LBP), Prolapsed Intervertebral Disc (PIVD), chefs, occupational health, Oswestry Disability Index (ODI), Straight Leg Raise (SLR) Test, Slump Test</p>",
+                    citation_quotes: '<p>Kapadia SM, Pandya T, Rathi M. PREVALENCE OF PROLAPSED INTERVERTEBRAL DISC WITH LOW BACK PAIN IN CHEF - CROSS SECTIONAL STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 423 - 434. https://doi.org/10.63299/ijopt.0060487</p>'
+                },
+                {
+                    _id: '1638',
+                    citation_title: "EFFECT OF AMBIENT TEMPERATURE ON PHYSIOLOGICAL COST INDEX, HEART RATE RECOVERY, AND RATE OF PERCEIVED EXERTION FOLLOWING A ONE-MILE TREADMILL WALK TEST IN COLLEGE GOING STUDENTS.",
+                    citation_author: [
+                        'Dhruvi Gadhvi', 'Harita Vyas'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '435',
+                    citation_lastpage: '442',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060488',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/48.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Temperature', 'One-mile treadmill walk test', 'College students', 'Physiological cost index', 'Heart Rate Recovery', 'Rate of Perceived Exertion'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Sub-maximal exercise tests assess cardiorespiratory fitness(CRF) using heart rate, blood pressure, and perceived exertion. One-mile treadmill walk test (1MTWT) is a commonly used exercise test. For submaximal exercise testing, the ambient temperature is a crucial factor that has to be well monitored. fitness tests should ideally be conducted in controlled environments for accuracy; this practice is not widely implemented due to practical challenges.</p><p><strong>Objective:</strong> Aim of the study is to evaluate the physiological cost index(PCI), one-minute heart rate-recovery(HRR1), and perceived exertion(RPE) after 1MTWT at two different temperatures, comparing their effects on college students.</p><p><strong>Methods:</strong> An observational crossover study on 11 college going students was conducted after obtaining verbal consent and explaining the procedure. Each Student performed the 1MWT on treadmill in two different ambient temperature environments-(1)Room with air-conditioner plus fan (2)Room without air-conditioner or fan. Post-testing, PCI, RPE, and one-minute heart rate recovery (HRR1) were measured. PCI and RPE across two ambient temperatures were analyzed using paired t-tests, while HRR1 was compared using the Wilcoxon Signed Ranks Test.</p><p><strong>Results:</strong> Significantly higher PCI (p < 0.048), RPE(p<0.001) and lower HRR1 (z<0.003) in room without Air-conditioner or Fan vs with Air-conditioner plus Fan trials.</p><p><strong>Conclusion:</strong> There is significant effect of ambient temperature on PCI, HRR1 and RPE following a 1MTWT. Results emphasize the value of maintaining a controlled environment during CRF assessments to obtain precise outcomes.</p><p><strong>Keywords:</strong> Temperature, One-mile treadmill walk test, College students, Physiological cost index, Heart Rate Recovery, Rate of Perceived Exertion.</p>",
+                    citation_quotes: '<p>Gadhvi D, Vyas H. EFFECT OF AMBIENT TEMPERATURE ON PHYSIOLOGICAL COST INDEX, HEART RATE RECOVERY, AND RATE OF PERCEIVED EXERTION FOLLOWING A ONE-MILE TREADMILL WALK TEST IN COLLEGE GOING STUDENTS. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 435 - 442. https://doi.org/10.63299/ijopt.0060488</p>'
+                },
+                {
+                    _id: '1638',
+                    citation_title: "EFFECTIVENESS OF MYOFACIAL RELEASE VS ULTRASOUND FOR PAIN RELIEF AND FUNCTIONAL IMPROVEMENT IN COMPUTER WORKERS WITH TRAPEZIUS MYALGIA",
+                    citation_author: [
+                        'Dr. Jhanviben M dodiya', 'Dr. Mohammed Sohel Rashidmiya Quadri', 'Dr. Manisha Rathi'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '443',
+                    citation_lastpage: '450',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060490',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/49.pdf',
+                    sCitation_SEO_Keywords: [
+                        'trapezius myalgia', 'myofascial release', 'ultrasound therapy', 'computer workers', 'neck pain', 'disability'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Trapezius myalgia is a common work-related musculoskeletal disorder among computer workers, caused by prolonged static postures and repetitive upper-limb activity, leading to pain, stiffness, and reduced function. Myofascial Release (MFR) and Ultrasound Therapy (UST) are frequently used physiotherapy interventions, yet limited evidence directly compares their effectiveness in this population.</p><p><strong>Objective:</strong> To compare the effectiveness of Myofascial Release and Ultrasound Therapy in reducing pain and improving functional outcomes in computer workers with trapezius myalgia.</p><p><strong>Methods:</strong> Forty computer workers aged 25–45 years clinically diagnosed with trapezius myalgia were randomly allocated into two groups: Group A received Myofascial Release (2 sessions/week), and Group B received Ultrasound Therapy (3 sessions/week) for six weeks. Both groups received conventional exercise therapy. Pain intensity (NPRS) and functional disability (NDI) were assessed pre- and post-intervention. Data were analyzed using paired and independent t-tests with significance set at p < 0.05.</p><p><strong>Results:</strong> Both interventions produced statistically significant improvements in NPRS and NDI scores within groups (p < 0.001). However, between-group comparisons showed no significant difference for NDI (p = 0.38) or NPRS (p = 0.43), indicating comparable effectiveness.</p><p><strong>Conclusion:</strong> MFR and UST are both effective in reducing pain and disability in computer workers with trapezius myalgia. MFR demonstrated slightly greater clinical improvement, though not statistically significant. Larger studies with long-term follow-up are recommended.</p><p><strong>Keywords:</strong> trapezius myalgia, myofascial release, ultrasound therapy, computer workers, neck pain, disability</p>",
+                    citation_quotes: '<p>Dodiya JM, Quadri MSR, Rathi M. EFFECTIVENESS OF MYOFACIAL RELEASE VS ULTRASOUND FOR PAIN RELIEF AND FUNCTIONAL IMPROVEMENT IN COMPUTER WORKERS WITH TRAPEZIUS MYALGIA. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 443 - 450. https://doi.org/10.63299/ijopt.0060490</p>'
+                },
+                {
+                    _id: '1639',
+                    citation_title: "EFFECTIVENESS OF WILLIAM FLEXION EXERCISE VERSES ALEXANDER TECHNIQUE IN NON-SPECIFIC CHRONIC LOW BACK PAIN AMONG TEACHERS: A COMPARATIVE STUDY",
+                    citation_author: [
+                        'Dr. Apexa Ranu', 'Dr. Sakshi J. Thakrar'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '451',
+                    citation_lastpage: '460',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060410',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/50.pdf',
+                    sCitation_SEO_Keywords: [
+                        'CLBP', 'NPRS', 'ODI', 'WFE', 'AT'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Low Back Pain (LBP) is one of the top 10 highest-burden diseases and injuries. In current study, the William Flexion Exercise (WEF) and the Alexander Technique (AT) were performed to assess its effectiveness among Teachers. The William Flexion Exercise is based on distract the apophyseal joints which further stretch ligamentous structures through opening the intervertebral foramen, whereas the Alexander Technique enhance kinaesthetic awareness and conscious inhibition to avoiding harmful movement patterns.</p><p><strong>Objective:</strong> The aim of this study is to compare the effects of WFE verses AT among Teachers on pain and disability in patients with CLBP.</p><p><strong>Methods:</strong> Ethical clearance was taken from the Ethical Committee. The Convenient Sampling Technique was used to collect the samples. On the based-on Selection criteria 30 participants were selected based on. Once the participants were educated about the treatment's specifics, they provided signed consent. Group A received WFE whereas Group B received AT. Numerical Pain Rating Scale (NPRS), Oswestry Disability Index (ODI) outcome was used before and after the treatment. Exercises were performed for 5session/week for 3 week total 15 Session in both the groups.</p><p><strong>Results:</strong> The data was analysed using SPSS Version 23. There was a significant improvement in pain and function (p <0.05), which showed that William Flexion Exercise was produced in Group A was more effective.</p><p><strong>Conclusion:</strong> The study concluded that the William Flexion Exercise significantly reduced pain and improved functional capacity in teachers with nonspecific CLBP, as measured by NPRS and ODI after three weeks.</p><p><strong>Keywords:</strong> CLBP, NPRS, ODI, WFE, AT</p>",
+                    citation_quotes: '<p>Ranu A, Thakrar SJ. EFFECTIVENESS OF WILLIAM FLEXION EXERCISE VERSES ALEXANDER TECHNIQUE IN NON-SPECIFIC CHRONIC LOW BACK PAIN AMONG TEACHERS: A COMPARATIVE STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 451 - 460. https://doi.org/10.63299/ijopt.0060410</p>'
+                },
+                {
+                    _id: '1640',
+                    citation_title: "TO STUDY THE EFFECT OF LOW IMPACT AEROBIC EXERCISES ON PHYSICAL FUNCTION OF LOWER EXTREMITY IN SEDENTARY ELDERLY PEOPLE",
+                    citation_author: [
+                        'Ronnica Borge', 'Dr. Vijaya Bagade', 'Dr. Albin Jerome'
+                    ],
+                    citation_publication_date: 'Oct - Dec, 2025',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '6',
+                    citation_issue: '4',
+                    citation_firstpage: '461',
+                    citation_lastpage: '467',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0060411',
+                    sDownLoadUrl: '/assets/documents/archives/2025/Vol-6_Issue-4/51.pdf',
+                    sCitation_SEO_Keywords: [
+                        'Low-impact aerobics', 'elderly', 'sedentary', 'physical function'
+                    ],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Aging often leads to decline in physical function especially in the lower extremity which predisposes the elderly to a sedentary lifestyle contributing to poor health outcomes and difficulty in performing daily tasks.</p><p><strong>Objective:</strong> This study aimed to evaluate the effect of low impact aerobic exercises to improve the physical function of lower extremity in sedentary elderly in Pune specifically targeting balance, gait speed and ability to perform chair sit to stand.</p><p><strong>Methods:</strong> A six-month quasi-experimental study was conducted among twenty-seven sedentary adults aged 65-74 years in Pune. Participants included individuals who could walk without assistive devices and excluded individuals who were active (≤1.5 MET), who had a recent fracture or lower-limb injury, major medical or psychological conditions. They were assessed using Short Physical Performance Battery before and after a low impact aerobic exercise program, performed 40-45 minutes daily, five days per week for one month. Data was analysed using paired t test, with P<0.005 considered as significant.</p><p><strong>Result:</strong> The participants demonstrated statistically significant improvement in all domains of the outcome measure: balance (p<0.0001), gait speed (p<0.0001), chair sit to stand (p<0.0006) and total score (p<0.0001). This suggests that there were improvements in the functional mobility and lower extremity function.</p><p><strong>Conclusion:</strong> The findings suggest that a simple, low impact aerobic exercise protocol can effectively improve the lower extremity physical function in sedentary elderly individuals. It can help counteract the sedentary lifestyle while also providing musculoskeletal and cardiovascular benefits, enhancing the ability to perform functional tasks efficiently and independently.</p><p><strong>Keywords:</strong> Low-impact aerobics, elderly, sedentary, physical function</p>",
+                    citation_quotes: '<p>Borge R, Bagade V, Jerome A. TO STUDY THE EFFECT OF LOW IMPACT AEROBIC EXERCISES ON PHYSICAL FUNCTION OF LOWER EXTREMITY IN SEDENTARY ELDERLY PEOPLE. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 461 - 467. https://doi.org/10.63299/ijopt.0060411</p>'
                 },
             ]
         },
