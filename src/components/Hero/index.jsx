@@ -22,7 +22,7 @@ const Hero = () => {
                 <p className={`${inter?.className} mt-3 last-date`}>Journal DOI: <span className='text-lowercase'>https://doi.org/10.63299/ijopt</span></p>
             </div>
 
-            <div className='mt-5 d-flex'>
+            <div className='bottom-btns'>
                 <Button type='button' className={`me-3 submit-btn ${inter?.className}`} onClick={() => router?.push('https://app.oxfordabstracts.com/stages/78097/submitter', '_blank')}>Submit Paper</Button>
                 <Button className={`author-btn ${inter?.className}`} type='button' onClick={() => router?.push('/author-tools/guidelines')}>Author Guidelines</Button>
             </div>

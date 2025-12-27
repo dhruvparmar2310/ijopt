@@ -1,28 +1,42 @@
 import BreadCrumb from '@/components/BreadCrumb'
 import Head from 'next/head'
 import { useRouter, withRouter } from 'next/router'
-import React, { Fragment, useEffect, useRef, useState } from 'react'
-import { Button, Table } from 'react-bootstrap'
+import React, { Fragment, useEffect, useMemo, useRef, useState } from 'react'
+import { Button, Form, Table } from 'react-bootstrap'
 import { saveAs } from 'file-saver'
-import { FaUserCircle, FaEye } from "react-icons/fa"
+import { FaUserCircle, FaEye, FaAngleLeft, FaAngleRight } from "react-icons/fa6"
 import { FaDownload } from "react-icons/fa6"
 import { Abril_Fatface, Comfortaa, Inter, Ubuntu } from 'next/font/google'
 import { GrFormPrevious, GrPrevious, GrTextAlignFull } from "react-icons/gr"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAlignLeft, faCircleDown, faEye, faFilePdf, faLink, faQuoteLeft, faShare } from '@fortawesome/free-solid-svg-icons'
+import { faAlignLeft, faCircleDown, faEye, faFilePdf, faLink, faQuoteLeft, faShare, faSpinner } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 import Image from 'next/image'
 import Skeleton from 'react-loading-skeleton'
 import axios from 'axios'
 import { archiveList, archives } from '@/data/archives'
 import advertiseImg from '../../../public/assets/img/archives/webinar.png'
+import { useForm } from 'react-hook-form'
 const inter = Inter({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 
+const PAGE_SIZE = 10;
 function ArchiveID ({ data }) {
     const router = useRouter()
     const { archiveID, sArticle } = router.query
+
+    const { register, watch, setValue } = useForm({
+        mode: 'onChange',
+        defaultValues: { search: "" }
+    });
+    const searchValue = watch("search");
+
     const archivePath = Array.isArray(archiveID) ? archiveID : [];
     const [articleData, setArticleData] = useState({})
+    const [currentPage, setCurrentPage] = useState(1);
+    const [filteredData, setFilteredData] = useState(articleData?.aJournals || []);
+    const [isSearching, setIsSearching] = useState(false);
+    const totalPages = Math.ceil(filteredData?.length / PAGE_SIZE);
+
     const [currentArticle, setCurrentArticle] = useState({
         volume: '',
         issue: '',
@@ -55,6 +69,54 @@ function ArchiveID ({ data }) {
     const handleDOINavigation = () => {
         window.open('https://ijopt.co.in/' + articleData?.sDownLoadUrl, '_blank')
     }
+
+    const paginatedData = useMemo(() => {
+        const start = (currentPage - 1) * PAGE_SIZE;
+        const end = start + PAGE_SIZE;
+        return filteredData?.slice(start, end);
+    }, [currentPage, filteredData]);
+
+    useEffect(() => {
+        if (searchValue !== undefined) {
+            setIsSearching(true);
+        }
+        const timer = setTimeout(() => {
+            if (!searchValue?.trim()) {
+                setFilteredData(articleData?.aJournals);
+                setCurrentPage(1);
+                setIsSearching(false);
+                return;
+            }
+
+            const keyword = searchValue.toLowerCase();
+
+            const result = articleData?.aJournals?.filter(item => {
+                const titleMatch = item.citation_title
+                    ?.toLowerCase()
+                    .includes(keyword);
+
+                const authorMatch = item.citation_author
+                    ?.join(" ")
+                    .toLowerCase()
+                    .includes(keyword);
+
+                return titleMatch || authorMatch;
+            });
+
+            setFilteredData(result);
+            setCurrentPage(1);
+            setIsSearching(false);
+        }, 400);
+
+        return () => clearTimeout(timer);
+    }, [searchValue, articleData?.aJournals]);
+
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }, [currentPage]);
     return (
         <>
             <Head>
@@ -164,44 +226,107 @@ function ArchiveID ({ data }) {
                         {archiveID?.length === 3 &&
                             (<>
                                 <div className='current-article'>
-                                    <div className={`container ${inter.className}`}>
+                                    <div className={`container ${inter.className} top-header`}>
                                         <div>
                                             <h6>Current Issue</h6>
                                             <h1>
-                                                Volume {currentArticle.volume} | Issue {currentArticle.issue} | {currentArticle.year}
+                                                <span>
+                                                    Volume {currentArticle.volume} | Issue {currentArticle.issue} | {currentArticle.year}
+                                                </span>
                                             </h1>
                                             <BreadCrumb basePath={['/', '/archives', `/${archivePath.join('/')}`]} title={`Volume ${currentArticle.volume} | Issue ${currentArticle.issue} | ${currentArticle.year} | Archives | IJOPT`} />
                                         </div>
-                                        <div>
-                                            <Button type='button' onClick={() => router?.push('/archives')}><FontAwesomeIcon icon={faShare} flip='horizontal' /> Go Back</Button>
-                                        </div>
+                                        <Button type='button' onClick={() => router?.push('/archives')}><FontAwesomeIcon icon={faShare} flip='horizontal' /> Go Back</Button>
                                     </div>
                                 </div>
                                 <div className="container mt-4">
                                     <div className='all-journal-list'>
                                         <div className='issue-list'>
-                                            {articleData?.aJournals?.map(item => {
-                                                return (
-                                                    <div key={item?._id} className={`issue-details ${inter.className}`}>
-                                                        <div>
-                                                            <span className={`article-tag`}>{item?.eTag}</span> <span>|</span> <span className={`date`}>Published on {item?.citation_publication_date}</span>
-                                                        </div>
-                                                        <h1 className={`${inter?.className} article-title`}>{item?.citation_title}</h1>
-                                                        <p className={`author-name ${inter?.className}`}> {item?.citation_author?.map(item => item)?.join(', ')} </p>
-                                                        {/* {item?.sDOINo === '-' ? ''
+                                            <Form className="mb-4 search-bar">
+                                                <Form.Control
+                                                    type="text"
+                                                    placeholder="Search by title or author..."
+                                                    {...register("search")}
+                                                />
+                                                {watch('search')?.length > 0 && (
+                                                    <Button
+                                                        size="sm"
+                                                        onClick={() => {
+                                                            setValue("search", "");
+                                                            setFilteredData(articleData?.aJournals);
+                                                            setCurrentPage(1);
+                                                            setIsSearching(false);
+                                                        }}
+                                                    >
+                                                        ✕
+                                                    </Button>
+                                                )}
+                                            </Form>
+                                            {isSearching ?
+                                                <div className='text-center my-5'>
+                                                    <FontAwesomeIcon icon={faSpinner} spin size='1x' /> Loading...
+                                                </div>
+                                                :
+                                                paginatedData?.length > 0 ? paginatedData?.map(item => {
+                                                    return (
+                                                        <div key={item?._id} className={`issue-details ${inter.className}`}>
+                                                            <div>
+                                                                <span className={`article-tag`}>{item?.eTag}</span> <span>|</span> <span className={`date`}>Published on {item?.citation_publication_date}</span>
+                                                            </div>
+                                                            <h1 className={`${inter?.className} article-title`}>{item?.citation_title}</h1>
+                                                            <p className={`author-name ${inter?.className}`}> {item?.citation_author?.map(item => item)?.join(', ')} </p>
+                                                            {/* {item?.sDOINo === '-' ? ''
                                                             : <p className={`doi-number`}>DOI: <span style={{ cursor: 'pointer' }} onClick={() => goToZenodo(item?.sDOINo)}>{item?.sDOINo}</span> <span><FontAwesomeIcon icon={faEye} /> {getArticleStats(item?.sDOINo)}</span></p>
                                                         } */}
-                                                        <div className='action-bar'>
-                                                            {item?.citation_firstpage === '-' ? '' : <><span>Page No.: {item?.citation_firstpage} - {item?.citation_lastpage}</span><span className={` pipe-symbol`}>|</span></>} <span className={`downLoad-btn`} onClick={() => router.push({
-                                                                pathname: `/archives/${currentArticle?.year}/${currentArticle?.volume}/${currentArticle?.issue}/${item?._id}`,
-                                                            })}><GrTextAlignFull /> Abstract</span>
-                                                            {/* {archiveID?.[0]?.includes('Volume-2') &&
+                                                            <div className='action-bar'>
+                                                                {item?.citation_firstpage === '-' ? '' : <><span>Page No.: {item?.citation_firstpage} - {item?.citation_lastpage}</span><span className={` pipe-symbol`}>|</span></>} <span className={`downLoad-btn`} onClick={() => router.push({
+                                                                    pathname: `/archives/${currentArticle?.year}/${currentArticle?.volume}/${currentArticle?.issue}/${item?._id}`,
+                                                                })}><GrTextAlignFull /> Abstract</span>
+                                                                {/* {archiveID?.[0]?.includes('Volume-2') &&
                                                                 (item?.sDownLoadUrl === '-' ? '' : <><span className={styles?.pipeSymbol}>|</span> <span className={`downLoadBtn`} onClick={() => saveAs(`${item?.sDownLoadUrl}`, `${item?.sName}`)}><FontAwesomeIcon icon={faFilePdf} /> PDF</span></>
                                                                 )} */}
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                )
-                                            })}
+                                                    )
+                                                }) : <p className='no-record'>No Record Found</p>
+                                            }
+                                            {!isSearching && totalPages > 1 &&
+                                                <div className='pagination-control'>
+                                                    {/* PREV */}
+                                                    <Button
+                                                        onClick={() => setCurrentPage(p => p - 1)}
+                                                        disabled={currentPage === 1}
+                                                        className='prev-btn'
+                                                    >
+                                                        <FaAngleLeft />
+                                                    </Button>
+
+                                                    {/* PAGE NUMBERS */}
+                                                    {paginatedData && ([...Array(totalPages)]?.map((_, index) => {
+                                                        const page = index + 1;
+
+                                                        return (
+                                                            <Button
+                                                                key={page}
+                                                                onClick={() => setCurrentPage(page)}
+                                                                disabled={page === currentPage}
+                                                                className={`page-btn ${page === currentPage ? 'active' : ''}`}
+                                                            >
+                                                                {page}
+                                                            </Button>
+                                                        );
+                                                    }))}
+
+                                                    {/* NEXT */}
+                                                    <Button
+                                                        onClick={() => setCurrentPage(p => p + 1)}
+                                                        disabled={currentPage === totalPages}
+                                                        className='next-btn'
+                                                    >
+                                                        <FaAngleRight />
+                                                    </Button>
+                                                </div>
+                                            }
                                         </div>
                                         <div className={`other-indexing`}>
                                             <div className={`card-design ${inter?.className}`}>

@@ -71,6 +71,13 @@
 
     .inner-content {
 
+        .top-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2vh;
+        }
+
         // ----- ARTICLE LIST ------
         .current-article {
             width: 100%;
@@ -81,13 +88,9 @@
             color: var(--white-color);
 
             >div {
-                display: flex;
-                justify-content: space-between;
-                align-items: end;
-
                 .breadcrumb-section {
                     padding: 5px 0;
-                    position: absolute;
+                    // position: absolute;
 
                     a {
                         text-decoration: none;
@@ -195,6 +198,105 @@
 
                 @media (max-width: 576px) {
                     width: 100%;
+                }
+
+                .search-bar {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: nowrap;
+                    gap: 1.5vh;
+
+                    .form-control {
+                        border-radius: 30px;
+                        border: 2px solid rgba(128, 128, 128, 0.572);
+                        color: var(--primary-color);
+                        padding: 0.5rem 1rem;
+
+                        &::placeholder {
+                            font-style: italic;
+                            color: rgb(128, 128, 128);
+                        }
+
+                        &:focus {
+                            box-shadow: 0 3px 3px rgba(0, 0, 0, 0.408);
+                            border: 2px solid var(--primary-color);
+
+                            &::placeholder {
+                                color: var(--primary-color);
+                            }
+                        }
+                    }
+
+                    button {
+                        height: 100%;
+                        border-radius: 50%;
+                        background: var(--primary-color);
+                        border: 0.4vh solid var(--primary-color);
+
+                        &:hover {
+                            background: var(--primary-dark);
+                            border: 0.4vh solid var(--primary-dark);
+                            color: var(--white-color);
+                        }
+                    }
+                }
+
+                .no-record {
+                    text-align: center;
+                    margin: 50px 0;
+                    font-size: 3vh;
+                    color: gray;
+                    font-style: italic;
+                    font-weight: 600;
+                }
+
+                .pagination-control {
+                    margin-block: 3vh;
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 1vh;
+
+                    button {
+                        border-radius: 50%;
+                        padding: 0;
+                        width: 100%;
+                        max-width: 2rem;
+                        height: 2rem;
+                        line-height: 1;
+
+                        &.prev-btn,
+                        &.next-btn {
+                            background: var(--primary-dark);
+                            border: 1px solid var(--primary-dark);
+
+                            svg {
+                                width: 1rem;
+                                height: 1rem;
+                                transition: all 0.3s linear;
+                            }
+
+                            &:hover {
+                                svg {
+                                    transform: scale(1.2);
+                                }
+                            }
+                        }
+
+                        &.page-btn {
+                            background: var(--white-color);
+                            border: 1px solid var(--primary-color);
+                            color: var(--primary-color);
+                            font-weight: 600;
+
+                            &.active,
+                            &:hover {
+                                background: var(--primary-color);
+                                color: var(--white-color);
+                            }
+                        }
+                    }
                 }
 
                 .issue-details {
@@ -514,6 +616,10 @@
                         width: 100%;
                         max-width: 100%;
                     }
+
+                    .ads-img {
+                        text-align: center;
+                    }
                 }
             }
 
@@ -579,6 +685,10 @@
                     .card-design {
                         width: 100%;
                         max-width: 100%;
+                    }
+
+                    .ads-img {
+                        text-align: center;
                     }
                 }
             }
