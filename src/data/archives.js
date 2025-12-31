@@ -2877,7 +2877,7 @@ export const archiveList = {
                     citation_quotes: '<p>Gadhvi D, Vyas H. EFFECT OF AMBIENT TEMPERATURE ON PHYSIOLOGICAL COST INDEX, HEART RATE RECOVERY, AND RATE OF PERCEIVED EXERTION FOLLOWING A ONE-MILE TREADMILL WALK TEST IN COLLEGE GOING STUDENTS. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 435 - 442. https://doi.org/10.63299/ijopt.0060488</p>'
                 },
                 {
-                    _id: '1638',
+                    _id: '1639',
                     citation_title: "EFFECTIVENESS OF MYOFACIAL RELEASE VS ULTRASOUND FOR PAIN RELIEF AND FUNCTIONAL IMPROVEMENT IN COMPUTER WORKERS WITH TRAPEZIUS MYALGIA",
                     citation_author: [
                         'Dr. Jhanviben M dodiya', 'Dr. Mohammed Sohel Rashidmiya Quadri', 'Dr. Manisha Rathi'
@@ -2901,7 +2901,7 @@ export const archiveList = {
                     citation_quotes: '<p>Dodiya JM, Quadri MSR, Rathi M. EFFECTIVENESS OF MYOFACIAL RELEASE VS ULTRASOUND FOR PAIN RELIEF AND FUNCTIONAL IMPROVEMENT IN COMPUTER WORKERS WITH TRAPEZIUS MYALGIA. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 443 - 450. https://doi.org/10.63299/ijopt.0060490</p>'
                 },
                 {
-                    _id: '1639',
+                    _id: '1640',
                     citation_title: "EFFECTIVENESS OF WILLIAM FLEXION EXERCISE VERSES ALEXANDER TECHNIQUE IN NON-SPECIFIC CHRONIC LOW BACK PAIN AMONG TEACHERS: A COMPARATIVE STUDY",
                     citation_author: [
                         'Dr. Apexa Ranu', 'Dr. Sakshi J. Thakrar'
@@ -2925,7 +2925,7 @@ export const archiveList = {
                     citation_quotes: '<p>Ranu A, Thakrar SJ. EFFECTIVENESS OF WILLIAM FLEXION EXERCISE VERSES ALEXANDER TECHNIQUE IN NON-SPECIFIC CHRONIC LOW BACK PAIN AMONG TEACHERS: A COMPARATIVE STUDY. Indian Journal of Physical Therapy. 2025 Oct - Dec; 6(4): 451 - 460. https://doi.org/10.63299/ijopt.0060410</p>'
                 },
                 {
-                    _id: '1640',
+                    _id: '1641',
                     citation_title: "TO STUDY THE EFFECT OF LOW IMPACT AEROBIC EXERCISES ON PHYSICAL FUNCTION OF LOWER EXTREMITY IN SEDENTARY ELDERLY PEOPLE",
                     citation_author: [
                         'Ronnica Borge', 'Dr. Vijaya Bagade', 'Dr. Albin Jerome'

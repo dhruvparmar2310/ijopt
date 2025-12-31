@@ -269,7 +269,7 @@ function ArchiveID ({ data }) {
                                                 :
                                                 paginatedData?.length > 0 ? paginatedData?.map(item => {
                                                     return (
-                                                        <div key={item?._id} className={`issue-details ${inter.className}`}>
+                                                        <div key={item?.citation_title} className={`issue-details ${inter.className}`}>
                                                             <div>
                                                                 <span className={`article-tag`}>{item?.eTag}</span> <span>|</span> <span className={`date`}>Published on {item?.citation_publication_date}</span>
                                                             </div>
