@@ -95,7 +95,7 @@ const Footer = () => {
                                     <ul>
                                         <li><i className="ri-arrow-right-s-line"></i> <Link href="/" title='Home | IJOPT' className={inter?.className}>Home</Link></li>
                                         <li><i className="ri-arrow-right-s-line"></i> <Link href="/about/ijopt" title='About Us | IJOPT' className={inter?.className}>About us</Link></li>
-                                        <li><i className="ri-arrow-right-s-line"></i> <Link href="/author-tools/submit-paper-online" title='Submit Paper | IJOPT' className={inter?.className}>Submit Paper</Link></li>
+                                        <li><i className="ri-arrow-right-s-line"></i> <Link href="https://app.oxfordabstracts.com/stages/78097/submitter" title='Submit Paper | IJOPT' className={inter?.className}>Submit Paper</Link></li>
                                         <li><i className="ri-arrow-right-s-line"></i> <Link href="/author-tools/guidelines" title='Author Guidelines | IJOPT' className={inter?.className}>Guidelines</Link></li>
                                     </ul>
                                 </div>

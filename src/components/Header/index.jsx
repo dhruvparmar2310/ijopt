@@ -15,6 +15,7 @@ import underTakeForm from '../../../public/assets/documents/UNDERTAKING BY AUTHO
 import copyrightForm from '../../../public/assets/documents/COPYRIGHT FORM.pdf'
 import samplePaperFormat from '../../../public/assets/documents/ijopt-paper-format.docx'
 
+
 const antonSC = Anton({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const inter = Inter({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 

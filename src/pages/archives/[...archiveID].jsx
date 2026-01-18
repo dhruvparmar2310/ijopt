@@ -17,6 +17,8 @@ import axios from 'axios'
 import { archiveList, archives } from '@/data/archives'
 import advertiseImg from '../../../public/assets/img/archives/webinar.png'
 import { useForm } from 'react-hook-form'
+import samplePaperFormat from '../../../public/assets/documents/ijopt-paper-format.docx'
+
 const inter = Inter({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 
 const PAGE_SIZE = 10;

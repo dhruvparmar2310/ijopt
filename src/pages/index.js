@@ -11,6 +11,7 @@ import { faBookOpenReader, faFileArrowDown, faFileLines, faGlobe, faHandHoldingD
 import Link from 'next/link'
 import advertiseImg1 from '../../public/assets/img/archives/webinar-1.jpg'
 import advertiseImg2 from '../../public/assets/img/archives/webinar-2.jpg'
+import samplePaperFormat from '../../public/assets/documents/ijopt-paper-format.docx'
 
 const anton = Anton({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
 const antonSC = Anton_SC({ subsets: ['latin'], weight: ['400'], style: ['normal'] })
@@ -139,7 +140,7 @@ export default function Home() {
               },
               {
                 '@type': 'ReadAction',
-                target: 'https://ijopt.co.in/author-tools/submit-paper-online',
+                target: 'https://app.oxfordabstracts.com/stages/78097/submitter',
                 name: 'Submit Paper Online'
               },
               {
