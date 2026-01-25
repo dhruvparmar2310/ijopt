@@ -2950,5 +2950,327 @@ export const archiveList = {
                 },
             ]
         },
-    ]
+    ],
+    '2026': [
+        {
+            _id: '12',
+            sName: 'Volume 7, Issue 1',
+            sImage: 'assets/img/archives/v7-i1.png',
+            dCreatedDate: '2026',
+            sPdfFile: 'assets/documents/archives/2026/1.pdf',
+            sVolume: '7',
+            sIssue: '1',
+            aJournals: [
+                {
+                    _id: '1201',
+                    citation_title: "EFFECT OF COMPREHENSIVE EXERCISE PROGRAM ON MEDIAL LONGITUDINAL ARCH AND NAVICULAR DROP IN SUBJECTS WITH UNILATERAL FLEXIBLE FLAT FOOT",
+                    citation_author: [
+                        'Vimal C B', 'Manoj Abraham Manoharalal', 'Selva Tharun Tharma Seelan'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '1',
+                    citation_lastpage: '8',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070189',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/1.pdf',
+                    sCitation_SEO_Keywords: ['Flexible flat foot', 'Comprehensive exercise', 'Conventional exercise', 'Navicular drop', 'Medial Longitudinal arch angle'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Flat foot is a condition in which the medial longitudinal arch becomes abnormally low and the navicular drop is abnormal while comparing the normal individual. This will focus on the curative aspect of individuals with unilateral flexible flatfoot.</p><p><strong>Objective:</strong> The purpose of this study is to evaluate the effect of comprehensive exercise program on medial longitudinal arch and navicular drop in subjects with unilateral flexible flat foot.</p><p><strong>Methods:</strong> A total of 30 participants divided into two groups as Group A & B each consisting of 15 participants Group A (15 participants) received comprehensive exercise program session 3 times per week for 6 weeks. GROUP B (15 participants) received conventional exercise program sessions three times per week for 6 weeks. Medial longitudinal arch and navicular drop were assessed for pre and post-intervention using a navicular drop test and Medial longitudinal arch angle.</p><p><strong>Results:</strong> Using unpaired ‘t’ test for comparison of the post-test values of Group A and Group B, In which Navicular drop test shown ‘t’ value of 9.82 and medial longitudinal arch angle shown ‘t’ value of 44.04 respectively.</p><p><strong>Conclusion:</strong> The study concludes that comprehensive exercise program is more effective than the conventional exercise.</p><p><strong>Keywords:</strong> Flexible flat foot, Comprehensive exercise, Conventional exercise, Navicular drop, Medial Longitudinal arch angle.</p>",
+                    citation_quotes: '<p>B VC, Manoharalal MA, Seelan STT. EFFECT OF COMPREHENSIVE EXERCISE PROGRAM ON MEDIAL LONGITUDINAL ARCH AND NAVICULAR DROP IN SUBJECTS WITH UNILATERAL FLEXIBLE FLAT FOOT. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 1 - 8. https://doi.org/10.63299/ijopt.070189</p>'
+                },
+                {
+                    _id: '1202',
+                    citation_title: "COMPARE THE EFFICACY OF LIPUS AND LICUS ON PAIN AND DISABILITY AMONG INDIVIDUALS WITH KNEE OSTEOARTHRITIS – A PILOT STUDY",
+                    citation_author: [
+                        'Zikra Fatima', 'Yamuni Bhandari'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '9',
+                    citation_lastpage: '17',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070191',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/2.pdf',
+                    sCitation_SEO_Keywords: ['Ultrasound mode', 'Knee Osteoarthritis', 'Pain', 'Disability'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Knee osteoarthritis (KOA) is a common form of joint degeneration that involves the gradual breakdown of cartilage, changes in the underlying bone, and inflammation of the synovial membrane. These changes contribute to symptoms such as joint pain, reduced mobility, and stiffness.</p><p><strong>Aims:</strong> To compare the efficacy of Low-Intensity Pulsed Ultrasound (LIPUS) and Low-Intensity Continuous Ultrasound (LICUS) on reducing pain and improving functional disability among individuals with knee osteoarthritis in a pilot study.</p><p><strong>Methodology:</strong> In this initial comparative experiment at Galgotias University’s Outpatient Department in Greater Noida, we used randomized sampling to enroll 30 adults (equal numbers of men and women) aged 40–75 with clinically confirmed mild to moderate knee osteoarthritis.</p><p><strong>Results:</strong> The study enrolled 30 individuals (10 men and 20 women) aged 41 to 75 years (mean 57.10 ± 9.57 years) who were randomly assigned to one of two treatment arms of equal size (n = 15 each): a LIPUS group and a LICUS group. However, participants in the LIPUS arm experienced significantly greater relief in pain and disability.</p><p><strong>Conclusion:</strong> These results indicate that LIPUS could offer more favorable therapeutic benefits and may serve as a more effective non-invasive treatment option for managing knee osteoarthritis in clinical practice.</p><p><strong>Keywords:</strong> Ultrasound mode, Knee Osteoarthritis, Pain, Disability.</p>",
+                    citation_quotes: '<p>Fatima Z, Bhandari Y. COMPARE THE EFFICACY OF LIPUS AND LICUS ON PAIN AND DISABILITY AMONG INDIVIDUALS WITH KNEE OSTEOARTHRITIS – A PILOT STUDY. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 9 - 17. https://doi.org/10.63299/ijopt.070191</p>'
+                },
+                {
+                    _id: '1203',
+                    citation_title: "COMPARISON BETWEEN THE EFFECT OF EXERGAMING AEROBICS ANDTRADITIONAL AEROBICS EXERCISE PROGRAM ON BODY MASS INDEX,RATE OF PERCEIVED EXERTION, WAIST HIP RATIO AND TOTAL FAT % INGRADE 1 OBESE POPULATION",
+                    citation_author: [
+                        'Dr. Bulbul Bhajikhaye', 'Dr. Shilpa Parab'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '18',
+                    citation_lastpage: '26',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070192',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/3.pdf',
+                    sCitation_SEO_Keywords: ['Grade 1 obesity', 'physical activity', 'exergaming', 'active video games', 'treadmill'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Rising obesity rates are strongly linked to sedentary lifestyles and low physical activity (PA). Overweight and obese adolescents are typically less active than their normal-weight peers and participate less in PA programs. Regular physical activity is one of the most effective ways to prevent obesity, cardiovascular disease, and other health issues while improving quality of life and independence. Therefore, creative and enjoyable approaches are needed to motivate obese teens to be more active. One such promising method is active video games, or “exergaming,” which use interactive gaming to promote physical fitness and health in youth.</p><p><strong>Aims:</strong> To compare the effect of 4week Exergaming Aerobics with Traditional Aerobic program (treadmill) on Body Mass index (BMI), Rate of Perceived Exertion (RPE), Waist hip ratio (WHR), and Total Fat % in grade 1 obese population.</p><p><strong>Methods:</strong> A comparative study was conducted on 48 participants with grade 1 obesity, randomly assigned into two groups:Group A(n=24) exergaming aerobic and group B(n=24) traditional treadmill aerobic exercise programme. Body Mass index (BMI), Rate of Perceived Exertion (RPE), Waist hip ratio (WHR), and Total Fat % in grade 1 obese population was measured.Data was analyzed using appropriate statistical tests, with significance set at p < 0.05.</p><p><strong>Results:</strong> Both Group A and Group B showed highly significant changes within their groups for Body Mass Index, Rate of Perceived Exertion, Waist–Hip Ratio, and Total Fat Percentage (BMI, RPE, and fat %: p = 0.0001; WHR: p = 0.0004). In contrast, the comparison between the two groups revealed no significant differences for BMI (p = 0.1120), RPE (p = 0.8683), WHR (p = 0.6856), or total fat percentage (p = 0.1677).</p><p><strong>Conclusion:</strong> This study concluded that both exergaming aerobics and traditional treadmill aerobics were equally effective in improving Body Mass Index, Waist–Hip Ratio, Total Fat Percentage, and Rate of Perceived Exertion in individuals with Grade 1 obesity. Both forms of aerobic exercise supported fat loss, enhanced metabolic activity, and improved overall body composition.</p><p><strong>Keywords:</strong> Grade 1 obesity, physical activity, exergaming, active video games, treadmill.</p>",
+                    citation_quotes: '<p>Bhajikhaye B, Parab S. COMPARISON BETWEEN THE EFFECT OF EXERGAMING AEROBICS ANDTRADITIONAL AEROBICS EXERCISE PROGRAM ON BODY MASS INDEX,RATE OF PERCEIVED EXERTION, WAIST HIP RATIO AND TOTAL FAT % INGRADE 1 OBESE POPULATION. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 18 - 26. https://doi.org/10.63299/ijopt.070192</p>'
+                },
+                {
+                    _id: '1204',
+                    citation_title: "PREVALENCE OF WORK RELATED MUSCULOSKELETAL SYMPTOMS IN TEA PLANTATION FEMALE WORKERS IN JORHAT, ASSAM: PILOT SURVEY",
+                    citation_author: [
+                        'Dr. Manisha Tonape', 'Takhe Junja'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '27',
+                    citation_lastpage: '33',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070193',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/4.pdf',
+                    sCitation_SEO_Keywords: [],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Tea plantation work requires repetitive activities such as prolonged standing, trunk twisting, and heavy load carrying, increasing the risk of work-related musculoskeletal disorders. In Assam, India’s largest tea-producing state, many women are engaged in physically demanding tea leaf plucking, yet their musculoskeletal health remains poorly studied.</p><p><strong>Objective:</strong> To assess the prevalence of WRMSDs among female tea plantation workers in Jorhat & to identify the commonly affected body regions.</p><p><strong>Methods:</strong> An exploratory pilot survey with a cross-sectional design conducted using a structured 24-item questionnaire administered through face-to-face interviews. A total of 252 female tea leaf pluckers were randomly selected from two tea estates—Tocklai and Cinnamara in Jorhat district. Interviews were conducted in Hindi and Assamese. A body diagram used to identify symptomatic regions. Data were analyzed using descriptive statistics.</p><p><strong>Results:</strong> Among the 252 participants, 128 (50.79%) reported musculoskeletal symptoms, accounting 198 total complaints. The lumbar region most commonly affected (32.3%, n=64), followed by knees (25.3%, n=50), hips (14.1%, n=28), and shoulders/arms (9.1%, n=18). The highest proportion of complaints observed among workers aged 41–50 years (43.9%). Workers with more than 20 years of experience reported highest prevalence of symptoms (28.8%). The illiteracy rate among participants was 59.5%. Lower back and knee pain were predominantly chronic, whereas shoulder and arm pain were more frequently acute.</p><p><strong>Conclusion:</strong> Female tea plantation workers demonstrate a high prevalence of WRMSDs, particularly affecting the lumbar spine and knees. These findings emphasise the need for ergonomic interventions, and accessible occupational healthcare services for this vulnerable population.</p>",
+                    citation_quotes: '<p>Tonape M, Junja T. PREVALENCE OF WORK RELATED MUSCULOSKELETAL SYMPTOMS IN TEA PLANTATION FEMALE WORKERS IN JORHAT, ASSAM: PILOT SURVEY. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 27 - 33. https://doi.org/10.63299/ijopt.070193</p>'
+                },
+                {
+                    _id: '1205',
+                    citation_title: "IMPACT OF STRUCTURED BREATHING EXERCISES FOR ANXIETY AND PROCRASTINATION AMONG PHYSIOTHERAPY STUDENTS",
+                    citation_author: [
+                        'Dr. Anbu Rajesh. R', 'Syeda Sumaiya', 'Dr. A.K. Vijay Krishna Kumar'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '34',
+                    citation_lastpage: '42',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070194',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/5.pdf',
+                    sCitation_SEO_Keywords: ['Structured breathing', 'Cyclic sighing', 'Box breathing', 'Anxiety', 'Procrastination', 'Physiotherapy students'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Anxiety, characterized by fear, worry, and physical symptoms such as increased heart rate and breathlessness, is common among students. Procrastination, defined as the habitual delay of tasks, contributes to stress, poor performance, and reduced well-being. Both are highly prevalent in student populations and demonstrate a strong positive correlation. Structured breathing techniques, including cyclic sighing and box breathing, may offer a simple and effective approach to enhance emotional regulation, well-being, and academic performance.</p><p><strong>Objective:</strong> To investigate the impact of structured breathing exercises on anxiety and procrastination among physiotherapy students.</p><p><strong>Methodology:</strong> A total of 100 physiotherapy students with Procrastination Assessment Student Scale (PASS) ≥ 88 were included. Baseline scores for PASS and the Hamilton Anxiety Rating Scale (HAM-A) were recorded. Participants practiced cyclic sighing and box breathing for 5 minutes daily over 28 days. Adherence was monitored using schedule forms, reminders, and follow-ups. Post-intervention PASS and HAM-A scores were reassessed.</p><p><strong>Results:</strong> Mean PASS scores decreased from 130.36 to 128.00 (p < 0.05), while mean HAM-A scores significantly reduced from 29.24 to 13.18 (p < 0.001). A moderate positive correlation between anxiety and procrastination was observed both pre- and post-intervention.</p><p><strong>Conclusion:</strong> Structured breathing exercises were highly effective in reducing anxiety among physiotherapy students. The effects on procrastination were mixed, with variable outcomes; some students improved, while others worsened. These findings suggest that while structured breathing is a powerful tool for anxiety management, addressing procrastination may require additional strategies such as time management, goal-setting, and behavioural interventions to support academic performance.</p><p><strong>Keywords:</strong> Structured breathing, Cyclic sighing, Box breathing, Anxiety, Procrastination, Physiotherapy students.</p>",
+                    citation_quotes: '<p>R AR, Sumaiya S, Kumar AKVK. IMPACT OF STRUCTURED BREATHING EXERCISES FOR ANXIETY AND PROCRASTINATION AMONG PHYSIOTHERAPY STUDENTS. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 34 - 42. https://doi.org/10.63299/ijopt.070194</p>'
+                },
+                {
+                    _id: '1206',
+                    citation_title: "THE EFFECT OF PAIN NEUROSCIENCE EDUCATION ON CHRONIC PAIN REDUCTION AND FUNCTIONAL MOVEMENT ENHANCEMENT",
+                    citation_author: [
+                        'Dr. Naina Aggarwal', 'Dr. Nidhi Gautam', 'Dr. Akansha Sharma'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '43',
+                    citation_lastpage: '53',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070195',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/6.pdf',
+                    sCitation_SEO_Keywords: ['Pain Neuroscience Education', 'chronic pain', 'functional movement', 'physiotherapy', 'central sensitization', 'patient education'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Chronic pain is influenced by biological, psychological, and social factors. Pain Neuroscience Education (PNE) educates patients about neurophysiological mechanisms, helping reconceptualize pain, reduce fear-avoidance behavior, and improve functional movement. This narrative review synthesizes evidence from clinical trials, systematic reviews, and meta-analyses. Findings indicate that PNE reduces pain intensity, decreases disability, enhances self-efficacy, and improves adherence to rehabilitation. Incorporating PNE in physiotherapy can optimize chronic pain management and functional recovery. Pain neuroscience education (PNE) teaching patients how pain is generated and modulated by the nervous system is increasingly used as an adjunct in managing chronic musculoskeletal pain. This review summarizes current evidence on whether educating patients about pain neurobiology reduces chronic pain and improves functional movement.</p><p><strong>Methods:</strong> Narrative review of literature up to 17 November 2025, focusing on randomized controlled trials, systematic reviews, meta-analyses and mechanistic studies of PNE and related educational approaches.</p><p><strong>Results:</strong> PNE, when delivered alone or combined with exercise/physiotherapy, consistently reduces pain, catastrophizing, and kinesiophobia in the short to medium term and can improve function and movement-related outcomes. Findings vary by condition, dose, and delivery method. Mechanistic studies support effects on neuroplasticity and central sensitization, and on psychological mediators (fear, catastrophizing) that limit movement.</p><p><strong>Conclusion:</strong> PNE is an evidence-based adjunct to conservative management of chronic pain with moderate short-term benefits for pain and function, and clear improvements in pain-related beliefs and movement confidence. Future research should define optimal content, delivery, and long-term functional outcomes.</p><p><strong>Keywords:</strong> Pain Neuroscience Education, chronic pain, functional movement, physiotherapy, central sensitization, patient education</p>",
+                    citation_quotes: '<p>Aggarwal N, Gautam N, Sharma A. THE EFFECT OF PAIN NEUROSCIENCE EDUCATION ON CHRONIC PAIN REDUCTION AND FUNCTIONAL MOVEMENT ENHANCEMENT. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 43 - 53. https://doi.org/10.63299/ijopt.070195</p>'
+                },
+                {
+                    _id: '1207',
+                    citation_title: "CLIENT-CENTERED THERAPY IN CEREBRAL PALSY – A CASE SERIES",
+                    citation_author: [
+                        'Mitali Jyotik Bhachech'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '54',
+                    citation_lastpage: '58',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070196',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/7.pdf',
+                    sCitation_SEO_Keywords: ['Neuro Developmental Therapy', 'Cerebral Palsy', 'Client Centered Therapy'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> This report describes the case series of four children with Cerebral Palsy (CP) [7] who were patients at Safalya Mind and Body clinic, Ahmedabad, between 2017 and 2023. The research elaborates on the client-centered physiotherapy approach implementation and its effectiveness, which involved the use of Neurodevelopmental Treatment (NDT) techniques [3, 13].</p><p><strong>Materials & Methods:</strong> The main goal was to exhibit the effectiveness of a personalized, goal-oriented strategy [11] in bringing about significant functional changes in various CP situations. The study engaged thorough, multi-disciplinary examinations, the tools like GMFCS, MACS, and PEDI being the part of assessments [6].</p><p><strong>Results:</strong> Outcomes reflected real progress: a 7-year-old girl with Spastic Diplegia was able to walk short distances without a frame (6 months); an 8-year-old boy with Spastic Hemiplegia enhanced dexterity for buttoning and writing (4 months); a 5-year-old boy with Ataxic CP became the ability to ride a tricycle independently (5 months); and a 6-year-old girl with Spastic Quadriplegia sat unsupported for 5 minutes (3 months).</p><p><strong>Discussion:</strong> Such case series demonstrate the effectiveness of the transition from a focus on impairment correction to patient and family goals achievement [2] in combination with NDT, which is valid for various CP types leading to increased function, participation, and quality of life [1, 4].</p><p><strong>Conclusion:</strong> The case series outcomes highlight the importance of the client-centered physiotherapy approach used in the management of Cerebral Palsy where, therapy goals become personalized, measurable, and most importantly, Neurodevelopmental Treatment is integrated effectively.</p><p><strong>Keywords:</strong> Neuro Developmental Therapy, Cerebral Palsy, Client Centered Therapy</p>",
+                    citation_quotes: '<p>Bhachech MJ. CLIENT-CENTERED THERAPY IN CEREBRAL PALSY – A CASE SERIES. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 54 - 58. https://doi.org/10.63299/ijopt.070196</p>'
+                },
+                {
+                    _id: '1208',
+                    citation_title: "ROLE OF PELVIC MOBILITY EXERCISES ALONG WITH ELECTROTHERAPY MODALITIES IN MANAGEMENT OF PRIMARY DYSMENORRHEA: AN EXPERIMENTAL STUDY",
+                    citation_author: [
+                        'Aluri Lavanya', 'Brundavanam Rajesh'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '59',
+                    citation_lastpage: '66',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070197',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/8.pdf',
+                    sCitation_SEO_Keywords: ['Primary dysmenorrhea', 'TENS', 'pain', 'electrotherapy', 'pelvic mobility exercises'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Primary dysmenorrhea, characterized by painful menstrual cramps without any underlying pathology, is a prevalent condition that disrupts daily activities and reduces quality of life. Non-pharmacological interventions, such as exercise and electrotherapy are gaining recognition as effective strategies for symptom management.</p><p><strong>Aim:</strong> To evaluate the effectiveness of the pelvic mobility exercises combined with electrotherapy modalities in reducing pain intensity, improving pelvic muscle flexibility and enhancing overall functional well-being among women with primary dysmenorrhea.</p><p><strong>Methods:</strong> This study involved 30 participants diagnosed with primary dysmenorrhea. Each participants underwent a combined therapy program that included pelvic mobility exercises aimed at improving pelvic flexibility and muscle balance, along with transcutaneous electrical nerve stimulation (TENS) applied to the lower abdomen for pain modulation. The intervention was conducted frequency between 60-150Hz over a period of 15 minutes duration. Pain intensity was measured using Visual Analog Scale (VAS). Statistical analysis was performed to determine the significance of changes in pain score</p><p><strong>Results:</strong> The combined therapy resulted in a significant reduction in VAS scores (P<0.005), indicating marked pain relief after the intervention. Participants reported improved comfort and a noticeable decrease in the severity and duration of menstrual cramps during the treatment period. The therapy was well-tolerated, with no reported adverse effects.</p><p><strong>Conclusion:</strong> The combination of pelvic mobility exercises and electrotherapy modalities provides a highly effective, non-invasive strategy for managing pain associated with primary dysmenorrhea. The approach offers a practical, well-tolerated alternative to pharmacological options, significantly improving pain outcomes and enhancing menstrual health. Further research is recommended to explore long-term effects and optimize protocols.</p><p><strong>Keywords:</strong> Primary dysmenorrhea, TENS, pain, electrotherapy, pelvic mobility exercises.</p>",
+                    citation_quotes: '<p>Lavanya A, Rajesh B. ROLE OF PELVIC MOBILITY EXERCISES ALONG WITH ELECTROTHERAPY MODALITIES IN MANAGEMENT OF PRIMARY DYSMENORRHEA: AN EXPERIMENTAL STUDY. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 59 - 66. https://doi.org/10.63299/ijopt.070197</p>'
+                },
+                {
+                    _id: '1209',
+                    citation_title: "THE ROLE OF VESTIBULAR REHABILITATION ON BALANCE AND FALL FREQUENCY AMONG POST-STROKE PATIENTS: EVIDENCE FROM A SYSTEMATIC REVIEW",
+                    citation_author: [
+                        'Anbu Rajesh', 'Chetana V Chelapathy', 'Senthil Kumar Nataraj', 'S Jeyakumar'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '67',
+                    citation_lastpage: '73',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070198',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/9.pdf',
+                    sCitation_SEO_Keywords: ['vestibular rehabilitation', 'stroke', 'balance', 'gait', 'falls', 'systematic review'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Individuals recovering from a stroke experience gait and posture instability, leading to imbalance and increased fall risk. These significantly affect independence and quality of life. Vestibular rehabilitation (VR) has emerged as a promising adjunct therapy, yet its role among post-stroke patients remains insufficiently clarified.</p><p><strong>Objective:</strong> Systematically reviewing randomized controlled trials (RCTs) investigating the effects of vestibular rehabilitation on balance and fall frequency in post-stroke individuals.</p><p><strong>Methods:</strong> A systematic search performed in PubMed, PEDro, Cochrane Library, EMBASE, Scopus, Web of Science, ScienceDirect, ClinicalTrials.gov, and WHO ICTRP registry for publications between January 2013 and May 2025. Only RCTs with adult stroke who received vestibular rehabilitation were included 8. Methodological appraisal was done with Physiotherapy Evidence Database (PEDro) and PRISMA 2020 statement guided reporting.</p><p><strong>Results:</strong> Ninety records were identified after removing three duplicates, 87 records were screened, 20 full-text articles were assessed, eight RCTs were included (n = 306). Interventions involved gaze-stabilization, oculomotor, and combined vestibular exercise for durations of 3–8 weeks. Berg Balance Scale, Mini-BEST test, Functional Gait Assessment and Timed Up and Go, Dynamic Gait Index improved in most studies. Only one study noted fewer falls and reduced fall risk 3. PEDro scores 6–8, suggesting moderate-to-high quality.</p><p><strong>Conclusion:</strong> Vestibular rehabilitation has significant benefits in enhancing balance and gait performance among post-stroke individuals. Evidence supports its integration into conventional stroke physiotherapy programs, with growing indications of its potential to reduce fall risk. However, the heterogeneity in intervention protocols, small sample sizes, and short follow-up restrict generalizability. Future studies should prioritize standardized VR protocols, larger multicentre trials, and consistent reporting of fall-related outcomes to enhance clinical applicability.</p><p><strong>Keywords:</strong> vestibular rehabilitation, stroke, balance, gait, falls, systematic review.</p>",
+                    citation_quotes: '<p>Rajesh A, Chelapathy CV, Nataraj SK, Jeyakumar S. THE ROLE OF VESTIBULAR REHABILITATION ON BALANCE AND FALL FREQUENCY AMONG POST-STROKE PATIENTS: EVIDENCE FROM A SYSTEMATIC REVIEW. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 67 - 73. https://doi.org/10.63299/ijopt.070198</p>'
+                },
+                {
+                    _id: '1210',
+                    citation_title: "THE RELATIONSHIP BETWEEN SCAPULAR POSITION ON UPPER LIMB FUNCTION AND TRUNK CONTROL IN POST STROKE PATIENTS",
+                    citation_author: [
+                        'Pavithra.P.R', 'Prof. Sweety Subha.P' , 'Prof. Mahesh. R', 'Dr. Ramamoorthy. V',
+'Dr. Balakrishnan. R'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '74',
+                    citation_lastpage: '80',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070199',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/10.pdf',
+                    sCitation_SEO_Keywords: ['Stroke Rehabilitation', 'Scapular Malalignment', 'Upper Limb Function', 'Trunk Control'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> A cerebrovascular accident (stroke) is the loss of blood supply to the brain, leading to the development of various neurological impairments depending upon the area of lesion. The stroke can be either due to hemorrhagic or ischemic or hypoperfusion. Cerebrovascular accidents are the second most common condition resulting in the death of a person, and if a person survives the stroke, the person is most commonly left with impairments higher mental, sensory, motor function, balance and gait. The malalignment of the scapula can be found in both the flaccid stage and the spasticity stage. In the flaccid stage, there will be muscle weakness leading to the malalignment of the scapula. In the spasticity stage, the shortening of the soft tissues can result in scapular malalignment. Due to malalignment of the scapula, the movement of the scapula in the thoracic cavity is affected, and the scapulohumeral rhythm is also affected, leading to reduced upper limb function. The muscle imbalance surrounding the scapula causes scapular malalignment that can contribute to trunk instability. Normal scapular position and mechanics are essential for normal trunk balance and upper limb movements.</p><p><strong>Objective:</strong> Primary Objective- To find out the relationship between scapular position on upper limb function and trunk control in post stroke patients. Secondary Objectives- To find out the relationship between scapular position and upper limb function in post stroke patients. To find out relation between scapular position and trunk control in post stroke patients.</p><p><strong>Study Settings:</strong> Department of Neurology and Department of Physical Medicine and Rehabilitation, PSG Hospitals,Coimbatore</p><p><strong>Methods:</strong> 46 stroke patients were screened and based on the inclusion and exclusion criteria, 30 patients who met the inclusion criteria and gave the informed consent to participate in this study were recruited. The patients were assessed for scapular position, trunk control and upper limb function using SBA, TIS and MESUPES- Arm .The collected data were analyzed using chi square test.</p><p><strong>Results:</strong> Chi square test analysis was conducted to find out the relationship between scapular position, upper limb function and trunk control, it shows an association between SBA and MESUPES – Arm (‘χ2’ = 6.266, p<0.05), SBA and TIS (‘χ2’ = 13.274, p<0.001) which is statistically significant. It is found that in post stroke patients there is a relationship between scapular position, upper limb function and trunk control.</p><p><strong>Conclusion:</strong> This study was conducted to determine the relationship between scapular position on upper limb function and trunk control in post stroke patients quantitatively assessed using scapular balance angle(SBA), motor evaluation scale for upper extremity in stroke patients (MESUPES –arm) and trunk impairment scale (TIS). Based on the results of this study, it is concluded that scapular position shows an association to upper limb function and trunk control in post-stroke patients, which indicates that when there is a scapular malalignment there is poor limb function and trunk control.</p><p><strong>Keywords:</strong> Stroke Rehabilitation, Scapular Malalignment , Upper Limb Function, Trunk Control</p>",
+                    citation_quotes: '<p>Pavithra.P.R , Subha.P S, R M, V R, R B. THE RELATIONSHIP BETWEEN SCAPULAR POSITION ON UPPER LIMB FUNCTION AND TRUNK CONTROL IN POST STROKE PATIENTS. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 74 - 80. https://doi.org/10.63299/ijopt.070199</p>'
+                },
+                {
+                    _id: '1211',
+                    citation_title: "EFFECTS OF NEURAL MOBILIZATION VERSUS EFFECTS OF CORE STABILIZATION EXERCISES ON PAIN AND FUNCTIONAL DISABILITY IN SUBJECTS WITH LUMBAR RADICULOPATHY",
+                    citation_author: [
+                        'Amber Jamaal', 'Amrutha Varshini. S', 'A.K. Vijay Krishna Kumar'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '81',
+                    citation_lastpage: '94',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0701100',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/11.pdf',
+                    sCitation_SEO_Keywords: ['Lumbar radiculopathy', 'neural mobilization', 'core stabilization exercises', 'Numerical Pain Rating Scale', 'Modified Oswestry Disability Index'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Lumbar radiculopathy is a condition characterised by irritation, inflammation, or compression of nerve roots in the lower back, causing pain, numbness, or weakness that radiates down the leg. Both men and women are affected and its prevalence has been estimated between 3% and 5% of the population. Age is the main risk factor. Men are usually impacted in their 40s while women are affected in their 50s and 60s. Symptoms usually start in midlife. Neural mobilization is a therapeutic technique that involves applying mechanical forces to nerves in the body to promote healthy movement and function. Core stabilization exercises strengthen the muscle in core which includes lower back, abdomen, hips and pelvis. These exercises help to maintain balance and stability.</p><p><strong>Aim:</strong> This study is aimed to investigate the effects of neural mobilization versus effects of core stabilization exercises on pain and functional disability in subjects with lumbar radiculopathy.</p><p><strong>Methodology:</strong> The subjects were selected based on the selection criteria. The inclusion criteria were: individuals diagnosed with lumbar radiculopathy, both men and women, aged between 40 and 65 years, radiological findings of lumbar disc herniation or degeneration, back pain radiating into the lower extremity, reproduction of symptoms with passive straight leg raise (PSLR) or slump test, either one or both legs affected by radiating pain, and an NPRS score between 5 and 10. The exclusion criteria were: individuals above 65 years of age, any post-surgical cases, trauma, pregnancy, serious spinal conditions (e.g., infection, tumor, osteoporosis), severe cognitive impairment, uncooperative patients, and NPRS score less than 5. Thirty subjects were selected and randomly divided into two groups, with 15 subjects in Group A and 15 subjects in Group B. Group A received neural mobilization, while Group B received core stabilization exercises, along with conventional physiotherapy for both groups. Each group received training for five sessions per week for two weeks.</p><p><strong>Results:</strong> Both neural mobilization and core stabilization exercises significantly reduced pain and disability in lumbar radiculopathy patients. However, core stabilization exercises produced far greater improvements, with a mean Numerical pain rating scale (NPRS) reduction of 4.80 versus 1.00 in neural mobilization and Modified Oswestry disability index (MODI) reduction of 34.53 versus 3.47 in core stabilization. Between-group comparisons confirmed these differences were highly significant (p < 0.001), with core stabilization group leading.</p><p><strong>Conclusion:</strong> The study concludes that while both neural mobilization and core stabilization exercises are effective in managing lumbar radiculopathy, core stabilization exercises demonstrate superior outcomes. They provide greater pain reduction, functional improvement, and long-term benefits compared to the short-term relief offered by neural mobilization.</p><p><strong>Keywords:</strong> Lumbar radiculopathy, neural mobilization, core stabilization exercises, Numerical Pain Rating Scale, Modified Oswestry Disability Index.</p>",
+                    citation_quotes: '<p>Jamaal A, S AV, Kumar AKVK. EFFECTS OF NEURAL MOBILIZATION VERSUS EFFECTS OF CORE STABILIZATION EXERCISES ON PAIN AND FUNCTIONAL DISABILITY IN SUBJECTS WITH LUMBAR RADICULOPATHY. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 81 - 94. https://doi.org/10.63299/ijopt.0701100</p>'
+                },
+                {
+                    _id: '1212',
+                    citation_title: "A STUDY ON EFFECTIVENESS OF BOBATH APPROACH AND MIRROR THERAPY ON UPPER LIMB MOTOR FUNCTION IN STROKE PATIENTS",
+                    citation_author: [
+                        'Dr. Anbu Rajesh. R', 'Isani Muskan Abdulgaffar', 'A.K.Vijay Krishna Kumar'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '95',
+                    citation_lastpage: '105',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0701101',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/12.pdf',
+                    sCitation_SEO_Keywords: ['Stroke rehabilitation', 'upper-limb function', 'Bobath therapy', 'mirror therapy', 'neuroplasticity', 'MESUPES'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Stroke remains a significant cause of long-term disability worldwide, with upper-limb motor impairment significantly reducing independence in daily activities. Practical rehabilitation approaches are essential to enhance functional recovery. Bobath therapy (neurodevelopmental treatment) and mirror therapy have been widely applied in stroke rehabilitation, targeting neuroplasticity and motor relearning. However, evidence regarding their combined application remains limited.</p><p><strong>Objective:</strong> To evaluate the effectiveness of Bobath therapy and mirror therapy on upper-limb motor function in stroke patients</p><p><strong>Methodology:</strong> An experimental study was conducted in the Department of Physiotherapy, Dr. B. R. Ambedkar College, Bangalore. Twenty post-stroke patients (age 40–60 years) with middle cerebral artery infarction (>6 months post-stroke) and Motor Evaluation Scale for Upper Extremity (MESUPES) score ≥ 20/58 were recruited. Patients underwent a 4-week intervention, receiving Bobath therapy (weight-bearing exercises) and mirror therapy in structured sessions, three times per week for each treatment. Pre- and post-intervention upperlimb motor functions were assessed using MESUPES.</p><p><strong>Results:</strong> Of the 20 stroke participants, 55% were female and 45% male, with equal distribution of right and left hemiparesis. Post intervention analysis showed statistically significant improvement in upper limb motor function (p < 0.001), with a strong correlation between pre and postscores (p < 0.001). Patients with left hemiparesis demonstrated greater recovery compared to those with right hemiparesis.</p><p><strong>Conclusion:</strong> Both bobath therapy and mirror therapy were effective in improving upper-limb motor function in stroke patients. The findings highlight the value of integrating neurofacilitation and visual feedback strategies into rehabilitation programs. Moreover, extensive controlled studies are suggested to confirm these results.</p><p><strong>Keywords:</strong> Stroke rehabilitation, upper-limb function, Bobath therapy, mirror therapy, neuroplasticity, MESUPES.</p>",
+                    citation_quotes: '<p>R AR, Abdulgaffar IM, Kumar AKVK. A STUDY ON EFFECTIVENESS OF BOBATH APPROACH AND MIRROR THERAPY ON UPPER LIMB MOTOR FUNCTION IN STROKE PATIENTS. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 95 - 105. https://doi.org/10.63299/ijopt.0701101</p>'
+                },
+                {
+                    _id: '1213',
+                    citation_title: "TRANSLATION AND CROSS-CULTURAL ADAPTATION OF THE GUJARATI VERSION OF THE FUNCTIONAL STATUS QUESTIONNAIRE AMONG MIDDLE-AGED",
+                    citation_author: [
+                        'Dimpi Kamleshkumar Shah', 'Megha Sandeep Sheth'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '106',
+                    citation_lastpage: '111',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0701102',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/13.pdf',
+                    sCitation_SEO_Keywords: ['Functional Status Questionnaire', 'Gujarati', 'Translation', 'Cross-cultural adaptation', 'Reliability', 'Validity'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Functional status reflects an individual’s ability to perform daily and instrumental activities, serving as a key indicator of health, independence, and quality of life. The Functional Status Questionnaire (FSQ) is a validated and widely used tool designed to capture various domains of functional health. There is a lack of validated tools in the Gujarati language to effectively assess functional status.</p><p><strong>Aim:</strong> This study aimed to translate, culturally adapt, and evaluate the reliability and validity of the FSQ for Gujarati-speaking adults.</p><p><strong>Methods:</strong> A methodological study was conducted to translate the FSQ into Gujarati, following the World Health Organisation (WHO) guidelines for translation and cross-cultural adaptation. The process involved initial translation, synthesis, back-translation, expert committee review, and pre-testing. Psychometric evaluation included content validity and test-retest reliability. Thirty Gujarati-speaking adults participated in pilot testing to assess the tool’s reliability over time.</p><p><strong>Results:</strong> The Gujarati version of the FSQ demonstrated strong psychometric properties. The Scale-level Content Validity Index (S-CVI) was 0.89, indicating high content validity. Test-retest reliability showed strong correlation coefficients across most domains, confirming the scale’s stability, with an ICC value of 0.92.</p><p><strong>Conclusion:</strong> The Gujarati-translated FSQ is a valid and reliable tool for assessing functional status in Gujarati-speaking adults. It offers culturally relevant insights, enabling healthcare providers to assess functional limitations accurately.</p><p><strong>Keywords:</strong> Functional Status Questionnaire, Gujarati, Translation, Cross-cultural adaptation, Reliability, Validity</p>",
+                    citation_quotes: '<p>Shah DK, Sheth MS. TRANSLATION AND CROSS-CULTURAL ADAPTATION OF THE GUJARATI VERSION OF THE FUNCTIONAL STATUS QUESTIONNAIRE AMONG MIDDLE-AGED. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 106 - 111. https://doi.org/10.63299/ijopt.0701102</p>'
+                },
+                {
+                    _id: '1214',
+                    citation_title: "EFFECT OF CORE EXERCISES ON MUSCULOSKELETAL ENDURANCE AMONG PHYSIOTHERAPY INTERNS : A CLINICAL TRIAL",
+                    citation_author: [
+                        'Aditi Shah', 'Vaishnavi Temghare'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '112',
+                    citation_lastpage: '119',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0701103',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/14.pdf',
+                    sCitation_SEO_Keywords: ['Physiotherapy', 'Core', 'Muscles', 'Musculoskeletal systems'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Despite the recognised role of core stability and strength in functional performance, limited research has focused on the effect of core exercises on functional abilities and physical performance among physiotherapy interns.</p><p><strong>Objective:</strong> To study the effectiveness of core exercises with relation to endurance.</p><p><strong>Methods:</strong> 35 Physiotherapy interns (Male = 8, Females = 27) were selected conveniently of mean age 23.12 +_0.061. Pre assessment of the core was done using Mc Gill Endurance test. All the participants underwent 6 weeks of core strengthening protocol, thrice a week. Following the intervention, post data was collected. The data were first tested for normality. The Shapiro–Wilk test (W = 0.916, p = 0.012) and the D’Agostino–Pearson test (DA = 11.42, p = 0.003) both indicated that the distribution of difference scores (Post–Pre) significantly deviated from normality. Therefore, a non-parametric Wilcoxon Signed-Rank Test was applied to compare pre- and post-intervention values.</p><p><strong>Results:</strong> The median pre-intervention core muscular endurance ratio was 1.15, while the post-intervention median was 1.09. The analysis revealed no statistically significant difference between the two conditions (Z = 0.55, p = 0.589, r = 0.09).</p><p><strong>Conclusion:</strong> This six-week core exercise programme did not produce a statistically significant improvement in the core muscular endurance ratio among physiotherapy interns. The small reduction observed was not clinically meaningful, suggesting that short-term training may have limited effect in this population. Larger and longer-duration studies are recommended.</p><p><strong>Keywords:</strong> Physiotherapy, Core, Muscles, Musculoskeletal systems</p>",
+                    citation_quotes: '<p>Shah A, Temghare V. EFFECT OF CORE EXERCISES ON MUSCULOSKELETAL ENDURANCE AMONG PHYSIOTHERAPY INTERNS : A CLINICAL TRIAL. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 112 - 119. https://doi.org/10.63299/ijopt.0701103</p>'
+                },
+            ]
+        },
+    ],
 }
