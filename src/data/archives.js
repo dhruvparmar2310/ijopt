@@ -3270,6 +3270,72 @@ export const archiveList = {
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Despite the recognised role of core stability and strength in functional performance, limited research has focused on the effect of core exercises on functional abilities and physical performance among physiotherapy interns.</p><p><strong>Objective:</strong> To study the effectiveness of core exercises with relation to endurance.</p><p><strong>Methods:</strong> 35 Physiotherapy interns (Male = 8, Females = 27) were selected conveniently of mean age 23.12 +_0.061. Pre assessment of the core was done using Mc Gill Endurance test. All the participants underwent 6 weeks of core strengthening protocol, thrice a week. Following the intervention, post data was collected. The data were first tested for normality. The Shapiro–Wilk test (W = 0.916, p = 0.012) and the D’Agostino–Pearson test (DA = 11.42, p = 0.003) both indicated that the distribution of difference scores (Post–Pre) significantly deviated from normality. Therefore, a non-parametric Wilcoxon Signed-Rank Test was applied to compare pre- and post-intervention values.</p><p><strong>Results:</strong> The median pre-intervention core muscular endurance ratio was 1.15, while the post-intervention median was 1.09. The analysis revealed no statistically significant difference between the two conditions (Z = 0.55, p = 0.589, r = 0.09).</p><p><strong>Conclusion:</strong> This six-week core exercise programme did not produce a statistically significant improvement in the core muscular endurance ratio among physiotherapy interns. The small reduction observed was not clinically meaningful, suggesting that short-term training may have limited effect in this population. Larger and longer-duration studies are recommended.</p><p><strong>Keywords:</strong> Physiotherapy, Core, Muscles, Musculoskeletal systems</p>",
                     citation_quotes: '<p>Shah A, Temghare V. EFFECT OF CORE EXERCISES ON MUSCULOSKELETAL ENDURANCE AMONG PHYSIOTHERAPY INTERNS : A CLINICAL TRIAL. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 112 - 119. https://doi.org/10.63299/ijopt.0701103</p>'
                 },
+                {
+                    _id: '1215',
+                    citation_title: "EFFECT OF EXERCISE IN PRIMARY DYSMENORRHEA - AN EVIDENCE BASED STUDY",
+                    citation_author: [
+                        'Vishwa Shah', 'Dr. Nehansi Chauhan'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '120',
+                    citation_lastpage: '131',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0701105',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/15.pdf',
+                    sCitation_SEO_Keywords: ['Primary dysmenorrhea', 'exercise therapy', 'Menstrual distress syndrome'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Primary dysmenorrhea, prevalent in adolescent and young adult females, is marked by menstrual cramping without pelvic pathology. While NSAIDs are commonly used for relief, side effects and incomplete pain alleviation are frequent. Exercise is increasingly recognized as a beneficial non-pharmacological alternative, supported by evidence for its effectiveness in reducing pain and enhancing quality of life.</p><p><strong>Methodology:</strong> An evidence-based study involved a thorough literature search across electronic databases like PubMed, PEDro, Google Scholar, and the Cochrane Library. Studies in English meeting specific inclusion and exclusion criteria were selected, focusing on randomized controlled trials, systematic reviews, and meta-analyses on therapeutic interventions. The data extracted included study design, interventions, outcome measures, and level of evidence, with methodological quality assessed using tools like the PEDro scale and evidence hierarchy.</p><p><strong>Results:</strong> This review of nine randomized controlled trials demonstrated that various exercise interventions, such as aerobic activity, Zumba, and yoga, significantly alleviate menstrual pain intensity, as measured by the VAS scale. Most interventions occurred three times a week over four to eight weeks, with VAS scores dropping by up to three points, especially for aerobic and dance-based exercises.</p><p><strong>Conclusion:</strong> The evidence strongly supports physiotherapy and conservative interventions as effective, safe, and non-pharmacological approaches for managing primary dysmenorrhea. Exercise-based programs, electro-physical agents, and self-care strategies significantly reduce menstrual pain and improve functional outcomes, supporting their integration into routine clinical practice.</p><p><strong>Keywords:</strong> Primary dysmenorrhea, exercise therapy, Menstrual distress syndrome.</p>",
+                    citation_quotes: '<p>Shah V, Chauhan N. EFFECT OF EXERCISE IN PRIMARY DYSMENORRHEA - AN EVIDENCE BASED STUDY. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 120 - 131. https://doi.org/10.63299/ijopt.0701105</p>'
+                },
+                {
+                    _id: '1216',
+                    citation_title: "EFFECT OF INSTRUMENT ASSISTED SOFT TISSUE MOBILIZATION ON NON SPECIFIC NECK PAIN",
+                    citation_author: [
+                        'Dr. Chenna Ravi Kumar', 'Dr. Rafi Mohammed', 'Dr. Naraharisetti Raghunadh', 'Dr.Vangapalli Chaitanya'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '132',
+                    citation_lastpage: '143',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0701104',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/16.pdf',
+                    sCitation_SEO_Keywords: ['Non-specific neck pain', 'instrument-assisted soft tissue mobilization', 'Neck Disability Index', 'Visual Analogue Scale'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Neck pain has been identified as one of the most common and debilitating musculoskeletal conditions. Non-specific neck pain are unrelated simple cases without any pathological origin. There are various non-drug-based interventions proven to work. This study has been chosen to assess the effectiveness of instrument-assisted soft tissue mobilization for non-specific neck pain.</p><p><strong>Methods:</strong> This was a randomised controlled trial that included 30 people with nonspecific neck pain. Participants were randomly assigned to Group A and Group B. There were 15 people in each. Group A was treated with instrument-assisted soft tissue mobilization (IASTM) in conjunction with standard therapy. Group B received no additional treatment apart from the standard therapy. Interventions took 3 times a week for 4 weeks. Pre- and post intervention assessments of pain intensity and functional impairment were based on the Visual Analogue Scale (VAS) and the Neck Disability Index (NDI), respectively.</p><p><strong>Results:</strong> Both groups showed significant improvements from baseline to four weeks (p < 0.05) in VAS and NDI scores. However, unpaired t-test analysis revealed that the group receiving IASTM plus standard therapy exhibited greater gains compared to the standard therapy group alone.</p><p><strong>Conclusion:</strong> Instrument-assisted soft tissue mobilization offers a viable option for managing nonspecific neck pain, reducing discomfort, and enhancing functional outcomes.</p><p><strong>Keywords:</strong> Non-specific neck pain; instrument-assisted soft tissue mobilization; Neck Disability Index; Visual Analogue Scale.</p>",
+                    citation_quotes: '<p>Kumar CR, Mohammed R, Raghunadh N, Chaitanya V. EFFECT OF INSTRUMENT ASSISTED SOFT TISSUE MOBILIZATION ON NON SPECIFIC NECK PAIN. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 132 - 143. https://doi.org/10.63299/ijopt.0701104</p>'
+                },
+                {
+                    _id: '1217',
+                    citation_title: "EFFECTS OF 12-WEEK RESISTANCE TRAINING ON POSTMENOPAUSAL WOMEN WITH VERSUS WITHOUT HYPOTHYROIDISM",
+                    citation_author: [
+                        'Dr. M.Divya', 'Dr. Nandhini', 'Dr. P. Preethi Angel'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '144',
+                    citation_lastpage: '152',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0701106',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/17.pdf',
+                    sCitation_SEO_Keywords: ['Post menopausal women hypothyroidism', 'without hypothyroidism', 'resistance training', 'skeletal muscle mass'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Thyroid disorders are more prevalent in postmenopausal women and tend to worsen with age. Hypothyroidism was present in 12.7% of postmenopausal women and 82% of premenopausal women. To address the diagnostic and treatment challenges during the menopausal transition and assist medical professionals in raising awareness of menopause-related issues, a great deal of research must be done.</p><p><strong>Objective:</strong> The goal of the study is to compare the improvements in skeletal health after 12 weeks of resistance training muscle mass, strength, and physical performance in postmenopausal women with hypothyroidism to those without the condition.</p><p><strong>Methods:</strong> A total of 30 subjects were selected based on the selection criteria and divided into two groups by random sampling method body mass index and short physical performance battery scales. Group A - consists of 15 subjects who were post menopausal women with hypothyroidism were treated with resistance training exercise (squats ,leg press, lunges, chest press , wall pushups ,bird dogs , glute bridges) for 5days per week for 12 weeks .Group B- consists of 15 subjects who were post menopausal women without hypothyroidism were treated with resistance training exercise (squats ,leg press, lunges, chest press , wall pushups ,bird dogs, glute bridges) for 5days per week for 12 weeks. Both the groups were received Warm up (5 minutes) and cool down (5 minutes) for 5 sessions a week. The interventions were carried out for 12 weeks. The post scores were recorded. The pre and post test data were analysed. The subjects were instructed that if they developed any pain or injury during the intervention period then they will excluded from the study.</p><p><strong>Results:</strong> Result of this study shows that resistance training is effective in increasing in skeletal muscle mass, strength and physical performance in post menopausal women in without hypothyroidism.</p><p><strong>Conclusion:</strong> Conclusion of the study concluded that both the post menopausal women with hypothyroidism and post menopausal women without hypothyroidism are effective in improving skeletal muscle mass, strength and physical performance in subjects with post menopausal women.</p><p><strong>Keywords:</strong> Post menopausal women hypothyroidism , without hypothyroidism ,resistance training , skeletal muscle mass</p>",
+                    citation_quotes: '<p>M.Divya , Nandhini , Angel PP. EFFECTS OF 12-WEEK RESISTANCE TRAINING ON POSTMENOPAUSAL WOMEN WITH VERSUS WITHOUT HYPOTHYROIDISM. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 144 - 152. https://doi.org/10.63299/ijopt.0701106</p>'
+                },
             ]
         },
     ],
