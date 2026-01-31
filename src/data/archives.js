@@ -3358,6 +3358,50 @@ export const archiveList = {
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Trapezitis, characterized by pain, tenderness, and stiffness of the upper trapezius muscle, is a common musculoskeletal condition affecting daily function and quality of life. Electrotherapy modalities, including transcutaneous electrical nerve stimulation , therapeutic ultrasound, surge faradic currents, and interferencial therapy and theragun are frequently used in clinical practice; however, the evidence regarding their efficacy is varied. This study aimed to systematically review , meta-analysis and analyze randomized controlled trials (RCTs) to assess the effectiveness of electrotherapy in reducing pain and improving functional outcomes in patients with trapezitis.</p><p><strong>Methodology:</strong> A total of five RCTs were included and critically appraised using the PEDro scale to evaluate methodological quality. The studies investigated various electrotherapy interventions, alone or in combination with manual therapy and exercise, measuring outcomes such as pain intensity (VAS/NPRS), pressure pain threshold (PPT), range of motion (ROM), and functional disability (NDI). Data were analyzed to identify patterns in treatment effectiveness and methodological rigor.</p><p><strong>Results:</strong> PEDro scores of the included trials ranged from 4/10 to 8/10, indicating moderate to high methodological quality overall. the highest quality trials indicating strong methodological rigor with proper randomization, assessor blinding, adequate follow- up, and intention-to- treat analysis.</p><p><strong>Conclusion:</strong> Conclusion of this study is indicate the electrotherapy is effective in reducing pain , improving in pressure pain threshold and enhancing functional outcomes in patients with trapezitis and myofacial trigger point of the upper trapezius.when electrotherapy is combined with therapeutic exercise indicate that improvement in function , anxiety , proprioception and quality of life.</p><p><strong>Keywords:</strong> Trapezitis , Trapezius spasm , neck pain , cervical pain</p>",
                     citation_quotes: '<p>Ghediya H, Chauhan N. EFFECT OF ELECTROTHERAPY IN TRAPEZITIS- AN EVIDENCE BASED STUDY. Indian Journal of Physical Therapy. 2026; 7(1): 153-162. https://doi.org/10.63299/ijopt.0701107</p>'
                 },
+                {
+                    _id: '1219',
+                    citation_title: "COMPARISON OF LOW LEVEL LASER THERAPY VERSUS ULTRASOUND THERAPY COMBINED WITH MULTIDIRECTIONAL STRETCHING IN PATIENTS WITH ADHESIVE CAPSULITIS",
+                    citation_author: [
+                        'Dr. A.K. Vijaya Krishna Kumar', 'Shreshta L S'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '163',
+                    citation_lastpage: '177',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070100',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/19.pdf',
+                    sCitation_SEO_Keywords: ['Adhesive capsulitis', 'Low level laser therapy', 'Ultrasound therapy', 'Multidirectional stretching', 'Shoulder pain disability and index', 'Numerical Pain Rating Scale', 'Range of Motion'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Frozen shoulder (adhesive capsulitis) is characterized by pain and progressive restriction of active and passive shoulder movements due to capsular fibrosis. It affects 2–5% of the general adult population and up to 20% of individuals with diabetes, with higher prevalence in women aged 40–60 years. Heat-based modalities targeting collagen tissues are commonly used in its management.</p><p><strong>Objective:</strong> To compare the effects of Low-Level Laser Therapy (LLLT) and Ultrasound Therapy (UST), both combined with multidirectional stretching, on pain, shoulder range of motion, and functional disability in patients with adhesive capsulitis.</p><p><strong>Methodology:</strong> A comparative study was conducted on 20 patients diagnosed with adhesive capsulitis, randomly allocated into two groups (n = 10 each). Group A received LLLT with multidirectional stretching, while Group B received UST with multidirectional stretching. Interventions were administered five sessions per week for two weeks. Outcome measures included the Numerical Pain Rating Scale (NPRS), Shoulder Pain and Disability Index (SPADI), and shoulder range of motion assessed using a goniometer. Pre- and post- treatment data were statistically analyzed.</p><p><strong>Results:</strong> Both groups demonstrated significant improvements in pain, functional ability, and shoulder range of motion (p < 0.001). However, the LLLT group showed significantly greater pain reduction (p = 0.003), greater improvement in functional disability (p = 0.043), and superior gains in shoulder range of motion compared to the UST group (p < 0.05).</p><p><strong>Conclusion:</strong> Both LLLT and UST combined with multidirectional stretching were effective in managing adhesive capsulitis; however, LLLT demonstrated superior outcomes and may be considered a more effective adjunct in rehabilitation.</p><p><strong>Keywords:</strong> Adhesive capsulitis, Low level laser therapy, Ultrasound therapy, Multidirectional stretching, Shoulder pain disability and index, Numerical Pain Rating Scale, Range of Motion.</p>",
+                    citation_quotes: '<p>Kumar AKVK, S SL. COMPARISON OF LOW LEVEL LASER THERAPY VERSUS ULTRASOUND THERAPY COMBINED WITH MULTIDIRECTIONAL STRETCHING IN PATIENTS WITH ADHESIVE CAPSULITIS. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 163 - 177. https://doi.org/10.63299/ijopt.070100</p>'
+                },
+                {
+                    _id: '1220',
+                    citation_title: "EFFECT OF INDIAN CLUBBELL EXERCISES ON CRICKET SPIN BOWLERS",
+                    citation_author: [
+                        'Dr. A.K. Vijaya Krishna Kumar', 'Uday. G'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '178',
+                    citation_lastpage: '191',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070101',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/20.pdf',
+                    sCitation_SEO_Keywords: ['Indian clubbell exercise', 'Cricket spin bowling', 'Shoulder range of Motion', 'Muscle Strength', 'Rotator cuff'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> The Shoulder kinematics plays a key role in the cricket bowler’s mainly the spin bowler’s action mainly the glenohumeral joint, which depends heavily on soft tissues for stability. Spin bowlers are more likely than fast bowlers to sustain these shoulder ailments. Indian clubbells are used to increase muscle strength and shoulder range of motion. The benefits of the Indian clubbells' is ability to exercise the shoulder in several planes of motion.</p><p><strong>Objectives:</strong> To evaluate the effect of a four week Indian clubbell exercise program on shoulder range of motion and muscle strength in cricket spin bowlers.</p><p><strong>Methodology:</strong> Thirty male cricket spin bowlers (18–25 years) were randomly allocated into a Shoulder Workout group (SW, n = 15) and a Cricket Practice group (CP, n = 15). The SW group performed Indian clubbell exercises in addition to regular cricket training, while the CP group continued cricket practice alone. Shoulder horizontal adduction ROM and internal and external rotation muscle strength were measured at baseline, week 2, and week 4 using a goniometer and handheld dynamometer. Data were analyzed using ANOVA and independent t tests.</p><p><strong>Results:</strong> The Shoulder Workout group, using Indian clubbell exercises, showed significant improvements in shoulder horizontal adduction range of motion and internal and external rotation muscle strength for both dominant and non-dominant shoulders over four weeks. The Cricket Practice group had modest gains in horizontal adduction range of motion but no notable changes in rotation strength. Shoulder Workout group outperformed Cricket Practice group across all measured outcomes.</p><p><strong>Keywords:</strong> Indian clubbell exercise, Cricket spin bowling, Shoulder range of Motion, Muscle Strength, Rotator cuff.</p>",
+                    citation_quotes: '<p> Kumar AKVK, G U. EFFECT OF INDIAN CLUBBELL EXERCISES ON CRICKET SPIN BOWLERS. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 178 - 191. https://doi.org/10.63299/ijopt.070101</p>'
+                },
             ]
         },
     ],
