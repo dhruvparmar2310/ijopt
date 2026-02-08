@@ -3402,6 +3402,94 @@ export const archiveList = {
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> The Shoulder kinematics plays a key role in the cricket bowler’s mainly the spin bowler’s action mainly the glenohumeral joint, which depends heavily on soft tissues for stability. Spin bowlers are more likely than fast bowlers to sustain these shoulder ailments. Indian clubbells are used to increase muscle strength and shoulder range of motion. The benefits of the Indian clubbells' is ability to exercise the shoulder in several planes of motion.</p><p><strong>Objectives:</strong> To evaluate the effect of a four week Indian clubbell exercise program on shoulder range of motion and muscle strength in cricket spin bowlers.</p><p><strong>Methodology:</strong> Thirty male cricket spin bowlers (18–25 years) were randomly allocated into a Shoulder Workout group (SW, n = 15) and a Cricket Practice group (CP, n = 15). The SW group performed Indian clubbell exercises in addition to regular cricket training, while the CP group continued cricket practice alone. Shoulder horizontal adduction ROM and internal and external rotation muscle strength were measured at baseline, week 2, and week 4 using a goniometer and handheld dynamometer. Data were analyzed using ANOVA and independent t tests.</p><p><strong>Results:</strong> The Shoulder Workout group, using Indian clubbell exercises, showed significant improvements in shoulder horizontal adduction range of motion and internal and external rotation muscle strength for both dominant and non-dominant shoulders over four weeks. The Cricket Practice group had modest gains in horizontal adduction range of motion but no notable changes in rotation strength. Shoulder Workout group outperformed Cricket Practice group across all measured outcomes.</p><p><strong>Keywords:</strong> Indian clubbell exercise, Cricket spin bowling, Shoulder range of Motion, Muscle Strength, Rotator cuff.</p>",
                     citation_quotes: '<p> Kumar AKVK, G U. EFFECT OF INDIAN CLUBBELL EXERCISES ON CRICKET SPIN BOWLERS. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 178 - 191. https://doi.org/10.63299/ijopt.070101</p>'
                 },
+                {
+                    _id: '1221',
+                    citation_title: "TRANSLATION AND CROSS-CULTURAL ADAPTATION OF SELF-EFFICACY FOR HOME EXERCISE PROGRAM SCALE IN GUJARATI LANGUAGE FOR MUSCULOSKELETAL CONDITIONS",
+                    citation_author: [
+                        'Dhruvi Shah', 'Megha Sheth'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '192',
+                    citation_lastpage: '195',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0701108',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/21.pdf',
+                    sCitation_SEO_Keywords: ['Cross cultural adaptation', 'SEHEPS', 'Gujarati language', 'self-efficacy', 'home exercise program'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> The objective of this study is to develop and find validity and reliability of cross-cultural adaptation of “Self-Efficacy for Home Exercise Program Scale” in Gujarati language in patients with musculoskeletal conditions. So, that it is feasible and easy to understand for local population of Gujarat.</p><p><strong>Method:</strong> The adaptation involved four steps – forward translation, backward translation, creation of provisional Gujarati version and reliability and validity testing. For validity testing expert panel containing 5 members were selected and their reviews in form of 5-point Likert scale was noted (5-strongly agree, 4- agree, 3- neither agree nor disagree,2- disagree, 1- strongly disagree). Content validity was found for each question based on the reviews of expert panel. For reliability performance of scale was evaluated with 30 patients and repeated to assess test-retest reliability.</p><p><strong>Result:</strong> Out of 12 questions one question went under wording adjustments by the suggestion made by expert panel. The content validity index (CVI) was calculated including I-CVI for each question which ranged from 0.48 to 0.92. S-CVI was found to be 0.8. Reliability was found by test retest score in which Interclass Correlation Coefficient for single measures was 0.971 with 95% of confidence interval (0.941-0.986). Cronbach’s alpha was 0.985 for Gujarati adaptation of SEHEPS scale.</p><p><strong>Conclusion:</strong>  Self-Efficacy for Home Exercise Program Scale is cross culturally adapted in Gujarati language and its validity and reliability was found acceptable for use. So, it can be used to measure self-efficacy in Gujarati understanding population.</p><p><strong>Keywords:</strong> Cross cultural adaptation, SEHEPS, Gujarati language, self-efficacy, home exercise program</p>",
+                    citation_quotes: '<p>Shah D, Sheth M. TRANSLATION AND CROSS-CULTURAL ADAPTATION OF SELF-EFFICACY FOR HOME EXERCISE PROGRAM SCALE IN GUJARATI LANGUAGE FOR MUSCULOSKELETAL CONDITIONS. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 192 - 195. https://doi.org/10.63299/ijopt.0701108</p>'
+                },
+                {
+                    _id: '1222',
+                    citation_title: "ROLE OF SMARTPHONE OVERUSE AND DIGITAL POSTURE RESULTING IN FORWARD HEAD POSTURE LEADING TO TEMPOROMANDIBULAR JOINT DYSFUNCTION IN ADULTS: A PHYSIOTHERAPY INTERVENTION STUDY",
+                    citation_author: [
+                        'Rahul Rajeev'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '196',
+                    citation_lastpage: '202',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070103',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/22.pdf',
+                    sCitation_SEO_Keywords: ['Temporomandibular joint dysfunction', 'smartphone overuse', 'digital posture', 'forward head posture', 'physiotherapy', 'mandibular function'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> The temporomandibular joint (TMJ) is essential for chewing, speaking, yawning, and swallowing. With the growing dependency on smartphones, prolonged neck flexion and forward head posture (FHP) resulting from device use have emerged as modifiable contrib utors to temporomandibular disorders (TMD). Smartphones do not directly damage the TMJ; rather, sustained postural adaptations alter mandibular kinematics, overload masticatory and cervical muscles, and increase the risk of retrodiscal compression and disc displacement, resulting in pain and functional limitation.</p><p>Aim:</p> To investigate the impact of smartphone overuse and digital posture on temporomandibular dysfunction in adults and to evaluate the effectiveness of a posturefocused physiotherapy intervention.<p><strong>Methods:</strong> In this randomized controlled trial, 120 adults aged 40–65 years with mild– moderate TMD and habitual smartphone use (≥4 hours/day) were randomized to receive either conventional TMJ physiotherapy or the same program augmented with posture correction exercises. Primary and secondary outcomes included pain (Visual Analogue Scale, VAS), mouth opening (interincisal distance), mandibular function (MFIQ), and cervical posture (craniovertebral angle). Assessments occurred at baseline, 4 weeks, and 8 weeks.</p><p><strong>Results:</strong> Both groups improved, but the posture-focused group achieved greater gains (pain reduction 4.2 vs 2.7 points on VAS; jaw opening gain 7.8 vs 4.1 mm; MFIQ improvement −16.5 vs −9.2; CVA gain +6.2° vs +2.1°; p < 0.05). Typical symptoms at baseline included jaw pain, clicking/popping, restricted opening, morning headache, ear fullness/tinnitus, and neck/shoulder tightness. Improvements in cervical alignment correlated with symptom relief, supporting a mechanistic link between digital posture and TMJ dysfunction.</p><p><strong>Conclusion:</strong>  Smartphone overuse promotes forward head posture and neuromuscular adaptations that contribute to TMD. A posture-focused physiotherapy program added to conventional TMJ care is more effective than jaw exercises alone. Integrating posture retraining into TMD management and public health ergonomics programs is recommended.</p><p><strong>Keywords:</strong> Temporomandibular joint dysfunction, smartphone overuse, digital posture forward head posture, physiotherapy, mandibular function</p>",
+                    citation_quotes: '<p>Rajeev R. ROLE OF SMARTPHONE OVERUSE AND DIGITAL POSTURE RESULTING IN FORWARD HEAD POSTURE LEADING TO TEMPOROMANDIBULAR JOINT DYSFUNCTION IN ADULTS: A PHYSIOTHERAPY INTERVENTION STUDY. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 196 - 202. https://doi.org/10.63299/ijopt.070103</p>'
+                },
+                {
+                    _id: '1223',
+                    citation_title: "A RETROSPECTIVE STUDY OF THE RESULTS OF PHYSIOTHERAPY TREATMENT IN CHRONIC PAIN MANAGEMENT",
+                    citation_author: [
+                        'Garima Tripathi', 'Dr. Girish Baldha', 'Prof. Arunachalam Ramchandran', 'Dr. Vaibhav Dave', 'Prachi Oza'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '203',
+                    citation_lastpage: '219',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070104',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/23.pdf',
+                    sCitation_SEO_Keywords: ['Chronic pain management', 'physiotherapy effectiveness', 'multidisciplinary approach', 'pain outcomes', 'functional disability', 'Visual Analogue Scale', 'Roland-Morris Disability Questionnaire', 'exercise therapy', 'manual therapy', 'patient education'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>This retrospective study examined the effectiveness of physiotherapy interventions in managing chronic pain among 346 patients treated at multidisciplinary pain clinics over a 24-month period. The primary outcome measures included Visual Analogue Scale (VAS) pain scores, Roland-Morris Disability Questionnaire (RMDQ), and Oswestry Disability Index (ODI). Secondary measures assessed functional mobility, quality of life, and treatment adherence rates. Results demonstrated significant improvements in pain intensity with mean VAS reduction from 7.2±1.8 to 4.1±2.3 (p<0.001) at 12-week follow-up. Functional disability showed marked improvement with RMDQ scores decreasing from 16.4±4.2 to 8.7±3.6 (p<0.001). The study found that 73% of patients achieved clinically meaningful pain reduction, while 82% demonstrated improved functional capacity. Multidisciplinary physiotherapy approaches incorporating exercise therapy, manual therapy, and patient education proved most effective for chronic pain management, with sustained benefits at 6-month follow-up. These findings support physiotherapy as a first-line, non-pharmacological intervention for chronic pain conditions, offering significant clinical benefits and reduced healthcare utilization (1,2,3).</p><p><strong>Keywords:</strong> Chronic pain management, physiotherapy effectiveness, multidisciplinary approach, pain outcomes, functional disability, Visual Analogue Scale, Roland-Morris Disability Questionnaire, exercise therapy, manual therapy, patient education</p>",
+                    citation_quotes: '<p>Tripathi G, Baldha G, Ramchandran A, Dave V, Oza P. A RETROSPECTIVE STUDY OF THE RESULTS OF PHYSIOTHERAPY TREATMENT IN CHRONIC PAIN MANAGEMENT. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 203 - 219. https://doi.org/10.63299/ijopt.070104</p>'
+                },
+                {
+                    _id: '1224',
+                    citation_title: "EFFECT OF PROPRIOCEPTIVE TRAINING ON BALANCE, FUNCTIONAL MOBILITY, AND PAIN IN PATIENTS WITH DIABETIC NEUROPATHY: A RANDOMIZED CONTROLLED TRIAL",
+                    citation_author: [
+                        'Aditee Bhardwaj', 'Dr. Vaibhav Dave', 'Dr. Girish Baldha', 'Prachi Oza', 'Hemant Kumar'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '220',
+                    citation_lastpage: '231',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070105',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/24.pdf',
+                    sCitation_SEO_Keywords: ['diabetic neuropathy', 'proprioceptive training', 'balance', 'mobility', 'pain', 'rural rehabilitation', 'randomized controlled trial'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>Diabetic neuropathy (DN) is one of the most challenging complications of diabetes, causing nerve damage that affects sensation, balance, movement, and often results in chronic pain. These issues make daily activities harder, increase the risk of falls, and reduce independence, particularly in rural communities with limited healthcare access. Traditional physiotherapy mainly focuses on strength, stretching, and pain relief, but often overlooks problems with sensory perception and coordination. Proprioceptive training, which improves body awareness and balance, has been successfully used in conditions like stroke and Parkinson’s disease, but its role in DN is less explored. In this randomized controlled trial, 120 participants aged 40–70 with DN from rural and tribal areas of Sirohi district, Rajasthan, were studied. They were randomly assigned to either a control group (standard physiotherapy) or an intervention group (standard physiotherapy plus proprioceptive training), with sessions three times a week for 12 weeks. Balance was measured using the Berg Balance Scale and Sway Balance Test, mobility with the Timed Up and Go test, and pain with the Numeric Pain Rating Scale. The results showed that the intervention group had significant improvements in balance, mobility, and pain compared to the control group. This suggests that adding proprioceptive training to conventional therapy can greatly benefit DN patients, especially in resource-limited rural areas, helping them maintain independence and improve quality of life.</p><p><strong>Keywords:</strong> diabetic neuropathy, proprioceptive training, balance, mobility, pain, rural rehabilitation, randomized controlled trial</p>",
+                    citation_quotes: '<p>Bhardwaj A, Dave V, Baldha G, Oza P, Kumar H. EFFECT OF PROPRIOCEPTIVE TRAINING ON BALANCE, FUNCTIONAL MOBILITY, AND PAIN IN PATIENTS WITH DIABETIC NEUROPATHY: A RANDOMIZED CONTROLLED TRIAL. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 220 - 231. https://doi.org/10.63299/ijopt.070105</p>'
+                },
             ]
         },
     ],
