@@ -3490,6 +3490,28 @@ export const archiveList = {
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>Diabetic neuropathy (DN) is one of the most challenging complications of diabetes, causing nerve damage that affects sensation, balance, movement, and often results in chronic pain. These issues make daily activities harder, increase the risk of falls, and reduce independence, particularly in rural communities with limited healthcare access. Traditional physiotherapy mainly focuses on strength, stretching, and pain relief, but often overlooks problems with sensory perception and coordination. Proprioceptive training, which improves body awareness and balance, has been successfully used in conditions like stroke and Parkinson’s disease, but its role in DN is less explored. In this randomized controlled trial, 120 participants aged 40–70 with DN from rural and tribal areas of Sirohi district, Rajasthan, were studied. They were randomly assigned to either a control group (standard physiotherapy) or an intervention group (standard physiotherapy plus proprioceptive training), with sessions three times a week for 12 weeks. Balance was measured using the Berg Balance Scale and Sway Balance Test, mobility with the Timed Up and Go test, and pain with the Numeric Pain Rating Scale. The results showed that the intervention group had significant improvements in balance, mobility, and pain compared to the control group. This suggests that adding proprioceptive training to conventional therapy can greatly benefit DN patients, especially in resource-limited rural areas, helping them maintain independence and improve quality of life.</p><p><strong>Keywords:</strong> diabetic neuropathy, proprioceptive training, balance, mobility, pain, rural rehabilitation, randomized controlled trial</p>",
                     citation_quotes: '<p>Bhardwaj A, Dave V, Baldha G, Oza P, Kumar H. EFFECT OF PROPRIOCEPTIVE TRAINING ON BALANCE, FUNCTIONAL MOBILITY, AND PAIN IN PATIENTS WITH DIABETIC NEUROPATHY: A RANDOMIZED CONTROLLED TRIAL. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 220 - 231. https://doi.org/10.63299/ijopt.070105</p>'
                 },
+                {
+                    _id: '1225',
+                    citation_title: "IMPACT OF INSPIRATORY MUSCLE TRAINING ON PULMONARY FUNCTION PARAMETERS IN ENDURANCE RUNNERS",
+                    citation_author: [
+                        'Prachi Oza', 'Dr. Girish Baldha', 'Dr. R Arunachalam', 'Dr. Vaibhav Dave', 'Aditee Bhardwaj'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '232',
+                    citation_lastpage: '239',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.070106',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/25.pdf',
+                    sCitation_SEO_Keywords: ['respiratory muscle training', 'pulmonary function', 'marathon runners', 'endurance athletes', 'inspiratory muscle training', 'sports performance', 'exercise physiology'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>This research explores how respiratory muscle training affects lung function in marathon runners who regularly compete in long-distance events. Marathon running demands exceptional endurance, yet many training programs overlook the importance of strengthening respiratory muscles. We worked with forty-five competitive marathon runners over an eightweek period, implementing a structured respiratory training program using specialized breathing devices. The participants showed remarkable improvements in their breathing capacity and muscle strength. Maximum inspiratory pressure increased by 28.4%, maximum expiratory pressure improved by 21.7%, and forced vital capacity enhanced by 12.3%. These changes were statistically significant and substantially better than the control group who continued their regular training without respiratory exercises. Our findings suggest that marathon runners could benefit considerably from incorporating respiratory muscle training into their preparation routines. This relatively simple intervention appears to strengthen the breathing muscles, improve lung capacity, and potentially enhance overall running performance. The study contributes practical insights for coaches and athletes seeking evidence-based methods to optimize endurance training programs.</p><p><strong>Keywords:</strong> respiratory muscle training, pulmonary function, marathon runners, endurance athletes, inspiratory muscle training, sports performance, exercise physiology</p>",
+                    citation_quotes: '<p>Oza P, Baldha G, Arunachalam R, Dave V, Bhardwaj A. IMPACT OF INSPIRATORY MUSCLE TRAINING ON PULMONARY FUNCTION PARAMETERS IN ENDURANCE RUNNERS. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 232 - 239. https://doi.org/10.63299/ijopt.070106</p>'
+                },
             ]
         },
     ],
