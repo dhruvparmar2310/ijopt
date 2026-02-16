@@ -3512,6 +3512,116 @@ export const archiveList = {
                     sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>This research explores how respiratory muscle training affects lung function in marathon runners who regularly compete in long-distance events. Marathon running demands exceptional endurance, yet many training programs overlook the importance of strengthening respiratory muscles. We worked with forty-five competitive marathon runners over an eightweek period, implementing a structured respiratory training program using specialized breathing devices. The participants showed remarkable improvements in their breathing capacity and muscle strength. Maximum inspiratory pressure increased by 28.4%, maximum expiratory pressure improved by 21.7%, and forced vital capacity enhanced by 12.3%. These changes were statistically significant and substantially better than the control group who continued their regular training without respiratory exercises. Our findings suggest that marathon runners could benefit considerably from incorporating respiratory muscle training into their preparation routines. This relatively simple intervention appears to strengthen the breathing muscles, improve lung capacity, and potentially enhance overall running performance. The study contributes practical insights for coaches and athletes seeking evidence-based methods to optimize endurance training programs.</p><p><strong>Keywords:</strong> respiratory muscle training, pulmonary function, marathon runners, endurance athletes, inspiratory muscle training, sports performance, exercise physiology</p>",
                     citation_quotes: '<p>Oza P, Baldha G, Arunachalam R, Dave V, Bhardwaj A. IMPACT OF INSPIRATORY MUSCLE TRAINING ON PULMONARY FUNCTION PARAMETERS IN ENDURANCE RUNNERS. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 232 - 239. https://doi.org/10.63299/ijopt.070106</p>'
                 },
+                {
+                    _id: '1226',
+                    citation_title: "EFFECTIVENESS OF LASER THERAPY WITH TAPING VS ULTRASONIC WAVE THERAPY WITH ELBOW MOBILIZATION IN CASE OF LATERAL EPICONDYLITIS. A COMPARATIVE WITH RCT STUDY",
+                    citation_author: [
+                        'Dr. Sudhansu Bhusan Mangaraj', 'Dr. Asish Yadav'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '240',
+                    citation_lastpage: '249',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0701115',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/26.pdf',
+                    sCitation_SEO_Keywords: ['lateral epicondylitis', 'tennis elbow', 'laser therapy', 'elbow mobilization', 'ultrasonic wave therapy', 'elbow tapping'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p>The leading cause of elbow discomfort and dysfunction is lateral epicondylitis, also known as 'tennis elbow,' which is mostly brought on by repeated gripping or wrist extension during different activities. With presumptive tendinosis, a symptomatic deterioration condition of the local tendon, the precise pathophysiology is still mostly unknown. Clinical exams are often used to diagnose it. Additional imaging may occasionally be necessary for a particular differential diagnosis. The best course of therapy for chronic lateral epicondylitis is still up for debate, despite the fact that the majority of patients may recover on their own. The pathophysiology, diagnosis, and therapy of lateral epicondylitis are the main topics of this article's panorama of new research, which helps medical professionals better comprehend and manage the condition. Among the conservative first-line treatment options include anti-inflammatory medications, braces, physical therapy, and reducing repeated activities. In patients with lateral epicondylitis, our study examined the effects of laser therapy with tapping (group A) and ultrasonic wave therapy with elbow mobilization (group B) on pain alleviation and loss of function. Two groups of 40 patients each were randomly assigned from an equal number of patients (n = 20) who were enrolled sequentially. Patients in group A received laser therapy with tapping, whereas patients in group B received ultrasonic wave therapy with elbow mobilization, after the computation and recording of VAS (visual analogue scale) and DASH (disability of arm, shoulder, and hand) scores in both groups. Patients were told not to use any additional painkillers. VAS and DASH were used to reevaluate them at one, two, and three weeks. SPSS software was used to conduct the statistical analysis. At the three-week follow-up, substantial differences were seen in both groups. Laser with tapping was found to be better effective at 1st week, whereas Ultrasonic with elbow mobilization was found to be better effective at both 2nd weeks and 3 weeks. Both the group showed progressive effects at 3 weeks follow up. Finally we conclude that ultrasonic with elbow mobilization is a viable treatment method for lateral epicondylitis.</p><p><strong>Keywords:</strong> lateral epicondylitis, tennis elbow, laser, elbow mobilization, ultrasonic wave, elbow tapping.</p>",
+                    citation_quotes: '<p>Mangaraj SB, Yadav A. EFFECTIVENESS OF LASER THERAPY WITH TAPING VS ULTRASONIC WAVE THERAPY WITH ELBOW MOBILIZATION IN CASE OF LATERAL EPICONDYLITIS. A COMPARATIVE WITH RCT STUDY. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 240 - 249. https://doi.org/10.63299/ijopt.0701115</p>'
+                },
+                {
+                    _id: '1227',
+                    citation_title: "EFFECTIVENESS OF ISOKINETIC EXERCISE VS ISOINERTIAL EXERCISE ADJOINING WITH K-TAPING IN CASE OF DISCOMFORT IN LOWER BACK. A COMPARATIVE WITH RCT STUDY",
+                    citation_author: [
+                        'Dr.Ashish Yadav', 'Dr.Sudhansu Bhusan Mangaraj'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '250',
+                    citation_lastpage: '256',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0701116',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/27.pdf',
+                    sCitation_SEO_Keywords: ['lbp', 'isokinetic exercise', 'isoinertial exercise', 'VAS', 'BPFS', 'Tapping'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> When back discomfort persists, isokinetic and isoinertial exercises are frequently used to maintain muscle power and enhance the stability of the core muscles. the understanding of the potential benefits of various exercise regimens with biochemical effects for those suffering from persistent lower back pain (LBP). Additionally, K-tapping is a technique that stabilizes muscles to aid in their recovery from trauma.</p><p><strong>Objective:</strong> To determine and contrast the physiological and biological consequences for individuals with persistent low back pain of isokinetic vs isoinertial exercise with tapping.<br /> Design: randomized controlled trial studies <br />Setting: ANS hospital jaipur.<br />Participants: 50 lower back pain patients were randomly assigned to two groups, each consisting of 25 individuals, for this study. For 20 days in a row, Gp-A received isokinetic training with tapping, whereas Gp-B received isoinertial training with tapping. Outcome measures: VAS for pain, BPFS for functional score, were measured at base line and after 10th day, and at post intervention.</p><p><strong>Results:</strong> For persistent LBP, isokinetic exercise is more advantageous than isoinertial exercise. Physical therapists' understanding and clinical evaluation abilities about LBP can be enhanced by implementing the current study.</p><p><strong>Keywords:</strong> lbp, isokinetic exercise, isoinertial exercise, VAS, BPFS, Tapping.</p>",
+                    citation_quotes: '<p> Yadav A, Mangaraj SB. EFFECTIVENESS OF ISOKINETIC EXERCISE VS ISOINERTIAL EXERCISE ADJOINING WITH K-TAPING IN CASE OF DISCOMFORT IN LOWER BACK. A COMPARATIVE WITH RCT STUDY. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 250 - 256. https://doi.org/10.63299/ijopt.0701116</p>'
+                },
+                {
+                    _id: '1228',
+                    citation_title: "A COMPARATIVE STUDY TO ASSESS THE EFFECTIVENESS OF BACK STRENGTHENING EXERCISES VERSUS MOTOR CONTROL HIP EXERCISES IN CHRONIC LOWER BACKACHE AND FUNCTIONAL DISABILITY IN CASE OF PROLONG STANDING PERSONS",
+                    citation_author: [
+                        'Dr.Sudhansu Bhusan Mangaraj','Dr.Ashish Yadav'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '257',
+                    citation_lastpage: '263',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0701117',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/28.pdf',
+                    sCitation_SEO_Keywords: ['Chronic lower back ache', 'core muscle strengthening', 'hip motor control exercise', 'numeric pain scale', 'oswestry disability index', 'straight leg rise'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> An estimated 5 to 15% of people will experience persistent low backache (CLBA), which is a frequent health issue. The clinical results of CLBP indicate that the selection order of core muscles is changed and lumbar instability is reduced. There is no information in the literature on the relative benefits of hip control exercises vs core muscle training for the chronicity of lower backache. The impact of double management on persistent lower back ach was assessed in this research.</p><p><strong>Method:</strong> Forty patients with persistent lower backache had been collected from the ANS hospital's emergency unit. Following randomization, these 40 patients were distributed in two groups, A and B. For 30 days, both groups got the identical treatment. For all groups, assessments were conducted before the treatment began on day 0, during the session on day 15, and after the intervention on day 30. Analysis and conclusions were drawn from the afterwards outcomes.</p><p><strong>Results:</strong> The results indicated that each group had improved in every end measure, notably pain and functional status as measured by the Oswestry Disability Index, the Numerical Pain Rating Scale, and the Straight Leg Rise Test. The rise in productivity was significantly different between the groups but not statistically relevant within the groups.</p><p><strong>Conclusion:</strong> The current research suggests that, regardless of prolonged standing, hip motor control exercises and core muscle strengthening exercises are both beneficial rehabilitation strategies for all individuals with persistent lower back ach. Exercises for hip motor control, however, had a major impact on lbp maintenance.</p><p><strong>Keywords:</strong> Chronic lower back ach, core muscle strengthening, hip motor control exercise, numeric pain scale, oswestry disable index, straight leg rise.</p>",
+                    citation_quotes: '<p> Mangaraj SB, Yadav A. A COMPARATIVE STUDY TO ASSESS THE EFFECTIVENESS OF BACK STRENGTHENING EXERCISES VERSUS MOTOR CONTROL HIP EXERCISES IN CHRONIC LOWER BACKACHE AND FUNCTIONAL DISABILITY IN CASE OF PROLONG STANDING PERSONS. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 257 - 263. https://doi.org/10.63299/ijopt.0701117</p>'
+                },
+                {
+                    _id: '1229',
+                    citation_title: "A STUDY TO COMPARE THE EFFICACY OF ULTRASONIC PULSED WAVE & ISOTONIC EXERCISE VS CONTINUOUS WAVE ALONG WITH ISOMETRIC BACK EXERCISE PROGRAM ON WORK RELATED SUB-ACUTE LUMBOSACRAL PAIN IN INDIAN HOUSE WIVES",
+                    citation_author: [
+                        'Dr.Ashish Yadav', 'Dr.Sudhansu Bhusan Mangaraj'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '264',
+                    citation_lastpage: '270',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0701118',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/29.pdf',
+                    sCitation_SEO_Keywords: [' sub-acute lumbosacral pain', 'US therapy', 'isometric exercise', 'isotonic exercise', 'VAS', 'ODI'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Subacute lumbosacral pain is becoming one of the leading causes of disability among adults worldwide. Therapeutic ultrasonic is one of the most often utilized electro-physical modalities in clinical settings and is often used by physiatrists to treat LBP. Likewise, isometric and isotonic back protocols are nearly more effective ways to strengthen the hip and back muscles.</p><p><strong>Objective:</strong>  to observe the benefits of isotonic or isometric protocols combined with various modalities of US treatment for individuals with subacute lumbosacral pain, particularly in Indian housewives.</p><p><strong>Methodology:</strong> The Division of Physical Medicine & Rehabilitation at ANS Hospital conducted this randomized control experiment from September 2025 to November 2025. The research cohort included of female patients aged 25 to 55 who diagnosed with sub-acute LBP while they were in the hospital. Sixty-six individuals with sub-acute LBP who met the selection parameters were included in the research population. They were separated into two groups, designated Group A and Group B. There were 33 patients in each group. Twenty-two patients i.e 11 from each group were lost over follow-up. 44 patients' worth of data were used for the final study. In contrast, patients in group A received pulsed US along with isotonic protocols, patients in group B received constant US with isometric exercise, and ADL instructions permitted to both groups.</p><p><strong>Conclusion:</strong> Isometric and isotonic protocols, together with US therapy, are important in the treatment of subacute lumbosacral pain. At the end of the trial, Group-A made a substantial improvement over Group-B.</p><p><strong>Keywords:</strong> sub-acute lumbosacral pain, US therapy, isometric exercise, isotonic exercise, VAS, ODI.</p>",
+                    citation_quotes: '<p>Yadav A, Mangaraj SB. A STUDY TO COMPARE THE EFFICACY OF ULTRASONIC PULSED WAVE & ISOTONIC EXERCISE VS CONTINUOUS WAVE ALONG WITH ISOMETRIC BACK EXERCISE PROGRAM ON WORK RELATED SUB-ACUTE LUMBOSACRAL PAIN IN INDIAN HOUSE WIVES. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 264 - 270. https://doi.org/10.63299/ijopt.0701118</p>'
+                },
+                {
+                    _id: '1230',
+                    citation_title: "IMMEDIATE EFFECTIVENESS OF STRAIN – COUNTERSTRAIN TECHNIQUE IN PATIENTS WITH LATERAL EPICONDYLITIS - A PILOT STUDY",
+                    citation_author: [
+                        'Dr. Girija Murugan', 'Skanda Prakash', 'Dr. A K Vijay Krishnakumar'
+                    ],
+                    citation_publication_date: 'January - March, 2026',
+                    citation_journal_title: {
+                        primary: citation_journal_title_primary,
+                        secondary: citation_journal_title_secondary
+                    },
+                    citation_volume: '7',
+                    citation_issue: '1',
+                    citation_firstpage: '271',
+                    citation_lastpage: '275',
+                    eTag: ARTICLE_TAGS.RESEARCH_ARTICLE,
+                    sDOINo: 'https://doi.org/10.63299/ijopt.0701113',
+                    sDownLoadUrl: '/assets/documents/archives/2026/Vol-7_Issue-1/30.pdf',
+                    sCitation_SEO_Keywords: ['Strain counterstrain', 'Lateral epicondylitis', 'Tennis elbow', 'Tender point', 'Pain'],
+                    sContent: "<h3>ABSTRACT :</h3><div class='mt-0 line' /><p><strong>Background:</strong> Lateral epicondylitis, or tennis elbow is a common condition that presents with pain and tenderness around common extensors origin of the elbow. It affects 1-3% of adult population annually, mainly in dominant hand. Tennis elbow is described by pain, discomfort and tenderness across the lateral epicondyle of the humerus. Strain counterstrain technique is a positional technique aimed at relieving musculoskeletal pain and dysfunction through indirect manual manipulation.</p><p><strong>Objective:</strong>  To investigate the immediate effectiveness of strain counterstrain technique on pain in patients with lateral epicondylitis.</p><p><strong>Methodology:</strong> In this study, 11 patients with lateral epicondylitis were selected based on inclusion criteria and exclusion criteria. All the patients received strain counterstrain technique on tenderpoint around lateral epicondyle of elbow. Informed written consent was taken before starting the treatment. Pre and post intervention assessment was taken by Numeric pain rating scale (NPRS).</p><p><strong>Results:</strong> Based on comparison of pre post mean measures of NPRS of the patients, this study proves that strain counterstrain technique was significantly effective in reducing pain in patients with lateral epicondylitis.</p><p><strong>Conclusion:</strong> The conclusion of this study is based on the comparison of pre post mean of Numerical Pain Rating Scale of the patients which concluded that there is significant reduction in-terms of pain in patients with Lateral Epicondylitis.</p><p><strong>Keywords:</strong> Strain counterstrain, Lateral epicondylitis, Tennis elbow, Tender point, Pain.</p>",
+                    citation_quotes: '<p>Murugan G, Prakash S, Krishnakumar AKV. IMMEDIATE EFFECTIVENESS OF STRAIN – COUNTERSTRAIN TECHNIQUE IN PATIENTS WITH LATERAL EPICONDYLITIS - A PILOT STUDY. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 271 - 275. https://doi.org/10.63299/ijopt.0701113</p>'
+                },
             ]
         },
     ],
