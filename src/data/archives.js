@@ -3516,7 +3516,7 @@ export const archiveList = {
                     _id: '1226',
                     citation_title: "EFFECTIVENESS OF LASER THERAPY WITH TAPING VS ULTRASONIC WAVE THERAPY WITH ELBOW MOBILIZATION IN CASE OF LATERAL EPICONDYLITIS. A COMPARATIVE WITH RCT STUDY",
                     citation_author: [
-                        'Dr. Sudhansu Bhusan Mangaraj', 'Dr. Asish Yadav'
+                        'Dr. Sudhansu Bhusan Mangaraj', 'Dr. Ashish Yadav'
                     ],
                     citation_publication_date: 'January - March, 2026',
                     citation_journal_title: {
@@ -3535,7 +3535,7 @@ export const archiveList = {
                     citation_quotes: '<p>Mangaraj SB, Yadav A. EFFECTIVENESS OF LASER THERAPY WITH TAPING VS ULTRASONIC WAVE THERAPY WITH ELBOW MOBILIZATION IN CASE OF LATERAL EPICONDYLITIS. A COMPARATIVE WITH RCT STUDY. Indian Journal of Physical Therapy. 2026 January - March; 7(1): 240 - 249. https://doi.org/10.63299/ijopt.0701115</p>'
                 },
                 {
-                    _id: '1227',
+                    _id: '1227',    
                     citation_title: "EFFECTIVENESS OF ISOKINETIC EXERCISE VS ISOINERTIAL EXERCISE ADJOINING WITH K-TAPING IN CASE OF DISCOMFORT IN LOWER BACK. A COMPARATIVE WITH RCT STUDY",
                     citation_author: [
                         'Dr.Ashish Yadav', 'Dr.Sudhansu Bhusan Mangaraj'
